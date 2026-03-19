@@ -1,0 +1,26 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "description": "Zenn記事管理リポジトリ。GitHub連携でpushすると自動的にZennに反映される。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcomcpgm-cyber/zenn-content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rcomcpgm-cyber/zenn-content/issues"
+  },
+  "homepage": "https://github.com/rcomcpgm-cyber/zenn-content#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "dotenv": "^17.3.1",
+    "zenn-cli": "^0.4.6"
+  }
+}
