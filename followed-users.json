@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "id": "1353836358901501952",
+      "username": "AnthropicAI",
+      "name": "Anthropic",
+      "followers": 1026936,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1943306828697550848",
+      "username": "claudeai",
+      "name": "Claude",
+      "followers": 773597,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "4398626122",
+      "username": "OpenAI",
+      "name": "OpenAI",
+      "followers": 4688197,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1695890961094909952",
+      "username": "cursor_ai",
+      "name": "Cursor",
+      "followers": 330496,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1219566488325017602",
+      "username": "supabase",
+      "name": "Supabase",
+      "followers": 191137,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "3225610602",
+      "username": "expo",
+      "name": "Expo",
+      "followers": 82884,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "3003743254",
+      "username": "reactnative",
+      "name": "React Native",
+      "followers": 239996,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1467726470533754880",
+      "username": "nextjs",
+      "name": "Next.js",
+      "followers": 273177,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "4686835494",
+      "username": "vercel",
+      "name": "Vercel",
+      "followers": 406442,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "895273477711769600",
+      "username": "tailwindcss",
+      "name": "Tailwind CSS",
+      "followers": 292890,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1192772490012938240",
+      "username": "zenn_dev",
+      "name": "Zenn公式",
+      "followers": 17003,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "341374118",
+      "username": "Qiita",
+      "name": "Qiita公式",
+      "followers": 47477,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "2527674578",
+      "username": "m_hatayama",
+      "name": "はたやま",
+      "followers": 688,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1662568644105367552",
+      "username": "beku_AI",
+      "name": "ベク",
+      "followers": 8173,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "1254903020053135360",
+      "username": "__SatoshiSsSs__",
+      "name": "Sekioka Satoshi",
+      "followers": 1694,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "786544066225770496",
+      "username": "Shadow_versing",
+      "name": "Poco.｜AI実践",
+      "followers": 2007,
+      "followedAt": "2026-03-20T00:00:00.000Z",
+      "query": "initial"
+    },
+    {
+      "id": "3120155797",
+      "username": "masahirochaen",
+      "name": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+      "followers": 187346,
+      "followedAt": "2026-03-20T05:06:23.482Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1605079251471896577",
+      "username": "kkk_cun",
+      "name": "Kくん",
+      "followers": 35253,
+      "followedAt": "2026-03-20T05:06:24.707Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1158064998255480832",
+      "username": "oda_nobunaga10",
+      "name": "令和の織田信長",
+      "followers": 5746,
+      "followedAt": "2026-03-20T05:06:25.921Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1256210886315749376",
+      "username": "FXWOLF2",
+      "name": "WOLF",
+      "followers": 5645,
+      "followedAt": "2026-03-20T05:06:27.106Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1536462975846203394",
+      "username": "Ryo_web_cording",
+      "name": "りょー",
+      "followers": 5605,
+      "followedAt": "2026-03-20T05:06:28.331Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "819909340928745472",
+      "username": "yunosuke_ota",
+      "name": "大田 雄之介｜ヘラルボニーISAI PARK",
+      "followers": 3083,
+      "followedAt": "2026-03-20T05:06:29.539Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1175299500",
+      "username": "kichol_pt",
+      "name": "金起徹@健康経営支援者/元プロボクサー",
+      "followers": 2541,
+      "followedAt": "2026-03-20T05:06:30.747Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1065269528",
+      "username": "_bannzai_",
+      "name": "＼(🌸)／",
+      "followers": 2230,
+      "followedAt": "2026-03-20T05:06:31.953Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1881685154",
+      "username": "Collectbook",
+      "name": "コレクト Collect",
+      "followers": 1508,
+      "followedAt": "2026-03-20T05:06:33.157Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1815625710159245312",
+      "username": "xuis7nidxm211",
+      "name": "XUIS(くいす) - AIイラスト",
+      "followers": 1350,
+      "followedAt": "2026-03-20T05:06:34.359Z",
+      "query": "Claude Code lang:ja -is:retweet"
+    }
+  ],
+  "lastQueryIndex": 1
+}
