@@ -1,0 +1,36 @@
+name: Qiita Crosspost
+
+on:
+  schedule:
+    # 毎日 14:00 JST (UTC 05:00) — Zenn公開(10:00)の4時間後
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Crosspost to Qiita
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
+        run: node qiita-crosspost.js
+
+      - name: Save crosspost log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add qiita-crosspost-log.json
+          git diff --staged --quiet || git commit -m "Update Qiita crosspost log" && git push
