@@ -44,8 +44,8 @@ jobs:
             # 昼: Article or Industry (読み応え系)
             echo "cat=$(shuf -e article industry -n 1)" >> $GITHUB_OUTPUT
           else
-            # 夜: Mindset, Devlog, Engagement (共感・交流系)
-            echo "cat=$(shuf -e mindset devlog engagement -n 1)" >> $GITHUB_OUTPUT
+            # 夜: Mindset, Devlog (共感系)
+            echo "cat=$(shuf -e mindset devlog -n 1)" >> $GITHUB_OUTPUT
           fi
 
       - name: Post tweet
