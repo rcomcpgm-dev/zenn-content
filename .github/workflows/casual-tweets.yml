@@ -10,6 +10,9 @@ on:
     - cron: '30 11 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   casual-tweet:
     runs-on: ubuntu-latest
