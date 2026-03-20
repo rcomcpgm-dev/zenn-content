@@ -207,7 +207,87 @@
       "followers": 1350,
       "followedAt": "2026-03-20T05:06:34.359Z",
       "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "283470553",
+      "username": "1namaiki",
+      "name": "なまいきくん",
+      "followers": 36172,
+      "followedAt": "2026-03-20T11:07:29.631Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "921722031753670663",
+      "username": "trader_nyaa",
+      "name": "シリウス⚡️にゃ〜",
+      "followers": 6200,
+      "followedAt": "2026-03-20T11:07:30.727Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "139667384",
+      "username": "yukimu07",
+      "name": "yan@仏語勉強中",
+      "followers": 4605,
+      "followedAt": "2026-03-20T11:07:31.830Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1691791069951012864",
+      "username": "hakky_kazumasa",
+      "name": "Saito@Hakky",
+      "followers": 3590,
+      "followedAt": "2026-03-20T11:07:32.952Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2795446093",
+      "username": "yutkat",
+      "name": "yutkat",
+      "followers": 2930,
+      "followedAt": "2026-03-20T11:07:34.065Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "152261001",
+      "username": "g0932185",
+      "name": "にっしゃん｜生成AI研修「SHISUKANSU」",
+      "followers": 2205,
+      "followedAt": "2026-03-20T11:07:35.164Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "907291532763439104",
+      "username": "ai_trade_enjoy",
+      "name": "キャンドルマツ / FX.BO開発(非エンジニア)",
+      "followers": 2123,
+      "followedAt": "2026-03-20T11:07:36.269Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "42040038",
+      "username": "naohito_ooki",
+      "name": "大樹直人(ナオさん)｜ロケットウェブCEO",
+      "followers": 2048,
+      "followedAt": "2026-03-20T11:07:37.410Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1867383651509710850",
+      "username": "Coderabbitaija",
+      "name": "CodeRabbit (JP)",
+      "followers": 1946,
+      "followedAt": "2026-03-20T11:07:38.506Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "90893508",
+      "username": "makoto_sky8",
+      "name": "まこと",
+      "followers": 1863,
+      "followedAt": "2026-03-20T11:07:39.604Z",
+      "query": "Claude Code 開発 lang:ja -is:retweet"
     }
   ],
-  "lastQueryIndex": 1
+  "lastQueryIndex": 2
 }
