@@ -127,3 +127,12 @@ Claude Code：「はい、作成します」→ 数分で完成
 :::message
 この記事は「Claude Code 超入門」シリーズの第1回です。全7回で、黒い画面が怖い人でもClaude Codeを使いこなせるようになることを目指します。
 :::
+
+---
+
+:::message
+**この記事が役に立ったら「いいね」お願いします！**
+他の記事も発信中です。AI×開発の相談はXのDMからどうぞ。
+- X (Twitter): [@adlei_builds](https://x.com/adlei_builds)
+- LP: [reon-it.vercel.app](https://lp-murex-chi.vercel.app)
+:::

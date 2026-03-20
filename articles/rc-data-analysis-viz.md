@@ -132,3 +132,12 @@ Chart.jsを使ってHTMLにグラフを埋め込んで。
 :::message
 Claude Code実践シリーズ第7回。
 :::
+
+---
+
+:::message
+**この記事が役に立ったら「いいね」お願いします！**
+他の記事も発信中です。AI×開発の相談はXのDMからどうぞ。
+- X (Twitter): [@adlei_builds](https://x.com/adlei_builds)
+- LP: [reon-it.vercel.app](https://lp-murex-chi.vercel.app)
+:::

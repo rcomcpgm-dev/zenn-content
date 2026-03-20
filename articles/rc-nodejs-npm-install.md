@@ -93,3 +93,12 @@ npm -v
 :::message
 「Claude Code 超入門」シリーズ第2回です。
 :::
+
+---
+
+:::message
+**この記事が役に立ったら「いいね」お願いします！**
+他の記事も発信中です。AI×開発の相談はXのDMからどうぞ。
+- X (Twitter): [@adlei_builds](https://x.com/adlei_builds)
+- LP: [reon-it.vercel.app](https://lp-murex-chi.vercel.app)
+:::

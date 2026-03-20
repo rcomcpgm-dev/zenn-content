@@ -169,3 +169,12 @@ Supabase Edge Functionで通知を送る仕組みを作って。
 :::message
 Claude Code実践シリーズ最終回。入門編から実践編まで読んでいただきありがとうございました！
 :::
+
+---
+
+:::message
+**この記事が役に立ったら「いいね」お願いします！**
+他の記事も発信中です。AI×開発の相談はXのDMからどうぞ。
+- X (Twitter): [@adlei_builds](https://x.com/adlei_builds)
+- LP: [reon-it.vercel.app](https://lp-murex-chi.vercel.app)
+:::

@@ -140,3 +140,12 @@ AI: 了解。計画を修正して実行します。
 :::message
 「Claude Code 超入門」シリーズ第7回です。
 :::
+
+---
+
+:::message
+**この記事が役に立ったら「いいね」お願いします！**
+他の記事も発信中です。AI×開発の相談はXのDMからどうぞ。
+- X (Twitter): [@adlei_builds](https://x.com/adlei_builds)
+- LP: [reon-it.vercel.app](https://lp-murex-chi.vercel.app)
+:::
