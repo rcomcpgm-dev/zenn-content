@@ -71,22 +71,25 @@ async function searchAndFollow() {
     return;
   }
 
-  // ユニークユーザーをフォロワー数でソート（影響力のある順）
+  // ユニークユーザーを抽出し、フォロー/フォロワー比が近い人を優先（フォロバ率高い）
   const seen = new Set();
   const candidates = searchResult.includes.users
     .filter((u) => {
       if (seen.has(u.id)) return false;
       seen.add(u.id);
-      // 自分自身、既にフォロー済み、フォロワー0はスキップ
       if (u.id === myId) return false;
       if (alreadyFollowed.has(u.id)) return false;
       if (u.public_metrics.followers_count < 10) return false;
       return true;
     })
-    .sort(
-      (a, b) =>
-        b.public_metrics.followers_count - a.public_metrics.followers_count
-    );
+    .map((u) => {
+      const followers = u.public_metrics.followers_count;
+      const following = u.public_metrics.following_count;
+      // フォロー数とフォロワー数の比率（1.0に近いほど相互フォロー傾向）
+      const ratio = following > 0 ? followers / following : 999;
+      return { ...u, followBackScore: Math.abs(1 - ratio) };
+    })
+    .sort((a, b) => a.followBackScore - b.followBackScore);
 
   console.log(`Found ${candidates.length} new candidates`);
 
