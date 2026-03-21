@@ -109,7 +109,10 @@ async function searchAndFollow() {
       });
       followed++;
       // レートリミット回避
-      await new Promise((r) => setTimeout(r, 1000));
+      // 3〜5分のランダム間隔（凍結対策）
+      const delay = (180 + Math.floor(Math.random() * 120)) * 1000;
+      console.log(`  Waiting ${Math.round(delay/1000)}s...`);
+      await new Promise((r) => setTimeout(r, delay));
     } catch (err) {
       // 既にフォロー済み等のエラーは無視して続行
       const msg = err.data?.detail || err.message || String(err);

@@ -11,7 +11,7 @@ const twitter = new TwitterApi({
 });
 
 const LOG_FILE = path.join(__dirname, "auto-reply-log.json");
-const MAX_LIKES_PER_RUN = 30;
+const MAX_LIKES_PER_RUN = 10;
 const MY_ID = "2034683226716057600";
 
 const SEARCH_QUERIES = [
@@ -96,7 +96,10 @@ async function searchAndLike() {
 
       liked++;
       // レートリミット回避
-      await new Promise((r) => setTimeout(r, 1000));
+      // 2〜3分のランダム間隔（凍結対策）
+      const delay = (120 + Math.floor(Math.random() * 60)) * 1000;
+      console.log(`  Waiting ${Math.round(delay/1000)}s...`);
+      await new Promise((r) => setTimeout(r, delay));
     } catch (err) {
       const msg = err.data?.detail || err.message || String(err);
       console.log(`Error: ${msg}`);
