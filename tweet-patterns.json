@@ -1477,97 +1477,97 @@
   {
     "id": 296,
     "category": "article",
-    "text": "Claude Codeの使い方を初心者向けにまとめました。基本操作から実践的なTipsまで網羅。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "text": "Claude Codeの使い方を初心者向けにまとめました。基本操作から実践的なTipsまで網羅。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode #Zenn"
   },
   {
     "id": 297,
     "category": "article",
-    "text": "CLIって何？から始められる初心者向け解説記事を書きました。GUI世代にも分かりやすく。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #Zenn"
+    "text": "CLIって何？から始められる初心者向け解説記事を書きました。GUI世代にも分かりやすく。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI #Zenn"
   },
   {
     "id": 298,
     "category": "article",
-    "text": "Claude Code × Gitの連携方法をまとめた記事が好評です。バージョン管理が劇的に楽になる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git #Zenn"
+    "text": "Claude Code × Gitの連携方法をまとめた記事が好評です。バージョン管理が劇的に楽になる。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #ClaudeCode #Git #Zenn"
   },
   {
     "id": 299,
     "category": "article",
-    "text": "Claude Code入門記事、想像以上に読まれてます。AI開発に興味ある方はぜひ。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "text": "Claude Code入門記事、想像以上に読まれてます。AI開発に興味ある方はぜひ。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode #Zenn"
   },
   {
     "id": 300,
     "category": "article",
-    "text": "「CLIとは？」の記事を書いたのは、Claude Codeの前提知識として必要だったから。順番に読むと理解が深まる。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "text": "「CLIとは？」の記事を書いたのは、Claude Codeの前提知識として必要だったから。順番に読むと理解が深まる。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI"
   },
   {
     "id": 301,
     "category": "article",
-    "text": "Claude CodeとGitの組み合わせは最強。その理由を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git"
+    "text": "Claude CodeとGitの組み合わせは最強。その理由を記事にまとめました。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #ClaudeCode #Git"
   },
   {
     "id": 302,
     "category": "article",
-    "text": "Claude Codeの基本的な使い方を知りたい方へ。インストールから実践までカバーしてます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "Claude Codeの基本的な使い方を知りたい方へ。インストールから実践までカバーしてます。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode"
   },
   {
     "id": 303,
     "category": "article",
-    "text": "CUIとCLIの違い、説明できますか？意外と知らない基礎知識をまとめました。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #初心者"
+    "text": "CUIとCLIの違い、説明できますか？意外と知らない基礎知識をまとめました。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI #初心者"
   },
   {
     "id": 304,
     "category": "article",
-    "text": "Claude CodeでGitを操作する方法を解説。コミットからブランチ管理まで自動化できます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git"
+    "text": "Claude CodeでGitを操作する方法を解説。コミットからブランチ管理まで自動化できます。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #ClaudeCode #Git"
   },
   {
     "id": 305,
     "category": "article",
-    "text": "AI開発ツールの入門記事を書いてます。まずはClaude Codeの基本から読んでみてください。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "AI開発ツールの入門記事を書いてます。まずはClaude Codeの基本から読んでみてください。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode"
   },
   {
     "id": 306,
     "category": "article",
-    "text": "MCPサーバーとClaude Codeの連携方法を解説する記事を準備中。外部ツール連携の可能性が広がる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #ClaudeCode #MCP"
+    "text": "MCPサーバーとClaude Codeの連携方法を解説する記事を準備中。外部ツール連携の可能性が広がる。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-mcp #ClaudeCode #MCP"
   },
   {
     "id": 312,
     "category": "article",
-    "text": "CLIがUIより優れている理由を記事にまとめています。効率を求めるエンジニア必読。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "CLIがUIより優れている理由を記事にまとめています。効率を求めるエンジニア必読。\nhttps://zenn.dev/and_and_and/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
     "id": 315,
     "category": "article",
-    "text": "Expoでスマホアプリを作る方法を初心者向けに解説する記事を準備中。React Native入門に。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo #ReactNative"
+    "text": "Expoでスマホアプリを作る方法を初心者向けに解説する記事を準備中。React Native入門に。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo #ReactNative"
   },
   {
     "id": 321,
     "category": "article",
-    "text": "Claude Codeの記事を書き続けてるのは、日本語の情報がまだ少ないから。誰かの役に立てば嬉しい。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "text": "Claude Codeの記事を書き続けてるのは、日本語の情報がまだ少ないから。誰かの役に立てば嬉しい。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode #Zenn"
   },
   {
     "id": 322,
     "category": "article",
-    "text": "CLI解説記事、プログラミング初心者から好評。GUIしか触ったことない人にこそ読んでほしい。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #初心者"
+    "text": "CLI解説記事、プログラミング初心者から好評。GUIしか触ったことない人にこそ読んでほしい。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI #初心者"
   },
   {
     "id": 323,
     "category": "article",
-    "text": "Git操作をAIに任せるのは怖い？安全な使い方を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git #ClaudeCode"
+    "text": "Git操作をAIに任せるのは怖い？安全な使い方を記事にまとめました。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #Git #ClaudeCode"
   },
   {
     "id": 324,
     "category": "article",
-    "text": "MCP連携の記事、書いてて自分も学びが多い。Claude Codeの可能性を広げるキー技術。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP #ClaudeCode"
+    "text": "MCP連携の記事、書いてて自分も学びが多い。Claude Codeの可能性を広げるキー技術。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-mcp #MCP #ClaudeCode"
   },
   {
     "id": 330,
     "category": "article",
-    "text": "CLIの方がGUIより効率的な場面がある。その具体例を記事で紹介予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "CLIの方がGUIより効率的な場面がある。その具体例を記事で紹介予定。\nhttps://zenn.dev/and_and_and/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
     "id": 333,
     "category": "article",
-    "text": "Expoでスマホアプリ開発の敷居はかなり低い。Webの知識があれば始められる理由を記事で解説。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Expoでスマホアプリ開発の敷居はかなり低い。Webの知識があれば始められる理由を記事で解説。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo"
   },
   {
     "id": 339,
@@ -1577,7 +1577,7 @@
   {
     "id": 340,
     "category": "article",
-    "text": "Claude Codeの記事シリーズ、初心者がつまずくポイントを重点的に解説してます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "Claude Codeの記事シリーズ、初心者がつまずくポイントを重点的に解説してます。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode"
   },
   {
     "id": 341,
@@ -1587,22 +1587,22 @@
   {
     "id": 342,
     "category": "article",
-    "text": "Claude Code × Gitの記事、実際のコマンド例を多めに入れてます。コピペですぐ使える。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "text": "Claude Code × Gitの記事、実際のコマンド例を多めに入れてます。コピペですぐ使える。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #Git"
   },
   {
     "id": 343,
     "category": "article",
-    "text": "MCPの概念が分かりにくい人へ。記事では図解付きで説明する予定です。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
+    "text": "MCPの概念が分かりにくい人へ。記事では図解付きで説明する予定です。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-mcp #MCP"
   },
   {
     "id": 349,
     "category": "article",
-    "text": "「CLIは古い」は誤解。CLIの方が効率的な場面を具体例付きで記事にします。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "「CLIは古い」は誤解。CLIの方が効率的な場面を具体例付きで記事にします。\nhttps://zenn.dev/and_and_and/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
     "id": 352,
     "category": "article",
-    "text": "スマホアプリ開発を始めたい人へ。ExpoならWebの知識で始められます。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo #ReactNative"
+    "text": "スマホアプリ開発を始めたい人へ。ExpoならWebの知識で始められます。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo #ReactNative"
   },
   {
     "id": 353,
@@ -1632,7 +1632,7 @@
   {
     "id": 362,
     "category": "article",
-    "text": "CLI入門記事は意外とエンジニア歴長い人にも読まれてる。基礎を改めて確認するのは大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "text": "CLI入門記事は意外とエンジニア歴長い人にも読まれてる。基礎を改めて確認するのは大事。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI"
   },
   {
     "id": 363,
@@ -1642,17 +1642,17 @@
   {
     "id": 365,
     "category": "article",
-    "text": "Claude Codeの基本操作記事、ブックマーク数が増えてきた。需要あるんだなと実感。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "Claude Codeの基本操作記事、ブックマーク数が増えてきた。需要あるんだなと実感。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode"
   },
   {
     "id": 366,
     "category": "article",
-    "text": "Git入門記事を読んだ方から「初めてブランチ切れました」の報告。これが記事を書く醍醐味。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "text": "Git入門記事を読んだ方から「初めてブランチ切れました」の報告。これが記事を書く醍醐味。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #Git"
   },
   {
     "id": 368,
     "category": "article",
-    "text": "Expo記事では実機テストの方法も解説。シミュレータだけじゃわからないことがある。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Expo記事では実機テストの方法も解説。シミュレータだけじゃわからないことがある。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo"
   },
   {
     "id": 369,
@@ -1667,7 +1667,7 @@
   {
     "id": 372,
     "category": "article",
-    "text": "CLIがUIより優れている理由、エンジニアなら共感してもらえるはず。記事公開が楽しみ。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "CLIがUIより優れている理由、エンジニアなら共感してもらえるはず。記事公開が楽しみ。\nhttps://zenn.dev/and_and_and/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
     "id": 374,
@@ -3397,7 +3397,7 @@
   {
     "id": 814,
     "category": "article",
-    "text": "Claude Code × Git記事を読んだ方へ：次はMCP連携の記事も準備中です。お楽しみに。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode"
+    "text": "Claude Code × Git記事を読んだ方へ：次はMCP連携の記事も準備中です。お楽しみに。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #ClaudeCode"
   },
   {
     "id": 821,
@@ -3407,7 +3407,7 @@
   {
     "id": 825,
     "category": "article",
-    "text": "Expo入門記事では「なぜReact Nativeなのか」から説明する。選択理由を知ることが大事。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Expo入門記事では「なぜReact Nativeなのか」から説明する。選択理由を知ることが大事。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo"
   },
   {
     "id": 827,
@@ -3422,12 +3422,12 @@
   {
     "id": 829,
     "category": "article",
-    "text": "MCP記事では具体的な接続設定からユースケースまでカバーする予定。実用重視。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
+    "text": "MCP記事では具体的な接続設定からユースケースまでカバーする予定。実用重視。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-mcp #MCP"
   },
   {
     "id": 832,
     "category": "article",
-    "text": "CLIの優位性記事、エンジニアの生産性データも含めて説得力ある内容にする予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "CLIの優位性記事、エンジニアの生産性データも含めて説得力ある内容にする予定。\nhttps://zenn.dev/and_and_and/articles/rc-cli-better-than-ui-reasons #CLI"
   },
   {
     "id": 833,
@@ -3442,12 +3442,12 @@
   {
     "id": 835,
     "category": "article",
-    "text": "Claude Codeの基本記事、定期的に最新情報にアップデートしてます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "Claude Codeの基本記事、定期的に最新情報にアップデートしてます。\nhttps://zenn.dev/and_and_and/articles/claude-code-basic-usage #ClaudeCode"
   },
   {
     "id": 836,
     "category": "article",
-    "text": "CLI解説記事にターミナルの使い方も追記予定。基礎からしっかりカバー。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "text": "CLI解説記事にターミナルの使い方も追記予定。基礎からしっかりカバー。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI"
   },
   {
     "id": 837,
@@ -3457,7 +3457,7 @@
   {
     "id": 838,
     "category": "article",
-    "text": "Git記事を読んでくれた方の「分かりやすい」の声が嬉しい。もっと分かりやすく書きたい。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "text": "Git記事を読んでくれた方の「分かりやすい」の声が嬉しい。もっと分かりやすく書きたい。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #Git"
   },
   {
     "id": 839,
@@ -3487,7 +3487,7 @@
   {
     "id": 848,
     "category": "article",
-    "text": "Expo記事ではEAS Buildの使い方も触れる予定。クラウドビルドの便利さを伝えたい。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Expo記事ではEAS Buildの使い方も触れる予定。クラウドビルドの便利さを伝えたい。\nhttps://zenn.dev/and_and_and/articles/rc-expo-mobile-app #Expo"
   },
   {
     "id": 849,
@@ -3497,7 +3497,7 @@
   {
     "id": 852,
     "category": "article",
-    "text": "MCP記事は実際に自分が連携してるサーバーの設定例を公開予定。リアルな内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
+    "text": "MCP記事は実際に自分が連携してるサーバーの設定例を公開予定。リアルな内容。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-mcp #MCP"
   },
   {
     "id": 856,
@@ -3542,7 +3542,7 @@
   {
     "id": 866,
     "category": "article",
-    "text": "CLI解説記事が意外と長く読まれてる。基礎的な内容こそ息が長い。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "text": "CLI解説記事が意外と長く読まれてる。基礎的な内容こそ息が長い。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI"
   },
   {
     "id": 867,
@@ -3836,12 +3836,12 @@
   },
   {
     "category": "article",
-    "text": "CLIの記事を書いたことでClaude Code記事への導線ができた。記事同士の連携が大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #Zenn",
+    "text": "CLIの記事を書いたことでClaude Code記事への導線ができた。記事同士の連携が大事。\nhttps://zenn.dev/and_and_and/articles/cli-what-is-it #CLI #Zenn",
     "id": 985
   },
   {
     "category": "article",
-    "text": "Git入門記事はプルリクエストの作り方まで解説してます。実務で即使える内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git",
+    "text": "Git入門記事はプルリクエストの作り方まで解説してます。実務で即使える内容。\nhttps://zenn.dev/and_and_and/articles/rc-claude-code-git #Git",
     "id": 986
   },
   {
