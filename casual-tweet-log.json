@@ -55,6 +55,13 @@
       "topic": "体調・健康（尿酸値、禁酒等）",
       "timeSlot": "morning",
       "postedAt": "2026-03-22T23:57:03.209Z"
+    },
+    {
+      "id": "2035986548290715808",
+      "text": "Claude Codeで個人開発始めたけど、コード書く→実行→修正のループが早すぎて脳が追い付かんわ",
+      "topic": "開発ツール・Claude Codeの話",
+      "timeSlot": "afternoon",
+      "postedAt": "2026-03-23T07:46:34.663Z"
     }
   ],
   "topicIndex": 0
