@@ -1,18 +1,16 @@
-name: Auto Like
+name: Analyze Influencers
 
 on:
   schedule:
-    # 昼 12:00 JST (UTC 03:00)
-    - cron: '0 3 * * *'
-    # 夜 21:00 JST (UTC 12:00)
-    - cron: '0 12 * * *'
+    # 毎週月曜 10:00 JST (UTC 01:00)
+    - cron: '0 1 * * 1'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  auto-reply:
+  analyze:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,17 +22,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Search and like
+      - name: Analyze influencer tweets
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: node auto-reply.js
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node analyze-influencers.js
 
-      - name: Save like log
+      - name: Save analysis
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add auto-reply-log.json followed-users.json
-          git diff --staged --quiet || git commit -m "Update auto reply log" && git push
+          git add influencer-patterns.json
+          git diff --staged --quiet || git commit -m "Update influencer analysis" && git push

@@ -14,6 +14,7 @@ const twitter = new TwitterApi({
 });
 
 const LOG_FILE = path.join(__dirname, "trend-tweet-log.json");
+const INFLUENCER_FILE = path.join(__dirname, "influencer-patterns.json");
 
 function getLog() {
   try {
@@ -70,6 +71,21 @@ async function generateTrendTweet(trendingContent) {
     .map((t) => t.text)
     .join("\n---\n");
 
+  // インフルエンサー分析結果を読み込み
+  let influencerTips = "";
+  try {
+    const patterns = JSON.parse(fs.readFileSync(INFLUENCER_FILE, "utf-8"));
+    const latest = patterns.analyses[patterns.analyses.length - 1]?.analysis;
+    if (latest) {
+      const templates = latest["真似すべき構文テンプレート"] || [];
+      const tips = latest["話題選びのコツ"] || [];
+      influencerTips = `
+## インフルエンサー分析から学んだこと（参考にして）
+- 構文テンプレート: ${templates.slice(0, 3).join(" / ")}
+- 話題選びのコツ: ${tips.slice(0, 3).join(" / ")}`;
+    }
+  } catch {}
+
   const prompt = `IT業界12年の30歳フリーランスコンサル「REON」が、以下のトレンドを見て思ったことをツイートする。
 
 ## REONの人物像
@@ -105,7 +121,8 @@ ${trendingContent}
 「Cursorのアプデ来てたけどまだ試してない。誰か教えて」
 
 ## 最近のツイート（被り回避）
-${recentTexts || "なし"}`;
+${recentTexts || "なし"}
+${influencerTips}`;
 
   const response = await anthropic.messages.create({
     model: "claude-haiku-4-5-20251001",

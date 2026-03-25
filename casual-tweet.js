@@ -13,6 +13,7 @@ const twitter = new TwitterApi({
 });
 
 const LOG_FILE = path.join(__dirname, "casual-tweet-log.json");
+const INFLUENCER_FILE = path.join(__dirname, "influencer-patterns.json");
 
 function getLog() {
   try {
@@ -88,6 +89,21 @@ async function generateAndPost() {
     .map((t) => t.text)
     .join("\n---\n");
 
+  // インフルエンサー分析結果を読み込み
+  let influencerTips = "";
+  try {
+    const patterns = JSON.parse(fs.readFileSync(INFLUENCER_FILE, "utf-8"));
+    const latest = patterns.analyses[patterns.analyses.length - 1]?.analysis;
+    if (latest) {
+      const templates = latest["真似すべき構文テンプレート"] || [];
+      const tips = latest["REONのX運用への具体的アドバイス"] || [];
+      influencerTips = `
+## インフルエンサー分析から学んだこと（参考にして）
+- 構文テンプレート: ${templates.slice(0, 3).join(" / ")}
+- 運用のコツ: ${tips.slice(0, 3).join(" / ")}`;
+    }
+  } catch {}
+
   const prompt = `REONっていう30歳フリーランスITコンサルのツイートを1つ書いて。
 
 ## REONはこういう人間（実際の本人のツイートから抽出）
@@ -138,7 +154,8 @@ ${topic}（${timeSlot}の時間帯）
 「アプリ公開したけどアカウント育たないと拡散できないね」
 
 ## 最近のツイート（被り回避）
-${recentTexts || "なし"}`;
+${recentTexts || "なし"}
+${influencerTips}`;
 
   const response = await anthropic.messages.create({
     model: "claude-haiku-4-5-20251001",
