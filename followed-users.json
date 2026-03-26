@@ -439,6 +439,86 @@
       "followers": 233,
       "followedAt": "2026-03-25T15:51:41.435Z",
       "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "55999612",
+      "username": "mohritaroh",
+      "name": "技術ブログのモーリタロー",
+      "followers": 770,
+      "followedAt": "2026-03-26T15:58:10.766Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1087915320927342592",
+      "username": "katoh_kenta",
+      "name": "加藤 健太 / Diverta Inc. CEO",
+      "followers": 680,
+      "followedAt": "2026-03-26T15:58:23.449Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "105647158",
+      "username": "suipen_web",
+      "name": "すい🌻WEB制作・インスタ運用代行・税務",
+      "followers": 510,
+      "followedAt": "2026-03-26T15:58:36.051Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "12930162",
+      "username": "junisura",
+      "name": "じゅにスラ",
+      "followers": 387,
+      "followedAt": "2026-03-26T15:58:48.679Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "51526794",
+      "username": "u6k_yu1",
+      "name": "u6k_yu1",
+      "followers": 159,
+      "followedAt": "2026-03-26T15:59:01.461Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "130834398",
+      "username": "gofukuda",
+      "name": "福田豪@業務改革/改善（BPR）、組織マネジメント改革のカタリスト",
+      "followers": 1840,
+      "followedAt": "2026-03-26T15:59:14.100Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "898321299923062784",
+      "username": "EchoDrifter1145",
+      "name": "犬養",
+      "followers": 666,
+      "followedAt": "2026-03-26T15:59:26.776Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1077455233939197952",
+      "username": "Bayashinori",
+      "name": "WEBデザイナーのバヤシ先輩",
+      "followers": 759,
+      "followedAt": "2026-03-26T15:59:39.357Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1739226833768611840",
+      "username": "gpt_million",
+      "name": "会社員A",
+      "followers": 2646,
+      "followedAt": "2026-03-26T15:59:51.970Z",
+      "query": "AI コーディング lang:ja -is:retweet"
+    },
+    {
+      "id": "1115061200113430528",
+      "username": "LF71_S",
+      "name": "ニル",
+      "followers": 276,
+      "followedAt": "2026-03-26T16:00:04.724Z",
+      "query": "AI コーディング lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
