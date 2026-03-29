@@ -50,6 +50,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "$FILE"
           git commit -m "Auto-publish: $(basename $FILE .md)"
+          git pull --rebase
           git push
 
       - name: Post to X
