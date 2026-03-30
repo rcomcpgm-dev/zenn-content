@@ -983,6 +983,86 @@
       "followers": 1325,
       "followedAt": "2026-03-29T14:05:21.210Z",
       "query": "Zenn 記事書いた lang:ja -is:retweet"
+    },
+    {
+      "id": "699491138206457856",
+      "username": "Ktombow1110",
+      "name": "とんとんぼ@IT屋のひとりごと",
+      "followers": 882,
+      "followedAt": "2026-03-30T08:57:32.255Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1132423882114125825",
+      "username": "q_hayari",
+      "name": "Qiita人気記事/執筆者紹介",
+      "followers": 6368,
+      "followedAt": "2026-03-30T08:57:45.061Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1330124550793814018",
+      "username": "ryu_f_web",
+      "name": "ふくだ（fukuda ryu）",
+      "followers": 230,
+      "followedAt": "2026-03-30T08:57:57.795Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1576499875738693632",
+      "username": "eastcoast_one",
+      "name": "株式会社イースト・コースト・ワン",
+      "followers": 5040,
+      "followedAt": "2026-03-30T08:58:10.631Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1256708036",
+      "username": "JJm_shawn",
+      "name": "sho.muramatsu",
+      "followers": 595,
+      "followedAt": "2026-03-30T08:58:23.402Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "831267330738966528",
+      "username": "engineer_nw",
+      "name": "nw-engineer",
+      "followers": 2568,
+      "followedAt": "2026-03-30T08:58:36.217Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1465945849759158273",
+      "username": "Pman_Brown",
+      "name": "P-man Brown",
+      "followers": 374,
+      "followedAt": "2026-03-30T08:58:48.907Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "795265870855434240",
+      "username": "vivid_vim",
+      "name": "Shinjiro Fujita",
+      "followers": 212,
+      "followedAt": "2026-03-30T08:59:01.556Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1117753796849885185",
+      "username": "yukidaruma_blog",
+      "name": "米倉悠葵　組み込みエンジニア×Webアプリ開発",
+      "followers": 109,
+      "followedAt": "2026-03-30T08:59:14.435Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "193981250",
+      "username": "sasaki_denki_2",
+      "name": "Kota Sasaki",
+      "followers": 426,
+      "followedAt": "2026-03-30T08:59:27.177Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
