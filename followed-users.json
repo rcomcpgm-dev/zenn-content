@@ -1143,6 +1143,86 @@
       "followers": 3703,
       "followedAt": "2026-03-30T15:58:02.423Z",
       "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "845545627203264513",
+      "username": "iwariku_dev",
+      "name": "rikuto/Go学習中",
+      "followers": 246,
+      "followedAt": "2026-03-31T07:54:33.531Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "2829852464",
+      "username": "MotohiroSiobara",
+      "name": "ソル | CTO@複業クラウド",
+      "followers": 1808,
+      "followedAt": "2026-03-31T07:54:46.347Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1046281283972677632",
+      "username": "gomuboat_biyori",
+      "name": "ゴムボート日和。",
+      "followers": 755,
+      "followedAt": "2026-03-31T07:54:59.197Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "14565807",
+      "username": "ytnobody",
+      "name": "わいとん",
+      "followers": 1637,
+      "followedAt": "2026-03-31T07:55:11.912Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1478738577031069698",
+      "username": "mrmzhts",
+      "name": "muro / Analytics Engineer",
+      "followers": 797,
+      "followedAt": "2026-03-31T07:55:24.457Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "2023626561614995456",
+      "username": "AWC1566612",
+      "name": "生田【AWC SES営業】",
+      "followers": 144,
+      "followedAt": "2026-03-31T07:55:37.252Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1718906913126281216",
+      "username": "okknews",
+      "name": "ひでもん | AI開発@ニュース発信",
+      "followers": 1170,
+      "followedAt": "2026-03-31T07:55:50.018Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1848195719485865984",
+      "username": "nuts2234",
+      "name": "まっつ@大学生専用掲示板CAMPUS BOARD開発中",
+      "followers": 158,
+      "followedAt": "2026-03-31T07:56:02.742Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "2162606516",
+      "username": "KazutakeHorisu",
+      "name": "ホリスカズタケ",
+      "followers": 6684,
+      "followedAt": "2026-03-31T07:56:15.494Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1234066177804001287",
+      "username": "y_renren115",
+      "name": "れん | Web×AI駆動開発",
+      "followers": 2092,
+      "followedAt": "2026-03-31T07:56:28.337Z",
+      "query": "React Next.js lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
