@@ -230,6 +230,13 @@
       "topic": "開発ツール・Claude Codeの話",
       "timeSlot": "afternoon",
       "postedAt": "2026-04-01T08:05:04.227Z"
+    },
+    {
+      "id": "2039355122535235784",
+      "text": "GitHubの草、3ヶ月分見たら虚無だわ。コミット数は多いのに、プライベート開発全然進んでないんだよな。草の密度と実装の進捗が一致してないってやばい",
+      "topic": "GitHubの草を見て虚無",
+      "timeSlot": "night",
+      "postedAt": "2026-04-01T14:52:05.359Z"
     }
   ],
   "topicIndex": 0
