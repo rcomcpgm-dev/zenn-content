@@ -1759,6 +1759,54 @@
       "followers": 144,
       "followedAt": "2026-04-04T06:43:27.627Z",
       "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "6243102",
+      "username": "tanb",
+      "name": "tanb",
+      "followers": 898,
+      "followedAt": "2026-04-04T14:07:27.003Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1683836168889307136",
+      "username": "vibe_gan",
+      "name": "ガンリュー | VCL CEO",
+      "followers": 179,
+      "followedAt": "2026-04-04T14:08:01.006Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1790587606490869760",
+      "username": "newnewnew_sss",
+      "name": "ときどき気になるAIニュース",
+      "followers": 116,
+      "followedAt": "2026-04-04T14:08:13.767Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1961704502991704065",
+      "username": "edopan_ai",
+      "name": "えどがわ",
+      "followers": 205,
+      "followedAt": "2026-04-04T14:08:37.118Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2026256117714878464",
+      "username": "annaAI2026",
+      "name": "AI 杏奈",
+      "followers": 126,
+      "followedAt": "2026-04-04T14:08:49.674Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1934911382409105409",
+      "username": "TKSbrltg",
+      "name": "TKS｜売上1,000円からAIで再設計中｜全過程公開",
+      "followers": 651,
+      "followedAt": "2026-04-04T14:09:02.454Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
