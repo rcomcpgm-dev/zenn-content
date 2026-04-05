@@ -110,6 +110,64 @@
         "followersPercent": "250.0",
         "impressionChange": 107
       }
+    },
+    {
+      "date": "2026-04-05T06:06:35.780Z",
+      "profile": {
+        "followers": 33,
+        "following": 299,
+        "totalTweets": 172
+      },
+      "last50Tweets": {
+        "totalLikes": 9,
+        "totalRetweets": 2,
+        "totalImpressions": 721,
+        "avgLikes": "0.2",
+        "avgImpressions": "14.4",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "@CTRbI0LGXO5571 それが理想ではありますね（できれば）\nあと、オススメに謎に回ってくる「〜やって100万！」みたいなのが本当に出来ればそんな事も考",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 19,
+          "date": "2026-04-04T14:38:21.000Z"
+        },
+        {
+          "text": "Claude CodeでAI系のタスク自動化してる奴らマジで多いんだけど、結局それで浮いた時間って新しい仕事埋まるんだよなぁ。自動化の沼やん。追うのやめようかな",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 216,
+          "date": "2026-04-04T14:02:06.000Z"
+        },
+        {
+          "text": "Claude CodeでWebスクレイピングツールを作る方法｜Node.js実用例\n\nClaude Codeを使えば、Webスクレイピングツールを日本語の指示だ",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 5,
+          "date": "2026-04-04T05:37:26.000Z"
+        },
+        {
+          "text": "Claude Codeで「N+1検出してくれ」って言うだけでFirestoreの呼び出し最適化できるのやばいなー",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 11,
+          "date": "2026-04-03T15:29:15.000Z"
+        },
+        {
+          "text": "Blender講座立ち上げてんな。Claude Codeで作ったサイトってやつか。正直、こういう個人開発の教材系増えすぎて追い切れねーけど、需要あるんだろうなぁ",
+          "likes": 1,
+          "retweets": 0,
+          "impressions": 8,
+          "date": "2026-04-03T07:48:43.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 26,
+        "followersPercent": "371.4",
+        "impressionChange": 605
+      }
     }
   ]
 }
