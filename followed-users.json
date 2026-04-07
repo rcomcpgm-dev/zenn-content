@@ -2087,6 +2087,62 @@
       "followers": 350,
       "followedAt": "2026-04-06T15:10:33.998Z",
       "query": "ITコンサル lang:ja -is:retweet"
+    },
+    {
+      "id": "1886590347926732800",
+      "username": "taro_engineer_",
+      "name": "太郎 | フリーランスエンジニア",
+      "followers": 917,
+      "followedAt": "2026-04-07T08:01:04.645Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "123421263",
+      "username": "Hama_isfnet",
+      "name": "浜田将稔",
+      "followers": 5522,
+      "followedAt": "2026-04-07T08:01:17.323Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "1880787042562695169",
+      "username": "rynskrmt",
+      "name": "Karimata",
+      "followers": 335,
+      "followedAt": "2026-04-07T08:01:40.509Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "2025218457936297988",
+      "username": "yuto_lab_note",
+      "name": "ゆと@Claude Code使って色々自動化実験中",
+      "followers": 270,
+      "followedAt": "2026-04-07T08:01:53.149Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "1517028673970671616",
+      "username": "teraseek_ltd",
+      "name": "みお|さまよえるエンジニア達へ|",
+      "followers": 171,
+      "followedAt": "2026-04-07T08:02:16.410Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "4340730314",
+      "username": "KitsuneEngineer",
+      "name": "キツネさん | フリーランスエンジニア",
+      "followers": 991,
+      "followedAt": "2026-04-07T08:02:29.132Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
+    },
+    {
+      "id": "1023802219924094979",
+      "username": "kouhei_engineer",
+      "name": "Kouhei | フリーランスエンジニア",
+      "followers": 197,
+      "followedAt": "2026-04-07T08:02:41.883Z",
+      "query": "フリーランス エンジニア 案件 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2

@@ -1739,7 +1739,57 @@
       "tweetId": "2041161934381461914",
       "author": "04_inada",
       "likedAt": "2026-04-06T15:10:31.844Z"
+    },
+    {
+      "tweetId": "2040384651001200825",
+      "author": "weeybrid",
+      "likedAt": "2026-04-07T08:00:51.880Z"
+    },
+    {
+      "tweetId": "2040727962501382173",
+      "author": "taro_engineer_",
+      "likedAt": "2026-04-07T08:01:02.505Z"
+    },
+    {
+      "tweetId": "2040224156932002142",
+      "author": "Hama_isfnet",
+      "likedAt": "2026-04-07T08:01:15.199Z"
+    },
+    {
+      "tweetId": "2041354083211337775",
+      "author": "mijica_akagi",
+      "likedAt": "2026-04-07T08:01:27.857Z"
+    },
+    {
+      "tweetId": "2040594750974374195",
+      "author": "rynskrmt",
+      "likedAt": "2026-04-07T08:01:38.407Z"
+    },
+    {
+      "tweetId": "2040951335458353399",
+      "author": "yuto_lab_note",
+      "likedAt": "2026-04-07T08:01:51.060Z"
+    },
+    {
+      "tweetId": "2041422846463803675",
+      "author": "tenshoku356",
+      "likedAt": "2026-04-07T08:02:03.792Z"
+    },
+    {
+      "tweetId": "2039588196774731788",
+      "author": "teraseek_ltd",
+      "likedAt": "2026-04-07T08:02:14.318Z"
+    },
+    {
+      "tweetId": "2041259652323942743",
+      "author": "KitsuneEngineer",
+      "likedAt": "2026-04-07T08:02:27.033Z"
+    },
+    {
+      "tweetId": "2040930030851899477",
+      "author": "kouhei_engineer",
+      "likedAt": "2026-04-07T08:02:39.789Z"
     }
   ],
-  "queryIndex": 11
+  "queryIndex": 12
 }
