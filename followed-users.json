@@ -2279,6 +2279,78 @@
       "followers": 1031,
       "followedAt": "2026-04-08T08:05:08.456Z",
       "query": "Zenn 記事書いた lang:ja -is:retweet"
+    },
+    {
+      "id": "498845402",
+      "username": "reqtc",
+      "name": "【Re:Q公式】レック・テクノロジー・コンサルティング株式会社",
+      "followers": 1890,
+      "followedAt": "2026-04-08T16:41:26.523Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "24697234",
+      "username": "thewanko",
+      "name": "いぬガオ🐕🦎🧪【シバーウィン】",
+      "followers": 2088,
+      "followedAt": "2026-04-08T16:41:39.033Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1819007860346679296",
+      "username": "yuji_amanogawa",
+      "name": "荒川裕二 / Yuji Arakawa",
+      "followers": 305,
+      "followedAt": "2026-04-08T16:42:02.413Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "229478146",
+      "username": "tetsuro731",
+      "name": "テッツォ@Data Scientist",
+      "followers": 4630,
+      "followedAt": "2026-04-08T16:42:14.936Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1063803961944109056",
+      "username": "mirimiripc",
+      "name": "大川 峻(元 miriwo)",
+      "followers": 434,
+      "followedAt": "2026-04-08T16:42:27.744Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1519989146441625600",
+      "username": "TadatakaTakaha1",
+      "name": "Taka Tech",
+      "followers": 275,
+      "followedAt": "2026-04-08T16:42:40.570Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1219303622963425284",
+      "username": "investerinarian",
+      "name": "ぶっくま",
+      "followers": 133,
+      "followedAt": "2026-04-08T16:42:53.295Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "190359314",
+      "username": "sora8229",
+      "name": "仁嘉(ニカ)@SE",
+      "followers": 282,
+      "followedAt": "2026-04-08T16:43:06.261Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "14138253",
+      "username": "taka_aki",
+      "name": "Taka YAYOI/弥生 隆明 @ 4/20 LLMOps本発売",
+      "followers": 1268,
+      "followedAt": "2026-04-08T16:43:18.913Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
