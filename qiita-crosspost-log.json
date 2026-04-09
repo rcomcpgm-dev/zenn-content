@@ -159,6 +159,14 @@
       "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/a71a023eda5397f832a8",
       "qiitaId": "a71a023eda5397f832a8",
       "postedAt": "2026-04-08T08:45:59.966Z"
+    },
+    {
+      "file": "rc-claude-code-pre-push-secrets.md",
+      "zennTitle": "Claude Codeでpre-pushフックを作る｜APIキー漏洩を防ぐ自動チェック",
+      "qiitaTitle": "Claude Codeでpre-pushフックを自動生成｜APIキー漏洩検知の仕組みと実装",
+      "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/4cf19a83d65785c0f130",
+      "qiitaId": "4cf19a83d65785c0f130",
+      "postedAt": "2026-04-09T08:56:26.238Z"
     }
   ]
 }
