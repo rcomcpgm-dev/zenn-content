@@ -4,7 +4,7 @@ emoji: "🔐"
 type: "tech"
 topics: ["claudecode", "git", "security", "devtools"]
 publish_order: 14
-published: false
+published: true
 ---
 
 GitHubにAPIキーをpushしてしまった経験、ありませんか？この記事では、**push前に秘密情報を自動検出してブロックするpre-pushフック**をClaude Codeで作る方法を紹介します。5分で設定できて、一生安心です。
