@@ -2351,6 +2351,78 @@
       "followers": 1268,
       "followedAt": "2026-04-08T16:43:18.913Z",
       "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "772864590",
+      "username": "abrynsk",
+      "name": "abrynskAIアプリ開発",
+      "followers": 192,
+      "followedAt": "2026-04-09T08:07:27.256Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1766112426184089600",
+      "username": "yasaihouse",
+      "name": "やさいはうす",
+      "followers": 1356,
+      "followedAt": "2026-04-09T08:07:39.895Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "14733901",
+      "username": "shinichinomura",
+      "name": "野村 真一",
+      "followers": 976,
+      "followedAt": "2026-04-09T08:07:52.589Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "877608025711812608",
+      "username": "tsunekun1",
+      "name": "つねくん|AI投資",
+      "followers": 2182,
+      "followedAt": "2026-04-09T08:08:05.312Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1436930083424333829",
+      "username": "moriya_sys",
+      "name": "moriya@個人開発",
+      "followers": 3722,
+      "followedAt": "2026-04-09T08:08:17.929Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1972204509926772737",
+      "username": "KoeLoopDev",
+      "name": "KoeLoopDev",
+      "followers": 623,
+      "followedAt": "2026-04-09T08:08:30.517Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "68421314",
+      "username": "yoshipaka",
+      "name": "とんかつ",
+      "followers": 269,
+      "followedAt": "2026-04-09T08:08:43.216Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "80775344",
+      "username": "yamakazoo",
+      "name": "ヤマカズ(ハーモニコム)",
+      "followers": 588,
+      "followedAt": "2026-04-09T08:08:55.842Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "3021350053",
+      "username": "jin0201_snoopy",
+      "name": "じん",
+      "followers": 467,
+      "followedAt": "2026-04-09T08:09:19.019Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
