@@ -4,7 +4,7 @@ emoji: "💼"
 type: "tech"
 topics: ["claudecode", "ai", "consulting", "startup"]
 publish_order: 15
-published: false
+published: true
 ---
 
 ## この記事でわかること
