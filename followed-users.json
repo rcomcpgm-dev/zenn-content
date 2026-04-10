@@ -2479,6 +2479,70 @@
       "followers": 1439,
       "followedAt": "2026-04-09T16:52:10.311Z",
       "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1886939772293406721",
+      "username": "SES_Taisei",
+      "name": "㍿Taisei【公式】広島のSES・受託開発会社",
+      "followers": 711,
+      "followedAt": "2026-04-10T08:51:17.645Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1857622703915851776",
+      "username": "nishiyama_dev",
+      "name": "西山雄大「やさしい文書」tAIo",
+      "followers": 230,
+      "followedAt": "2026-04-10T08:51:30.302Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2647400550",
+      "username": "UCLab1421",
+      "name": "UCLab@設計するエンジニア",
+      "followers": 177,
+      "followedAt": "2026-04-10T08:51:42.933Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1645360240861515776",
+      "username": "FIKpr_riri",
+      "name": "りり@FIK広報＊営業アシスタント",
+      "followers": 477,
+      "followedAt": "2026-04-10T08:52:06.747Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "169481072",
+      "username": "yamamai_m",
+      "name": "眼珠天蚕@プロジェクト・アイオーン・シアターの中の人",
+      "followers": 1693,
+      "followedAt": "2026-04-10T08:52:30.151Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1025548220368207872",
+      "username": "Gart_doujin",
+      "name": "Gart@創作活動手伝うよ",
+      "followers": 3484,
+      "followedAt": "2026-04-10T08:52:43.005Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1371206191284584448",
+      "username": "mocchari2",
+      "name": "RINTA@フロントエンドエンジニア",
+      "followers": 102,
+      "followedAt": "2026-04-10T08:52:55.785Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1927275676547129344",
+      "username": "uslab1994",
+      "name": "uslab | AIと創る開発の未来",
+      "followers": 135,
+      "followedAt": "2026-04-10T08:53:08.351Z",
+      "query": "TypeScript 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
