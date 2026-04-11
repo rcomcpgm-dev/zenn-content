@@ -2,3901 +2,4251 @@
   {
     "id": 1,
     "category": "tips",
-    "text": "CLAUDE.mdを書くのがClaude Code活用の第一歩。プロジェクト構成を書いておくだけでAIの理解度が段違いになる。 #ClaudeCode #AI開発"
+    "text": "CLAUDE.mdを書くのがClaude Code活用の第一歩。プロジェクト構成を書いておくだけでAIの理解度が段違いになる。"
   },
   {
     "id": 2,
     "category": "tips",
-    "text": "/compactコマンドでコンテキストを圧縮できる。トークン消費が気になり始めたら迷わず使おう。 #ClaudeCode"
+    "text": "/compactコマンドでコンテキストを圧縮できる。トークン消費が気になり始めたら迷わず使おう。"
   },
   {
     "id": 3,
     "category": "tips",
-    "text": "ファイル編集前に「まずこのファイルを読んで」と指示すると精度が上がる。推測での書き換えはバグの元。 #ClaudeCode #開発Tips"
+    "text": "ファイル編集前に「まずこのファイルを読んで」と指示すると精度が上がる。推測での書き換えはバグの元。"
   },
   {
     "id": 4,
     "category": "tips",
-    "text": "Claude Codeは日本語の指示でも十分正確に動く。母国語で指示を出せるストレスフリーな開発体験。 #ClaudeCode"
+    "text": "Claude Codeは日本語の指示でも十分正確に動く。母国語で指示を出せるストレスフリーな開発体験。"
   },
   {
     "id": 5,
     "category": "tips",
-    "text": "git commitは「変更内容を確認してコミットして」で完了。diffを見てメッセージも考えてくれる。 #ClaudeCode #Git"
+    "text": "git commitは「変更内容を確認してコミットして」で完了。diffを見てメッセージも考えてくれる。"
   },
   {
     "id": 6,
     "category": "tips",
-    "text": "CLAUDE.mdにパスエイリアスを書くと、importパスを正しく解決してくれる。@/* → src/* みたいに。 #ClaudeCode #TypeScript"
+    "text": "CLAUDE.mdにパスエイリアスを書くと、importパスを正しく解決してくれる。@/* → src/* みたいに。"
   },
   {
     "id": 7,
     "category": "tips",
-    "text": "新機能追加は「まず設計を提案して」から。いきなり実装より手戻りが激減する。 #ClaudeCode #開発Tips"
+    "text": "新機能追加は「まず設計を提案して」から。いきなり実装より手戻りが激減する。"
   },
   {
     "id": 8,
     "category": "tips",
-    "text": "エラーメッセージをそのまま貼り付けるだけで8割解決する。自分で原因を推測するより生のエラーを渡すのが最速。 #ClaudeCode"
+    "text": "エラーメッセージをそのまま貼り付けるだけで8割解決する。自分で原因を推測するより生のエラーを渡すのが最速。"
   },
   {
     "id": 9,
     "category": "tips",
-    "text": "テストコードを書かせるのが最高に楽。「この関数のユニットテスト書いて」で30分の作業が1分で終わる。 #ClaudeCode #テスト"
+    "text": "テストコードを書かせるのが最高に楽。「この関数のユニットテスト書いて」で30分の作業が1分で終わる。"
   },
   {
     "id": 10,
     "category": "tips",
-    "text": "--resumeフラグで前回の会話を再開できる。中断した作業の続きをやりたいときに超便利。 #ClaudeCode"
+    "text": "--resumeフラグで前回の会話を再開できる。中断した作業の続きをやりたいときに超便利。"
   },
   {
     "id": 11,
     "category": "tips",
-    "text": "コードレビューもClaude Codeに任せられる。見落としがちなバグや改善点を指摘してくれて実用的。 #ClaudeCode #コードレビュー"
+    "text": "コードレビューもClaude Codeに任せられる。見落としがちなバグや改善点を指摘してくれて実用的。"
   },
   {
     "id": 12,
     "category": "tips",
-    "text": "「このプロジェクトではNativeWindを使用」とCLAUDE.mdに書くだけで提案が全部Tailwindクラスになる。 #ClaudeCode #ReactNative"
+    "text": "「このプロジェクトではNativeWindを使用」とCLAUDE.mdに書くだけで提案が全部Tailwindクラスになる。"
   },
   {
     "id": 13,
     "category": "tips",
-    "text": "複数ファイルの同時編集は依存関係を明示すると正確。「まずtypes.tsを修正してからcomponent.tsxを更新して」 #ClaudeCode"
+    "text": "複数ファイルの同時編集は依存関係を明示すると正確。「まずtypes.tsを修正してからcomponent.tsxを更新して」"
   },
   {
     "id": 14,
     "category": "tips",
-    "text": "globパターン検索が便利。「src/**/*.test.ts を探して」でプロジェクト内のファイルを素早く見つけられる。 #ClaudeCode"
+    "text": "globパターン検索が便利。「src/**/*.test.ts を探して」でプロジェクト内のファイルを素早く見つけられる。"
   },
   {
     "id": 15,
     "category": "tips",
-    "text": "型エラー修正時にtsconfig.jsonの設定も伝えると解決が早い。strictモードの有無で回答が変わる。 #ClaudeCode #TypeScript"
+    "text": "型エラー修正時にtsconfig.jsonの設定も伝えると解決が早い。strictモードの有無で回答が変わる。"
   },
   {
     "id": 16,
     "category": "tips",
-    "text": "リファクタリングは方針を具体的に。「関数を分割して」「型を厳密にして」と伝えると質が段違い。 #ClaudeCode"
+    "text": "リファクタリングは方針を具体的に。「関数を分割して」「型を厳密にして」と伝えると質が段違い。"
   },
   {
     "id": 17,
     "category": "tips",
-    "text": "DBマイグレーションファイルの作成が快適。テーブル構成を説明するだけでSQLとRLSポリシーまで書いてくれる。 #ClaudeCode #Supabase"
+    "text": "DBマイグレーションファイルの作成が快適。テーブル構成を説明するだけでSQLとRLSポリシーまで書いてくれる。"
   },
   {
     "id": 18,
     "category": "tips",
-    "text": "環境変数の設定ミスを見つけるのが得意。「.envの設定を確認して」で足りない変数を指摘してくれる。 #ClaudeCode"
+    "text": "環境変数の設定ミスを見つけるのが得意。「.envの設定を確認して」で足りない変数を指摘してくれる。"
   },
   {
     "id": 19,
     "category": "tips",
-    "text": "コンポーネント作成時に「Propsの型も定義して」と付けるとTypeScript的に正しいコードになる。 #ClaudeCode #TypeScript"
+    "text": "コンポーネント作成時に「Propsの型も定義して」と付けるとTypeScript的に正しいコードになる。"
   },
   {
     "id": 20,
     "category": "tips",
-    "text": "Plan Modeで大きな変更の前に計画を立てさせる。実装ステップを整理してから作業するので手戻りが減る。 #ClaudeCode"
+    "text": "Plan Modeで大きな変更の前に計画を立てさせる。実装ステップを整理してから作業するので手戻りが減る。"
   },
   {
     "id": 21,
     "category": "tips",
-    "text": "エラーはスクショじゃなくテキストで貼ろう。CLIだからテキストの方が処理しやすい。 #ClaudeCode"
+    "text": "エラーはスクショじゃなくテキストで貼ろう。CLIだからテキストの方が処理しやすい。"
   },
   {
     "id": 22,
     "category": "tips",
-    "text": "初回セッションでは「ディレクトリ構成を確認して」と言うべき。全体像を把握してから作業してくれる。 #ClaudeCode"
+    "text": "初回セッションでは「ディレクトリ構成を確認して」と言うべき。全体像を把握してから作業してくれる。"
   },
   {
     "id": 23,
     "category": "tips",
-    "text": "Firestoreのセキュリティルールも書ける。「認証済みユーザーのみ読み書き可能なルール書いて」で完成。 #ClaudeCode #Firebase"
+    "text": "Firestoreのセキュリティルールも書ける。「認証済みユーザーのみ読み書き可能なルール書いて」で完成。"
   },
   {
     "id": 24,
     "category": "tips",
-    "text": "「処理を日本語でコメントつけて」で可読性が爆上がり。個人開発でもチーム開発でも有用。 #ClaudeCode"
+    "text": "「処理を日本語でコメントつけて」で可読性が爆上がり。個人開発でもチーム開発でも有用。"
   },
   {
     "id": 25,
     "category": "tips",
-    "text": "指示は具体的に。「いい感じにして」より「レスポンシブ対応、モバイルファースト」の方が良い結果が出る。 #ClaudeCode"
+    "text": "指示は具体的に。「いい感じにして」より「レスポンシブ対応、モバイルファースト」の方が良い結果が出る。"
   },
   {
     "id": 26,
     "category": "tips",
-    "text": "既存ストアの構造を見せてから「同じパターンで新しいストア作って」で統一感のあるコードになる。 #ClaudeCode #Zustand"
+    "text": "既存ストアの構造を見せてから「同じパターンで新しいストア作って」で統一感のあるコードになる。"
   },
   {
     "id": 27,
     "category": "tips",
-    "text": "セッション中に方針変更したくなったら遠慮なく言おう。AIは怒らない。最適解を一緒に探す相棒だ。 #ClaudeCode"
+    "text": "セッション中に方針変更したくなったら遠慮なく言おう。AIは怒らない。最適解を一緒に探す相棒だ。"
   },
   {
     "id": 28,
     "category": "tips",
-    "text": "正規表現を書かせると楽。「メールアドレスのバリデーション」でエッジケース考慮済みのregexが出る。 #ClaudeCode"
+    "text": "正規表現を書かせると楽。「メールアドレスのバリデーション」でエッジケース考慮済みのregexが出る。"
   },
   {
     "id": 29,
     "category": "tips",
-    "text": "MCP連携で外部ツールと繋がると世界が変わる。SupabaseやFigmaとの直接連携も可能。 #ClaudeCode #MCP"
+    "text": "MCP連携で外部ツールと繋がると世界が変わる。SupabaseやFigmaとの直接連携も可能。"
   },
   {
     "id": 30,
     "category": "tips",
-    "text": "import文の整理もお任せ。「不要なimport削除してアルファベット順に」で手動より圧倒的に速い。 #ClaudeCode"
+    "text": "import文の整理もお任せ。「不要なimport削除してアルファベット順に」で手動より圧倒的に速い。"
   },
   {
     "id": 31,
     "category": "tips",
-    "text": "非同期処理は「async/awaitでエラーハンドリングもつけて」と指示。try-catchにログ出力まで入る。 #ClaudeCode #TypeScript"
+    "text": "非同期処理は「async/awaitでエラーハンドリングもつけて」と指示。try-catchにログ出力まで入る。"
   },
   {
     "id": 32,
     "category": "tips",
-    "text": "CLAUDE.mdに命名規則を書いておくと吉。PascalCase、kebab-caseなど一貫性が保たれる。 #ClaudeCode"
+    "text": "CLAUDE.mdに命名規則を書いておくと吉。PascalCase、kebab-caseなど一貫性が保たれる。"
   },
   {
     "id": 33,
     "category": "tips",
-    "text": "大量のTODOを一気に片付けたいとき「TODOコメントを全部探して対応して」と言えるの最高。 #ClaudeCode"
+    "text": "大量のTODOを一気に片付けたいとき「TODOコメントを全部探して対応して」と言えるの最高。"
   },
   {
     "id": 34,
     "category": "tips",
-    "text": "Zustandのストア設計は型定義から始めさせると綺麗にまとまる。データの形を先に決めるのが鍵。 #ClaudeCode #Zustand"
+    "text": "Zustandのストア設計は型定義から始めさせると綺麗にまとまる。データの形を先に決めるのが鍵。"
   },
   {
     "id": 35,
     "category": "tips",
-    "text": "「このコードの問題点を3つ挙げて」と聞くと具体的な改善案が出てくる。セルフレビューに使える。 #ClaudeCode"
+    "text": "「このコードの問題点を3つ挙げて」と聞くと具体的な改善案が出てくる。セルフレビューに使える。"
   },
   {
     "id": 36,
     "category": "tips",
-    "text": "Claude Codeにデッドコードを探させると手動では気づかない不要コードが見つかる。定期的にやろう。 #ClaudeCode"
+    "text": "Claude Codeにデッドコードを探させると手動では気づかない不要コードが見つかる。定期的にやろう。"
   },
   {
     "id": 37,
     "category": "tips",
-    "text": "コミットメッセージの一貫性を保つには「Conventional Commits形式で」と指示するだけ。 #ClaudeCode #Git"
+    "text": "コミットメッセージの一貫性を保つには「Conventional Commits形式で」と指示するだけ。"
   },
   {
     "id": 38,
     "category": "tips",
-    "text": "画面遷移の実装はナビゲーション構成をCLAUDE.mdに書いておくと完璧に動く。 #ClaudeCode #ReactNative"
+    "text": "画面遷移の実装はナビゲーション構成をCLAUDE.mdに書いておくと完璧に動く。"
   },
   {
     "id": 39,
     "category": "tips",
-    "text": "Claude Codeの出力は必ず動作確認する。AIのコードにもバグはある。信頼しつつ検証がベスト。 #ClaudeCode"
+    "text": "Claude Codeの出力は必ず動作確認する。AIのコードにもバグはある。信頼しつつ検証がベスト。"
   },
   {
     "id": 40,
     "category": "tips",
-    "text": "package.jsonのscripts追加は既存との整合性もチェックしてくれる。lint、typecheck、testの一括実行とか。 #ClaudeCode"
+    "text": "package.jsonのscripts追加は既存との整合性もチェックしてくれる。lint、typecheck、testの一括実行とか。"
   },
   {
     "id": 41,
     "category": "tips",
-    "text": "新しいライブラリ導入時に「使い方をサンプルコード付きで」と頼むとドキュメント読む時間が半減する。 #ClaudeCode"
+    "text": "新しいライブラリ導入時に「使い方をサンプルコード付きで」と頼むとドキュメント読む時間が半減する。"
   },
   {
     "id": 42,
     "category": "tips",
-    "text": "--no-verifyは使わない。pre-commitフックを飛ばすとlintエラーがそのままcommitされる。 #ClaudeCode #Git"
+    "text": "--no-verifyは使わない。pre-commitフックを飛ばすとlintエラーがそのままcommitされる。"
   },
   {
     "id": 43,
     "category": "tips",
-    "text": "コンテキストウィンドウを意識しよう。不要なファイルを読み込ませすぎると精度が落ちる。 #ClaudeCode"
+    "text": "コンテキストウィンドウを意識しよう。不要なファイルを読み込ませすぎると精度が落ちる。"
   },
   {
     "id": 44,
     "category": "tips",
-    "text": "「TypeScriptのstrictモードで書いて」と指示すると型安全なコードが出てくる。甘やかさない。 #ClaudeCode #TypeScript"
+    "text": "「TypeScriptのstrictモードで書いて」と指示すると型安全なコードが出てくる。甘やかさない。"
   },
   {
     "id": 45,
     "category": "tips",
-    "text": "長い関数を「責務ごとに分割して」と言うだけで読みやすいコードにリファクタリングしてくれる。 #ClaudeCode"
+    "text": "長い関数を「責務ごとに分割して」と言うだけで読みやすいコードにリファクタリングしてくれる。"
   },
   {
     "id": 46,
     "category": "tips",
-    "text": "Claude Codeでコメントアウトされたコードを掃除させよう。「不要なコメントアウトを削除して」で一発。 #ClaudeCode"
+    "text": "Claude Codeでコメントアウトされたコードを掃除させよう。「不要なコメントアウトを削除して」で一発。"
   },
   {
     "id": 47,
     "category": "tips",
-    "text": "API通信のエラーハンドリングを「ユーザーフレンドリーなメッセージ付きで」と依頼すると丁寧な実装になる。 #ClaudeCode"
+    "text": "API通信のエラーハンドリングを「ユーザーフレンドリーなメッセージ付きで」と依頼すると丁寧な実装になる。"
   },
   {
     "id": 48,
     "category": "tips",
-    "text": "React Queryのカスタムフックを「既存のパターンに合わせて」作らせると統一感が出る。 #ClaudeCode #ReactQuery"
+    "text": "React Queryのカスタムフックを「既存のパターンに合わせて」作らせると統一感が出る。"
   },
   {
     "id": 49,
     "category": "tips",
-    "text": "「このコードのパフォーマンスを改善して」で具体的な最適化提案が出る。メモ化やuseCallback追加など。 #ClaudeCode #React"
+    "text": "「このコードのパフォーマンスを改善して」で具体的な最適化提案が出る。メモ化やuseCallback追加など。"
   },
   {
     "id": 50,
     "category": "tips",
-    "text": "SupabaseのRLSポリシーを書くとき、テーブル間のリレーションを説明すると正確なポリシーが生成される。 #ClaudeCode #Supabase"
+    "text": "SupabaseのRLSポリシーを書くとき、テーブル間のリレーションを説明すると正確なポリシーが生成される。"
   },
   {
     "id": 51,
     "category": "tips",
-    "text": "Claude Codeでgit branchの管理もできる。「feature/loginブランチ作って切り替えて」で完了。 #ClaudeCode #Git"
+    "text": "Claude Codeでgit branchの管理もできる。「feature/loginブランチ作って切り替えて」で完了。"
   },
   {
     "id": 52,
     "category": "tips",
-    "text": "型定義ファイルを「database.tsから自動生成して」と言うとSupabaseの型定義コマンドまで教えてくれる。 #ClaudeCode #Supabase"
+    "text": "型定義ファイルを「database.tsから自動生成して」と言うとSupabaseの型定義コマンドまで教えてくれる。"
   },
   {
     "id": 53,
     "category": "tips",
-    "text": "「console.logを全部削除して」で本番コードをクリーンにできる。デバッグ後の掃除に便利。 #ClaudeCode"
+    "text": "「console.logを全部削除して」で本番コードをクリーンにできる。デバッグ後の掃除に便利。"
   },
   {
     "id": 54,
     "category": "tips",
-    "text": "ExpoのEAS Buildの設定ファイルもClaude Codeに書かせると楽。eas.jsonの設定は覚えきれない。 #ClaudeCode #Expo"
+    "text": "ExpoのEAS Buildの設定ファイルもClaude Codeに書かせると楽。eas.jsonの設定は覚えきれない。"
   },
   {
     "id": 55,
     "category": "tips",
-    "text": "「このエラーの原因を3つの可能性で説明して」と聞くと体系的なデバッグができる。 #ClaudeCode #デバッグ"
+    "text": "「このエラーの原因を3つの可能性で説明して」と聞くと体系的なデバッグができる。"
   },
   {
     "id": 56,
     "category": "tips",
-    "text": "NativeWindのクラス名を提案させるとき「ダークモード対応も」と付けるとdark:プレフィックス付きで出る。 #ClaudeCode #NativeWind"
+    "text": "NativeWindのクラス名を提案させるとき「ダークモード対応も」と付けるとdark:プレフィックス付きで出る。"
   },
   {
     "id": 57,
     "category": "tips",
-    "text": "CLAUDE.mdは随時更新しよう。プロジェクトが成長するにつれて情報を追加すると精度が維持される。 #ClaudeCode"
+    "text": "CLAUDE.mdは随時更新しよう。プロジェクトが成長するにつれて情報を追加すると精度が維持される。"
   },
   {
     "id": 58,
     "category": "tips",
-    "text": "Claude Codeで.envの雛形を作れる。「必要な環境変数を.env.exampleにまとめて」で一覧化される。 #ClaudeCode"
+    "text": "Claude Codeで.envの雛形を作れる。「必要な環境変数を.env.exampleにまとめて」で一覧化される。"
   },
   {
     "id": 59,
     "category": "tips",
-    "text": "「この画面のスケルトンローディングを実装して」でUX向上。具体的な指示でUI改善が簡単。 #ClaudeCode #UX"
+    "text": "「この画面のスケルトンローディングを実装して」でUX向上。具体的な指示でUI改善が簡単。"
   },
   {
     "id": 60,
     "category": "tips",
-    "text": "bash scriptも書いてもらえる。「デプロイ用のシェルスクリプト作って」でCI/CDの一歩目が完成。 #ClaudeCode"
+    "text": "bash scriptも書いてもらえる。「デプロイ用のシェルスクリプト作って」でCI/CDの一歩目が完成。"
   },
   {
     "id": 61,
     "category": "tips",
-    "text": "Claude Codeで「N+1クエリを検出して」とFirestoreの呼び出しを最適化できる。パフォーマンス改善に。 #ClaudeCode #Firebase"
+    "text": "Claude Codeで「N+1クエリを検出して」とFirestoreの呼び出しを最適化できる。パフォーマンス改善に。"
   },
   {
     "id": 62,
     "category": "tips",
-    "text": "ESLintの設定もCLAUDE.mdに書いておくと、生成コードがルールに従う。二度手間がなくなる。 #ClaudeCode #ESLint"
+    "text": "ESLintの設定もCLAUDE.mdに書いておくと、生成コードがルールに従う。二度手間がなくなる。"
   },
   {
     "id": 63,
     "category": "tips",
-    "text": "「このフォームにバリデーション追加して」でzodやyupのスキーマ付き実装が出る。手書きより確実。 #ClaudeCode"
+    "text": "「このフォームにバリデーション追加して」でzodやyupのスキーマ付き実装が出る。手書きより確実。"
   },
   {
     "id": 64,
     "category": "tips",
-    "text": "アクセシビリティ対応も任せられる。「a11y対応して」でaccessibilityLabelなどを追加してくれる。 #ClaudeCode #ReactNative"
+    "text": "アクセシビリティ対応も任せられる。「a11y対応して」でaccessibilityLabelなどを追加してくれる。"
   },
   {
     "id": 65,
     "category": "tips",
-    "text": "Claude Codeで国際化の準備もできる。「i18nの構造を設計して」でファイル構成から提案してくれる。 #ClaudeCode"
+    "text": "Claude Codeで国際化の準備もできる。「i18nの構造を設計して」でファイル構成から提案してくれる。"
   },
   {
     "id": 66,
     "category": "tips",
-    "text": "Expo Routerへの移行も段階的に支援してくれる。「現在のナビゲーションをExpo Routerに変換して」 #ClaudeCode #Expo"
+    "text": "Expo Routerへの移行も段階的に支援してくれる。「現在のナビゲーションをExpo Routerに変換して」"
   },
   {
     "id": 67,
     "category": "tips",
-    "text": "git logを見て「直近の変更を要約して」でプロジェクトの進捗を素早く把握できる。 #ClaudeCode #Git"
+    "text": "git logを見て「直近の変更を要約して」でプロジェクトの進捗を素早く把握できる。"
   },
   {
     "id": 68,
     "category": "tips",
-    "text": "Claude Codeに「型ガードを書いて」と頼むとランタイムの型安全性が向上する。unknown型の処理に最適。 #ClaudeCode #TypeScript"
+    "text": "Claude Codeに「型ガードを書いて」と頼むとランタイムの型安全性が向上する。unknown型の処理に最適。"
   },
   {
     "id": 69,
     "category": "tips",
-    "text": "「この画面のレイアウトをFlexboxで組み直して」でレスポンシブ対応がスムーズに。 #ClaudeCode #ReactNative"
+    "text": "「この画面のレイアウトをFlexboxで組み直して」でレスポンシブ対応がスムーズに。"
   },
   {
     "id": 70,
     "category": "tips",
-    "text": "React Navigationのディープリンク設定もClaude Codeが書ける。linking設定は地味に面倒だから助かる。 #ClaudeCode #ReactNative"
+    "text": "React Navigationのディープリンク設定もClaude Codeが書ける。linking設定は地味に面倒だから助かる。"
   },
   {
     "id": 71,
     "category": "tips",
-    "text": "「このコンポーネントをメモ化して」でReact.memoとuseMemoを適切に配置してくれる。 #ClaudeCode #React"
+    "text": "「このコンポーネントをメモ化して」でReact.memoとuseMemoを適切に配置してくれる。"
   },
   {
     "id": 72,
     "category": "tips",
-    "text": "CLAUDE.mdにAPI仕様を書いておくと、バックエンドとフロントの整合性を保ったコードが出る。 #ClaudeCode"
+    "text": "CLAUDE.mdにAPI仕様を書いておくと、バックエンドとフロントの整合性を保ったコードが出る。"
   },
   {
     "id": 73,
     "category": "tips",
-    "text": "「カスタムフックに切り出して」でコンポーネントのロジックを分離できる。テスタビリティ向上。 #ClaudeCode #React"
+    "text": "「カスタムフックに切り出して」でコンポーネントのロジックを分離できる。テスタビリティ向上。"
   },
   {
     "id": 74,
     "category": "tips",
-    "text": "複雑なSQL文もClaude Codeに任せよう。JOINやサブクエリを日本語で説明するだけで正確なSQLが出る。 #ClaudeCode #SQL"
+    "text": "複雑なSQL文もClaude Codeに任せよう。JOINやサブクエリを日本語で説明するだけで正確なSQLが出る。"
   },
   {
     "id": 75,
     "category": "tips",
-    "text": "Claude Codeに「この画面のE2Eテストシナリオを書いて」で網羅的なテストケースが出る。 #ClaudeCode #テスト"
+    "text": "Claude Codeに「この画面のE2Eテストシナリオを書いて」で網羅的なテストケースが出る。"
   },
   {
     "id": 76,
     "category": "tips",
-    "text": "「git stashの中身を確認して適用して」でstash管理もClaude Codeに任せられる。 #ClaudeCode #Git"
+    "text": "「git stashの中身を確認して適用して」でstash管理もClaude Codeに任せられる。"
   },
   {
     "id": 77,
     "category": "tips",
-    "text": "プロジェクト開始時に「ESLint、Prettier、TypeScript strictを設定して」で開発環境が一発で整う。 #ClaudeCode"
+    "text": "プロジェクト開始時に「ESLint、Prettier、TypeScript strictを設定して」で開発環境が一発で整う。"
   },
   {
     "id": 78,
     "category": "tips",
-    "text": "「この画面のローディング、エラー、空の3状態を実装して」で堅牢なUIが完成する。 #ClaudeCode #UX"
+    "text": "「この画面のローディング、エラー、空の3状態を実装して」で堅牢なUIが完成する。"
   },
   {
     "id": 79,
     "category": "tips",
-    "text": "Firestoreの複合インデックスも「このクエリに必要なインデックスを教えて」で解決。 #ClaudeCode #Firebase"
+    "text": "Firestoreの複合インデックスも「このクエリに必要なインデックスを教えて」で解決。"
   },
   {
     "id": 80,
     "category": "tips",
-    "text": "「useFocusEffectでデータを再取得する実装を追加して」で画面遷移時のデータ更新が簡単に。 #ClaudeCode #ReactNative"
+    "text": "「useFocusEffectでデータを再取得する実装を追加して」で画面遷移時のデータ更新が簡単に。"
   },
   {
     "id": 81,
     "category": "tips",
-    "text": "Claude Codeはgit conflictの解消も手伝える。「コンフリクトを確認して解消して」でOK。 #ClaudeCode #Git"
+    "text": "Claude Codeはgit conflictの解消も手伝える。「コンフリクトを確認して解消して」でOK。"
   },
   {
     "id": 82,
     "category": "tips",
-    "text": "「画像のキャッシュ戦略を実装して」でexpo-imageのキャッシュ設定を提案してくれる。 #ClaudeCode #Expo"
+    "text": "「画像のキャッシュ戦略を実装して」でexpo-imageのキャッシュ設定を提案してくれる。"
   },
   {
     "id": 83,
     "category": "tips",
-    "text": "「アニメーション付きのトースト通知を実装して」でReanimatedの実装まで出てくる。 #ClaudeCode #ReactNative"
+    "text": "「アニメーション付きのトースト通知を実装して」でReanimatedの実装まで出てくる。"
   },
   {
     "id": 84,
     "category": "tips",
-    "text": "CLAUDE.mdに「日本語でコミットメッセージを書く」と指定すると日本語で書いてくれる。 #ClaudeCode #Git"
+    "text": "CLAUDE.mdに「日本語でコミットメッセージを書く」と指定すると日本語で書いてくれる。"
   },
   {
     "id": 85,
     "category": "tips",
-    "text": "「AsyncStorageの使用箇所を整理してユーティリティ関数にまとめて」でデータ永続化が綺麗に。 #ClaudeCode #ReactNative"
+    "text": "「AsyncStorageの使用箇所を整理してユーティリティ関数にまとめて」でデータ永続化が綺麗に。"
   },
   {
     "id": 86,
     "category": "tips",
-    "text": "Claude Codeに「このAPIレスポンスの型を推論して」と実データを渡すとTypeScript型が生成される。 #ClaudeCode #TypeScript"
+    "text": "Claude Codeに「このAPIレスポンスの型を推論して」と実データを渡すとTypeScript型が生成される。"
   },
   {
     "id": 87,
     "category": "tips",
-    "text": "「ページネーションの実装をinfinite scrollで」と言うだけでReact Queryと連携した実装が出る。 #ClaudeCode #ReactQuery"
+    "text": "「ページネーションの実装をinfinite scrollで」と言うだけでReact Queryと連携した実装が出る。"
   },
   {
     "id": 88,
     "category": "tips",
-    "text": "Claude Codeでgit bisectの手順も教えてもらえる。バグの混入コミットを特定するのに便利。 #ClaudeCode #Git"
+    "text": "Claude Codeでgit bisectの手順も教えてもらえる。バグの混入コミットを特定するのに便利。"
   },
   {
     "id": 89,
     "category": "tips",
-    "text": "「Suspenseとlazy loadingでコード分割して」でバンドルサイズの最適化ができる。 #ClaudeCode #React"
+    "text": "「Suspenseとlazy loadingでコード分割して」でバンドルサイズの最適化ができる。"
   },
   {
     "id": 90,
     "category": "tips",
-    "text": "Supabase Realtimeのサブスクリプション設定もClaude Codeに任せよう。チャット機能の実装が楽。 #ClaudeCode #Supabase"
+    "text": "Supabase Realtimeのサブスクリプション設定もClaude Codeに任せよう。チャット機能の実装が楽。"
   },
   {
     "id": 91,
     "category": "tips",
-    "text": "「デバッグ用の開発者メニューを作って」でビルド情報やストア状態を確認できる画面が作れる。 #ClaudeCode"
+    "text": "「デバッグ用の開発者メニューを作って」でビルド情報やストア状態を確認できる画面が作れる。"
   },
   {
     "id": 92,
     "category": "tips",
-    "text": "Claude Codeで「この画面をダークモード対応して」とNativeWindのdarkクラスを一気に追加できる。 #ClaudeCode #NativeWind"
+    "text": "Claude Codeで「この画面をダークモード対応して」とNativeWindのdarkクラスを一気に追加できる。"
   },
   {
     "id": 93,
     "category": "tips",
-    "text": "「エラーバウンダリを実装して」でアプリのクラッシュ防止ができる。本番必須の処理。 #ClaudeCode #React"
+    "text": "「エラーバウンダリを実装して」でアプリのクラッシュ防止ができる。本番必須の処理。"
   },
   {
     "id": 94,
     "category": "tips",
-    "text": "Claude Codeに「このコードのセキュリティリスクをチェックして」と言うと脆弱性を指摘してくれる。 #ClaudeCode #セキュリティ"
+    "text": "Claude Codeに「このコードのセキュリティリスクをチェックして」と言うと脆弱性を指摘してくれる。"
   },
   {
     "id": 95,
     "category": "tips",
-    "text": "「React Queryのキャッシュ戦略を最適化して」でstaleTimeやgcTimeの適切な設定を提案してくれる。 #ClaudeCode #ReactQuery"
+    "text": "「React Queryのキャッシュ戦略を最適化して」でstaleTimeやgcTimeの適切な設定を提案してくれる。"
   },
   {
     "id": 96,
     "category": "tips",
-    "text": "CLIから「claude --help」でオプション一覧が見れる。知らない機能がまだあるかも。 #ClaudeCode"
+    "text": "CLIから「claude --help」でオプション一覧が見れる。知らない機能がまだあるかも。"
   },
   {
     "id": 97,
     "category": "tips",
-    "text": "「このフォームをReact Hook Formに移行して」で既存フォームのリファクタリングもスムーズ。 #ClaudeCode #React"
+    "text": "「このフォームをReact Hook Formに移行して」で既存フォームのリファクタリングもスムーズ。"
   },
   {
     "id": 98,
     "category": "tips",
-    "text": "Claude Codeで「.gitignoreに追加すべきファイルを教えて」と言うとプロジェクトに合った設定になる。 #ClaudeCode #Git"
+    "text": "Claude Codeで「.gitignoreに追加すべきファイルを教えて」と言うとプロジェクトに合った設定になる。"
   },
   {
     "id": 99,
     "category": "tips",
-    "text": "「expo-constantsからビルド情報を取得する関数作って」でアプリバージョン管理が簡単に。 #ClaudeCode #Expo"
+    "text": "「expo-constantsからビルド情報を取得する関数作って」でアプリバージョン管理が簡単に。"
   },
   {
     "id": 100,
     "category": "tips",
-    "text": "指示の最後に「テストも書いて」を付けると実装とテストが同時にできる。TDDっぽい開発。 #ClaudeCode #テスト"
+    "text": "指示の最後に「テストも書いて」を付けると実装とテストが同時にできる。TDDっぽい開発。"
   },
   {
     "id": 101,
     "category": "tips",
-    "text": "「Firestoreのバッチ書き込みで実装して」と言うと複数ドキュメントの一括処理が安全にできる。 #ClaudeCode #Firebase"
+    "text": "「Firestoreのバッチ書き込みで実装して」と言うと複数ドキュメントの一括処理が安全にできる。"
   },
   {
     "id": 102,
     "category": "tips",
-    "text": "Claude Codeで「この画面のパフォーマンスをプロファイルする方法を教えて」と聞くとツールまで紹介してくれる。 #ClaudeCode"
+    "text": "Claude Codeで「この画面のパフォーマンスをプロファイルする方法を教えて」と聞くとツールまで紹介してくれる。"
   },
   {
     "id": 103,
     "category": "tips",
-    "text": "「useCallbackとuseMemoの使い分けを教えて」と聞けばコードベースに即した具体例が出る。 #ClaudeCode #React"
+    "text": "「useCallbackとuseMemoの使い分けを教えて」と聞けばコードベースに即した具体例が出る。"
   },
   {
     "id": 104,
     "category": "tips",
-    "text": "Claude Codeで「WebSocket接続の再接続ロジック追加して」と言うとリトライ戦略込みの実装が出る。 #ClaudeCode"
+    "text": "Claude Codeで「WebSocket接続の再接続ロジック追加して」と言うとリトライ戦略込みの実装が出る。"
   },
   {
     "id": 105,
     "category": "tips",
-    "text": "「ログアウト時にすべてのストアをリセットして」で状態管理のクリーンアップが漏れなくできる。 #ClaudeCode #Zustand"
+    "text": "「ログアウト時にすべてのストアをリセットして」で状態管理のクリーンアップが漏れなくできる。"
   },
   {
     "id": 106,
     "category": "tips",
-    "text": "Claude Codeに「app.jsonの設定を最適化して」と言うとExpoの設定漏れを指摘してくれる。 #ClaudeCode #Expo"
+    "text": "Claude Codeに「app.jsonの設定を最適化して」と言うとExpoの設定漏れを指摘してくれる。"
   },
   {
     "id": 107,
     "category": "tips",
-    "text": "「条件分岐を早期リターンにリファクタして」でネストが深いコードが読みやすくなる。 #ClaudeCode"
+    "text": "「条件分岐を早期リターンにリファクタして」でネストが深いコードが読みやすくなる。"
   },
   {
     "id": 108,
     "category": "tips",
-    "text": "CLAUDE.mdにテスト方針を書いておくと、生成されるテストの質が上がる。「ユニットテスト優先」とか。 #ClaudeCode #テスト"
+    "text": "CLAUDE.mdにテスト方針を書いておくと、生成されるテストの質が上がる。「ユニットテスト優先」とか。"
   },
   {
     "id": 109,
     "category": "tips",
-    "text": "「date-fnsで日付フォーマットして」と指示するとMoment.jsを使わない軽量な実装が出る。 #ClaudeCode"
+    "text": "「date-fnsで日付フォーマットして」と指示するとMoment.jsを使わない軽量な実装が出る。"
   },
   {
     "id": 110,
     "category": "tips",
-    "text": "Claude Codeで「型の共通部分をPickとOmitで整理して」と言うとユーティリティ型を活用したコードに。 #ClaudeCode #TypeScript"
+    "text": "Claude Codeで「型の共通部分をPickとOmitで整理して」と言うとユーティリティ型を活用したコードに。"
   },
   {
     "id": 111,
     "category": "tips",
-    "text": "「このコードにJSDocコメント追加して」でIntelliSenseの補完が効くようになる。 #ClaudeCode #TypeScript"
+    "text": "「このコードにJSDocコメント追加して」でIntelliSenseの補完が効くようになる。"
   },
   {
     "id": 112,
     "category": "tips",
-    "text": "「FlatListのrenderItemを最適化して」でキーの設定やメモ化まで提案してくれる。 #ClaudeCode #ReactNative"
+    "text": "「FlatListのrenderItemを最適化して」でキーの設定やメモ化まで提案してくれる。"
   },
   {
     "id": 113,
     "category": "tips",
-    "text": "Claude Codeで「プッシュ通知の権限リクエストフロー実装して」とExpoの通知設定が簡単に。 #ClaudeCode #Expo"
+    "text": "Claude Codeで「プッシュ通知の権限リクエストフロー実装して」とExpoの通知設定が簡単に。"
   },
   {
     "id": 114,
     "category": "tips",
-    "text": "「関数名をもっと分かりやすくリネームして」でコードの可読性が上がる。命名は大事。 #ClaudeCode"
+    "text": "「関数名をもっと分かりやすくリネームして」でコードの可読性が上がる。命名は大事。"
   },
   {
     "id": 115,
     "category": "tips",
-    "text": "Claude Codeに「Storybookのストーリー書いて」と言えばコンポーネントカタログが作れる。 #ClaudeCode #React"
+    "text": "Claude Codeに「Storybookのストーリー書いて」と言えばコンポーネントカタログが作れる。"
   },
   {
     "id": 116,
     "category": "tips",
-    "text": "「expo-image-pickerで画像選択→Firebase Storageにアップロード」の一連の流れを実装してもらえる。 #ClaudeCode #Firebase"
+    "text": "「expo-image-pickerで画像選択→Firebase Storageにアップロード」の一連の流れを実装してもらえる。"
   },
   {
     "id": 117,
     "category": "tips",
-    "text": "Claude Codeで「ZodスキーマからTypeScript型を自動生成して」とバリデーションと型が一致する。 #ClaudeCode #TypeScript"
+    "text": "Claude Codeで「ZodスキーマからTypeScript型を自動生成して」とバリデーションと型が一致する。"
   },
   {
     "id": 118,
     "category": "tips",
-    "text": "「このAPIをカスタムフックでラップして」でデータ取得のロジックが再利用可能になる。 #ClaudeCode #React"
+    "text": "「このAPIをカスタムフックでラップして」でデータ取得のロジックが再利用可能になる。"
   },
   {
     "id": 119,
     "category": "tips",
-    "text": "CLAUDE.mdにブランチ戦略を書いておくと、Claude Codeがルールに従ってgit操作してくれる。 #ClaudeCode #Git"
+    "text": "CLAUDE.mdにブランチ戦略を書いておくと、Claude Codeがルールに従ってgit操作してくれる。"
   },
   {
     "id": 120,
     "category": "tips",
-    "text": "Claude Codeで「KeyboardAvoidingViewを正しく設定して」とiOS/Androidの差異を吸収してくれる。 #ClaudeCode #ReactNative"
+    "text": "Claude Codeで「KeyboardAvoidingViewを正しく設定して」とiOS/Androidの差異を吸収してくれる。"
   },
   {
     "id": 121,
     "category": "tips",
-    "text": "「expo-secure-storeでトークンを安全に保存する実装にして」でセキュリティ向上。 #ClaudeCode #Expo"
+    "text": "「expo-secure-storeでトークンを安全に保存する実装にして」でセキュリティ向上。"
   },
   {
     "id": 122,
     "category": "tips",
-    "text": "Claude Codeに「このコンポーネントをAtomic Designで分割して」と設計パターンを適用できる。 #ClaudeCode #React"
+    "text": "Claude Codeに「このコンポーネントをAtomic Designで分割して」と設計パターンを適用できる。"
   },
   {
     "id": 123,
     "category": "tips",
-    "text": "「useEffectの依存配列を正しく設定して」で無限ループやメモリリークを防げる。 #ClaudeCode #React"
+    "text": "「useEffectの依存配列を正しく設定して」で無限ループやメモリリークを防げる。"
   },
   {
     "id": 124,
     "category": "tips",
-    "text": "Git Hooksの設定もClaude Codeにお願いできる。「huskyでpre-commit時にlintを実行する設定して」 #ClaudeCode #Git"
+    "text": "Git Hooksの設定もClaude Codeにお願いできる。「huskyでpre-commit時にlintを実行する設定して」"
   },
   {
     "id": 125,
     "category": "tips",
-    "text": "「レスポンスをキャッシュして2回目以降は高速表示」の実装もReact Queryで簡単にできる。 #ClaudeCode #ReactQuery"
+    "text": "「レスポンスをキャッシュして2回目以降は高速表示」の実装もReact Queryで簡単にできる。"
   },
   {
     "id": 126,
     "category": "tips",
-    "text": "Claude Codeで「Expoの環境別設定をapp.config.jsに分けて」と開発・本番の切り替えが楽に。 #ClaudeCode #Expo"
+    "text": "Claude Codeで「Expoの環境別設定をapp.config.jsに分けて」と開発・本番の切り替えが楽に。"
   },
   {
     "id": 127,
     "category": "tips",
-    "text": "「このコンポーネントにローディングスピナーを追加して」でUXが改善される。小さな依頼でも効果大。 #ClaudeCode #UX"
+    "text": "「このコンポーネントにローディングスピナーを追加して」でUXが改善される。小さな依頼でも効果大。"
   },
   {
     "id": 128,
     "category": "tips",
-    "text": "Claude Codeに「AbortControllerでリクエストキャンセル実装して」と画面遷移時の不要通信を防げる。 #ClaudeCode"
+    "text": "Claude Codeに「AbortControllerでリクエストキャンセル実装して」と画面遷移時の不要通信を防げる。"
   },
   {
     "id": 129,
     "category": "tips",
-    "text": "「Reanimated 3でスプリングアニメーション実装して」で滑らかなUIアニメーションが作れる。 #ClaudeCode #ReactNative"
+    "text": "「Reanimated 3でスプリングアニメーション実装して」で滑らかなUIアニメーションが作れる。"
   },
   {
     "id": 130,
     "category": "tips",
-    "text": "Claude Codeで「TypeScript 5.xの新機能を使ってリファクタして」と最新の書き方に更新できる。 #ClaudeCode #TypeScript"
+    "text": "Claude Codeで「TypeScript 5.xの新機能を使ってリファクタして」と最新の書き方に更新できる。"
   },
   {
     "id": 131,
     "category": "tips",
-    "text": "「expo-haptics でボタン押下時に振動フィードバック追加して」でネイティブ感が増す。 #ClaudeCode #Expo"
+    "text": "「expo-haptics でボタン押下時に振動フィードバック追加して」でネイティブ感が増す。"
   },
   {
     "id": 132,
-    "category": "mindset",
-    "text": "AIは仕事を奪わない。AIを使える人が、使えない人の仕事を奪う。だから今すぐ使い始めよう。 #AI時代 #エンジニア"
+    "category": "tips",
+    "text": "Claude Codeで「catchしたエラーをSentryに送る実装追加して」でエラー監視が簡単に導入できる。"
   },
   {
     "id": 133,
-    "category": "mindset",
-    "text": "Claude Codeは「代わりに書く」ツールじゃなくて「一緒に考える」パートナー。使い方で差がつく。 #ClaudeCode #AI開発"
+    "category": "tips",
+    "text": "「git diffを見て変更の影響範囲を教えて」でレビュー前の確認が楽になる。"
   },
   {
     "id": 134,
-    "category": "mindset",
-    "text": "プログラミングの本質は「何を作るか」を考えること。コードを書く作業はAIに任せていい。 #AI時代 #エンジニア"
+    "category": "tips",
+    "text": "Claude Codeに「React Nativeの警告を全部解消して」と言うとdeprecatedコードも修正してくれる。"
   },
   {
     "id": 135,
-    "category": "mindset",
-    "text": "個人開発者にとって今が黄金時代。AIの力で一人でもプロダクトが作れるようになった。 #個人開発 #AI"
+    "category": "tips",
+    "text": "「このAPIのレスポンスをモック化して」でテスト用のダミーデータが一瞬で出来る。"
   },
   {
     "id": 136,
-    "category": "mindset",
-    "text": "「AIに仕事を奪われる」と恐れるより「AIと一緒に何ができるか」を考える方が建設的。 #AI時代"
+    "category": "tips",
+    "text": "CLAUDE.mdにデプロイ手順を書くと、CI/CDの設定もそれに沿って提案してくれる。"
   },
   {
     "id": 137,
-    "category": "mindset",
-    "text": "コードを速く書けることより、何を作るべきか考えられることの方が価値がある時代。 #エンジニア #AI時代"
+    "category": "tips",
+    "text": "「expo-fontsで日本語フォントを読み込む実装追加して」でフォント設定が簡単に。"
   },
   {
     "id": 138,
-    "category": "mindset",
-    "text": "AIを使って開発速度が10倍になった分、10倍多くの挑戦ができる。失敗のコストが激減した。 #AI開発 #個人開発"
+    "category": "tips",
+    "text": "Claude Codeに既存コードの「コードスメル」を指摘させよう。改善点が具体的に出てくる。"
   },
   {
     "id": 139,
-    "category": "mindset",
-    "text": "非エンジニアでもアイデアを形にできる時代。でもエンジニアの「目利き力」は今まで以上に価値がある。 #AI時代 #エンジニア"
+    "category": "tips",
+    "text": "「Firestoreのリスナーをクリーンアップして」でメモリリーク防止のコードが追加される。"
   },
   {
     "id": 140,
-    "category": "mindset",
-    "text": "Claude Codeを使い始めて、「考える時間」が増えた。コーディングの手を動かす時間が減った分。 #ClaudeCode"
+    "category": "tips",
+    "text": "Claude Codeで「このコンポーネントにストーリーブック用のvariantsを追加して」と頼むと効率的。"
   },
   {
     "id": 141,
-    "category": "mindset",
-    "text": "完璧を目指すより早く出す方が大事。AIがあれば修正も改善も高速にできるから。 #個人開発 #スタートアップ"
+    "category": "tips",
+    "text": "「FlatListの初期表示を高速化して」でinitialNumToRenderやwindowSizeの最適値を提案してくれる。"
   },
   {
     "id": 142,
-    "category": "mindset",
-    "text": "フリーランスエンジニアとAIの相性は最高。一人で複数プロジェクトを回せるようになった。 #フリーランス #AI開発"
+    "category": "tips",
+    "text": "CLAUDE.mdに禁止事項を書くのも有効。「any型は使わない」「console.logは残さない」とか。"
   },
   {
     "id": 143,
-    "category": "mindset",
-    "text": "AIに任せるスキルと自分でやるスキル、両方磨くのが最強のエンジニア像だと思う。 #エンジニア #AI時代"
+    "category": "tips",
+    "text": "Claude Codeで「既存のテストをJestからVitestに移行して」と言えばテスト環境の移行も楽。"
   },
   {
     "id": 144,
-    "category": "mindset",
-    "text": "アプリを2つ同時に開発してるけど、Claude Codeなしでは絶対に無理だった。AI活用は必須スキル。 #ClaudeCode #個人開発"
+    "category": "tips",
+    "text": "「SafeAreaViewを正しく配置して」でノッチ対応が安全にできる。機種ごとの差異も考慮。"
   },
   {
     "id": 145,
-    "category": "mindset",
-    "text": "AIツールを使うのに罪悪感を持つ必要はない。電卓を使っても数学力は否定されない。 #AI時代 #エンジニア"
+    "category": "tips",
+    "text": "Claude Codeで「このファイルの循環依存を解消して」と設計改善ができる。"
   },
   {
     "id": 146,
-    "category": "mindset",
-    "text": "「AIに書かせたコード」を理解できるかどうかが、エンジニアの価値を決める分岐点になる。 #AI時代"
+    "category": "tips",
+    "text": "「expo-linking でディープリンク対応して」と言うとURLスキームの設定まで含めて実装してくれる。"
   },
   {
     "id": 147,
-    "category": "mindset",
-    "text": "最新ツールを追い続けるより、1つのツールを深く使い込む方が成果が出る。 #ClaudeCode #AI開発"
+    "category": "tips",
+    "text": "Claude Codeに「レートリミットの実装追加して」でAPI呼び出し制限が安全に導入できる。"
   },
   {
     "id": 148,
-    "category": "mindset",
-    "text": "アイデアの価値は相対的に上がり、実装の価値は相対的に下がる。思考力を鍛えよう。 #AI時代 #エンジニア"
+    "category": "tips",
+    "text": "「このコンポーネントにスナップショットテスト追加して」でUIの意図しない変更を検出。"
   },
   {
     "id": 149,
-    "category": "mindset",
-    "text": "AIとの協働は「翻訳」に似てる。自分の意図をAIに正確に伝える力が重要。 #AI開発 #ClaudeCode"
+    "category": "tips",
+    "text": "CLAUDE.mdにエラーハンドリング方針を書いておくと、全体で統一的なエラー処理コードが生成される。"
   },
   {
     "id": 150,
-    "category": "mindset",
-    "text": "2年前は1画面作るのに1日かかってた。今はClaude Codeで1時間。成長したのは自分じゃなくツール。 #ClaudeCode"
+    "category": "tips",
+    "text": "Claude Codeで「AsyncStorageの使用をMMKVに置き換えて」とパフォーマンス改善が簡単に。"
   },
   {
     "id": 151,
-    "category": "mindset",
-    "text": "個人開発で大事なのは「続けること」。AIが開発の苦しい部分を肩代わりしてくれるから続けやすい。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "皆フリーランスの経費どこまで攻めてる？"
   },
   {
     "id": 152,
-    "category": "mindset",
-    "text": "コピペエンジニアとAI活用エンジニアは違う。後者は「なぜそのコードが正しいか」を理解している。 #エンジニア #AI時代"
+    "category": "engagement",
+    "text": "フリーランスで一番不安なことって何？"
   },
   {
     "id": 153,
-    "category": "mindset",
-    "text": "技術的負債の返済もAIで加速できる。リファクタリングのコストが下がった今、後回しにする理由がない。 #AI開発 #エンジニア"
+    "category": "engagement",
+    "text": "フリーランスの名刺、紙で持ってる人まだいる？"
   },
   {
     "id": 154,
-    "category": "mindset",
-    "text": "AI時代のエンジニアに必要なのは「正しい質問をする力」。これは検索スキルの延長線上にある。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "フリーランス始めて最初の1ヶ月、何してた？"
   },
   {
     "id": 155,
-    "category": "mindset",
-    "text": "一人でアプリ2つ同時開発。去年の自分に言っても信じないだろうな。AIの進化に感謝。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "請求書のフォーマットって何使ってる？"
   },
   {
     "id": 156,
-    "category": "mindset",
-    "text": "「まずやってみる」のハードルがAIで劇的に下がった。技術調査→プロトタイプが数時間で完成する。 #AI開発"
+    "category": "engagement",
+    "text": "フリーランスの健康保険、任意継続と国保どっちにした？"
   },
   {
     "id": 157,
-    "category": "mindset",
-    "text": "プログラミングスクールで半年学ぶより、Claude Codeで1ヶ月手を動かす方が実力つくかもしれない。 #ClaudeCode #プログラミング"
+    "category": "engagement",
+    "text": "確定申告、青色の65万円控除ちゃんと取れてる？"
   },
   {
     "id": 158,
-    "category": "mindset",
-    "text": "AIが書いたコードをレビューできる人材の需要はこれから爆増する。今のうちにスキルを磨こう。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "フリーランスで一番嬉しかった瞬間ある？"
   },
   {
     "id": 159,
-    "category": "mindset",
-    "text": "フリーランスは自分の時間をどう使うかが全て。AIで効率化した時間を企画や営業に回せる。 #フリーランス #AI開発"
+    "category": "engagement",
+    "text": "案件の単価交渉、どのタイミングでしてる？"
   },
   {
     "id": 160,
-    "category": "mindset",
-    "text": "「AIがあるからプログラミング学ばなくていい」は間違い。基礎があるほどAIを使いこなせる。 #プログラミング #AI時代"
+    "category": "engagement",
+    "text": "フリーランスの作業場所、自宅派？カフェ派？コワーキング派？"
   },
   {
     "id": 161,
-    "category": "mindset",
-    "text": "小さなアプリでもリリースする経験は貴重。AIがあれば未完成の言い訳ができなくなった。 #個人開発"
+    "category": "engagement",
+    "text": "複数案件並行するときのスケジュール管理どうしてる？"
   },
   {
     "id": 162,
-    "category": "mindset",
-    "text": "コードを書く速度より、要件を定義する速度の方がボトルネックになる時代が来た。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "エージェント経由と直請け、どっちが多い？"
   },
   {
     "id": 163,
-    "category": "mindset",
-    "text": "AIと人間のハイブリッド開発が最強。AIの速度と人間の判断力を組み合わせる。 #AI開発 #エンジニア"
+    "category": "engagement",
+    "text": "フリーランスの税理士、年いくらくらい？"
   },
   {
     "id": 164,
-    "category": "mindset",
-    "text": "エンジニアの市場価値はコード量じゃなく、解決した問題の質で決まるようになる。 #AI時代 #キャリア"
+    "category": "engagement",
+    "text": "契約書のテンプレ、自分で作った？もらった？"
   },
   {
     "id": 165,
-    "category": "mindset",
-    "text": "楽しいから続く、続くから成長する。AIが開発の楽しい部分を増やしてくれた。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "フリーランスになって一番変わった生活習慣ある？"
   },
   {
     "id": 166,
-    "category": "mindset",
-    "text": "AI時代でも変わらない真実：ユーザーの課題を解決するプロダクトが勝つ。 #プロダクト開発 #AI時代"
+    "category": "engagement",
+    "text": "月末の請求作業、自動化できてる？"
   },
   {
     "id": 167,
-    "category": "mindset",
-    "text": "技術選定の重要性がさらに増した。AIがコードを書く分、設計やアーキテクチャ判断が人間の仕事。 #エンジニア #AI時代"
+    "category": "engagement",
+    "text": "フリーランスで地方在住の人いる？東京案件リモートでやれてる？"
   },
   {
     "id": 168,
-    "category": "mindset",
-    "text": "コードを書けないPMがAIで実装まで手を出せるようになった。境界が曖昧になる面白い時代。 #AI時代"
+    "category": "engagement",
+    "text": "退職してフリーランスなった人、何ヶ月分の貯金あった？"
   },
   {
     "id": 169,
-    "category": "mindset",
-    "text": "副業でアプリ開発してるけど、AI活用で本業と両立できてる。時間の使い方が変わった。 #副業 #AI開発"
+    "category": "engagement",
+    "text": "フリーランスの営業、SNSきっかけって実際ある？"
   },
   {
     "id": 170,
-    "category": "mindset",
-    "text": "AIに任せて浮いた時間で本を読む。インプットの質が開発の質を決める。 #エンジニア #読書"
+    "category": "engagement",
+    "text": "開業届と同時に青色申告承認申請書出した？"
   },
   {
     "id": 171,
-    "category": "mindset",
-    "text": "結局、最後に差がつくのはドメイン知識。技術はAIが補えるけど、業務理解は人間の領域。 #エンジニア #AI時代"
+    "category": "engagement",
+    "text": "Claude CodeとCursor、結局どっち派？"
   },
   {
     "id": 172,
-    "category": "mindset",
-    "text": "失敗を恐れずに実験できるのがAI時代の最大のメリット。やり直しのコストが圧倒的に低い。 #AI開発 #個人開発"
+    "category": "engagement",
+    "text": "エディタ、VS Code以外使ってる人いる？"
   },
   {
     "id": 173,
-    "category": "mindset",
-    "text": "エンジニアの仕事は「コードを書くこと」から「問題を定義して解決すること」にシフトしている。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "ターミナルのテーマ何使ってる？"
   },
   {
     "id": 174,
-    "category": "mindset",
-    "text": "AIがなくても開発できる。でもAIがあると10倍楽しい。これが使い続ける最大の理由。 #AI開発 #ClaudeCode"
+    "category": "engagement",
+    "text": "GitHub Copilotの月額、元取れてる感覚ある？"
   },
   {
     "id": 175,
-    "category": "mindset",
-    "text": "一つの技術に固執しない柔軟さがAI時代には大事。新しいツールを試し続けよう。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "AI系ツールに月いくら課金してる？"
   },
   {
     "id": 176,
-    "category": "mindset",
-    "text": "自分のアプリを自分で作れるって最高の体験。AIのおかげでその体験のハードルが下がった。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "Docker Desktop有料化してから代替ツール使ってる人いる？"
   },
   {
     "id": 177,
-    "category": "mindset",
-    "text": "コーディングは目的じゃなくて手段。AIがその手段を効率化してくれるなら積極的に使う。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "タスク管理、Notion派？Todoist派？それ以外？"
   },
   {
     "id": 178,
-    "category": "mindset",
-    "text": "フリーランスITコンサルとして感じるのは、AI活用を提案できるかどうかで案件の質が変わること。 #フリーランス #AI"
+    "category": "engagement",
+    "text": "技術書、紙派？Kindle派？"
   },
   {
     "id": 179,
-    "category": "mindset",
-    "text": "「自分で書かないと力がつかない」は半分正解で半分間違い。AIの出力から学ぶ力も実力のうち。 #プログラミング #AI時代"
+    "category": "engagement",
+    "text": "ディスプレイ何枚で作業してる？"
   },
   {
     "id": 180,
-    "category": "mindset",
-    "text": "今日書いたコードは明日にはAIがもっと上手く書ける。だから書くことに固執しない。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "キーボード沼にハマった人いる？"
   },
   {
     "id": 181,
-    "category": "mindset",
-    "text": "プロダクト思考のエンジニアがAIを使うと最強。作る速度と考える深さが両立する。 #エンジニア #AI開発"
+    "category": "engagement",
+    "text": "開発マシン、Mac派？Windows派？Linux派？"
   },
   {
     "id": 182,
-    "category": "mindset",
-    "text": "AIの時代だからこそ、人間同士のコミュニケーション能力がエンジニアの差別化要因になる。 #エンジニア #AI時代"
+    "category": "engagement",
+    "text": "ブラウザの開発者ツール、一番使う機能何？"
   },
   {
     "id": 183,
-    "category": "mindset",
-    "text": "学習コストが下がったのはAIのおかげ。新しい技術を試すのにまず公式ドキュメントを読む前にAIに聞ける。 #AI開発"
+    "category": "engagement",
+    "text": "Git GUIクライアント使ってる？それともCLIだけ？"
   },
   {
     "id": 184,
-    "category": "mindset",
-    "text": "完成させる力がAI時代の最強スキル。8割まで作って放置するのをAIが許さなくなった。 #個人開発"
+    "category": "engagement",
+    "text": "APIテストツール、Postman派？Insomnia派？curl派？"
   },
   {
     "id": 185,
-    "category": "mindset",
-    "text": "日曜プログラマーでもAI活用でガチ開発者レベルのアウトプットが出せる時代。やるかやらないか。 #AI開発 #個人開発"
+    "category": "engagement",
+    "text": "ターミナル、何使ってる？iTerm？Windows Terminal？Warp？"
   },
   {
     "id": 186,
-    "category": "mindset",
-    "text": "AIとの対話で自分の考えが整理される。ラバーダッキングの超進化版。 #ClaudeCode #AI開発"
+    "category": "engagement",
+    "text": "コードのフォーマッター、Prettier以外使ってる人いる？"
   },
   {
     "id": 187,
-    "category": "mindset",
-    "text": "テクノロジーの民主化が加速してる。コードを書けなくても価値を生み出せる時代。でも書ける方が有利。 #AI時代"
+    "category": "engagement",
+    "text": "メモ帳アプリ何使ってる？Obsidian気になるんだけど"
   },
   {
     "id": 188,
-    "category": "mindset",
-    "text": "数年後、AIなしで開発する方が珍しくなる。今のうちにAI活用のワークフローを確立しておこう。 #AI時代 #AI開発"
+    "category": "engagement",
+    "text": "VPN、開発で使ってる？おすすめある？"
   },
   {
     "id": 189,
-    "category": "mindset",
-    "text": "スピード感のある開発がAIで可能になった。思いついたアイデアを週末で形にできる。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "Figma触れるエンジニアどれくらいいる？"
   },
   {
     "id": 190,
-    "category": "mindset",
-    "text": "AIを使っても品質は手を抜かない。むしろAIがあるから品質を上げやすくなった。 #AI開発 #エンジニア"
+    "category": "engagement",
+    "text": "ChatGPTとClaude、使い分けてる人いる？"
   },
   {
     "id": 191,
-    "category": "mindset",
-    "text": "2つのアプリを同時に開発する中で気づいた。並行開発はコンテキストスイッチが減るとスムーズ。 #個人開発"
+    "category": "engagement",
+    "text": "SESから自社開発に転職した人いる？"
   },
   {
     "id": 192,
-    "category": "mindset",
-    "text": "技術ブログを書くことでAIの出力を検証する力がつく。アウトプットは最高の学習法。 #Zenn #AI開発"
+    "category": "engagement",
+    "text": "高卒エンジニアで困ったことある？"
   },
   {
     "id": 193,
-    "category": "mindset",
-    "text": "生成AIの時代に最も価値があるのは「これを作るべきだ」という判断力。実装はAIがやってくれる。 #AI時代"
+    "category": "engagement",
+    "text": "IT業界に入ったきっかけって何だった？"
   },
   {
     "id": 194,
-    "category": "mindset",
-    "text": "エンジニアとしてのキャリアにAI活用は必須科目になった。選択科目じゃなくて必修科目。 #AI時代 #キャリア"
+    "category": "engagement",
+    "text": "30代でフリーランスになるのって遅い？"
   },
   {
     "id": 195,
-    "category": "mindset",
-    "text": "自分の強みとAIの強みを掛け合わせると、一人でも大きな価値を生み出せる。 #フリーランス #AI開発"
+    "category": "engagement",
+    "text": "エンジニアの年収、どこで頭打ちになった？"
   },
   {
     "id": 196,
-    "category": "mindset",
-    "text": "AIが進化するほど「何を作るか」のセンスが重要になる。技術より課題発見力。 #AI時代 #プロダクト開発"
+    "category": "engagement",
+    "text": "技術力と営業力、フリーランスにはどっちが大事？"
   },
   {
     "id": 197,
-    "category": "mindset",
-    "text": "コードの質に悩む時間が減った。AIに書かせて、レビューに集中する方が効率的。 #AI開発 #ClaudeCode"
+    "category": "engagement",
+    "text": "マネジメントに進むかスペシャリスト続けるか悩んだことある？"
   },
   {
     "id": 198,
-    "category": "mindset",
-    "text": "挑戦の数が増えると成功の確率も上がる。AIで挑戦のスピードを加速させよう。 #AI開発 #個人開発"
+    "category": "engagement",
+    "text": "転職回数多いとやっぱり不利？"
   },
   {
     "id": 199,
-    "category": "mindset",
-    "text": "AI活用は「ズルい」じゃなくて「賢い」。ツールを使いこなすのもスキルのうち。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "エンジニアとして10年後どうなってたい？"
   },
   {
     "id": 200,
-    "category": "mindset",
-    "text": "技術記事を書くと知識が定着する。AIに頼りっぱなしにならないためのバランス。 #Zenn #AI開発"
+    "category": "engagement",
+    "text": "未経験からエンジニアになった人、最初の1年どうだった？"
   },
   {
     "id": 201,
-    "category": "mindset",
-    "text": "今の時代、アプリを作れるだけじゃ差別化できない。ドメイン知識 × 技術力 × AI活用の掛け算。 #エンジニア #AI時代"
+    "category": "engagement",
+    "text": "資格、実務で役に立った？"
   },
   {
     "id": 202,
-    "category": "mindset",
-    "text": "フリーランスでAI活用を実践していると、クライアントへの提案の幅が広がる。 #フリーランス #AI"
+    "category": "engagement",
+    "text": "英語できるエンジニアとできないエンジニア、年収差どれくらいある？"
   },
   {
     "id": 203,
-    "category": "mindset",
-    "text": "完璧な設計を最初から作ろうとしない。AIで素早くプロトタイプして検証するのが最適解。 #AI開発"
+    "category": "engagement",
+    "text": "フリーランス歴長い人、法人化した？"
   },
   {
     "id": 204,
-    "category": "mindset",
-    "text": "AIが得意なこと、人間が得意なこと、それぞれに集中する。この分業が最高の成果を生む。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "エンジニアの副業、何やってる？"
   },
   {
     "id": 205,
-    "category": "mindset",
-    "text": "技術選定もAIに相談できる時代。でも最終判断は自分でする。責任を持てるのは人間だけ。 #AI開発 #エンジニア"
+    "category": "engagement",
+    "text": "スタートアップと大企業、どっちが成長できた？"
   },
   {
     "id": 206,
-    "category": "mindset",
-    "text": "経験が浅くてもAIの力を借りれば戦える。ただし、経験者がAIを使うともっと強い。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "個人開発で一番つらいフェーズってどこ？"
   },
   {
     "id": 207,
-    "category": "mindset",
-    "text": "AI時代のエンジニアに必要な3つ：質問力、検証力、継続力。全部人間のスキル。 #AI時代 #エンジニア"
+    "category": "engagement",
+    "text": "個人開発のサービス、収益化できてる人いる？"
   },
   {
     "id": 208,
-    "category": "mindset",
-    "text": "ものづくりの喜びはAI時代でも変わらない。むしろ作れるものが増えて喜びも増えた。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "個人開発のモチベーション維持のコツある？"
   },
   {
     "id": 209,
-    "category": "mindset",
-    "text": "新しいことを学ぶのにAIは最高の先生。質問し放題で、自分のペースで進められる。 #AI時代 #プログラミング"
+    "category": "engagement",
+    "text": "個人開発のアプリ、技術選定で後悔したことある？"
   },
   {
     "id": 210,
-    "category": "mindset",
-    "text": "2つのアプリ開発を通じてAI活用のノウハウが貯まる。それ自体が大きな資産になる。 #個人開発 #AI開発"
+    "category": "engagement",
+    "text": "個人開発でユーザー0人の期間、どれくらい耐えた？"
   },
   {
     "id": 211,
-    "category": "mindset",
-    "text": "人間がやるべきは「なぜこれを作るのか」を考えること。AIは「どう作るか」を担当。 #AI時代"
+    "category": "engagement",
+    "text": "サイドプロジェクト何個並行してる？"
   },
   {
     "id": 212,
-    "category": "mindset",
-    "text": "フリーランスこそAI武装すべき。稼働時間に限りがある中で生産性を最大化できる。 #フリーランス #AI開発"
+    "category": "engagement",
+    "text": "個人開発のデザイン、どうしてる？自分で？外注？"
   },
   {
     "id": 213,
-    "category": "mindset",
-    "text": "仮説検証のスピードが上がると学びも加速する。AIは最高の実験パートナー。 #AI開発 #個人開発"
+    "category": "engagement",
+    "text": "個人開発でStripeの売上通知来たときの快感やばくない？"
   },
   {
     "id": 214,
-    "category": "learning",
-    "text": "プログラミング初学者にまず勧めたいのはTypeScript。型があると学習効率が段違い。 #TypeScript #プログラミング"
+    "category": "engagement",
+    "text": "作ったサービスの宣伝、どこでしてる？"
   },
   {
     "id": 215,
-    "category": "learning",
-    "text": "React Nativeを学ぶならExpoから始めるべき。環境構築のハードルが圧倒的に低い。 #ReactNative #Expo"
+    "category": "engagement",
+    "text": "個人開発でテスト書いてる？書いてない？"
   },
   {
     "id": 216,
-    "category": "learning",
-    "text": "Gitは最初のうちはadd、commit、pushだけ覚えればOK。branchは慣れてからで大丈夫。 #Git #初心者"
+    "category": "engagement",
+    "text": "MVPの定義、どこまで削ってる？"
   },
   {
     "id": 217,
-    "category": "learning",
-    "text": "Supabaseは「Firebaseの代替」じゃなくて「PostgreSQLを簡単に使えるサービス」。RDBの勉強にもなる。 #Supabase"
+    "category": "engagement",
+    "text": "個人開発のドメイン代、年間いくらくらい？"
   },
   {
     "id": 218,
-    "category": "learning",
-    "text": "CLIに慣れるとエンジニアとしてのレベルが上がる。GUIだけで完結しない世界が見える。 #CLI #プログラミング"
+    "category": "engagement",
+    "text": "個人開発でインフラ代月いくらかかってる？"
   },
   {
     "id": 219,
-    "category": "learning",
-    "text": "公式ドキュメントを読む習慣をつけよう。ブログ記事は古い情報が多いけど公式は常に最新。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "BtoBとBtoC、個人開発するならどっちが現実的？"
   },
   {
     "id": 220,
-    "category": "learning",
-    "text": "写経するなら意味を考えながら。ただコピペするだけじゃ学びにならない。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "個人開発のLPって自分で作る？テンプレ使う？"
   },
   {
     "id": 221,
-    "category": "learning",
-    "text": "Zustandは状態管理入門に最適。Reduxより簡単で、useStateの延長で理解できる。 #Zustand #React"
+    "category": "engagement",
+    "text": "リモートワークで集中できる時間帯ってある？"
   },
   {
     "id": 222,
-    "category": "learning",
-    "text": "エラーメッセージを読む力は地味だけど最重要スキル。英語でも翻訳ツールがあるから大丈夫。 #プログラミング #初心者"
+    "category": "engagement",
+    "text": "在宅ワークの運動不足、どう解消してる？"
   },
   {
     "id": 223,
-    "category": "learning",
-    "text": "TypeScriptの型システムを理解すると、コードを書く前にバグを防げるようになる。投資する価値あり。 #TypeScript"
+    "category": "engagement",
+    "text": "プログラマーの腰痛対策、何やってる？"
   },
   {
     "id": 224,
-    "category": "learning",
-    "text": "Firestoreの学習コスト、思ったより低い。コレクション→ドキュメント→フィールドの構造を理解すれば使える。 #Firebase #Firestore"
+    "category": "engagement",
+    "text": "深夜コーディングと早朝コーディング、どっち派？"
   },
   {
     "id": 225,
-    "category": "learning",
-    "text": "React Queryを学ぶと「データ取得の設計」が根本から変わる。キャッシュの概念を理解しよう。 #ReactQuery #React"
+    "category": "engagement",
+    "text": "休日にコード書くのって楽しい？それとも休むべき？"
   },
   {
     "id": 226,
-    "category": "learning",
-    "text": "個人開発で学ぶのが最速。仕事のコードと違って自由に試行錯誤できる。 #個人開発 #プログラミング"
+    "category": "engagement",
+    "text": "技術書読む時間、いつ確保してる？"
   },
   {
     "id": 227,
-    "category": "learning",
-    "text": "環境構築でつまずくのは誰でも同じ。ここを乗り越えると一気に楽しくなる。 #プログラミング #初心者"
+    "category": "engagement",
+    "text": "エンジニアの飲み会、技術の話になる？ならない？"
   },
   {
     "id": 228,
-    "category": "learning",
-    "text": "NativeWindを覚えるとWeb開発のTailwind知識がそのまま使える。学習効率が良い。 #NativeWind #Tailwind"
+    "category": "engagement",
+    "text": "作業BGM、何聴いてる？"
   },
   {
     "id": 229,
-    "category": "learning",
-    "text": "1日30分でいいから毎日コードを書く。週末にまとめてやるより圧倒的に定着する。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "有給消化率、実際どれくらい？"
   },
   {
     "id": 230,
-    "category": "learning",
-    "text": "Node.jsのインストールがプログラミングの最初の壁。乗り越え方を記事にまとめたい。 #NodeJS #初心者"
+    "category": "engagement",
+    "text": "エンジニア同士の結婚、仕事の話しすぎる問題ない？"
   },
   {
     "id": 231,
-    "category": "learning",
-    "text": "REST APIの基本を理解すると開発の視野が広がる。GET、POST、PUT、DELETEの4つだけで十分。 #API #プログラミング"
+    "category": "engagement",
+    "text": "AIにコード書かせて、レビューは人間がやるスタイルどう思う？"
   },
   {
     "id": 232,
-    "category": "learning",
-    "text": "SQLの基礎はエンジニア必修。SELECT、INSERT、UPDATE、DELETEを覚えるだけで見える世界が変わる。 #SQL #プログラミング"
+    "category": "engagement",
+    "text": "テスト駆動開発、実際やってる人どれくらいいる？"
   },
   {
     "id": 233,
-    "category": "learning",
-    "text": "アウトプット駆動学習が最強。Zennに記事を書きながら学ぶと理解が深まる。 #Zenn #学習"
+    "category": "engagement",
+    "text": "ペアプログラミング、生産性上がる？下がる？"
   },
   {
     "id": 234,
-    "category": "learning",
-    "text": "React Hooksは最初useStateとuseEffectだけ覚えれば戦える。他は必要になったら学べばいい。 #React #初心者"
+    "category": "engagement",
+    "text": "コードレビューで一番指摘されること何？"
   },
   {
     "id": 235,
-    "category": "learning",
-    "text": "npmの仕組みを理解すると「なぜnode_modulesが必要なのか」がわかる。基礎は大事。 #npm #NodeJS"
+    "category": "engagement",
+    "text": "アジャイルとウォーターフォール、現場はどっちが多い？"
   },
   {
     "id": 236,
-    "category": "learning",
-    "text": "Claude Codeを使いながら学ぶと効率がいい。書いてもらったコードの意味を一つずつ理解していく。 #ClaudeCode #学習"
+    "category": "engagement",
+    "text": "TypeScriptのstrictモード、全プロジェクトで有効にしてる？"
   },
   {
     "id": 237,
-    "category": "learning",
-    "text": "Expoのドキュメントは日本語情報少ないけど英語でも読みやすい。チャレンジしてみよう。 #Expo #英語"
+    "category": "engagement",
+    "text": "モノレポとポリレポ、どっち派？"
   },
   {
     "id": 238,
-    "category": "learning",
-    "text": "「完全に理解した」→「何もわからない」→「チョットデキル」のサイクルは何回でも来る。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "CSSフレームワーク、Tailwind派？CSS Modules派？"
   },
   {
     "id": 239,
-    "category": "learning",
-    "text": "バージョン管理を学ぶと過去の自分に戻れる安心感がある。失敗を恐れずに開発できる。 #Git #学習"
+    "category": "engagement",
+    "text": "React、Vue、Svelte、今から始めるならどれ推す？"
   },
   {
     "id": 240,
-    "category": "learning",
-    "text": "TypeScriptの学習順序：基本型→interface→generics→utility types。焦らず段階的に。 #TypeScript #学習"
+    "category": "engagement",
+    "text": "サーバーレス、実運用で使ってる？"
   },
   {
     "id": 241,
-    "category": "learning",
-    "text": "Firestoreのセキュリティルールは必ず学ぼう。ルールなしは家に鍵をかけないのと同じ。 #Firebase #セキュリティ"
+    "category": "engagement",
+    "text": "マイクロサービスにして後悔したことある？"
   },
   {
     "id": 242,
-    "category": "learning",
-    "text": "スマホアプリ開発を始めるならReact Native + Expo一択。Web知識が活かせるのが最大の強み。 #ReactNative #Expo"
+    "category": "engagement",
+    "text": "データベース、PostgreSQL派？MySQL派？"
   },
   {
     "id": 243,
-    "category": "learning",
-    "text": "async/awaitをマスターすると非同期処理が怖くなくなる。Promiseの理解から始めよう。 #JavaScript #学習"
+    "category": "engagement",
+    "text": "副業の確定申告、税理士に頼む派？自分でやる派？"
   },
   {
     "id": 244,
-    "category": "learning",
-    "text": "デザインパターンは全部覚える必要なし。実際に使う場面で学ぶのが一番効率的。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "CI/CD、何使ってる？GitHub Actions？CircleCI？"
   },
   {
     "id": 245,
-    "category": "learning",
-    "text": "SupabaseのRLSは最初とっつきにくいけど、理解するとセキュリティ設計力が身につく。 #Supabase #学習"
+    "category": "engagement",
+    "text": "コーディング規約、チームでどこまで厳しくしてる？"
   },
   {
     "id": 246,
-    "category": "learning",
-    "text": "技術書を読むときは手を動かしながら。読むだけでは3日で忘れる。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "OSSにコントリビュートしたことある？"
   },
   {
     "id": 247,
-    "category": "learning",
-    "text": "Flexboxを理解するとUI構築が楽になる。React Nativeではほぼ全てのレイアウトがFlexbox。 #ReactNative #CSS"
+    "category": "engagement",
+    "text": "プログラミングスクール卒業生と独学組、差ある？"
   },
   {
     "id": 248,
-    "category": "learning",
-    "text": "ESLintの警告を無視しない習慣をつけよう。コード品質の向上に直結する。 #ESLint #学習"
+    "category": "engagement",
+    "text": "デプロイ後にバグ見つけたときの冷や汗、共感する人いる？"
   },
   {
     "id": 249,
-    "category": "learning",
-    "text": "正規表現は最初「呪文」に見えるけど、パターンを覚えると超便利。投資する価値あり。 #正規表現 #プログラミング"
+    "category": "engagement",
+    "text": "週何時間コード書いてる？"
   },
   {
     "id": 250,
-    "category": "learning",
-    "text": "Zennで記事を書くと自分の理解度が試される。説明できないなら理解できてない。 #Zenn #学習"
+    "category": "engagement",
+    "text": "エンジニアブログ、書いてる？読んでる？"
   },
   {
     "id": 251,
-    "category": "learning",
-    "text": "JSON形式を理解するのはWeb開発の基礎。オブジェクトと配列のネストが読めれば十分。 #JSON #プログラミング"
+    "category": "engagement",
+    "text": "フロントエンドとバックエンド、どっちが楽しい？"
   },
   {
     "id": 252,
-    "category": "learning",
-    "text": "環境変数の概念を理解しよう。APIキーをハードコードすると事故の元。.envファイルは必須。 #セキュリティ #初心者"
+    "category": "engagement",
+    "text": "エンジニアの勉強会、オンラインとオフラインどっちが好き？"
   },
   {
     "id": 253,
-    "category": "learning",
-    "text": "ChatGPTとClaude Codeの使い分け：概念の理解はChat、実装はCLI。用途に応じて選ぼう。 #AI開発 #学習"
+    "category": "engagement",
+    "text": "新しい技術覚えるとき、公式ドキュメント派？動画派？"
   },
   {
     "id": 254,
-    "category": "learning",
-    "text": "スタイリングはNativeWindでTailwindクラスを使うと学習コスト最小。Web知識が転用できる。 #NativeWind #ReactNative"
+    "category": "engagement",
+    "text": "開発中に音楽聴く派？無音派？"
   },
   {
     "id": 255,
-    "category": "learning",
-    "text": "「なぜそうなるのか」を常に考える癖をつけよう。暗記ではなく理解が長期的な力になる。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "コードのインデント、タブ派？スペース派？"
   },
   {
     "id": 256,
-    "category": "learning",
-    "text": "初心者のうちは完璧なコードを目指さない。まず動くものを作って、後からリファクタする。 #プログラミング #初心者"
+    "category": "engagement",
+    "text": "技術選定で失敗した経験ある？何を選んで後悔した？"
   },
   {
     "id": 257,
-    "category": "learning",
-    "text": "Reactのコンポーネント設計を学ぶと、UIの分割と再利用の考え方が身につく。 #React #学習"
+    "category": "engagement",
+    "text": "リモート面談のカメラ、オンにしてる？オフにしてる？"
   },
   {
     "id": 258,
-    "category": "learning",
-    "text": "terminalの基本コマンド（cd, ls, mkdir, rm）は覚えておくべき。CLI操作の基礎。 #CLI #初心者"
+    "category": "engagement",
+    "text": "個人開発で使うホスティング、どこ使ってる？"
   },
   {
     "id": 259,
-    "category": "learning",
-    "text": "Firebaseのドキュメントは充実してる。まず公式のクイックスタートから始めよう。 #Firebase #学習"
+    "category": "engagement",
+    "text": "エンジニアの朝活、やってる人いる？何してる？"
   },
   {
     "id": 260,
-    "category": "learning",
-    "text": "npm scriptsを使いこなすと開発効率が上がる。lint、test、buildを一発で実行できる。 #npm #開発効率"
+    "category": "engagement",
+    "text": "テックカンファレンス、オンライン参加とオフライン参加どっちが良い？"
   },
   {
     "id": 261,
-    "category": "learning",
-    "text": "React Navigationの概念は最初難しく感じるけど、Stack→Tab→Drawerの順で学べば理解できる。 #ReactNative"
+    "category": "engagement",
+    "text": "関数型プログラミング、実務で使ってる人いる？"
   },
   {
     "id": 262,
-    "category": "learning",
-    "text": "TypeScriptのGenericsは「型の変数」と考えると理解しやすい。Array<T>が入り口。 #TypeScript #学習"
+    "category": "engagement",
+    "text": "フリーランスの確定申告ソフト、何使ってる？freee？マネーフォワード？"
   },
   {
     "id": 263,
-    "category": "learning",
-    "text": "新しい技術を学ぶときはまず小さなプロジェクトで試す。TODOアプリが定番だけど効果的。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "エンジニアの転職活動、何社くらい受けた？"
   },
   {
     "id": 264,
-    "category": "learning",
-    "text": "SupabaseはSQL直書きもできるから、SQL学習とバックエンド構築を同時にできる。 #Supabase #SQL"
+    "category": "engagement",
+    "text": "個人開発のアイデア出し、どうやってる？"
   },
   {
     "id": 265,
-    "category": "learning",
-    "text": "「わからない」を恥ずかしいと思わない。わからないことを認めるのが成長の第一歩。 #プログラミング #初心者"
+    "category": "engagement",
+    "text": "技術ブログと登壇、どっちがアウトプットとして効果ある？"
   },
   {
     "id": 266,
-    "category": "learning",
-    "text": "Zustandのdevtoolsを使うと状態の変化が可視化される。デバッグしながら仕組みが理解できる。 #Zustand #デバッグ"
+    "category": "engagement",
+    "text": "プロジェクトの見積もり、どうやって精度上げてる？"
   },
   {
     "id": 267,
-    "category": "learning",
-    "text": "HTTPステータスコードの基本は覚えよう。200=成功、400=クライアント側エラー、500=サーバーエラー。 #Web開発 #初心者"
+    "category": "engagement",
+    "text": "AIペアプログラミング、どのくらいの頻度で使ってる？"
   },
   {
     "id": 268,
-    "category": "learning",
-    "text": "Expo Goアプリでコードの変更が即反映される体験、学習モチベーションを維持するのに最高。 #Expo #ReactNative"
+    "category": "engagement",
+    "text": "エンジニアの情報収集、何で追ってる？X？RSS？Zenn？"
   },
   {
     "id": 269,
-    "category": "learning",
-    "text": "コードリーディングのスキルは意識的に鍛えよう。OSSのコードを読むのが最高の教材。 #プログラミング #学習"
+    "category": "engagement",
+    "text": "デバッグで一番時間かかった経験、何時間？"
   },
   {
     "id": 270,
-    "category": "learning",
-    "text": "eslint-config-expoを入れるだけでExpoプロジェクトのlintが整う。初心者こそ使うべき。 #ESLint #Expo"
+    "category": "engagement",
+    "text": "フリーランスの休暇、年何日くらい取ってる？"
   },
   {
     "id": 271,
-    "category": "learning",
-    "text": "学習ロードマップを作ると迷わない。HTML/CSS→JS→TS→React→React Nativeの順がおすすめ。 #プログラミング #学習"
+    "category": "daily",
+    "text": "リファクタしてたら元のコードの意図が分からなくなった"
   },
   {
     "id": 272,
-    "category": "learning",
-    "text": "Firebaseのエミュレータを使うとローカルで安全に実験できる。本番環境を汚さずに学べる。 #Firebase #学習"
+    "category": "daily",
+    "text": "1行直すだけのつもりが3時間溶けた"
   },
   {
     "id": 273,
-    "category": "learning",
-    "text": "React NativeとReactの違いはUIコンポーネント。ロジック部分はほぼ同じだから移行しやすい。 #ReactNative #React"
+    "category": "daily",
+    "text": "動いてるけど理由が分からないコードが一番怖い"
   },
   {
     "id": 274,
-    "category": "learning",
-    "text": "package.jsonの読み方を覚えるとプロジェクトの全体像が掴める。依存関係がわかる。 #npm #初心者"
+    "category": "daily",
+    "text": "環境変数の設定ミスで2時間デバッグしてた。最初に確認しろって話"
   },
   {
     "id": 275,
-    "category": "learning",
-    "text": "TanStack QueryはuseEffectでのデータ取得を卒業するためのツール。学ぶ価値あり。 #ReactQuery #学習"
+    "category": "daily",
+    "text": "テスト通ったと思ったらローカルだけの話だった"
   },
   {
     "id": 276,
-    "category": "learning",
-    "text": "英語のドキュメントを読む力を少しずつつけよう。最新情報は英語が先に出る。 #プログラミング #英語"
+    "category": "daily",
+    "text": "CSSの1pxのズレに30分かけてしまう性格なんとかしたい"
   },
   {
     "id": 277,
-    "category": "learning",
-    "text": "Supabaseのダッシュボードが直感的でSQL初心者にもやさしい。テーブル作成がGUIでできる。 #Supabase #初心者"
+    "category": "daily",
+    "text": "コードレビューで自分の3日前のコードが理解できない"
   },
   {
     "id": 278,
-    "category": "learning",
-    "text": "useStateとuseReducerの使い分け：状態がシンプルならuseState、複雑ならuseReducer。 #React #学習"
+    "category": "daily",
+    "text": "本番環境でしか再現しないバグとかいう地獄"
   },
   {
     "id": 279,
-    "category": "learning",
-    "text": "Tailwindのユーティリティクラスに慣れるとCSS設計の悩みから解放される。 #Tailwind #CSS"
+    "category": "daily",
+    "text": "console.logデバッグから卒業できない自分がいる"
   },
   {
     "id": 280,
-    "category": "learning",
-    "text": "プロジェクト構成を最初にしっかり設計すると後が楽。ディレクトリ構造は最初に決めよう。 #プログラミング #設計"
+    "category": "daily",
+    "text": "git conflictを解消してるだけで午前が終わった"
   },
   {
     "id": 281,
-    "category": "learning",
-    "text": "テストを書く習慣は早いうちから。テストなしの開発は綱渡り。小さなテストから始めよう。 #テスト #学習"
+    "category": "daily",
+    "text": "型定義書いてる時間のほうがロジック書く時間より長い日がある"
   },
   {
     "id": 282,
-    "category": "learning",
-    "text": "React Nativeのデバッグ方法を3つ覚えておく：console.log、React DevTools、Flipper。 #ReactNative #デバッグ"
+    "category": "daily",
+    "text": "READMEを最後に更新したの3ヶ月前だった"
   },
   {
     "id": 283,
-    "category": "learning",
-    "text": "Expoのmanaged workflowとbare workflowの違いを理解しよう。最初はmanagedで十分。 #Expo #ReactNative"
+    "category": "daily",
+    "text": "npm installしたらnode_modulesが1GBになってた"
   },
   {
     "id": 284,
-    "category": "learning",
-    "text": "Firestoreの制約を先に知っておくと設計ミスを防げる。ドキュメントサイズ1MB制限とか。 #Firebase #Firestore"
+    "category": "daily",
+    "text": "コミットメッセージに「fix」としか書いてない過去の自分を殴りたい"
   },
   {
     "id": 285,
-    "category": "learning",
-    "text": "学習中に「これ何の役に立つの？」と思ったら個人開発で使ってみよう。目的ができると定着する。 #学習 #個人開発"
+    "category": "daily",
+    "text": "テーブル設計を最初にちゃんとやっておけばよかった案件"
   },
   {
     "id": 286,
-    "category": "learning",
-    "text": "VS Codeの拡張機能おすすめ：ESLint、Prettier、TypeScript Importer。これだけで生産性UP。 #VSCode #開発効率"
+    "category": "daily",
+    "text": "他人のコードを読むのが一番勉強になるけど一番疲れる"
   },
   {
     "id": 287,
-    "category": "learning",
-    "text": "RLSポリシーの書き方はClaude Codeに聞くのが最速。「このテーブルのRLS設計して」で学べる。 #Supabase #ClaudeCode"
+    "category": "daily",
+    "text": "Dockerfileを1行変えたらビルドが10分伸びた"
   },
   {
     "id": 288,
-    "category": "learning",
-    "text": "プログラミングの学習曲線は急。最初の壁を超えると一気に楽しくなるから諦めないで。 #プログラミング #初心者"
+    "category": "daily",
+    "text": "deep copyとshallow copyで3回目のバグ踏んだ"
   },
   {
     "id": 289,
-    "category": "learning",
-    "text": "JSXは「HTMLとJavaScriptのハイブリッド」と考えるとReact入門が楽になる。 #React #初心者"
+    "category": "daily",
+    "text": "関数名を30分考えて結局tempにした"
   },
   {
     "id": 290,
-    "category": "learning",
-    "text": "SupabaseとFirebaseの違いを理解して選ぶ。SQLならSupabase、NoSQLならFirebase。 #Supabase #Firebase"
+    "category": "daily",
+    "text": "デプロイした直後にtypoに気づくのやめたい"
   },
   {
     "id": 291,
-    "category": "learning",
-    "text": "OAuth認証の仕組みを理解するとログイン実装が怖くなくなる。概念から入ろう。 #認証 #学習"
+    "category": "daily",
+    "text": "面談の前日だけ早起きできる現象に名前つけたい"
   },
   {
     "id": 292,
-    "category": "learning",
-    "text": "Reactのstate管理の進化：useState→useReducer→Context→Zustand。段階的に学ぼう。 #React #状態管理"
+    "category": "daily",
+    "text": "確定申告の書類、毎年同じところで詰まる"
   },
   {
     "id": 293,
-    "category": "learning",
-    "text": "初心者がFirebaseで最初に作るべきはTODOアプリ。CRUD操作を一通り学べる。 #Firebase #初心者"
+    "category": "daily",
+    "text": "フリーランスの最大の敵は自己管理"
   },
   {
     "id": 294,
-    "category": "learning",
-    "text": "デプロイの経験を早めに積もう。ローカルで動くものを公開するまでが開発。 #プログラミング #学習"
+    "category": "daily",
+    "text": "月末の請求書作成タイム、地味に面倒"
   },
   {
     "id": 295,
-    "category": "learning",
-    "text": "CLIツールの使い方を覚えるとAIツールとの相性が最高になる。Claude Codeが典型例。 #CLI #ClaudeCode"
+    "category": "daily",
+    "text": "クライアントとの打ち合わせが連続すると1日が消える"
   },
   {
     "id": 296,
-    "category": "article",
-    "text": "Claude Codeの使い方を初心者向けにまとめました。基本操作から実践的なTipsまで網羅。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "category": "daily",
+    "text": "銀行の「ご職業は？」に毎回悩む"
   },
   {
     "id": 297,
-    "category": "article",
-    "text": "CLIって何？から始められる初心者向け解説記事を書きました。GUI世代にも分かりやすく。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #Zenn"
+    "category": "daily",
+    "text": "経費になるかならないかの線引きが永遠の課題"
   },
   {
     "id": 298,
-    "category": "article",
-    "text": "Claude Code × Gitの連携方法をまとめた記事が好評です。バージョン管理が劇的に楽になる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git #Zenn"
+    "category": "daily",
+    "text": "フリーランス3年目でやっと確定申告にビビらなくなった"
   },
   {
     "id": 299,
-    "category": "article",
-    "text": "Claude Code入門記事、想像以上に読まれてます。AI開発に興味ある方はぜひ。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "category": "daily",
+    "text": "自宅作業だと冷蔵庫の誘惑がすごい"
   },
   {
     "id": 300,
-    "category": "article",
-    "text": "「CLIとは？」の記事を書いたのは、Claude Codeの前提知識として必要だったから。順番に読むと理解が深まる。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "category": "daily",
+    "text": "通勤がない生活に慣れすぎて電車に乗ると疲れる"
   },
   {
     "id": 301,
-    "category": "article",
-    "text": "Claude CodeとGitの組み合わせは最強。その理由を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git"
+    "category": "daily",
+    "text": "在宅だと曜日感覚がバグる。今日何曜日だっけ"
   },
   {
     "id": 302,
-    "category": "article",
-    "text": "Claude Codeの基本的な使い方を知りたい方へ。インストールから実践までカバーしてます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "category": "daily",
+    "text": "打ち合わせ用のシャツだけ洗濯頻度が高い"
   },
   {
     "id": 303,
-    "category": "article",
-    "text": "CUIとCLIの違い、説明できますか？意外と知らない基礎知識をまとめました。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #初心者"
+    "category": "daily",
+    "text": "作業中にUber Eats頼んだら集中力が途切れた"
   },
   {
     "id": 304,
-    "category": "article",
-    "text": "Claude CodeでGitを操作する方法を解説。コミットからブランチ管理まで自動化できます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode #Git"
+    "category": "daily",
+    "text": "国民健康保険の金額見て毎年びっくりする"
   },
   {
     "id": 305,
-    "category": "article",
-    "text": "AI開発ツールの入門記事を書いてます。まずはClaude Codeの基本から読んでみてください。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "category": "daily",
+    "text": "確定申告終わった瞬間の解放感は異常"
   },
   {
     "id": 306,
-    "category": "article",
-    "text": "MCPサーバーとClaude Codeの連携方法を解説する記事を準備中。外部ツール連携の可能性が広がる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #ClaudeCode #MCP"
+    "category": "daily",
+    "text": "カフェで作業してると隣の会話が気になるタイプ"
+  },
+  {
+    "id": 307,
+    "category": "daily",
+    "text": "フリーランスになって一番上がったスキルは事務処理能力"
+  },
+  {
+    "id": 308,
+    "category": "daily",
+    "text": "見積もり出すの苦手。高いのか安いのか分からん"
+  },
+  {
+    "id": 309,
+    "category": "daily",
+    "text": "案件が重なる時期と暇な時期の波が激しい"
+  },
+  {
+    "id": 310,
+    "category": "daily",
+    "text": "フリーランスの孤独感、たまに来るけど自由で帳消しになる"
+  },
+  {
+    "id": 311,
+    "category": "daily",
+    "text": "Docker composeのファイル、プロジェクトごとに書き方違うのなんとかならんか"
   },
   {
     "id": 312,
-    "category": "article",
-    "text": "CLIがUIより優れている理由を記事にまとめています。効率を求めるエンジニア必読。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "category": "daily",
+    "text": "Tailwindのクラス名が長すぎて行が折り返される問題"
+  },
+  {
+    "id": 313,
+    "category": "daily",
+    "text": "Next.jsのバージョンアップ、毎回何か壊れる気がする"
+  },
+  {
+    "id": 314,
+    "category": "daily",
+    "text": "TypeScriptのanyを使うたびに罪悪感がある"
   },
   {
     "id": 315,
-    "category": "article",
-    "text": "Expoでスマホアプリを作る方法を初心者向けに解説する記事を準備中。React Native入門に。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo #ReactNative"
+    "category": "daily",
+    "text": "node_modulesを消してnpm installし直すと大体治る。なぜ"
+  },
+  {
+    "id": 316,
+    "category": "daily",
+    "text": "パッケージのバージョン違いでハマるの何回目だろう"
+  },
+  {
+    "id": 317,
+    "category": "daily",
+    "text": "Supabaseのダッシュボードが最近重い気がする"
+  },
+  {
+    "id": 318,
+    "category": "daily",
+    "text": "AIに書かせたコードをAIにレビューさせてる。人間いらない説"
+  },
+  {
+    "id": 319,
+    "category": "daily",
+    "text": "Claude Codeのトークン消費が想定より早い"
+  },
+  {
+    "id": 320,
+    "category": "daily",
+    "text": "Vercelのデプロイが速すぎてgit pushとの区別がつかない"
   },
   {
     "id": 321,
-    "category": "article",
-    "text": "Claude Codeの記事を書き続けてるのは、日本語の情報がまだ少ないから。誰かの役に立てば嬉しい。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode #Zenn"
+    "category": "daily",
+    "text": "GitHub Actionsのワークフロー、動くまでに5回はコミットする"
   },
   {
     "id": 322,
-    "category": "article",
-    "text": "CLI解説記事、プログラミング初心者から好評。GUIしか触ったことない人にこそ読んでほしい。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #初心者"
+    "category": "daily",
+    "text": "Prettierの設定でチーム内論争が起きた"
   },
   {
     "id": 323,
-    "category": "article",
-    "text": "Git操作をAIに任せるのは怖い？安全な使い方を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git #ClaudeCode"
+    "category": "daily",
+    "text": "TypeScriptの型パズル、解けると気持ちいいけど時間が溶ける"
   },
   {
     "id": 324,
-    "category": "article",
-    "text": "MCP連携の記事、書いてて自分も学びが多い。Claude Codeの可能性を広げるキー技術。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP #ClaudeCode"
+    "category": "daily",
+    "text": "ReactのuseEffectの依存配列、毎回悩む"
+  },
+  {
+    "id": 325,
+    "category": "daily",
+    "text": "環境構築ドキュメントが古くて最初から書き直した"
+  },
+  {
+    "id": 326,
+    "category": "daily",
+    "text": "APIのレスポンスが遅いとフロントのせいにされがち"
+  },
+  {
+    "id": 327,
+    "category": "daily",
+    "text": ".envファイルの管理、ベストプラクティスが分からない"
+  },
+  {
+    "id": 328,
+    "category": "daily",
+    "text": "キャッシュクリアしたら直るバグ、根本原因追いたくない"
+  },
+  {
+    "id": 329,
+    "category": "daily",
+    "text": "コード書いてるより設定ファイル書いてる時間のほうが長い週"
   },
   {
     "id": 330,
-    "category": "article",
-    "text": "CLIの方がGUIより効率的な場面がある。その具体例を記事で紹介予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "category": "daily",
+    "text": "CLIツールのオプション多すぎて--helpが長い"
+  },
+  {
+    "id": 331,
+    "category": "daily",
+    "text": "夜中にコード書いてると余計なことを考えなくて済む"
+  },
+  {
+    "id": 332,
+    "category": "daily",
+    "text": "F1のレース展開が予想外すぎて仕事に集中できない週末"
   },
   {
     "id": 333,
-    "category": "article",
-    "text": "Expoでスマホアプリ開発の敷居はかなり低い。Webの知識があれば始められる理由を記事で解説。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "category": "daily",
+    "text": "アニメの一気見で月曜の朝が死ぬパターン今月3回目"
+  },
+  {
+    "id": 334,
+    "category": "daily",
+    "text": "禁酒 3日目。週末まで持つかは不明"
+  },
+  {
+    "id": 335,
+    "category": "daily",
+    "text": "コーヒーの消費量が確実に増えてる"
+  },
+  {
+    "id": 336,
+    "category": "daily",
+    "text": "深夜のコーディングBGMは洋楽が一番捗る"
+  },
+  {
+    "id": 337,
+    "category": "daily",
+    "text": "スタンディングデスク買ったけど結局座ってる"
+  },
+  {
+    "id": 338,
+    "category": "daily",
+    "text": "サブスクの合計額を計算して現実逃避したくなった"
   },
   {
     "id": 339,
-    "category": "article",
-    "text": "Zennに技術記事を書く理由：自分の学びを整理するため。読者のためでもあり、自分のためでもある。 #Zenn #アウトプット"
+    "category": "daily",
+    "text": "エナジードリンクに頼る生活をそろそろ改めたい"
   },
   {
     "id": 340,
-    "category": "article",
-    "text": "Claude Codeの記事シリーズ、初心者がつまずくポイントを重点的に解説してます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "category": "daily",
+    "text": "技術書積んでるだけで頭良くなった気がしてる"
   },
   {
     "id": 341,
-    "category": "article",
-    "text": "記事を書くたびに新しい発見がある。「解説するために深掘りする」のが最高の学習法。 #Zenn #学習"
+    "category": "daily",
+    "text": "散歩中にバグの原因思いついて走って帰った"
   },
   {
     "id": 342,
-    "category": "article",
-    "text": "Claude Code × Gitの記事、実際のコマンド例を多めに入れてます。コピペですぐ使える。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "category": "daily",
+    "text": "寝る前にちょっとだけコード書こう→ 3時間経過"
   },
   {
     "id": 343,
-    "category": "article",
-    "text": "MCPの概念が分かりにくい人へ。記事では図解付きで説明する予定です。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
+    "category": "daily",
+    "text": "温泉行きたい。ノートPC持ってくかどうかが問題"
+  },
+  {
+    "id": 344,
+    "category": "daily",
+    "text": "筋トレ始めた。タイピング速度が上がる気がする（気のせい）"
+  },
+  {
+    "id": 345,
+    "category": "daily",
+    "text": "椅子に10万出して正解だった。腰が全然違う"
+  },
+  {
+    "id": 346,
+    "category": "daily",
+    "text": "AIの進化速度がバグってる。半年前の知識がもう古い"
+  },
+  {
+    "id": 347,
+    "category": "daily",
+    "text": "Claude Codeに慣れすぎて手動でコード書くのが億劫になってきた"
+  },
+  {
+    "id": 348,
+    "category": "daily",
+    "text": "AI使い始めてからStack Overflowを見る頻度が激減した"
   },
   {
     "id": 349,
-    "category": "article",
-    "text": "「CLIは古い」は誤解。CLIの方が効率的な場面を具体例付きで記事にします。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "category": "daily",
+    "text": "AIが生成したコード、動くけどなぜ動くか説明できない時がある"
+  },
+  {
+    "id": 350,
+    "category": "daily",
+    "text": "Claude Codeのおかげで個人開発の速度が3倍になった体感"
+  },
+  {
+    "id": 351,
+    "category": "daily",
+    "text": "AIツールに課金しすぎてる気がするけど元は取れてる"
   },
   {
     "id": 352,
-    "category": "article",
-    "text": "スマホアプリ開発を始めたい人へ。ExpoならWebの知識で始められます。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo #ReactNative"
+    "category": "daily",
+    "text": "コードを書くAIとコードをレビューするAI、2つ使い分けるのが最強"
   },
   {
     "id": 353,
-    "category": "article",
-    "text": "記事シリーズの読む順番：CLI解説→Node.js→Claude Codeセットアップ→基本操作。この順がスムーズ。 #Zenn #ClaudeCode"
+    "category": "daily",
+    "text": "AIに「これで合ってる？」と聞くと大体合ってると言ってくる。信用していいのか"
+  },
+  {
+    "id": 354,
+    "category": "daily",
+    "text": "AIにリファクタさせたら自分のコードが別物になった"
+  },
+  {
+    "id": 355,
+    "category": "daily",
+    "text": "自動化スクリプト書いてる時間で手動作業3回分終わるけど、書きたいのよ"
+  },
+  {
+    "id": 356,
+    "category": "daily",
+    "text": "完璧なコードは存在しない。動いて保守できるコードが正義"
+  },
+  {
+    "id": 357,
+    "category": "daily",
+    "text": "「後で直す」TODOコメント、後で直された試しがない"
   },
   {
     "id": 358,
-    "category": "article",
-    "text": "Zennの記事を毎週更新するのが目標。継続は力なり。 #Zenn #アウトプット #継続"
+    "category": "daily",
+    "text": "設計に時間かけすぎて何も実装できてない日がある"
   },
   {
     "id": 359,
-    "category": "article",
-    "text": "技術記事を書くときは「3ヶ月前の自分に向けて書く」を意識してる。初心者視点を忘れない。 #Zenn #技術記事"
+    "category": "daily",
+    "text": "個人開発は誰にも怒られないけど誰にも褒められない"
   },
   {
     "id": 360,
-    "category": "article",
-    "text": "Claude Code記事の反響が嬉しい。「これで始められました」のコメントが一番のモチベーション。 #Zenn #ClaudeCode"
+    "category": "daily",
+    "text": "コードは書くより読むほうが5倍難しい"
   },
   {
     "id": 361,
-    "category": "article",
-    "text": "記事を書くことで自分の開発フローが整理される副次効果がある。アウトプットは最高の振り返り。 #Zenn #アウトプット"
+    "category": "daily",
+    "text": "バグを直したら別のバグが出てくるモグラたたき状態"
   },
   {
     "id": 362,
-    "category": "article",
-    "text": "CLI入門記事は意外とエンジニア歴長い人にも読まれてる。基礎を改めて確認するのは大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "category": "daily",
+    "text": "コーディング中に「これ前にも同じことやったな」と思う頻度が上がってきた"
   },
   {
     "id": 363,
-    "category": "article",
-    "text": "Claude Codeの記事を書いてると、自分でも新しい使い方を発見する。教えることは学ぶこと。 #ClaudeCode #Zenn"
+    "category": "daily",
+    "text": "ドキュメントを書く時間は開発時間の一部。後からじゃ遅い"
+  },
+  {
+    "id": 364,
+    "category": "daily",
+    "text": "技術的負債は借金と同じ。早く返すほど利子が少ない"
   },
   {
     "id": 365,
-    "category": "article",
-    "text": "Claude Codeの基本操作記事、ブックマーク数が増えてきた。需要あるんだなと実感。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "category": "daily",
+    "text": "「動けばいい」と「保守しやすい」の間で毎日揺れてる"
   },
   {
     "id": 366,
-    "category": "article",
-    "text": "Git入門記事を読んだ方から「初めてブランチ切れました」の報告。これが記事を書く醍醐味。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "category": "daily",
+    "text": "コード書いてる時間よりコード消してる時間の方が多い日がある"
+  },
+  {
+    "id": 367,
+    "category": "daily",
+    "text": "プログラミングは問題解決の連続。解けた瞬間が一番楽しい"
   },
   {
     "id": 368,
-    "category": "article",
-    "text": "Expo記事では実機テストの方法も解説。シミュレータだけじゃわからないことがある。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "category": "daily",
+    "text": "個人開発でユーザーの声聞くと方向性が変わりすぎる問題"
   },
   {
     "id": 369,
-    "category": "article",
-    "text": "記事執筆もClaude Codeに手伝ってもらってる。構成案を相談して、技術検証は自分でやる。 #Zenn #ClaudeCode"
+    "category": "daily",
+    "text": "OSSのメンテナーには頭が上がらない。あれを無償でやるの凄い"
   },
   {
     "id": 370,
-    "category": "article",
-    "text": "Zennで記事を公開するたびにフォロワーが増える。継続的なアウトプットの力を実感。 #Zenn #アウトプット"
+    "category": "daily",
+    "text": "自分のコード、3ヶ月後に見たら他人のコードに見える"
+  },
+  {
+    "id": 371,
+    "category": "daily",
+    "text": "pull request出した直後に自分でバグ見つけるあるある"
   },
   {
     "id": 372,
-    "category": "article",
-    "text": "CLIがUIより優れている理由、エンジニアなら共感してもらえるはず。記事公開が楽しみ。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "category": "daily",
+    "text": "ログを仕込みすぎて本番のCloudWatchが爆発した"
+  },
+  {
+    "id": 373,
+    "category": "daily",
+    "text": "ドキュメント書いてたら仕様の矛盾に気づいてしまった"
   },
   {
     "id": 374,
-    "category": "article",
-    "text": "記事の反応を見てると「Claude Code知らなかった」という人がまだまだ多い。布教を続けよう。 #ClaudeCode #Zenn"
+    "category": "daily",
+    "text": "金曜の夕方にデプロイしたくない気持ちは年々強くなる"
   },
   {
     "id": 375,
-    "category": "article",
-    "text": "技術記事は鮮度が大事。定期的にアップデートして最新情報を反映してます。 #Zenn #技術記事"
+    "category": "daily",
+    "text": "テストデータに適当な名前つけてたらクライアントに見られた"
+  },
+  {
+    "id": 376,
+    "category": "daily",
+    "text": "Slackの未読が100件超えてると開くのが怖い"
+  },
+  {
+    "id": 377,
+    "category": "daily",
+    "text": "3時間かけて書いたコードを5行に書き直された"
   },
   {
     "id": 378,
-    "category": "article",
-    "text": "記事を書く→フィードバック→改善→記事更新のサイクルが回り始めた。Zennのエコシステムが好き。 #Zenn"
+    "category": "daily",
+    "text": "「簡単な修正です」が一番信用できない言葉"
+  },
+  {
+    "id": 379,
+    "category": "daily",
+    "text": "お酒飲んだ翌日のコードは信用しないことにしてる"
   },
   {
     "id": 380,
-    "category": "devlog",
-    "text": "そだてるアプリのワクチンスケジュール機能、やっとバグ取れた。月齢計算って地味に複雑。 #そだてる #個人開発"
+    "category": "daily",
+    "text": "週明けの自分のために丁寧なコミットメッセージを書く決意をした"
   },
   {
     "id": 381,
-    "category": "devlog",
-    "text": "Local Friend for a Dayのチャット機能、Supabase Realtimeで実装中。リアルタイム通信は楽しい。 #個人開発 #Supabase"
+    "category": "daily",
+    "text": "AIに「ここバグあるよ」と言われて本当にバグだった時の複雑な気持ち"
   },
   {
     "id": 382,
-    "category": "devlog",
-    "text": "今日の進捗：そだてるの発達マイルストーン画面を実装。0〜6歳の発達段階データが膨大。 #そだてる #個人開発"
+    "category": "daily",
+    "text": "久しぶりに触るプロジェクトのREADMEが役に立たない"
   },
   {
     "id": 383,
-    "category": "devlog",
-    "text": "Local Friendのホスト一覧画面が完成。フィルタリングとソートの実装に2時間。Claude Codeなしなら2日。 #個人開発"
+    "category": "daily",
+    "text": "新しいMacBookが届いて環境構築に丸1日かかった"
   },
   {
     "id": 384,
-    "category": "devlog",
-    "text": "2アプリ同時開発、コンテキストスイッチが大変だけどCLAUDE.mdのおかげで再開が早い。 #個人開発 #ClaudeCode"
+    "category": "daily",
+    "text": "プルリクのレビューコメントに「LGTM」しか書かないやつ問題"
   },
   {
     "id": 385,
-    "category": "devlog",
-    "text": "そだてるのFirebase Auth実装完了。メール認証+Googleログインのフロー。 #そだてる #Firebase"
+    "category": "daily",
+    "text": "見積もり2日の作業が1週間かかるのはバグじゃなくて仕様"
   },
   {
     "id": 386,
-    "category": "devlog",
-    "text": "Local FriendのDB設計を見直し中。profiles→plans→bookingsの関係をシンプルにしたい。 #Supabase #DB設計"
+    "category": "daily",
+    "text": "朝イチのコーヒー飲むまでコード書く気にならない"
   },
   {
     "id": 387,
-    "category": "devlog",
-    "text": "今日はそだてるのUI調整デー。NativeWindでダークモード対応を進めてる。 #そだてる #NativeWind"
+    "category": "daily",
+    "text": "リリース前日の深夜作業、もうやらないと毎回思う"
   },
   {
     "id": 388,
-    "category": "devlog",
-    "text": "Local Friendのレビュー機能実装中。星評価とテキストレビューをSupabaseに保存。 #個人開発 #Supabase"
+    "category": "daily",
+    "text": "個人開発のコード、コメントが全部自分への語りかけになってる"
   },
   {
     "id": 389,
-    "category": "devlog",
-    "text": "2つのアプリで共通するUIパターンが多いことに気づいた。共通コンポーネントライブラリ作ろうかな。 #個人開発"
+    "category": "daily",
+    "text": "年末の大掃除より技術的負債の大掃除のほうが大変"
   },
   {
     "id": 390,
-    "category": "devlog",
-    "text": "そだてるの予防接種スケジュール計算ロジック、テストケースが30個以上。子どもの誕生日パターンが多い。 #そだてる #テスト"
+    "category": "daily",
+    "text": "フリーランス仲間と飲むと大体確定申告の話になる"
   },
   {
     "id": 391,
-    "category": "devlog",
-    "text": "Local Friendの予約フローが形になってきた。ゲスト→プラン選択→日時選択→確定の流れ。 #個人開発"
+    "category": "mindset",
+    "text": "AIは仕事を奪わない。AIを使える人が、使えない人の仕事を奪う。だから今すぐ使い始めよう。"
   },
   {
     "id": 392,
-    "category": "devlog",
-    "text": "今日の学び：Firestoreのセキュリティルールは先に書くべき。後から追加すると漏れが出る。 #Firebase #セキュリティ"
+    "category": "mindset",
+    "text": "Claude Codeは「代わりに書く」ツールじゃなくて「一緒に考える」パートナー。使い方で差がつく。"
   },
   {
     "id": 393,
-    "category": "devlog",
-    "text": "そだてるのコミュニティ機能設計中。保護者同士の情報交換の場を作りたい。 #そだてる #個人開発"
+    "category": "mindset",
+    "text": "プログラミングの本質は「何を作るか」を考えること。コードを書く作業はAIに任せていい。"
   },
   {
     "id": 394,
-    "category": "devlog",
-    "text": "Local Friendの多言語対応を検討中。日本語と英語は必須。ホストは日本語、ゲストは英語。 #個人開発 #i18n"
+    "category": "mindset",
+    "text": "個人開発者にとって今が黄金時代。AIの力で一人でもプロダクトが作れるようになった。"
   },
   {
     "id": 395,
-    "category": "devlog",
-    "text": "React Queryのキャッシュ戦略に悩んだ1日。staleTimeの設定が奥深い。 #ReactQuery #個人開発"
+    "category": "mindset",
+    "text": "「AIに仕事を奪われる」と恐れるより「AIと一緒に何ができるか」を考える方が建設的。"
   },
   {
     "id": 396,
-    "category": "devlog",
-    "text": "そだてるの子どもプロフィール選択機能が完成。複数の子どもを切り替えられるようにした。 #そだてる"
+    "category": "mindset",
+    "text": "コードを速く書けることより、何を作るべきか考えられることの方が価値がある時代。"
   },
   {
     "id": 397,
-    "category": "devlog",
-    "text": "Local FriendのStripe Connect実装、まだ手をつけてない。決済は最後の大物。 #個人開発 #Stripe"
+    "category": "mindset",
+    "text": "AIを使って開発速度が10倍になった分、10倍多くの挑戦ができる。失敗のコストが激減した。"
   },
   {
     "id": 398,
-    "category": "devlog",
-    "text": "2アプリの開発進捗をNotionで管理してる。タスクが可視化されるとモチベが保てる。 #個人開発 #Notion"
+    "category": "mindset",
+    "text": "非エンジニアでもアイデアを形にできる時代。でもエンジニアの「目利き力」は今まで以上に価値がある。"
   },
   {
     "id": 399,
-    "category": "devlog",
-    "text": "そだてるのデモモード実装中。Firebase呼び出しをモックに差し替える仕組み。 #そだてる #テスト"
+    "category": "mindset",
+    "text": "Claude Codeを使い始めて、「考える時間」が増えた。コーディングの手を動かす時間が減った分。"
   },
   {
     "id": 400,
-    "category": "devlog",
-    "text": "Local Friendのavailability機能、ホストが空き日時を設定できる画面を作った。 #個人開発 #Supabase"
+    "category": "mindset",
+    "text": "完璧を目指すより早く出す方が大事。AIがあれば修正も改善も高速にできるから。"
   },
   {
     "id": 401,
-    "category": "devlog",
-    "text": "今日の失敗：Firestoreのインデックス未設定でクエリが失敗。エラーメッセージにURL付きで教えてくれるの親切。 #Firebase"
+    "category": "mindset",
+    "text": "フリーランスエンジニアとAIの相性は最高。一人で複数プロジェクトを回せるようになった。"
   },
   {
     "id": 402,
-    "category": "devlog",
-    "text": "そだてるのフィード画面がだいぶいい感じ。育児記録のタイムライン表示。 #そだてる #個人開発"
+    "category": "mindset",
+    "text": "AIに任せるスキルと自分でやるスキル、両方磨くのが最強のエンジニア像だと思う。"
   },
   {
     "id": 403,
-    "category": "devlog",
-    "text": "Local Friendのメッセージ機能、既読機能をどう実装するか悩み中。 #個人開発 #Supabase"
+    "category": "mindset",
+    "text": "アプリを2つ同時に開発してるけど、Claude Codeなしでは絶対に無理だった。AI活用は必須スキル。"
   },
   {
     "id": 404,
-    "category": "devlog",
-    "text": "Zustandのストア設計、そだてるではauthStoreとchildStoreを分離。責務を明確に。 #Zustand #そだてる"
+    "category": "mindset",
+    "text": "AIツールを使うのに罪悪感を持つ必要はない。電卓を使っても数学力は否定されない。"
   },
   {
     "id": 405,
-    "category": "devlog",
-    "text": "週末はLocal Friendのホスト向け画面を集中開発。6画面中4画面完成。 #個人開発"
+    "category": "mindset",
+    "text": "「AIに書かせたコード」を理解できるかどうかが、エンジニアの価値を決める分岐点になる。"
   },
   {
     "id": 406,
-    "category": "devlog",
-    "text": "そだてるの月齢計算ユーティリティが他の機能でも使い回せて便利。設計段階で汎用性を考えた甲斐あり。 #そだてる"
+    "category": "mindset",
+    "text": "最新ツールを追い続けるより、1つのツールを深く使い込む方が成果が出る。"
   },
   {
     "id": 407,
-    "category": "devlog",
-    "text": "Local FriendのRLSポリシー、テストで穴が見つかった。他人のプロフィールが更新できる状態だった。危ない。 #Supabase #セキュリティ"
+    "category": "mindset",
+    "text": "アイデアの価値は相対的に上がり、実装の価値は相対的に下がる。思考力を鍛えよう。"
   },
   {
     "id": 408,
-    "category": "devlog",
-    "text": "今日はひたすらバグ修正デー。2アプリ合わせて15個のバグを潰した。Claude Codeのおかげで高速。 #個人開発 #ClaudeCode"
+    "category": "mindset",
+    "text": "AIとの協働は「翻訳」に似てる。自分の意図をAIに正確に伝える力が重要。"
   },
   {
     "id": 409,
-    "category": "devlog",
-    "text": "そだてるの24画面、やっと半分完成。残り12画面、年内にリリースしたい。 #そだてる #個人開発"
+    "category": "mindset",
+    "text": "2年前は1画面作るのに1日かかってた。今はClaude Codeで1時間。成長したのは自分じゃなくツール。"
   },
   {
     "id": 410,
-    "category": "devlog",
-    "text": "Local Friendのゲスト向け検索画面にフィルター機能追加。地域、言語、カテゴリーで絞り込み。 #個人開発"
+    "category": "mindset",
+    "text": "個人開発で大事なのは「続けること」。AIが開発の苦しい部分を肩代わりしてくれるから続けやすい。"
   },
   {
     "id": 411,
-    "category": "devlog",
-    "text": "ExpoのEAS Buildを初めて試した。クラウドビルド便利すぎる。ローカルでビルドする時代は終わった。 #Expo #EASBuild"
+    "category": "mindset",
+    "text": "コピペエンジニアとAI活用エンジニアは違う。後者は「なぜそのコードが正しいか」を理解している。"
   },
   {
     "id": 412,
-    "category": "devlog",
-    "text": "そだてるのワクチンデータ、厚生労働省の情報をもとに作成。正確さが命のデータ。 #そだてる"
+    "category": "mindset",
+    "text": "技術的負債の返済もAIで加速できる。リファクタリングのコストが下がった今、後回しにする理由がない。"
   },
   {
     "id": 413,
-    "category": "devlog",
-    "text": "Local Friendの画面遷移図をFigmaで整理し直した。コードを書く前に全体像を把握するの大事。 #個人開発 #Figma"
+    "category": "mindset",
+    "text": "AI時代のエンジニアに必要なのは「正しい質問をする力」。これは検索スキルの延長線上にある。"
   },
   {
     "id": 414,
-    "category": "devlog",
-    "text": "2つのプロジェクトのCLAUDE.mdが育ってきた。プロジェクトの知識ベースとして機能してる。 #ClaudeCode #個人開発"
+    "category": "mindset",
+    "text": "一人でアプリ2つ同時開発。去年の自分に言っても信じないだろうな。AIの進化に感謝。"
   },
   {
     "id": 415,
-    "category": "devlog",
-    "text": "そだてるのマイルストーン評価ロジック、月齢ごとの発達指標をJSONデータ化。 #そだてる"
+    "category": "mindset",
+    "text": "「まずやってみる」のハードルがAIで劇的に下がった。技術調査→プロトタイプが数時間で完成する。"
   },
   {
     "id": 416,
-    "category": "devlog",
-    "text": "Local Friendの本番環境をSupabaseに構築。開発とステージングの環境分離も完了。 #Supabase #個人開発"
+    "category": "mindset",
+    "text": "プログラミングスクールで半年学ぶより、Claude Codeで1ヶ月手を動かす方が実力つくかもしれない。"
   },
   {
     "id": 417,
-    "category": "devlog",
-    "text": "今週の目標：そだてるのauth画面を完成させる。ログイン、サインアップ、パスワードリセット。 #そだてる #Firebase"
+    "category": "mindset",
+    "text": "AIが書いたコードをレビューできる人材の需要はこれから爆増する。今のうちにスキルを磨こう。"
   },
   {
     "id": 418,
-    "category": "devlog",
-    "text": "Local Friendのプラン作成画面、ホストが体験プランを登録できるUI。写真アップロード付き。 #個人開発"
+    "category": "mindset",
+    "text": "フリーランスは自分の時間をどう使うかが全て。AIで効率化した時間を企画や営業に回せる。"
   },
   {
     "id": 419,
-    "category": "devlog",
-    "text": "React Navigationのv7で型安全なナビゲーションを実装。TypeScript×RNの体験が向上。 #ReactNative #TypeScript"
+    "category": "mindset",
+    "text": "「AIがあるからプログラミング学ばなくていい」は間違い。基礎があるほどAIを使いこなせる。"
   },
   {
     "id": 420,
-    "category": "devlog",
-    "text": "そだてるのホーム画面、子どもの情報サマリーを表示。月齢、次のワクチン、直近のマイルストーン。 #そだてる"
+    "category": "mindset",
+    "text": "小さなアプリでもリリースする経験は貴重。AIがあれば未完成の言い訳ができなくなった。"
   },
   {
     "id": 421,
-    "category": "devlog",
-    "text": "Local Friendの開発、PROGRESS.mdで進捗管理してる。完了タスクにチェック入れるの気持ちいい。 #個人開発"
+    "category": "mindset",
+    "text": "コードを書く速度より、要件を定義する速度の方がボトルネックになる時代が来た。"
   },
   {
     "id": 422,
-    "category": "devlog",
-    "text": "expo-image-pickerの実装が一発で動いた。Expoのmanaged workflowは本当に楽。 #Expo"
+    "category": "mindset",
+    "text": "AIと人間のハイブリッド開発が最強。AIの速度と人間の判断力を組み合わせる。"
   },
   {
     "id": 423,
-    "category": "devlog",
-    "text": "2つのアプリでZustandを使ってるけど、パターンが確立してきて新しいストアの追加が早くなった。 #Zustand"
+    "category": "mindset",
+    "text": "エンジニアの市場価値はコード量じゃなく、解決した問題の質で決まるようになる。"
   },
   {
     "id": 424,
-    "category": "devlog",
-    "text": "そだてるのアプリアイコンをデザイン中。子育ての温かみを表現したい。 #そだてる #デザイン"
+    "category": "mindset",
+    "text": "楽しいから続く、続くから成長する。AIが開発の楽しい部分を増やしてくれた。"
   },
   {
     "id": 425,
-    "category": "devlog",
-    "text": "Local Friendのブッキングフロー、Supabaseのtransaction使って予約の整合性を担保。 #Supabase"
+    "category": "mindset",
+    "text": "AI時代でも変わらない真実：ユーザーの課題を解決するプロダクトが勝つ。"
   },
   {
     "id": 426,
-    "category": "devlog",
-    "text": "今日の開発時間：3時間。フリーランスの合間に少しずつ進めてる。 #個人開発 #フリーランス"
+    "category": "mindset",
+    "text": "技術選定の重要性がさらに増した。AIがコードを書く分、設計やアーキテクチャ判断が人間の仕事。"
   },
   {
     "id": 427,
-    "category": "devlog",
-    "text": "そだてるのFirestore設計、コレクション構造を3回作り直した。NoSQLの設計は試行錯誤が大事。 #Firebase #Firestore"
+    "category": "mindset",
+    "text": "コードを書けないPMがAIで実装まで手を出せるようになった。境界が曖昧になる面白い時代。"
   },
   {
     "id": 428,
-    "category": "devlog",
-    "text": "Local Friendの認証フロー、SupabaseのOAuth対応を追加。Google、Apple、LINE。 #Supabase #認証"
+    "category": "mindset",
+    "text": "副業でアプリ開発してるけど、AI活用で本業と両立できてる。時間の使い方が変わった。"
   },
   {
     "id": 429,
-    "category": "devlog",
-    "text": "2アプリで計48画面。1画面ずつ着実に作っていく。焦らない。 #個人開発"
+    "category": "mindset",
+    "text": "AIに任せて浮いた時間で本を読む。インプットの質が開発の質を決める。"
   },
   {
     "id": 430,
-    "category": "devlog",
-    "text": "そだてるの子ども追加画面にバリデーション追加。名前、生年月日、性別の入力チェック。 #そだてる"
+    "category": "mindset",
+    "text": "結局、最後に差がつくのはドメイン知識。技術はAIが補えるけど、業務理解は人間の領域。"
   },
   {
     "id": 431,
-    "category": "devlog",
-    "text": "Local Friendのレビュー表示、星5段階+コメントのUI完成。見た目も大事。 #個人開発 #UI"
+    "category": "mindset",
+    "text": "失敗を恐れずに実験できるのがAI時代の最大のメリット。やり直しのコストが圧倒的に低い。"
   },
   {
     "id": 432,
-    "category": "devlog",
-    "text": "今日はテストデー。そだてるの主要関数にユニットテストを追加。カバレッジ60%超え。 #テスト #そだてる"
+    "category": "mindset",
+    "text": "エンジニアの仕事は「コードを書くこと」から「問題を定義して解決すること」にシフトしている。"
   },
   {
     "id": 433,
-    "category": "devlog",
-    "text": "Local Friendのプッシュ通知設計。新規予約、メッセージ受信、レビュー投稿のトリガー。 #個人開発"
+    "category": "mindset",
+    "text": "AIがなくても開発できる。でもAIがあると10倍楽しい。これが使い続ける最大の理由。"
   },
   {
     "id": 434,
-    "category": "devlog",
-    "text": "Claude Codeで2つのプロジェクトを行き来するとき、--resumeが本当に助かる。 #ClaudeCode #個人開発"
+    "category": "mindset",
+    "text": "一つの技術に固執しない柔軟さがAI時代には大事。新しいツールを試し続けよう。"
   },
   {
     "id": 435,
-    "category": "devlog",
-    "text": "そだてるのデータ構造をリファクタ。vaccines.tsとmilestones.tsの型定義を厳密化。 #そだてる #TypeScript"
+    "category": "mindset",
+    "text": "自分のアプリを自分で作れるって最高の体験。AIのおかげでその体験のハードルが下がった。"
   },
   {
     "id": 436,
-    "category": "devlog",
-    "text": "Local Friendの日本語←→英語の翻訳表示をどうするか。i18nライブラリを検討中。 #個人開発"
+    "category": "mindset",
+    "text": "コーディングは目的じゃなくて手段。AIがその手段を効率化してくれるなら積極的に使う。"
   },
   {
     "id": 437,
-    "category": "devlog",
-    "text": "2アプリ同時開発の良いところ：片方で学んだことがもう片方に活かせる。 #個人開発"
+    "category": "mindset",
+    "text": "フリーランスITコンサルとして感じるのは、AI活用を提案できるかどうかで案件の質が変わること。"
   },
   {
     "id": 438,
-    "category": "devlog",
-    "text": "そだてるのコミュニティ画面、投稿一覧とコメント機能を実装中。Firestoreのサブコレクションで。 #そだてる #Firebase"
+    "category": "mindset",
+    "text": "「自分で書かないと力がつかない」は半分正解で半分間違い。AIの出力から学ぶ力も実力のうち。"
   },
   {
     "id": 439,
-    "category": "devlog",
-    "text": "Local Friendの地図表示、react-native-mapsで実装。ピンの表示までできた。 #ReactNative #個人開発"
+    "category": "mindset",
+    "text": "今日書いたコードは明日にはAIがもっと上手く書ける。だから書くことに固執しない。"
   },
   {
     "id": 440,
-    "category": "devlog",
-    "text": "ESLintの設定を2プロジェクトで統一した。コード品質の基準を揃えるのは大事。 #ESLint #個人開発"
+    "category": "mindset",
+    "text": "プロダクト思考のエンジニアがAIを使うと最強。作る速度と考える深さが両立する。"
   },
   {
     "id": 441,
-    "category": "devlog",
-    "text": "今月の振り返り：そだてる70%、Local Friend55%の完成度。着実に前進中。 #個人開発"
+    "category": "mindset",
+    "text": "AIの時代だからこそ、人間同士のコミュニケーション能力がエンジニアの差別化要因になる。"
   },
   {
     "id": 442,
-    "category": "devlog",
-    "text": "そだてるのFeed画面にPull to Refresh実装。React Queryのrefetchと連携。 #ReactQuery #そだてる"
+    "category": "mindset",
+    "text": "学習コストが下がったのはAIのおかげ。新しい技術を試すのにまず公式ドキュメントを読む前にAIに聞ける。"
   },
   {
     "id": 443,
-    "category": "devlog",
-    "text": "Local Friendの画面デザイン、Figmaでモック作ってからコードに落とす流れが効率的。 #Figma #個人開発"
+    "category": "mindset",
+    "text": "完成させる力がAI時代の最強スキル。8割まで作って放置するのをAIが許さなくなった。"
   },
   {
     "id": 444,
-    "category": "devlog",
-    "text": "夜中にバグの原因がひらめいて布団から出てコード直すの、個人開発あるある。 #個人開発"
+    "category": "mindset",
+    "text": "日曜プログラマーでもAI活用でガチ開発者レベルのアウトプットが出せる時代。やるかやらないか。"
   },
   {
     "id": 445,
-    "category": "devlog",
-    "text": "そだてるのTypeScriptエラーを一掃した。strictモードでのエラー0を目指す。 #TypeScript #そだてる"
+    "category": "mindset",
+    "text": "AIとの対話で自分の考えが整理される。ラバーダッキングの超進化版。"
   },
   {
     "id": 446,
-    "category": "devlog",
-    "text": "Local Friendでホストのプロフィール編集画面完成。自己紹介、対応言語、地域の設定。 #個人開発"
+    "category": "mindset",
+    "text": "テクノロジーの民主化が加速してる。コードを書けなくても価値を生み出せる時代。でも書ける方が有利。"
   },
   {
     "id": 447,
-    "category": "devlog",
-    "text": "2つのアプリのpackage.jsonを比較すると共通の依存パッケージが多い。Expoのエコシステム強い。 #Expo"
+    "category": "mindset",
+    "text": "数年後、AIなしで開発する方が珍しくなる。今のうちにAI活用のワークフローを確立しておこう。"
   },
   {
     "id": 448,
-    "category": "devlog",
-    "text": "そだてるの起動時間を最適化中。初期ロードを軽くするためにlazy loadingを導入。 #そだてる #パフォーマンス"
+    "category": "mindset",
+    "text": "スピード感のある開発がAIで可能になった。思いついたアイデアを週末で形にできる。"
   },
   {
     "id": 449,
-    "category": "devlog",
-    "text": "Local Friendのテーブル設計見直し完了。6テーブルでシンプルに。 #Supabase #DB設計"
+    "category": "mindset",
+    "text": "AIを使っても品質は手を抜かない。むしろAIがあるから品質を上げやすくなった。"
   },
   {
     "id": 450,
-    "category": "devlog",
-    "text": "今日はドキュメント整備デー。PROGRESS.mdとDATABASE.mdを最新化。 #個人開発"
+    "category": "mindset",
+    "text": "2つのアプリを同時に開発する中で気づいた。並行開発はコンテキストスイッチが減るとスムーズ。"
   },
   {
     "id": 451,
-    "category": "devlog",
-    "text": "そだてるのワクチン接種記録画面で日付ピッカーの挙動が怪しい。iOS/Android差異の闇。 #ReactNative #そだてる"
+    "category": "mindset",
+    "text": "技術ブログを書くことでAIの出力を検証する力がつく。アウトプットは最高の学習法。"
   },
   {
     "id": 452,
-    "category": "industry",
-    "text": "フリーランスITコンサルは「何でも屋」じゃない。専門性を持った上で幅広く対応するのが理想。 #フリーランス #ITコンサル"
+    "category": "mindset",
+    "text": "生成AIの時代に最も価値があるのは「これを作るべきだ」という判断力。実装はAIがやってくれる。"
   },
   {
     "id": 453,
-    "category": "industry",
-    "text": "AI開発ツールの進化速度がすごい。半年前のベストプラクティスがもう古くなってる。 #AI #テクノロジー"
+    "category": "mindset",
+    "text": "エンジニアとしてのキャリアにAI活用は必須科目になった。選択科目じゃなくて必修科目。"
   },
   {
     "id": 454,
-    "category": "industry",
-    "text": "リモートワークが当たり前になって、フリーランスの働き方の自由度がさらに上がった。 #フリーランス #リモートワーク"
+    "category": "mindset",
+    "text": "自分の強みとAIの強みを掛け合わせると、一人でも大きな価値を生み出せる。"
   },
   {
     "id": 455,
-    "category": "industry",
-    "text": "React Nativeがネイティブ開発に近づいてきてる。New Architectureの恩恵が大きい。 #ReactNative"
+    "category": "mindset",
+    "text": "AIが進化するほど「何を作るか」のセンスが重要になる。技術より課題発見力。"
   },
   {
     "id": 456,
-    "category": "industry",
-    "text": "Supabaseの成長がすごい。Firebase一強だったBaaSの選択肢が増えるのは良いこと。 #Supabase #Firebase"
+    "category": "mindset",
+    "text": "コードの質に悩む時間が減った。AIに書かせて、レビューに集中する方が効率的。"
   },
   {
     "id": 457,
-    "category": "industry",
-    "text": "フリーランスで大事なのは技術力だけじゃない。コミュニケーション力が案件の質を決める。 #フリーランス"
+    "category": "mindset",
+    "text": "挑戦の数が増えると成功の確率も上がる。AIで挑戦のスピードを加速させよう。"
   },
   {
     "id": 458,
-    "category": "industry",
-    "text": "Expo SDKのアップデートが速い。追従するのは大変だけど、新機能が使えるメリットは大きい。 #Expo"
+    "category": "mindset",
+    "text": "AI活用は「ズルい」じゃなくて「賢い」。ツールを使いこなすのもスキルのうち。"
   },
   {
     "id": 459,
-    "category": "industry",
-    "text": "AIコーディングツールの市場が急拡大中。GitHub Copilot、Cursor、Claude Code。選択肢が増えてる。 #AI開発"
+    "category": "mindset",
+    "text": "技術記事を書くと知識が定着する。AIに頼りっぱなしにならないためのバランス。"
   },
   {
     "id": 460,
-    "category": "industry",
-    "text": "フリーランスの案件選び：技術的チャレンジがある案件を優先してる。スキルアップと収入の両立。 #フリーランス"
+    "category": "mindset",
+    "text": "今の時代、アプリを作れるだけじゃ差別化できない。ドメイン知識 × 技術力 × AI活用の掛け算。"
   },
   {
     "id": 461,
-    "category": "industry",
-    "text": "TypeScriptの採用率が年々上昇。新規プロジェクトでJSを選ぶ理由がほぼなくなった。 #TypeScript"
+    "category": "mindset",
+    "text": "フリーランスでAI活用を実践していると、クライアントへの提案の幅が広がる。"
   },
   {
     "id": 462,
-    "category": "industry",
-    "text": "クライアントにAI活用を提案する機会が増えた。「AIで効率化」は今やビジネス上の必須テーマ。 #ITコンサル #AI"
+    "category": "mindset",
+    "text": "完璧な設計を最初から作ろうとしない。AIで素早くプロトタイプして検証するのが最適解。"
   },
   {
     "id": 463,
-    "category": "industry",
-    "text": "Expo Router（ファイルベースルーティング）がNext.js化してる。Web開発者の参入障壁が下がる。 #Expo"
+    "category": "mindset",
+    "text": "AIが得意なこと、人間が得意なこと、それぞれに集中する。この分業が最高の成果を生む。"
   },
   {
     "id": 464,
-    "category": "industry",
-    "text": "フリーランスの健康管理は自己責任。運動と睡眠を疎かにしない。体が資本。 #フリーランス #健康"
+    "category": "mindset",
+    "text": "技術選定もAIに相談できる時代。でも最終判断は自分でする。責任を持てるのは人間だけ。"
   },
   {
     "id": 465,
-    "category": "industry",
-    "text": "Supabase Edge Functionsの進化がすごい。Denoベースのサーバーレス。Firebase Functionsの代替に。 #Supabase"
+    "category": "mindset",
+    "text": "経験が浅くてもAIの力を借りれば戦える。ただし、経験者がAIを使うともっと強い。"
   },
   {
     "id": 466,
-    "category": "industry",
-    "text": "ITコンサルとして感じるのは、DX推進の需要がまだまだあること。中小企業は特に。 #ITコンサル #DX"
+    "category": "mindset",
+    "text": "AI時代のエンジニアに必要な3つ：質問力、検証力、継続力。全部人間のスキル。"
   },
   {
     "id": 467,
-    "category": "industry",
-    "text": "React Server Componentsの波がモバイルにも来るのか？Web技術のトレンドから目が離せない。 #React"
+    "category": "mindset",
+    "text": "ものづくりの喜びはAI時代でも変わらない。むしろ作れるものが増えて喜びも増えた。"
   },
   {
     "id": 468,
-    "category": "industry",
-    "text": "フリーランスは確定申告の知識も必要。経費、控除、青色申告。最初は面倒だけど慣れる。 #フリーランス #確定申告"
+    "category": "mindset",
+    "text": "新しいことを学ぶのにAIは最高の先生。質問し放題で、自分のペースで進められる。"
   },
   {
     "id": 469,
-    "category": "industry",
-    "text": "AIスタートアップの資金調達額が過去最高を更新し続けてる。業界の熱量がすごい。 #AI #スタートアップ"
+    "category": "mindset",
+    "text": "2つのアプリ開発を通じてAI活用のノウハウが貯まる。それ自体が大きな資産になる。"
   },
   {
     "id": 470,
-    "category": "industry",
-    "text": "地方のIT人材不足は深刻。リモートワーク×フリーランスで地方案件に貢献できる。 #フリーランス #地方"
+    "category": "mindset",
+    "text": "人間がやるべきは「なぜこれを作るのか」を考えること。AIは「どう作るか」を担当。"
   },
   {
     "id": 471,
-    "category": "industry",
-    "text": "LLMの性能向上が止まらない。1年前には不可能だった複雑なタスクが今や当たり前。 #AI #LLM"
+    "category": "mindset",
+    "text": "フリーランスこそAI武装すべき。稼働時間に限りがある中で生産性を最大化できる。"
   },
   {
     "id": 472,
-    "category": "industry",
-    "text": "個人開発者がプロダクトを出しやすい環境が整ってきた。BaaS、AI、ノーコード。ツールの民主化。 #個人開発"
+    "category": "mindset",
+    "text": "仮説検証のスピードが上がると学びも加速する。AIは最高の実験パートナー。"
   },
   {
     "id": 473,
-    "category": "industry",
-    "text": "フリーランスのネットワーキングはSNSとコミュニティ。技術発信が最高の営業活動。 #フリーランス #発信"
+    "category": "mindset",
+    "text": "プロダクトを出すことに価値がある。完成度80%でもリリースする勇気を持とう。"
   },
   {
     "id": 474,
-    "category": "industry",
-    "text": "インバウンド市場の回復で、観光テック系のアプリ需要が増えてる。Local Friendもその一つ。 #インバウンド #テック"
+    "category": "mindset",
+    "text": "AI時代のエンジニアはT字型スキルが理想。深い専門性と幅広い技術理解の両立。"
   },
   {
     "id": 475,
-    "category": "industry",
-    "text": "子育てテック（ChildTech）の市場が日本でも成長中。そだてるはここを狙ってる。 #ChildTech #スタートアップ"
+    "category": "mindset",
+    "text": "失敗のコストが下がった今、挑戦しない理由がない。最悪やり直せばいい。"
   },
   {
     "id": 476,
-    "category": "industry",
-    "text": "モバイルアプリの開発コストがAIとクロスプラットフォームツールで大幅に下がった。 #モバイル開発 #AI"
+    "category": "mindset",
+    "text": "Claude Codeと対話してると、自分のロジカルシンキング力も上がる気がする。"
   },
   {
     "id": 477,
-    "category": "industry",
-    "text": "フリーランスの税金対策は早めに。年末に焦るより月次で帳簿をつける方が楽。 #フリーランス #税金"
+    "category": "mindset",
+    "text": "他人と比較しない。昨日の自分と比較する。AIの力を借りて毎日少しずつ前進。"
   },
   {
     "id": 478,
-    "category": "industry",
-    "text": "Vercel、Supabase、Expoの組み合わせが個人開発の技術スタックとして最適解に近づいてる。 #個人開発 #テック"
+    "category": "mindset",
+    "text": "技術的チャレンジを楽しめるかどうかがエンジニアの適性。AIがあるから楽しみやすい。"
   },
   {
     "id": 479,
-    "category": "industry",
-    "text": "ITコンサルの仕事は技術だけじゃない。クライアントの課題を理解して解決策を提示する力。 #ITコンサル"
+    "category": "mindset",
+    "text": "コードの質とスピード、AI時代は両方を追求できる。トレードオフではなくなった。"
   },
   {
     "id": 480,
-    "category": "industry",
-    "text": "Cursor vs Claude Code、よく比較されるけど用途が違う。IDE統合型 vs CLI型。好みで選ぼう。 #AI開発"
+    "category": "mindset",
+    "text": "個人開発は自己表現。技術力だけでなく、クリエイティビティも発揮できる場。"
   },
   {
     "id": 481,
-    "category": "industry",
-    "text": "フリーランスの単価交渉は難しい。でも自分の価値を正しく伝えることが大事。 #フリーランス"
+    "category": "mindset",
+    "text": "フリーランスの不安定さをAIで補える。生産性が上がれば安定性も上がる。"
   },
   {
     "id": 482,
-    "category": "industry",
-    "text": "React Native 0.80以降の改善が著しい。パフォーマンスとDXの両方が向上してる。 #ReactNative"
+    "category": "mindset",
+    "text": "10年前のエンジニアが今のAIツールを見たら驚くだろう。10年後はもっとすごいはず。"
   },
   {
     "id": 483,
-    "category": "industry",
-    "text": "AIエージェントの波が来てる。単なるチャットボットから自律的にタスクを実行するAIへ。 #AI #エージェント"
+    "category": "mindset",
+    "text": "知識を共有することで自分も成長する。Zennで記事を書くのはWin-Winの関係。"
   },
   {
     "id": 484,
-    "category": "industry",
-    "text": "フリーランスの長期案件と短期案件、バランスが大事。安定収入と新しい経験の両立。 #フリーランス"
+    "category": "mindset",
+    "text": "AIを恐れるより理解しよう。仕組みを知るほど上手く使えるようになる。"
   },
   {
     "id": 485,
-    "category": "industry",
-    "text": "日本のスタートアップエコシステムが徐々に成熟してきてる。個人開発者にも追い風。 #スタートアップ"
+    "category": "mindset",
+    "text": "一人の開発者が社会にインパクトを与えられる時代。そだてるもLocal Friendもその挑戦。"
   },
   {
     "id": 486,
-    "category": "industry",
-    "text": "Firebase v12の新機能、地味だけど着実に改善されてる。Google のBaaS本気度が伝わる。 #Firebase"
+    "category": "mindset",
+    "text": "技術の流行り廃りに振り回されない。基礎力があればどんなツールも使いこなせる。"
   },
   {
     "id": 487,
-    "category": "industry",
-    "text": "リモートワークのフリーランスはセルフマネジメントが命。タスク管理と時間管理を徹底。 #フリーランス"
+    "category": "mindset",
+    "text": "AIに「できない理由」を聞くと新しい可能性が見える。制約を理解するのも大事。"
   },
   {
     "id": 488,
-    "category": "industry",
-    "text": "AI×教育の分野が熱い。プログラミング学習もAIで個別最適化される時代。 #AI #教育"
+    "category": "mindset",
+    "text": "小さな改善を毎日積み重ねる。1日1%の改善が1年で37倍になる。"
   },
   {
     "id": 489,
-    "category": "industry",
-    "text": "Web技術でネイティブアプリが作れる時代。React NativeとExpoの進化に感謝。 #ReactNative #Expo"
+    "category": "mindset",
+    "text": "コードを書くのが好きでエンジニアになった人が、AIで「考える」時間を増やせるのは幸福。"
   },
   {
     "id": 490,
-    "category": "industry",
-    "text": "フリーランスITコンサルの強みは現場目線。大企業コンサルにはない機動力がある。 #フリーランス #ITコンサル"
+    "category": "mindset",
+    "text": "ユーザーの笑顔を想像しながらコードを書く。技術は手段、目的は人を幸せにすること。"
   },
   {
     "id": 491,
-    "category": "industry",
-    "text": "APIエコノミーが加速中。Stripe、Twilio、SendGrid。組み合わせるだけでサービスが作れる。 #API #テック"
+    "category": "mindset",
+    "text": "フリーランスで不安な時もある。でもAIという強力な相棒がいると思うと心強い。"
   },
   {
     "id": 492,
-    "category": "industry",
-    "text": "技術記事の発信はフリーランスの信頼構築に直結する。Zennでの発信を続ける理由。 #フリーランス #Zenn"
+    "category": "mindset",
+    "text": "「何を学ぶべきか」で迷ったら「何を作りたいか」から逆算する。目的駆動の学習。"
   },
   {
     "id": 493,
-    "category": "industry",
-    "text": "Supabase vs Firebase vs Appwrite。BaaS戦争が激しくなってきた。競争は利用者にとってプラス。 #BaaS"
+    "category": "mindset",
+    "text": "プロダクトに対するフィードバックを恐れない。批判こそ成長のチャンス。"
   },
   {
     "id": 494,
-    "category": "industry",
-    "text": "日本の育児アプリ市場はまだ成長途中。そだてるで参入するタイミングとしては良い。 #ChildTech #個人開発"
+    "category": "mindset",
+    "text": "チームを雇えなくてもAIがチームになる。一人CTOのような開発体験。"
   },
   {
     "id": 495,
-    "category": "industry",
-    "text": "フリーランスは健康保険と年金の自己管理が必要。国民健康保険は確認しておこう。 #フリーランス"
+    "category": "mindset",
+    "text": "コードレビューをAIにしてもらうのは手抜きじゃない。品質保証の新しい形。"
   },
   {
     "id": 496,
-    "category": "industry",
-    "text": "エッジコンピューティングの波がBaaSにも。Supabase Edge Functions、Cloudflare Workers。 #テック"
+    "category": "mindset",
+    "text": "変化の激しい時代こそ、変わらない基礎を大切にする。アルゴリズム、設計原則、論理的思考。"
   },
   {
     "id": 497,
-    "category": "industry",
-    "text": "ITコンサルとしてAI導入支援の相談が増えてきた。まずは小さく始めることを提案してる。 #AI #ITコンサル"
+    "category": "mindset",
+    "text": "「忙しくて勉強する時間がない」はAI時代には通用しない。学習効率も上がってる。"
   },
   {
     "id": 498,
-    "category": "industry",
-    "text": "React Native × Expoの組み合わせが成熟期に入った。プロダクション品質のアプリが作りやすい。 #ReactNative #Expo"
+    "category": "mindset",
+    "text": "完成品を見せると「すごい」と言われる。でも過程を見せると「応援したい」と言われる。発信の力。"
   },
   {
     "id": 499,
-    "category": "industry",
-    "text": "フリーランスのスキルアップは自己投資。書籍、Udemy、カンファレンス。学びを止めない。 #フリーランス #学習"
+    "category": "mindset",
+    "text": "フリーランスの自由は責任とセット。でもAIがあれば責任を果たしやすくなった。"
   },
   {
     "id": 500,
-    "category": "industry",
-    "text": "PWA vs ネイティブアプリの議論はまだ続いてる。用途次第でどちらも正解。 #Web開発 #モバイル"
+    "category": "mindset",
+    "text": "エンジニアリングとは問題解決の技術。AIはその問題解決を加速するツール。"
   },
   {
     "id": 501,
-    "category": "industry",
-    "text": "日本の観光業が完全復活。Local Friend for a Dayのようなサービスの需要は確実にある。 #インバウンド"
+    "category": "mindset",
+    "text": "自分が使いたいものを作る。これが個人開発の最大のモチベーション源。"
   },
   {
     "id": 502,
-    "category": "industry",
-    "text": "フリーランスのワークライフバランスは自分で作る。メリハリが大事。 #フリーランス"
+    "category": "mindset",
+    "text": "技術力は自転車みたいなもの。一度身につけたら忘れない。AIはそれを電動アシストにする。"
   },
   {
     "id": 503,
-    "category": "industry",
-    "text": "AIコードアシスタントの精度が毎月上がってる。半年後にはどうなってるか想像もつかない。 #AI開発"
+    "category": "mindset",
+    "text": "誰かのために作ったアプリが使われる瞬間、エンジニアになってよかったと思う。"
   },
   {
     "id": 504,
-    "category": "industry",
-    "text": "中小企業のIT化支援はやりがいがある。小さな改善でも大きなインパクトになる。 #ITコンサル #DX"
+    "category": "mindset",
+    "text": "AIがあっても苦労はする。でもその苦労が「正しい苦労」になる。無駄な作業が減るから。"
   },
   {
     "id": 505,
-    "category": "industry",
-    "text": "Expo SDK 55の新機能をチェック中。毎回のアップデートが楽しみ。 #Expo"
+    "category": "mindset",
+    "text": "年齢は関係ない。何歳からでもプログラミングは始められる。AIが学習の壁を下げてくれた。"
   },
   {
     "id": 506,
-    "category": "industry",
-    "text": "フリーランスの最大のリスクは案件切れ。だから複数の収入源を持つ。個人開発もその一つ。 #フリーランス"
+    "category": "mindset",
+    "text": "情報を消費するだけでなく生産する側に回ろう。エンジニアなら技術記事や個人開発で。"
   },
   {
     "id": 507,
-    "category": "industry",
-    "text": "テクニカルライティングの需要が増えてる。エンジニアが文章力を持つと強い。 #テクニカルライティング"
+    "category": "mindset",
+    "text": "成功してる人は例外なく「とりあえずやってみる」を実践してる。AIがその実践を後押しする。"
   },
   {
     "id": 508,
-    "category": "industry",
-    "text": "クロスプラットフォーム開発の選択肢：React Native、Flutter、.NET MAUI。それぞれ長所がある。 #モバイル開発"
+    "category": "mindset",
+    "text": "コードはコミュニケーションツール。読みやすいコードは未来の自分への手紙。"
   },
   {
     "id": 509,
-    "category": "industry",
-    "text": "フリーランスITコンサルとアプリ開発の二刀流。収入と情熱のバランスが取れてる。 #フリーランス #個人開発"
+    "category": "mindset",
+    "text": "AIに仕事を奪われる前に、AIを使いこなして自分の仕事の質を上げよう。"
   },
   {
     "id": 510,
-    "category": "industry",
-    "text": "AIの民主化が進んでる。APIを叩くだけで最先端のAI機能が使える。すごい時代。 #AI #テック"
+    "category": "mindset",
+    "text": "楽観的に構想し、悲観的に計画し、楽観的に実行する。AIは計画と実行を支援してくれる。"
   },
   {
     "id": 511,
-    "category": "industry",
-    "text": "日本のフリーランスエンジニア人口が増加中。競争は激しくなるけど市場も拡大してる。 #フリーランス"
+    "category": "learning",
+    "text": "プログラミング初学者にまず勧めたいのはTypeScript。型があると学習効率が段違い。"
   },
   {
     "id": 512,
-    "category": "industry",
-    "text": "BaaSの進化でバックエンドエンジニアの役割が変わりつつある。設計力がより重要に。 #BaaS #エンジニア"
+    "category": "learning",
+    "text": "React Nativeを学ぶならExpoから始めるべき。環境構築のハードルが圧倒的に低い。"
   },
   {
     "id": 513,
-    "category": "industry",
-    "text": "インバウンド観光客向けサービスは英語対応必須。多言語化の設計を最初から考える。 #インバウンド #開発"
+    "category": "learning",
+    "text": "Gitは最初のうちはadd、commit、pushだけ覚えればOK。branchは慣れてからで大丈夫。"
   },
   {
     "id": 514,
-    "category": "industry",
-    "text": "フリーランスの確定申告、会計ソフトを使えばそこまで大変じゃない。freeeかMFがおすすめ。 #フリーランス #確定申告"
+    "category": "learning",
+    "text": "Supabaseは「Firebaseの代替」じゃなくて「PostgreSQLを簡単に使えるサービス」。RDBの勉強にもなる。"
   },
   {
     "id": 515,
-    "category": "industry",
-    "text": "Denoの進化がすごい。Node.jsの次を担うかもしれない。Supabase Edge Functionsで既に使われてる。 #Deno"
+    "category": "learning",
+    "text": "CLIに慣れるとエンジニアとしてのレベルが上がる。GUIだけで完結しない世界が見える。"
   },
   {
     "id": 516,
-    "category": "industry",
-    "text": "ITコンサルの現場で感じるのは、技術導入より人材育成の方が課題であること。 #ITコンサル"
+    "category": "learning",
+    "text": "公式ドキュメントを読む習慣をつけよう。ブログ記事は古い情報が多いけど公式は常に最新。"
   },
   {
     "id": 517,
-    "category": "industry",
-    "text": "ノーコード/ローコードツールの成熟で、エンジニアの価値は「作れること」から「設計できること」へ。 #ノーコード"
+    "category": "learning",
+    "text": "写経するなら意味を考えながら。ただコピペするだけじゃ学びにならない。"
   },
   {
     "id": 518,
-    "category": "industry",
-    "text": "地方創生×テクノロジーの可能性を感じてる。Local Friendはまさにそのテーマ。 #地方創生 #テック"
+    "category": "learning",
+    "text": "Zustandは状態管理入門に最適。Reduxより簡単で、useStateの延長で理解できる。"
   },
   {
     "id": 519,
-    "category": "industry",
-    "text": "フリーランスの契約書は必ず確認。特に知的財産権と機密保持の条項は重要。 #フリーランス #契約"
+    "category": "learning",
+    "text": "エラーメッセージを読む力は地味だけど最重要スキル。英語でも翻訳ツールがあるから大丈夫。"
   },
   {
     "id": 520,
-    "category": "industry",
-    "text": "Webアセンブリがモバイル開発にも影響を与え始めてる。技術の進化は止まらない。 #WebAssembly"
+    "category": "learning",
+    "text": "TypeScriptの型システムを理解すると、コードを書く前にバグを防げるようになる。投資する価値あり。"
   },
   {
     "id": 521,
-    "category": "industry",
-    "text": "子育て×テクノロジーの組み合わせは社会課題の解決に直結する。やりがいのある分野。 #ChildTech"
+    "category": "learning",
+    "text": "Firestoreの学習コスト、思ったより低い。コレクション→ドキュメント→フィールドの構造を理解すれば使える。"
   },
   {
     "id": 522,
-    "category": "industry",
-    "text": "フリーランスの月次売上を安定させるコツは複数案件の分散。一つに依存しない。 #フリーランス"
+    "category": "learning",
+    "text": "React Queryを学ぶと「データ取得の設計」が根本から変わる。キャッシュの概念を理解しよう。"
+  },
+  {
+    "id": 523,
+    "category": "learning",
+    "text": "個人開発で学ぶのが最速。仕事のコードと違って自由に試行錯誤できる。"
+  },
+  {
+    "id": 524,
+    "category": "learning",
+    "text": "環境構築でつまずくのは誰でも同じ。ここを乗り越えると一気に楽しくなる。"
+  },
+  {
+    "id": 525,
+    "category": "learning",
+    "text": "NativeWindを覚えるとWeb開発のTailwind知識がそのまま使える。学習効率が良い。"
+  },
+  {
+    "id": 526,
+    "category": "learning",
+    "text": "1日30分でいいから毎日コードを書く。週末にまとめてやるより圧倒的に定着する。"
+  },
+  {
+    "id": 527,
+    "category": "learning",
+    "text": "Node.jsのインストールがプログラミングの最初の壁。乗り越え方を記事にまとめたい。"
+  },
+  {
+    "id": 528,
+    "category": "learning",
+    "text": "REST APIの基本を理解すると開発の視野が広がる。GET、POST、PUT、DELETEの4つだけで十分。"
+  },
+  {
+    "id": 529,
+    "category": "learning",
+    "text": "SQLの基礎はエンジニア必修。SELECT、INSERT、UPDATE、DELETEを覚えるだけで見える世界が変わる。"
+  },
+  {
+    "id": 530,
+    "category": "learning",
+    "text": "アウトプット駆動学習が最強。Zennに記事を書きながら学ぶと理解が深まる。"
+  },
+  {
+    "id": 531,
+    "category": "learning",
+    "text": "React Hooksは最初useStateとuseEffectだけ覚えれば戦える。他は必要になったら学べばいい。"
+  },
+  {
+    "id": 532,
+    "category": "learning",
+    "text": "npmの仕組みを理解すると「なぜnode_modulesが必要なのか」がわかる。基礎は大事。"
+  },
+  {
+    "id": 533,
+    "category": "learning",
+    "text": "Claude Codeを使いながら学ぶと効率がいい。書いてもらったコードの意味を一つずつ理解していく。"
+  },
+  {
+    "id": 534,
+    "category": "learning",
+    "text": "Expoのドキュメントは日本語情報少ないけど英語でも読みやすい。チャレンジしてみよう。"
+  },
+  {
+    "id": 535,
+    "category": "learning",
+    "text": "「完全に理解した」→「何もわからない」→「チョットデキル」のサイクルは何回でも来る。"
+  },
+  {
+    "id": 536,
+    "category": "learning",
+    "text": "バージョン管理を学ぶと過去の自分に戻れる安心感がある。失敗を恐れずに開発できる。"
+  },
+  {
+    "id": 537,
+    "category": "learning",
+    "text": "TypeScriptの学習順序：基本型→interface→generics→utility types。焦らず段階的に。"
+  },
+  {
+    "id": 538,
+    "category": "learning",
+    "text": "Firestoreのセキュリティルールは必ず学ぼう。ルールなしは家に鍵をかけないのと同じ。"
+  },
+  {
+    "id": 539,
+    "category": "learning",
+    "text": "スマホアプリ開発を始めるならReact Native + Expo一択。Web知識が活かせるのが最大の強み。"
+  },
+  {
+    "id": 540,
+    "category": "learning",
+    "text": "async/awaitをマスターすると非同期処理が怖くなくなる。Promiseの理解から始めよう。"
+  },
+  {
+    "id": 541,
+    "category": "learning",
+    "text": "デザインパターンは全部覚える必要なし。実際に使う場面で学ぶのが一番効率的。"
+  },
+  {
+    "id": 542,
+    "category": "learning",
+    "text": "SupabaseのRLSは最初とっつきにくいけど、理解するとセキュリティ設計力が身につく。"
+  },
+  {
+    "id": 543,
+    "category": "learning",
+    "text": "技術書を読むときは手を動かしながら。読むだけでは3日で忘れる。"
+  },
+  {
+    "id": 544,
+    "category": "learning",
+    "text": "Flexboxを理解するとUI構築が楽になる。React Nativeではほぼ全てのレイアウトがFlexbox。"
+  },
+  {
+    "id": 545,
+    "category": "learning",
+    "text": "ESLintの警告を無視しない習慣をつけよう。コード品質の向上に直結する。"
+  },
+  {
+    "id": 546,
+    "category": "learning",
+    "text": "正規表現は最初「呪文」に見えるけど、パターンを覚えると超便利。投資する価値あり。"
+  },
+  {
+    "id": 547,
+    "category": "learning",
+    "text": "Zennで記事を書くと自分の理解度が試される。説明できないなら理解できてない。"
+  },
+  {
+    "id": 548,
+    "category": "learning",
+    "text": "JSON形式を理解するのはWeb開発の基礎。オブジェクトと配列のネストが読めれば十分。"
+  },
+  {
+    "id": 549,
+    "category": "learning",
+    "text": "環境変数の概念を理解しよう。APIキーをハードコードすると事故の元。.envファイルは必須。"
+  },
+  {
+    "id": 550,
+    "category": "learning",
+    "text": "ChatGPTとClaude Codeの使い分け：概念の理解はChat、実装はCLI。用途に応じて選ぼう。"
+  },
+  {
+    "id": 551,
+    "category": "learning",
+    "text": "スタイリングはNativeWindでTailwindクラスを使うと学習コスト最小。Web知識が転用できる。"
+  },
+  {
+    "id": 552,
+    "category": "learning",
+    "text": "「なぜそうなるのか」を常に考える癖をつけよう。暗記ではなく理解が長期的な力になる。"
+  },
+  {
+    "id": 553,
+    "category": "learning",
+    "text": "初心者のうちは完璧なコードを目指さない。まず動くものを作って、後からリファクタする。"
+  },
+  {
+    "id": 554,
+    "category": "learning",
+    "text": "Reactのコンポーネント設計を学ぶと、UIの分割と再利用の考え方が身につく。"
+  },
+  {
+    "id": 555,
+    "category": "learning",
+    "text": "terminalの基本コマンド（cd, ls, mkdir, rm）は覚えておくべき。CLI操作の基礎。"
+  },
+  {
+    "id": 556,
+    "category": "learning",
+    "text": "Firebaseのドキュメントは充実してる。まず公式のクイックスタートから始めよう。"
+  },
+  {
+    "id": 557,
+    "category": "learning",
+    "text": "npm scriptsを使いこなすと開発効率が上がる。lint、test、buildを一発で実行できる。"
+  },
+  {
+    "id": 558,
+    "category": "learning",
+    "text": "React Navigationの概念は最初難しく感じるけど、Stack→Tab→Drawerの順で学べば理解できる。"
+  },
+  {
+    "id": 559,
+    "category": "learning",
+    "text": "TypeScriptのGenericsは「型の変数」と考えると理解しやすい。Array<T>が入り口。"
+  },
+  {
+    "id": 560,
+    "category": "learning",
+    "text": "新しい技術を学ぶときはまず小さなプロジェクトで試す。TODOアプリが定番だけど効果的。"
+  },
+  {
+    "id": 561,
+    "category": "learning",
+    "text": "SupabaseはSQL直書きもできるから、SQL学習とバックエンド構築を同時にできる。"
+  },
+  {
+    "id": 562,
+    "category": "learning",
+    "text": "「わからない」を恥ずかしいと思わない。わからないことを認めるのが成長の第一歩。"
+  },
+  {
+    "id": 563,
+    "category": "learning",
+    "text": "Zustandのdevtoolsを使うと状態の変化が可視化される。デバッグしながら仕組みが理解できる。"
+  },
+  {
+    "id": 564,
+    "category": "learning",
+    "text": "HTTPステータスコードの基本は覚えよう。200=成功、400=クライアント側エラー、500=サーバーエラー。"
+  },
+  {
+    "id": 565,
+    "category": "learning",
+    "text": "Expo Goアプリでコードの変更が即反映される体験、学習モチベーションを維持するのに最高。"
+  },
+  {
+    "id": 566,
+    "category": "learning",
+    "text": "コードリーディングのスキルは意識的に鍛えよう。OSSのコードを読むのが最高の教材。"
+  },
+  {
+    "id": 567,
+    "category": "learning",
+    "text": "eslint-config-expoを入れるだけでExpoプロジェクトのlintが整う。初心者こそ使うべき。"
+  },
+  {
+    "id": 568,
+    "category": "learning",
+    "text": "学習ロードマップを作ると迷わない。HTML/CSS→JS→TS→React→React Nativeの順がおすすめ。"
+  },
+  {
+    "id": 569,
+    "category": "learning",
+    "text": "Firebaseのエミュレータを使うとローカルで安全に実験できる。本番環境を汚さずに学べる。"
+  },
+  {
+    "id": 570,
+    "category": "learning",
+    "text": "React NativeとReactの違いはUIコンポーネント。ロジック部分はほぼ同じだから移行しやすい。"
+  },
+  {
+    "id": 571,
+    "category": "learning",
+    "text": "package.jsonの読み方を覚えるとプロジェクトの全体像が掴める。依存関係がわかる。"
+  },
+  {
+    "id": 572,
+    "category": "learning",
+    "text": "TanStack QueryはuseEffectでのデータ取得を卒業するためのツール。学ぶ価値あり。"
+  },
+  {
+    "id": 573,
+    "category": "learning",
+    "text": "英語のドキュメントを読む力を少しずつつけよう。最新情報は英語が先に出る。"
+  },
+  {
+    "id": 574,
+    "category": "learning",
+    "text": "Supabaseのダッシュボードが直感的でSQL初心者にもやさしい。テーブル作成がGUIでできる。"
+  },
+  {
+    "id": 575,
+    "category": "learning",
+    "text": "useStateとuseReducerの使い分け：状態がシンプルならuseState、複雑ならuseReducer。"
+  },
+  {
+    "id": 576,
+    "category": "learning",
+    "text": "Tailwindのユーティリティクラスに慣れるとCSS設計の悩みから解放される。"
+  },
+  {
+    "id": 577,
+    "category": "learning",
+    "text": "プロジェクト構成を最初にしっかり設計すると後が楽。ディレクトリ構造は最初に決めよう。"
+  },
+  {
+    "id": 578,
+    "category": "learning",
+    "text": "テストを書く習慣は早いうちから。テストなしの開発は綱渡り。小さなテストから始めよう。"
+  },
+  {
+    "id": 579,
+    "category": "learning",
+    "text": "React Nativeのデバッグ方法を3つ覚えておく：console.log、React DevTools、Flipper。"
+  },
+  {
+    "id": 580,
+    "category": "learning",
+    "text": "Expoのmanaged workflowとbare workflowの違いを理解しよう。最初はmanagedで十分。"
+  },
+  {
+    "id": 581,
+    "category": "learning",
+    "text": "Firestoreの制約を先に知っておくと設計ミスを防げる。ドキュメントサイズ1MB制限とか。"
+  },
+  {
+    "id": 582,
+    "category": "learning",
+    "text": "学習中に「これ何の役に立つの？」と思ったら個人開発で使ってみよう。目的ができると定着する。"
+  },
+  {
+    "id": 583,
+    "category": "learning",
+    "text": "VS Codeの拡張機能おすすめ：ESLint、Prettier、TypeScript Importer。これだけで生産性UP。"
+  },
+  {
+    "id": 584,
+    "category": "learning",
+    "text": "RLSポリシーの書き方はClaude Codeに聞くのが最速。「このテーブルのRLS設計して」で学べる。"
+  },
+  {
+    "id": 585,
+    "category": "learning",
+    "text": "プログラミングの学習曲線は急。最初の壁を超えると一気に楽しくなるから諦めないで。"
+  },
+  {
+    "id": 586,
+    "category": "learning",
+    "text": "JSXは「HTMLとJavaScriptのハイブリッド」と考えるとReact入門が楽になる。"
+  },
+  {
+    "id": 587,
+    "category": "learning",
+    "text": "SupabaseとFirebaseの違いを理解して選ぶ。SQLならSupabase、NoSQLならFirebase。"
+  },
+  {
+    "id": 588,
+    "category": "learning",
+    "text": "OAuth認証の仕組みを理解するとログイン実装が怖くなくなる。概念から入ろう。"
+  },
+  {
+    "id": 589,
+    "category": "learning",
+    "text": "Reactのstate管理の進化：useState→useReducer→Context→Zustand。段階的に学ぼう。"
+  },
+  {
+    "id": 590,
+    "category": "learning",
+    "text": "初心者がFirebaseで最初に作るべきはTODOアプリ。CRUD操作を一通り学べる。"
+  },
+  {
+    "id": 591,
+    "category": "learning",
+    "text": "デプロイの経験を早めに積もう。ローカルで動くものを公開するまでが開発。"
+  },
+  {
+    "id": 592,
+    "category": "learning",
+    "text": "CLIツールの使い方を覚えるとAIツールとの相性が最高になる。Claude Codeが典型例。"
+  },
+  {
+    "id": 593,
+    "category": "learning",
+    "text": "Gitのrebase vs merge の違いを理解しておくとチーム開発で困らない。"
+  },
+  {
+    "id": 594,
+    "category": "learning",
+    "text": "APIの認証方式（Bearer Token、API Key、OAuth）の違いを知っておくと開発がスムーズ。"
+  },
+  {
+    "id": 595,
+    "category": "learning",
+    "text": "CSSのposition: absolute/relativeはReact Nativeでも使う。理解しておくべき。"
+  },
+  {
+    "id": 596,
+    "category": "learning",
+    "text": "Dockerの基本を知っておくとバックエンド開発で困らない。コンテナの概念だけでも。"
+  },
+  {
+    "id": 597,
+    "category": "learning",
+    "text": "useContextの使い方を覚えるとprops drilling地獄から解放される。ただし使いすぎ注意。"
+  },
+  {
+    "id": 598,
+    "category": "learning",
+    "text": "バリデーションライブラリはZod一択でいい。TypeScriptとの相性が抜群。"
+  },
+  {
+    "id": 599,
+    "category": "learning",
+    "text": "npmとyarnとpnpmの違い。初心者はnpmから始めて、慣れたらpnpmを試してみよう。"
+  },
+  {
+    "id": 600,
+    "category": "learning",
+    "text": "CORSエラーで困ったら、まずサーバー側の設定を確認しよう。クライアント側では解決できない。"
+  },
+  {
+    "id": 601,
+    "category": "learning",
+    "text": "イミュータビリティの概念はReactの基礎。状態を直接変更しない理由を理解しよう。"
+  },
+  {
+    "id": 602,
+    "category": "learning",
+    "text": "環境構築で迷ったらClaude Codeに聞こう。OS別の手順を丁寧に教えてくれる。"
+  },
+  {
+    "id": 603,
+    "category": "learning",
+    "text": "ターミナルのパス概念を理解するとCLI操作がスムーズになる。絶対パスと相対パス。"
+  },
+  {
+    "id": 604,
+    "category": "learning",
+    "text": "コンポーネントのライフサイクルを理解するとuseEffectの使い方がわかる。mount→update→unmount。"
+  },
+  {
+    "id": 605,
+    "category": "learning",
+    "text": "SupabaseのPostgRESTは裏側でPostgreSQLを操作してる。SQLの知識があると理解が深まる。"
+  },
+  {
+    "id": 606,
+    "category": "learning",
+    "text": "アロー関数とfunctionの違いはthisの扱い。React Nativeではアロー関数が主流。"
+  },
+  {
+    "id": 607,
+    "category": "learning",
+    "text": "Webの仕組みをざっくり理解しよう。クライアント→リクエスト→サーバー→レスポンスの流れ。"
+  },
+  {
+    "id": 608,
+    "category": "learning",
+    "text": "TypeScriptのinterfaceとtypeの違い。実務ではinterfaceをオブジェクト型に、typeをunionに使うことが多い。"
+  },
+  {
+    "id": 609,
+    "category": "learning",
+    "text": "React NativeのStyleSheetを理解すればレイアウトは怖くない。CSSとの差異に注意。"
+  },
+  {
+    "id": 610,
+    "category": "learning",
+    "text": "GitHub Actionsの基本を覚えるとCI/CDが組める。yamlファイルの書き方から始めよう。"
+  },
+  {
+    "id": 611,
+    "category": "devlog",
+    "text": "そだてるアプリのワクチンスケジュール機能、やっとバグ取れた。月齢計算って地味に複雑。"
+  },
+  {
+    "id": 612,
+    "category": "devlog",
+    "text": "Local Friend for a Dayのチャット機能、Supabase Realtimeで実装中。リアルタイム通信は楽しい。"
+  },
+  {
+    "id": 613,
+    "category": "devlog",
+    "text": "今日の進捗：そだてるの発達マイルストーン画面を実装。0〜6歳の発達段階データが膨大。"
+  },
+  {
+    "id": 614,
+    "category": "devlog",
+    "text": "Local Friendのホスト一覧画面が完成。フィルタリングとソートの実装に2時間。Claude Codeなしなら2日。"
   },
   {
     "id": 615,
-    "category": "tips",
-    "text": "Claude Codeで「catchしたエラーをSentryに送る実装追加して」でエラー監視が簡単に導入できる。 #ClaudeCode"
+    "category": "devlog",
+    "text": "2アプリ同時開発、コンテキストスイッチが大変だけどCLAUDE.mdのおかげで再開が早い。"
   },
   {
     "id": 616,
-    "category": "tips",
-    "text": "「git diffを見て変更の影響範囲を教えて」でレビュー前の確認が楽になる。 #ClaudeCode #Git"
+    "category": "devlog",
+    "text": "そだてるのFirebase Auth実装完了。メール認証+Googleログインのフロー。"
   },
   {
     "id": 617,
-    "category": "tips",
-    "text": "Claude Codeに「React Nativeの警告を全部解消して」と言うとdeprecatedコードも修正してくれる。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "Local FriendのDB設計を見直し中。profiles→plans→bookingsの関係をシンプルにしたい。"
   },
   {
     "id": 618,
-    "category": "tips",
-    "text": "「このAPIのレスポンスをモック化して」でテスト用のダミーデータが一瞬で出来る。 #ClaudeCode #テスト"
+    "category": "devlog",
+    "text": "今日はそだてるのUI調整デー。NativeWindでダークモード対応を進めてる。"
   },
   {
     "id": 619,
-    "category": "tips",
-    "text": "CLAUDE.mdにデプロイ手順を書くと、CI/CDの設定もそれに沿って提案してくれる。 #ClaudeCode"
+    "category": "devlog",
+    "text": "Local Friendのレビュー機能実装中。星評価とテキストレビューをSupabaseに保存。"
   },
   {
     "id": 620,
-    "category": "tips",
-    "text": "「expo-fontsで日本語フォントを読み込む実装追加して」でフォント設定が簡単に。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "2つのアプリで共通するUIパターンが多いことに気づいた。共通コンポーネントライブラリ作ろうかな。"
   },
   {
     "id": 621,
-    "category": "tips",
-    "text": "Claude Codeに既存コードの「コードスメル」を指摘させよう。改善点が具体的に出てくる。 #ClaudeCode"
+    "category": "devlog",
+    "text": "そだてるの予防接種スケジュール計算ロジック、テストケースが30個以上。子どもの誕生日パターンが多い。"
   },
   {
     "id": 622,
-    "category": "tips",
-    "text": "「Firestoreのリスナーをクリーンアップして」でメモリリーク防止のコードが追加される。 #ClaudeCode #Firebase"
+    "category": "devlog",
+    "text": "Local Friendの予約フローが形になってきた。ゲスト→プラン選択→日時選択→確定の流れ。"
   },
   {
     "id": 623,
-    "category": "tips",
-    "text": "Claude Codeで「このコンポーネントにストーリーブック用のvariantsを追加して」と頼むと効率的。 #ClaudeCode #React"
+    "category": "devlog",
+    "text": "今日の学び：Firestoreのセキュリティルールは先に書くべき。後から追加すると漏れが出る。"
   },
   {
     "id": 624,
-    "category": "tips",
-    "text": "「FlatListの初期表示を高速化して」でinitialNumToRenderやwindowSizeの最適値を提案してくれる。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "そだてるのコミュニティ機能設計中。保護者同士の情報交換の場を作りたい。"
   },
   {
     "id": 625,
-    "category": "tips",
-    "text": "CLAUDE.mdに禁止事項を書くのも有効。「any型は使わない」「console.logは残さない」とか。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "Local Friendの多言語対応を検討中。日本語と英語は必須。ホストは日本語、ゲストは英語。"
   },
   {
     "id": 626,
-    "category": "tips",
-    "text": "Claude Codeで「既存のテストをJestからVitestに移行して」と言えばテスト環境の移行も楽。 #ClaudeCode #テスト"
+    "category": "devlog",
+    "text": "React Queryのキャッシュ戦略に悩んだ1日。staleTimeの設定が奥深い。"
   },
   {
     "id": 627,
-    "category": "tips",
-    "text": "「SafeAreaViewを正しく配置して」でノッチ対応が安全にできる。機種ごとの差異も考慮。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "そだてるの子どもプロフィール選択機能が完成。複数の子どもを切り替えられるようにした。"
   },
   {
     "id": 628,
-    "category": "tips",
-    "text": "Claude Codeで「このファイルの循環依存を解消して」と設計改善ができる。 #ClaudeCode #設計"
+    "category": "devlog",
+    "text": "Local FriendのStripe Connect実装、まだ手をつけてない。決済は最後の大物。"
   },
   {
     "id": 629,
-    "category": "tips",
-    "text": "「expo-linking でディープリンク対応して」と言うとURLスキームの設定まで含めて実装してくれる。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "2アプリの開発進捗をNotionで管理してる。タスクが可視化されるとモチベが保てる。"
   },
   {
     "id": 630,
-    "category": "tips",
-    "text": "Claude Codeに「レートリミットの実装追加して」でAPI呼び出し制限が安全に導入できる。 #ClaudeCode"
+    "category": "devlog",
+    "text": "そだてるのデモモード実装中。Firebase呼び出しをモックに差し替える仕組み。"
   },
   {
     "id": 631,
-    "category": "tips",
-    "text": "「このコンポーネントにスナップショットテスト追加して」でUIの意図しない変更を検出。 #ClaudeCode #テスト"
+    "category": "devlog",
+    "text": "Local Friendのavailability機能、ホストが空き日時を設定できる画面を作った。"
   },
   {
     "id": 632,
-    "category": "tips",
-    "text": "CLAUDE.mdにエラーハンドリング方針を書いておくと、全体で統一的なエラー処理コードが生成される。 #ClaudeCode"
+    "category": "devlog",
+    "text": "今日の失敗：Firestoreのインデックス未設定でクエリが失敗。エラーメッセージにURL付きで教えてくれるの親切。"
   },
   {
     "id": 633,
-    "category": "tips",
-    "text": "Claude Codeで「AsyncStorageの使用をMMKVに置き換えて」とパフォーマンス改善が簡単に。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "そだてるのフィード画面がだいぶいい感じ。育児記録のタイムライン表示。"
   },
   {
     "id": 634,
-    "category": "tips",
-    "text": "「React Queryのmutation成功後にキャッシュを無効化する」実装もClaude Codeで一発。 #ClaudeCode #ReactQuery"
+    "category": "devlog",
+    "text": "Local Friendのメッセージ機能、既読機能をどう実装するか悩み中。"
   },
   {
     "id": 635,
-    "category": "tips",
-    "text": "Claude Codeに「ESLintルールを既存コードに合わせて調整して」と自動設定させる。 #ClaudeCode #ESLint"
+    "category": "devlog",
+    "text": "Zustandのストア設計、そだてるではauthStoreとchildStoreを分離。責務を明確に。"
   },
   {
     "id": 636,
-    "category": "tips",
-    "text": "「画像をWebP形式に変換してアップロードする」実装もClaude Codeでスムーズに。 #ClaudeCode"
+    "category": "devlog",
+    "text": "週末はLocal Friendのホスト向け画面を集中開発。6画面中4画面完成。"
   },
   {
     "id": 637,
-    "category": "tips",
-    "text": "Claude Codeで「全ての画面にヘッダーのスタイルを統一して」と指示するとUI一貫性が保たれる。 #ClaudeCode #UI"
+    "category": "devlog",
+    "text": "そだてるの月齢計算ユーティリティが他の機能でも使い回せて便利。設計段階で汎用性を考えた甲斐あり。"
   },
   {
     "id": 638,
-    "category": "tips",
-    "text": "「useDebounceフックを作って検索入力に適用して」でAPIの無駄な呼び出しが減らせる。 #ClaudeCode #React"
+    "category": "devlog",
+    "text": "Local FriendのRLSポリシー、テストで穴が見つかった。他人のプロフィールが更新できる状態だった。危ない。"
   },
   {
     "id": 639,
-    "category": "tips",
-    "text": "Claude Codeに「ネットワーク状態を監視してオフライン表示する」実装を頼むと堅牢なアプリに。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "今日はひたすらバグ修正デー。2アプリ合わせて15個のバグを潰した。Claude Codeのおかげで高速。"
   },
   {
     "id": 640,
-    "category": "tips",
-    "text": "「expo-splashscreenの設定を最適化して」でアプリの第一印象が良くなる。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "そだてるの24画面、やっと半分完成。残り12画面、年内にリリースしたい。"
   },
   {
     "id": 641,
-    "category": "tips",
-    "text": "Claude Codeで「TypeScriptのenumをunion typeに置き換えて」とモダンな書き方に変換。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "Local Friendのゲスト向け検索画面にフィルター機能追加。地域、言語、カテゴリーで絞り込み。"
   },
   {
     "id": 642,
-    "category": "tips",
-    "text": "「このコンポーネントにプロップスのデフォルト値を設定して」で堅牢なコンポーネントに。 #ClaudeCode #React"
+    "category": "devlog",
+    "text": "ExpoのEAS Buildを初めて試した。クラウドビルド便利すぎる。ローカルでビルドする時代は終わった。"
   },
   {
     "id": 643,
-    "category": "tips",
-    "text": "Claude Codeに「Supabaseのストレージにファイルアップロード機能を実装して」でバケット設定含めて。 #ClaudeCode #Supabase"
+    "category": "devlog",
+    "text": "そだてるのワクチンデータ、厚生労働省の情報をもとに作成。正確さが命のデータ。"
   },
   {
     "id": 644,
-    "category": "tips",
-    "text": "「React Navigationの画面遷移にアニメーションを追加して」でUXが向上する。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "Local Friendの画面遷移図をFigmaで整理し直した。コードを書く前に全体像を把握するの大事。"
   },
   {
     "id": 645,
-    "category": "tips",
-    "text": "Claude Codeで「このユーティリティ関数をpure functionにリファクタして」と副作用を排除。 #ClaudeCode"
+    "category": "devlog",
+    "text": "2つのプロジェクトのCLAUDE.mdが育ってきた。プロジェクトの知識ベースとして機能してる。"
   },
   {
     "id": 646,
-    "category": "tips",
-    "text": "「Firestoreのクエリをページネーション対応にして」でlimit+startAfterの実装ができる。 #ClaudeCode #Firebase"
+    "category": "devlog",
+    "text": "そだてるのマイルストーン評価ロジック、月齢ごとの発達指標をJSONデータ化。"
   },
   {
     "id": 647,
-    "category": "tips",
-    "text": "CLAUDE.mdにコンポーネントの命名パターンを書いておくとファイル名に一貫性が出る。 #ClaudeCode"
+    "category": "devlog",
+    "text": "Local Friendの本番環境をSupabaseに構築。開発とステージングの環境分離も完了。"
   },
   {
     "id": 648,
-    "category": "tips",
-    "text": "Claude Codeに「expo-notificationsでローカル通知を実装して」とリマインダー機能が作れる。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "今週の目標：そだてるのauth画面を完成させる。ログイン、サインアップ、パスワードリセット。"
   },
   {
     "id": 649,
-    "category": "tips",
-    "text": "「TypeScriptのas使用を極力減らして」と型の安全性を向上させるリファクタが頼める。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "Local Friendのプラン作成画面、ホストが体験プランを登録できるUI。写真アップロード付き。"
   },
   {
     "id": 650,
-    "category": "tips",
-    "text": "Claude Codeで「この処理をバックグラウンドタスクに移行して」とUIスレッドの負荷軽減。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "React Navigationのv7で型安全なナビゲーションを実装。TypeScript×RNの体験が向上。"
   },
   {
     "id": 651,
-    "category": "tips",
-    "text": "「Supabaseのリアルタイムリスナーの接続管理を最適化して」で無駄な接続を削減。 #ClaudeCode #Supabase"
+    "category": "devlog",
+    "text": "そだてるのホーム画面、子どもの情報サマリーを表示。月齢、次のワクチン、直近のマイルストーン。"
   },
   {
     "id": 652,
-    "category": "tips",
-    "text": "Claude Codeに「このコンポーネントのa11y対応を強化して」と画面読み上げ対応ができる。 #ClaudeCode #アクセシビリティ"
+    "category": "devlog",
+    "text": "Local Friendの開発、PROGRESS.mdで進捗管理してる。完了タスクにチェック入れるの気持ちいい。"
   },
   {
     "id": 653,
-    "category": "tips",
-    "text": "「git tagでバージョンを管理する運用を提案して」とリリース管理が整理される。 #ClaudeCode #Git"
+    "category": "devlog",
+    "text": "expo-image-pickerの実装が一発で動いた。Expoのmanaged workflowは本当に楽。"
   },
   {
     "id": 654,
-    "category": "tips",
-    "text": "Claude Codeで「shared要素を使った画面遷移アニメーションを実装して」と高度なUIが可能。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "2つのアプリでZustandを使ってるけど、パターンが確立してきて新しいストアの追加が早くなった。"
   },
   {
     "id": 655,
-    "category": "tips",
-    "text": "「Zustandのストアをpersistミドルウェアで永続化して」でアプリ再起動後も状態が保持される。 #ClaudeCode #Zustand"
+    "category": "devlog",
+    "text": "そだてるのアプリアイコンをデザイン中。子育ての温かみを表現したい。"
   },
   {
     "id": 656,
-    "category": "tips",
-    "text": "Claude Codeに「ReactNativeのPermissions処理を統一的に管理するhookを作って」と依頼。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "Local Friendのブッキングフロー、Supabaseのtransaction使って予約の整合性を担保。"
   },
   {
     "id": 657,
-    "category": "tips",
-    "text": "「Firestoreのバッチ処理にリトライロジックを追加して」で信頼性の高いデータ処理に。 #ClaudeCode #Firebase"
+    "category": "devlog",
+    "text": "今日の開発時間：3時間。フリーランスの合間に少しずつ進めてる。"
   },
   {
     "id": 658,
-    "category": "tips",
-    "text": "Claude Codeで「TextInputにマスク入力を実装して」と電話番号や日付の入力が楽に。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "そだてるのFirestore設計、コレクション構造を3回作り直した。NoSQLの設計は試行錯誤が大事。"
   },
   {
     "id": 659,
-    "category": "tips",
-    "text": "「expo-crypto でハッシュ値を生成する関数を作って」とセキュリティ関連の実装もスムーズ。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "Local Friendの認証フロー、SupabaseのOAuth対応を追加。Google、Apple、LINE。"
   },
   {
     "id": 660,
-    "category": "tips",
-    "text": "CLAUDE.mdにgitのブランチ命名規則を書くと、branch作成時にルールに従ってくれる。 #ClaudeCode #Git"
+    "category": "devlog",
+    "text": "2アプリで計48画面。1画面ずつ着実に作っていく。焦らない。"
   },
   {
     "id": 661,
-    "category": "tips",
-    "text": "Claude Codeで「このAPIのレスポンスをzodでバリデーションして」とランタイム型安全性が向上。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "そだてるの子ども追加画面にバリデーション追加。名前、生年月日、性別の入力チェック。"
   },
   {
     "id": 662,
-    "category": "tips",
-    "text": "「React Queryのprefetch機能で次の画面のデータを先読みして」と体感速度が向上する。 #ClaudeCode #ReactQuery"
+    "category": "devlog",
+    "text": "Local Friendのレビュー表示、星5段階+コメントのUI完成。見た目も大事。"
   },
   {
     "id": 663,
-    "category": "tips",
-    "text": "Claude Codeに「Expo Routerのレイアウトファイルを設計して」とファイルベースルーティングの構成が整理される。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "今日はテストデー。そだてるの主要関数にユニットテストを追加。カバレッジ60%超え。"
   },
   {
     "id": 664,
-    "category": "tips",
-    "text": "「このコンポーネントをControlled/Uncontrolled両対応にして」で再利用性アップ。 #ClaudeCode #React"
+    "category": "devlog",
+    "text": "Local Friendのプッシュ通知設計。新規予約、メッセージ受信、レビュー投稿のトリガー。"
   },
   {
     "id": 665,
-    "category": "tips",
-    "text": "Claude Codeで「SupabaseのRow Level Securityのテスト関数を書いて」とRLSの検証ができる。 #ClaudeCode #Supabase"
+    "category": "devlog",
+    "text": "Claude Codeで2つのプロジェクトを行き来するとき、--resumeが本当に助かる。"
   },
   {
     "id": 666,
-    "category": "tips",
-    "text": "「このフォームにオートセーブ機能を追加して」でユーザーのデータ消失を防げる。 #ClaudeCode #UX"
+    "category": "devlog",
+    "text": "そだてるのデータ構造をリファクタ。vaccines.tsとmilestones.tsの型定義を厳密化。"
   },
   {
     "id": 667,
-    "category": "tips",
-    "text": "Claude Codeに「Reanimatedでスクロールに連動するヘッダーアニメーションを実装して」。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "Local Friendの日本語←→英語の翻訳表示をどうするか。i18nライブラリを検討中。"
   },
   {
     "id": 668,
-    "category": "tips",
-    "text": "「expo-file-systemでキャッシュ管理を実装して」とストレージの節約ができる。 #ClaudeCode #Expo"
+    "category": "devlog",
+    "text": "2アプリ同時開発の良いところ：片方で学んだことがもう片方に活かせる。"
   },
   {
     "id": 669,
-    "category": "tips",
-    "text": "Claude Codeで「Firestoreのオフライン永続化を有効化して」とネットワーク切断時もアプリが使える。 #ClaudeCode #Firebase"
+    "category": "devlog",
+    "text": "そだてるのコミュニティ画面、投稿一覧とコメント機能を実装中。Firestoreのサブコレクションで。"
   },
   {
     "id": 670,
-    "category": "tips",
-    "text": "「このコンポーネントにスケルトンとエラー状態のバリエーションを追加して」でUI完成度UP。 #ClaudeCode #React"
+    "category": "devlog",
+    "text": "Local Friendの地図表示、react-native-mapsで実装。ピンの表示までできた。"
   },
   {
     "id": 671,
-    "category": "tips",
-    "text": "Claude Codeにプルリク作成も任せよう。「変更内容をまとめてPR説明文を書いて」でOK。 #ClaudeCode #Git"
+    "category": "devlog",
+    "text": "ESLintの設定を2プロジェクトで統一した。コード品質の基準を揃えるのは大事。"
   },
   {
     "id": 672,
-    "category": "tips",
-    "text": "「BottomSheetでモーダル表示を実装して」とネイティブ感のあるUIが作れる。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "今月の振り返り：そだてる70%、Local Friend55%の完成度。着実に前進中。"
   },
   {
     "id": 673,
-    "category": "tips",
-    "text": "Claude Codeで「環境変数のバリデーションをZodで実装して」と起動時に設定漏れを検出。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "そだてるのFeed画面にPull to Refresh実装。React Queryのrefetchと連携。"
   },
   {
     "id": 674,
-    "category": "tips",
-    "text": "「SupabaseのストアドプロシージャでビジネスロジックをDB側に寄せて」とパフォーマンス改善。 #ClaudeCode #Supabase"
+    "category": "devlog",
+    "text": "Local Friendの画面デザイン、Figmaでモック作ってからコードに落とす流れが効率的。"
   },
   {
     "id": 675,
-    "category": "tips",
-    "text": "CLAUDE.mdにCIの設定情報を書いておくとGitHub Actionsの設定も正確に提案してくれる。 #ClaudeCode #CI"
+    "category": "devlog",
+    "text": "夜中にバグの原因がひらめいて布団から出てコード直すの、個人開発あるある。"
   },
   {
     "id": 676,
-    "category": "tips",
-    "text": "Claude Codeで「このAPIクライアントにインターセプターを追加して」とログやリトライが統一される。 #ClaudeCode"
+    "category": "devlog",
+    "text": "そだてるのTypeScriptエラーを一掃した。strictモードでのエラー0を目指す。"
   },
   {
     "id": 677,
-    "category": "tips",
-    "text": "「React NativeのKeyboardでTextInputを自動スクロールする」実装が一発で完成する。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "Local Friendでホストのプロフィール編集画面完成。自己紹介、対応言語、地域の設定。"
   },
   {
     "id": 678,
-    "category": "tips",
-    "text": "Claude Codeに「型の互換性エラーを解消して」と指示すると型キャストなしで安全に修正してくれる。 #ClaudeCode #TypeScript"
+    "category": "devlog",
+    "text": "2つのアプリのpackage.jsonを比較すると共通の依存パッケージが多い。Expoのエコシステム強い。"
   },
   {
     "id": 679,
-    "category": "tips",
-    "text": "「Firestoreのコンポジットクエリに必要なインデックスを自動作成する手順教えて」で解決。 #ClaudeCode #Firebase"
+    "category": "devlog",
+    "text": "そだてるの起動時間を最適化中。初期ロードを軽くするためにlazy loadingを導入。"
   },
   {
     "id": 680,
-    "category": "tips",
-    "text": "Claude Codeで「日付をISO 8601形式で統一して」とデータの一貫性が保たれる。 #ClaudeCode"
+    "category": "devlog",
+    "text": "Local Friendのテーブル設計見直し完了。6テーブルでシンプルに。"
   },
   {
     "id": 681,
-    "category": "tips",
-    "text": "「Supabase Authのセッション管理フローを図解して」と認証の全体像が把握できる。 #ClaudeCode #Supabase"
+    "category": "devlog",
+    "text": "今日はドキュメント整備デー。PROGRESS.mdとDATABASE.mdを最新化。"
   },
   {
     "id": 682,
-    "category": "tips",
-    "text": "Claude Codeに「テスト用のfactory関数を作って」とテストデータ生成が効率化される。 #ClaudeCode #テスト"
+    "category": "devlog",
+    "text": "そだてるのワクチン接種記録画面で日付ピッカーの挙動が怪しい。iOS/Android差異の闇。"
   },
   {
     "id": 683,
-    "category": "tips",
-    "text": "「React Nativeの画面回転対応を追加して」で横向き表示のレイアウト崩れを防げる。 #ClaudeCode #ReactNative"
+    "category": "devlog",
+    "text": "そだてるのUI、ユーザーテストしたら「文字が小さい」との指摘。育児中は片手操作が多いから大きめに。"
   },
   {
     "id": 684,
-    "category": "learning",
-    "text": "Gitのrebase vs merge の違いを理解しておくとチーム開発で困らない。 #Git #学習"
+    "category": "devlog",
+    "text": "Local Friendの予約キャンセルフロー実装中。キャンセルポリシーの設計が難しい。"
   },
   {
     "id": 685,
-    "category": "learning",
-    "text": "APIの認証方式（Bearer Token、API Key、OAuth）の違いを知っておくと開発がスムーズ。 #API #学習"
+    "category": "devlog",
+    "text": "今日はCI/CD設定デー。GitHub Actionsでlintとtypecheckを自動実行するように設定。"
   },
   {
     "id": 686,
-    "category": "learning",
-    "text": "CSSのposition: absolute/relativeはReact Nativeでも使う。理解しておくべき。 #ReactNative #CSS"
+    "category": "devlog",
+    "text": "そだてるのワクチンデータを最新の厚労省情報に更新。正確さが命のアプリだから慎重に。"
   },
   {
     "id": 687,
-    "category": "learning",
-    "text": "Dockerの基本を知っておくとバックエンド開発で困らない。コンテナの概念だけでも。 #Docker #学習"
+    "category": "devlog",
+    "text": "Local Friendの検索結果にマップビューを追加した。ピンをタップするとホスト詳細が見れる。"
   },
   {
     "id": 688,
-    "category": "learning",
-    "text": "useContextの使い方を覚えるとprops drilling地獄から解放される。ただし使いすぎ注意。 #React #学習"
+    "category": "devlog",
+    "text": "深夜1時にバグの原因が判明した瞬間の快感。useEffectの依存配列が原因だった。"
   },
   {
     "id": 689,
-    "category": "learning",
-    "text": "バリデーションライブラリはZod一択でいい。TypeScriptとの相性が抜群。 #Zod #TypeScript"
+    "category": "devlog",
+    "text": "そだてるのオンボーディングフロー実装。子どもの情報登録→ホーム画面への導線。"
   },
   {
     "id": 690,
-    "category": "learning",
-    "text": "npmとyarnとpnpmの違い。初心者はnpmから始めて、慣れたらpnpmを試してみよう。 #npm #学習"
+    "category": "devlog",
+    "text": "Local Friendのテストデータ作成中。架空のホストプロフィール20件。リアルさを追求。"
   },
   {
     "id": 691,
-    "category": "learning",
-    "text": "CORSエラーで困ったら、まずサーバー側の設定を確認しよう。クライアント側では解決できない。 #Web開発 #学習"
+    "category": "devlog",
+    "text": "2つのアプリのESLintエラーを全部解消した。スッキリ。lint cleanは気持ちいい。"
   },
   {
     "id": 692,
-    "category": "learning",
-    "text": "イミュータビリティの概念はReactの基礎。状態を直接変更しない理由を理解しよう。 #React #学習"
+    "category": "devlog",
+    "text": "そだてるの通知機能設計。ワクチン接種日のリマインダーは必須機能。"
   },
   {
     "id": 693,
-    "category": "learning",
-    "text": "環境構築で迷ったらClaude Codeに聞こう。OS別の手順を丁寧に教えてくれる。 #ClaudeCode #初心者"
+    "category": "devlog",
+    "text": "Local Friendのレビュー集計ロジックを実装。平均評価の計算とソートの最適化。"
   },
   {
     "id": 694,
-    "category": "learning",
-    "text": "ターミナルのパス概念を理解するとCLI操作がスムーズになる。絶対パスと相対パス。 #CLI #初心者"
+    "category": "devlog",
+    "text": "今日はリファクタリングデー。重複コードを共通関数に切り出し。コード量20%削減。"
   },
   {
     "id": 695,
-    "category": "learning",
-    "text": "コンポーネントのライフサイクルを理解するとuseEffectの使い方がわかる。mount→update→unmount。 #React #学習"
+    "category": "devlog",
+    "text": "そだてるの発達マイルストーンデータ、専門書を参考にしてJSONに落とし込み中。"
   },
   {
     "id": 696,
-    "category": "learning",
-    "text": "SupabaseのPostgRESTは裏側でPostgreSQLを操作してる。SQLの知識があると理解が深まる。 #Supabase #SQL"
+    "category": "devlog",
+    "text": "Local Friendのブッキング確認画面が完成。予約詳細、ホスト情報、地図表示を1画面に。"
   },
   {
     "id": 697,
-    "category": "learning",
-    "text": "アロー関数とfunctionの違いはthisの扱い。React Nativeではアロー関数が主流。 #JavaScript #学習"
+    "category": "devlog",
+    "text": "Claude Codeに相談しながら設計すると壁打ちになる。今日はDB設計の相談で2時間。"
   },
   {
     "id": 698,
-    "category": "learning",
-    "text": "Webの仕組みをざっくり理解しよう。クライアント→リクエスト→サーバー→レスポンスの流れ。 #Web開発 #初心者"
+    "category": "devlog",
+    "text": "そだてるのプッシュ通知テスト、Expo Goだと制限があるのでdev clientにした。"
   },
   {
     "id": 699,
-    "category": "learning",
-    "text": "TypeScriptのinterfaceとtypeの違い。実務ではinterfaceをオブジェクト型に、typeをunionに使うことが多い。 #TypeScript #学習"
+    "category": "devlog",
+    "text": "Local Friendの多言語化、i18n-jsで実装開始。まずは英語と日本語の切り替え。"
   },
   {
     "id": 700,
-    "category": "learning",
-    "text": "React NativeのStyleSheetを理解すればレイアウトは怖くない。CSSとの差異に注意。 #ReactNative #学習"
+    "category": "devlog",
+    "text": "今日の成果：そだてるに画像アップロード機能追加。Firebase Storageと連携。"
   },
   {
     "id": 701,
-    "category": "learning",
-    "text": "GitHub Actionsの基本を覚えるとCI/CDが組める。yamlファイルの書き方から始めよう。 #GitHub #CI"
+    "category": "devlog",
+    "text": "Local Friendのホストダッシュボード画面。予約一覧、収益サマリー、レビュー確認。"
   },
   {
     "id": 702,
-    "category": "learning",
-    "text": "Promise.allで複数の非同期処理を並列実行できる。パフォーマンス改善の基礎知識。 #JavaScript #学習"
+    "category": "devlog",
+    "text": "typecheckでエラー0を維持するのが目標。新しいコードを追加するたびに確認。"
   },
   {
     "id": 703,
-    "category": "learning",
-    "text": "Firestoreのクエリ制約を理解しよう。複合クエリにはインデックスが必要。 #Firebase #Firestore"
+    "category": "devlog",
+    "text": "そだてるのコミュニティ機能で画像投稿対応を検討中。容量制限とリサイズの設計が必要。"
   },
   {
     "id": 704,
-    "category": "learning",
-    "text": "MVCやMVVMなどのアーキテクチャパターンを知ると設計の引き出しが増える。 #設計 #学習"
+    "category": "devlog",
+    "text": "Local Friendのゲスト向け画面10画面中8画面完成。残り2画面は来週中に。"
   },
   {
     "id": 705,
-    "category": "learning",
-    "text": "Cloud Functionsの概念を覚えるとサーバーレスの世界が見える。Firebase/Supabase両方で使える。 #学習"
+    "category": "devlog",
+    "text": "週次で進捗を振り返ってる。先週は予定の70%消化。開発ペースを上げたい。"
   },
   {
     "id": 706,
-    "category": "learning",
-    "text": "map、filter、reduceを使いこなせるとJavaScriptのコードが格段に綺麗になる。 #JavaScript #学習"
+    "category": "devlog",
+    "text": "そだてるのホーム画面にウィジェット的なカードUI実装。次のワクチン、最近の記録、Tips表示。"
   },
   {
     "id": 707,
-    "category": "learning",
-    "text": "リアルタイム通信の仕組み（WebSocket、SSE）を理解するとチャット機能の実装が怖くなくなる。 #学習"
+    "category": "devlog",
+    "text": "Local Friendのエラーハンドリングを統一化。全APIコールにtry-catchとユーザーフレンドリーなメッセージ。"
   },
   {
     "id": 708,
-    "category": "learning",
-    "text": "スプレッド構文（...）はReactのstate更新で頻出。イミュータブルに扱う基本パターン。 #React #JavaScript"
+    "category": "devlog",
+    "text": "2つのアプリ合わせてコミット数が500超えた。地道に積み上げてきた証拠。"
   },
   {
     "id": 709,
-    "category": "learning",
-    "text": "レスポンシブデザインの考え方はモバイルアプリでも大事。画面サイズは端末ごとに違う。 #ReactNative #デザイン"
+    "category": "devlog",
+    "text": "そだてるの月齢表示を「1歳2ヶ月」形式に変更。ユーザーに馴染みのある表記に。"
   },
   {
     "id": 710,
-    "category": "learning",
-    "text": "GraphQLの基本概念を知っておくと、RESTとの使い分けができるようになる。 #GraphQL #学習"
+    "category": "devlog",
+    "text": "Local Friendのフィルター機能強化。価格帯、体験カテゴリー、対応言語で絞り込み。"
   },
   {
     "id": 711,
-    "category": "learning",
-    "text": "git cherry-pickを覚えると特定のコミットだけ取り込める。便利なGitテクニック。 #Git #学習"
+    "category": "industry",
+    "text": "フリーランスITコンサルは「何でも屋」じゃない。専門性を持った上で幅広く対応するのが理想。"
   },
   {
     "id": 712,
-    "category": "learning",
-    "text": "SEO対策の基本はWebアプリ開発者なら知っておくべき。meta、OGP、構造化データ。 #Web開発 #SEO"
+    "category": "industry",
+    "text": "AI開発ツールの進化速度がすごい。半年前のベストプラクティスがもう古くなってる。"
   },
   {
     "id": 713,
-    "category": "learning",
-    "text": "Reactのレンダリング最適化を学ぼう。不要な再レンダリングを防ぐのがパフォーマンスの鍵。 #React #パフォーマンス"
+    "category": "industry",
+    "text": "リモートワークが当たり前になって、フリーランスの働き方の自由度がさらに上がった。"
   },
   {
     "id": 714,
-    "category": "learning",
-    "text": "Expoのapp.jsonとapp.config.jsの違いを理解しよう。動的設定が必要ならconfig.js。 #Expo #学習"
+    "category": "industry",
+    "text": "React Nativeがネイティブ開発に近づいてきてる。New Architectureの恩恵が大きい。"
   },
   {
     "id": 715,
-    "category": "learning",
-    "text": "認証と認可の違いを理解しよう。認証=誰か確認、認可=何ができるか確認。 #セキュリティ #学習"
+    "category": "industry",
+    "text": "Supabaseの成長がすごい。Firebase一強だったBaaSの選択肢が増えるのは良いこと。"
   },
   {
     "id": 716,
-    "category": "learning",
-    "text": "Optional chainingとNullish coalescingはTypeScriptの必須知識。?. と ?? を使いこなそう。 #TypeScript #学習"
+    "category": "industry",
+    "text": "フリーランスで大事なのは技術力だけじゃない。コミュニケーション力が案件の質を決める。"
   },
   {
     "id": 717,
-    "category": "learning",
-    "text": "Supabaseのトリガーとファンクションを学ぶとDB層でビジネスロジックを実行できる。 #Supabase #学習"
+    "category": "industry",
+    "text": "Expo SDKのアップデートが速い。追従するのは大変だけど、新機能が使えるメリットは大きい。"
   },
   {
     "id": 718,
-    "category": "learning",
-    "text": "プリミティブ型と参照型の違いを理解するとバグが減る。JavaScript基礎の最重要項目。 #JavaScript #学習"
+    "category": "industry",
+    "text": "AIコーディングツールの市場が急拡大中。GitHub Copilot、Cursor、Claude Code。選択肢が増えてる。"
   },
   {
     "id": 719,
-    "category": "learning",
-    "text": "React NativeのPlatform.selectで条件分岐すると、iOS/Android固有のスタイルが書ける。 #ReactNative #学習"
+    "category": "industry",
+    "text": "フリーランスの案件選び：技術的チャレンジがある案件を優先してる。スキルアップと収入の両立。"
   },
   {
     "id": 720,
-    "category": "learning",
-    "text": "エンジニアのポートフォリオは作った方がいい。実績を見せられると信頼度が違う。 #キャリア #ポートフォリオ"
+    "category": "industry",
+    "text": "TypeScriptの採用率が年々上昇。新規プロジェクトでJSを選ぶ理由がほぼなくなった。"
   },
   {
     "id": 721,
-    "category": "learning",
-    "text": "useRefの使い所を覚えよう。DOM参照だけじゃなく、レンダリング間で値を保持するのにも使える。 #React #学習"
+    "category": "industry",
+    "text": "クライアントにAI活用を提案する機会が増えた。「AIで効率化」は今やビジネス上の必須テーマ。"
   },
   {
     "id": 722,
-    "category": "learning",
-    "text": "デバッグ力を鍛えるにはエラーから逃げないこと。エラーメッセージと向き合う習慣をつけよう。 #デバッグ #学習"
+    "category": "industry",
+    "text": "Expo Router（ファイルベースルーティング）がNext.js化してる。Web開発者の参入障壁が下がる。"
   },
   {
     "id": 723,
-    "category": "learning",
-    "text": "Supabaseのリアルタイム機能のチャンネル概念を理解すると通知やチャットが実装しやすくなる。 #Supabase #学習"
+    "category": "industry",
+    "text": "フリーランスの健康管理は自己責任。運動と睡眠を疎かにしない。体が資本。"
   },
   {
     "id": 724,
-    "category": "learning",
-    "text": "配列操作メソッド（push, pop, shift, unshift, splice）は暗記する価値あり。 #JavaScript #学習"
+    "category": "industry",
+    "text": "Supabase Edge Functionsの進化がすごい。Denoベースのサーバーレス。Firebase Functionsの代替に。"
   },
   {
     "id": 725,
-    "category": "learning",
-    "text": "FirebaseのCloud Messagingでプッシュ通知を実装する前にFCMの仕組みを理解しよう。 #Firebase #学習"
+    "category": "industry",
+    "text": "ITコンサルとして感じるのは、DX推進の需要がまだまだあること。中小企業は特に。"
   },
   {
     "id": 726,
-    "category": "learning",
-    "text": "レンダープロップスとHOCの概念はReactの歴史的知識だけど、OSSコードを読むとき役立つ。 #React #学習"
+    "category": "industry",
+    "text": "React Server Componentsの波がモバイルにも来るのか？Web技術のトレンドから目が離せない。"
   },
   {
     "id": 727,
-    "category": "learning",
-    "text": "Expo DevToolsの使い方を覚えるとデバッグが効率的になる。ネットワークログも見れる。 #Expo #デバッグ"
+    "category": "industry",
+    "text": "フリーランスは確定申告の知識も必要。経費、控除、青色申告。最初は面倒だけど慣れる。"
   },
   {
     "id": 728,
-    "category": "learning",
-    "text": "destructuringは最初戸惑うけど慣れると超便利。props受け取りに必須のJS構文。 #JavaScript #学習"
+    "category": "industry",
+    "text": "AIスタートアップの資金調達額が過去最高を更新し続けてる。業界の熱量がすごい。"
   },
   {
     "id": 729,
-    "category": "learning",
-    "text": "Supabase Storageのバケット設定とRLSを理解するとファイルアップロードが安全に実装できる。 #Supabase #学習"
+    "category": "industry",
+    "text": "地方のIT人材不足は深刻。リモートワーク×フリーランスで地方案件に貢献できる。"
   },
   {
     "id": 730,
-    "category": "learning",
-    "text": "色の設計はデザインの基本。カラーパレットを先に決めてからUIを作ると統一感が出る。 #デザイン #UI"
+    "category": "industry",
+    "text": "LLMの性能向上が止まらない。1年前には不可能だった複雑なタスクが今や当たり前。"
   },
   {
     "id": 731,
-    "category": "learning",
-    "text": "React NativeのAnimated APIを触ってみよう。小さなアニメーションで体感品質が上がる。 #ReactNative #学習"
+    "category": "industry",
+    "text": "個人開発者がプロダクトを出しやすい環境が整ってきた。BaaS、AI、ノーコード。ツールの民主化。"
   },
   {
     "id": 732,
-    "category": "learning",
-    "text": "EAS Updateの仕組みを理解するとOTAアップデートが使える。ストア審査なしで更新可能。 #Expo #学習"
+    "category": "industry",
+    "text": "フリーランスのネットワーキングはSNSとコミュニティ。技術発信が最高の営業活動。"
   },
   {
     "id": 733,
-    "category": "learning",
-    "text": "Firestoreのオフライン対応は標準搭載。enablePersistenceの仕組みを理解しよう。 #Firebase #学習"
+    "category": "industry",
+    "text": "インバウンド市場の回復で、観光テック系のアプリ需要が増えてる。Local Friendもその一つ。"
   },
   {
     "id": 734,
-    "category": "learning",
-    "text": "useLayoutEffectとuseEffectの違いを知ると、レイアウト計算が絡む処理が正確になる。 #React #学習"
+    "category": "industry",
+    "text": "子育てテック（ChildTech）の市場が日本でも成長中。そだてるはここを狙ってる。"
   },
   {
     "id": 735,
-    "category": "learning",
-    "text": "npm auditで依存パッケージの脆弱性を定期的にチェックしよう。セキュリティ対策の基本。 #npm #セキュリティ"
+    "category": "industry",
+    "text": "モバイルアプリの開発コストがAIとクロスプラットフォームツールで大幅に下がった。"
   },
   {
     "id": 736,
-    "category": "learning",
-    "text": "Expo CLIのコマンド一覧を一度確認してみよう。知らない便利コマンドが見つかるかも。 #Expo #CLI"
+    "category": "industry",
+    "text": "フリーランスの税金対策は早めに。年末に焦るより月次で帳簿をつける方が楽。"
   },
   {
     "id": 737,
-    "category": "learning",
-    "text": "React Nativeの新アーキテクチャ（Fabric/TurboModules）を知識として理解しておこう。 #ReactNative #学習"
+    "category": "industry",
+    "text": "Vercel、Supabase、Expoの組み合わせが個人開発の技術スタックとして最適解に近づいてる。"
   },
   {
     "id": 738,
-    "category": "learning",
-    "text": "Supabase CLIでローカル開発環境を構築する方法を覚えると安全に実験できる。 #Supabase #CLI"
+    "category": "industry",
+    "text": "ITコンサルの仕事は技術だけじゃない。クライアントの課題を理解して解決策を提示する力。"
   },
   {
     "id": 739,
-    "category": "learning",
-    "text": "try-catch-finallyの使い方をマスターしよう。finallyはリソース解放に使うのが基本。 #JavaScript #学習"
+    "category": "industry",
+    "text": "Cursor vs Claude Code、よく比較されるけど用途が違う。IDE統合型 vs CLI型。好みで選ぼう。"
   },
   {
     "id": 740,
-    "category": "learning",
-    "text": "React Nativeでの画像最適化はパフォーマンスに直結。expo-imageの使い方を学ぼう。 #ReactNative #パフォーマンス"
+    "category": "industry",
+    "text": "フリーランスの単価交渉は難しい。でも自分の価値を正しく伝えることが大事。"
   },
   {
     "id": 741,
-    "category": "learning",
-    "text": "npm scriptsでpre/postフックが使えるのを知ってた？prebuildとかpostinstallとか。 #npm #学習"
+    "category": "industry",
+    "text": "React Native 0.80以降の改善が著しい。パフォーマンスとDXの両方が向上してる。"
   },
   {
     "id": 742,
-    "category": "learning",
-    "text": "AbortControllerの使い方を覚えるとAPI呼び出しの管理が上手くなる。キャンセル処理の基本。 #JavaScript #学習"
+    "category": "industry",
+    "text": "AIエージェントの波が来てる。単なるチャットボットから自律的にタスクを実行するAIへ。"
   },
   {
     "id": 743,
-    "category": "learning",
-    "text": "Expo Go vs Development Build、開発段階に応じて使い分けると効率が上がる。 #Expo #学習"
+    "category": "industry",
+    "text": "フリーランスの長期案件と短期案件、バランスが大事。安定収入と新しい経験の両立。"
   },
   {
     "id": 744,
-    "category": "learning",
-    "text": "Zustandのミドルウェア（persist, devtools）を活用すると状態管理がさらに便利に。 #Zustand #学習"
+    "category": "industry",
+    "text": "日本のスタートアップエコシステムが徐々に成熟してきてる。個人開発者にも追い風。"
   },
   {
     "id": 745,
-    "category": "learning",
-    "text": "ER図を読み書きできるようになるとDB設計の力が上がる。draw.ioで練習しよう。 #DB設計 #学習"
+    "category": "industry",
+    "text": "Firebase v12の新機能、地味だけど着実に改善されてる。Google のBaaS本気度が伝わる。"
   },
   {
     "id": 746,
-    "category": "learning",
-    "text": "TypeScriptのRecord型は辞書的なデータ構造を型安全に扱うのに便利。覚えておこう。 #TypeScript #学習"
+    "category": "industry",
+    "text": "リモートワークのフリーランスはセルフマネジメントが命。タスク管理と時間管理を徹底。"
   },
   {
     "id": 747,
-    "category": "learning",
-    "text": "Reactの仮想DOMの仕組みを理解するとパフォーマンス最適化の勘所がわかる。 #React #学習"
+    "category": "industry",
+    "text": "AI×教育の分野が熱い。プログラミング学習もAIで個別最適化される時代。"
   },
   {
     "id": 748,
-    "category": "learning",
-    "text": "Expo Modulesで独自のネイティブモジュールを作る方法も知っておくと拡張性が広がる。 #Expo #学習"
+    "category": "industry",
+    "text": "Web技術でネイティブアプリが作れる時代。React NativeとExpoの進化に感謝。"
   },
   {
     "id": 749,
-    "category": "learning",
-    "text": "エラーハンドリングのベストプラクティスを学ぼう。エラーを握りつぶすのは最悪のパターン。 #学習 #設計"
+    "category": "industry",
+    "text": "フリーランスITコンサルの強みは現場目線。大企業コンサルにはない機動力がある。"
   },
   {
     "id": 750,
-    "category": "learning",
-    "text": "console.logの代わりにconsole.tableやconsole.groupを使うとデバッグ情報が見やすくなる。 #JavaScript #デバッグ"
+    "category": "industry",
+    "text": "APIエコノミーが加速中。Stripe、Twilio、SendGrid。組み合わせるだけでサービスが作れる。"
   },
   {
     "id": 751,
-    "category": "learning",
-    "text": "ReactのPortal概念を理解するとモーダルやツールチップの実装で困らない。 #React #学習"
+    "category": "industry",
+    "text": "技術記事の発信はフリーランスの信頼構築に直結する。Zennでの発信を続ける理由。"
   },
   {
     "id": 752,
-    "category": "mindset",
-    "text": "プロダクトを出すことに価値がある。完成度80%でもリリースする勇気を持とう。 #個人開発"
+    "category": "industry",
+    "text": "Supabase vs Firebase vs Appwrite。BaaS戦争が激しくなってきた。競争は利用者にとってプラス。"
   },
   {
     "id": 753,
-    "category": "mindset",
-    "text": "AI時代のエンジニアはT字型スキルが理想。深い専門性と幅広い技術理解の両立。 #エンジニア #AI時代"
+    "category": "industry",
+    "text": "日本の育児アプリ市場はまだ成長途中。そだてるで参入するタイミングとしては良い。"
   },
   {
     "id": 754,
-    "category": "mindset",
-    "text": "失敗のコストが下がった今、挑戦しない理由がない。最悪やり直せばいい。 #AI開発 #個人開発"
+    "category": "industry",
+    "text": "フリーランスは健康保険と年金の自己管理が必要。国民健康保険は確認しておこう。"
   },
   {
     "id": 755,
-    "category": "mindset",
-    "text": "Claude Codeと対話してると、自分のロジカルシンキング力も上がる気がする。 #ClaudeCode"
+    "category": "industry",
+    "text": "エッジコンピューティングの波がBaaSにも。Supabase Edge Functions、Cloudflare Workers。"
   },
   {
     "id": 756,
-    "category": "mindset",
-    "text": "他人と比較しない。昨日の自分と比較する。AIの力を借りて毎日少しずつ前進。 #エンジニア #マインド"
+    "category": "industry",
+    "text": "ITコンサルとしてAI導入支援の相談が増えてきた。まずは小さく始めることを提案してる。"
   },
   {
     "id": 757,
-    "category": "mindset",
-    "text": "技術的チャレンジを楽しめるかどうかがエンジニアの適性。AIがあるから楽しみやすい。 #エンジニア #AI時代"
+    "category": "industry",
+    "text": "React Native × Expoの組み合わせが成熟期に入った。プロダクション品質のアプリが作りやすい。"
   },
   {
     "id": 758,
-    "category": "mindset",
-    "text": "コードの質とスピード、AI時代は両方を追求できる。トレードオフではなくなった。 #AI開発 #エンジニア"
+    "category": "industry",
+    "text": "フリーランスのスキルアップは自己投資。書籍、Udemy、カンファレンス。学びを止めない。"
   },
   {
     "id": 759,
-    "category": "mindset",
-    "text": "個人開発は自己表現。技術力だけでなく、クリエイティビティも発揮できる場。 #個人開発"
+    "category": "industry",
+    "text": "PWA vs ネイティブアプリの議論はまだ続いてる。用途次第でどちらも正解。"
   },
   {
     "id": 760,
-    "category": "mindset",
-    "text": "フリーランスの不安定さをAIで補える。生産性が上がれば安定性も上がる。 #フリーランス #AI"
+    "category": "industry",
+    "text": "日本の観光業が完全復活。Local Friend for a Dayのようなサービスの需要は確実にある。"
   },
   {
     "id": 761,
-    "category": "mindset",
-    "text": "10年前のエンジニアが今のAIツールを見たら驚くだろう。10年後はもっとすごいはず。 #AI時代"
+    "category": "industry",
+    "text": "フリーランスのワークライフバランスは自分で作る。メリハリが大事。"
   },
   {
     "id": 762,
-    "category": "mindset",
-    "text": "知識を共有することで自分も成長する。Zennで記事を書くのはWin-Winの関係。 #Zenn #アウトプット"
+    "category": "industry",
+    "text": "AIコードアシスタントの精度が毎月上がってる。半年後にはどうなってるか想像もつかない。"
   },
   {
     "id": 763,
-    "category": "mindset",
-    "text": "AIを恐れるより理解しよう。仕組みを知るほど上手く使えるようになる。 #AI時代 #エンジニア"
+    "category": "industry",
+    "text": "中小企業のIT化支援はやりがいがある。小さな改善でも大きなインパクトになる。"
   },
   {
     "id": 764,
-    "category": "mindset",
-    "text": "一人の開発者が社会にインパクトを与えられる時代。そだてるもLocal Friendもその挑戦。 #個人開発"
+    "category": "industry",
+    "text": "Expo SDK 55の新機能をチェック中。毎回のアップデートが楽しみ。"
   },
   {
     "id": 765,
-    "category": "mindset",
-    "text": "技術の流行り廃りに振り回されない。基礎力があればどんなツールも使いこなせる。 #エンジニア"
+    "category": "industry",
+    "text": "フリーランスの最大のリスクは案件切れ。だから複数の収入源を持つ。個人開発もその一つ。"
   },
   {
     "id": 766,
-    "category": "mindset",
-    "text": "AIに「できない理由」を聞くと新しい可能性が見える。制約を理解するのも大事。 #AI開発"
+    "category": "industry",
+    "text": "テクニカルライティングの需要が増えてる。エンジニアが文章力を持つと強い。"
   },
   {
     "id": 767,
-    "category": "mindset",
-    "text": "小さな改善を毎日積み重ねる。1日1%の改善が1年で37倍になる。 #エンジニア #継続"
+    "category": "industry",
+    "text": "クロスプラットフォーム開発の選択肢：React Native、Flutter、.NET MAUI。それぞれ長所がある。"
   },
   {
     "id": 768,
-    "category": "mindset",
-    "text": "コードを書くのが好きでエンジニアになった人が、AIで「考える」時間を増やせるのは幸福。 #エンジニア #AI時代"
+    "category": "industry",
+    "text": "フリーランスITコンサルとアプリ開発の二刀流。収入と情熱のバランスが取れてる。"
   },
   {
     "id": 769,
-    "category": "mindset",
-    "text": "ユーザーの笑顔を想像しながらコードを書く。技術は手段、目的は人を幸せにすること。 #個人開発 #プロダクト"
+    "category": "industry",
+    "text": "AIの民主化が進んでる。APIを叩くだけで最先端のAI機能が使える。すごい時代。"
   },
   {
     "id": 770,
-    "category": "mindset",
-    "text": "フリーランスで不安な時もある。でもAIという強力な相棒がいると思うと心強い。 #フリーランス #AI"
+    "category": "industry",
+    "text": "日本のフリーランスエンジニア人口が増加中。競争は激しくなるけど市場も拡大してる。"
   },
   {
     "id": 771,
-    "category": "mindset",
-    "text": "「何を学ぶべきか」で迷ったら「何を作りたいか」から逆算する。目的駆動の学習。 #学習 #エンジニア"
+    "category": "industry",
+    "text": "BaaSの進化でバックエンドエンジニアの役割が変わりつつある。設計力がより重要に。"
   },
   {
     "id": 772,
-    "category": "mindset",
-    "text": "プロダクトに対するフィードバックを恐れない。批判こそ成長のチャンス。 #個人開発 #マインド"
+    "category": "industry",
+    "text": "インバウンド観光客向けサービスは英語対応必須。多言語化の設計を最初から考える。"
   },
   {
     "id": 773,
-    "category": "mindset",
-    "text": "チームを雇えなくてもAIがチームになる。一人CTOのような開発体験。 #AI開発 #個人開発"
+    "category": "industry",
+    "text": "フリーランスの確定申告、会計ソフトを使えばそこまで大変じゃない。freeeかMFがおすすめ。"
   },
   {
     "id": 774,
-    "category": "mindset",
-    "text": "コードレビューをAIにしてもらうのは手抜きじゃない。品質保証の新しい形。 #AI開発 #ClaudeCode"
+    "category": "industry",
+    "text": "Denoの進化がすごい。Node.jsの次を担うかもしれない。Supabase Edge Functionsで既に使われてる。"
   },
   {
     "id": 775,
-    "category": "mindset",
-    "text": "変化の激しい時代こそ、変わらない基礎を大切にする。アルゴリズム、設計原則、論理的思考。 #エンジニア"
+    "category": "industry",
+    "text": "ITコンサルの現場で感じるのは、技術導入より人材育成の方が課題であること。"
   },
   {
     "id": 776,
-    "category": "mindset",
-    "text": "「忙しくて勉強する時間がない」はAI時代には通用しない。学習効率も上がってる。 #学習 #AI時代"
+    "category": "industry",
+    "text": "ノーコード/ローコードツールの成熟で、エンジニアの価値は「作れること」から「設計できること」へ。"
   },
   {
     "id": 777,
-    "category": "mindset",
-    "text": "完成品を見せると「すごい」と言われる。でも過程を見せると「応援したい」と言われる。発信の力。 #個人開発 #発信"
+    "category": "industry",
+    "text": "地方創生×テクノロジーの可能性を感じてる。Local Friendはまさにそのテーマ。"
   },
   {
     "id": 778,
-    "category": "mindset",
-    "text": "フリーランスの自由は責任とセット。でもAIがあれば責任を果たしやすくなった。 #フリーランス"
+    "category": "industry",
+    "text": "フリーランスの契約書は必ず確認。特に知的財産権と機密保持の条項は重要。"
   },
   {
     "id": 779,
-    "category": "mindset",
-    "text": "エンジニアリングとは問題解決の技術。AIはその問題解決を加速するツール。 #エンジニア #AI時代"
+    "category": "industry",
+    "text": "Webアセンブリがモバイル開発にも影響を与え始めてる。技術の進化は止まらない。"
   },
   {
     "id": 780,
-    "category": "mindset",
-    "text": "自分が使いたいものを作る。これが個人開発の最大のモチベーション源。 #個人開発"
+    "category": "industry",
+    "text": "子育て×テクノロジーの組み合わせは社会課題の解決に直結する。やりがいのある分野。"
   },
   {
     "id": 781,
-    "category": "mindset",
-    "text": "技術力は自転車みたいなもの。一度身につけたら忘れない。AIはそれを電動アシストにする。 #AI時代 #エンジニア"
+    "category": "industry",
+    "text": "フリーランスの月次売上を安定させるコツは複数案件の分散。一つに依存しない。"
   },
   {
     "id": 782,
-    "category": "mindset",
-    "text": "誰かのために作ったアプリが使われる瞬間、エンジニアになってよかったと思う。 #個人開発"
+    "category": "industry",
+    "text": "テックカンファレンスのオンライン開催が定着して地方からでも参加しやすくなった。"
   },
   {
     "id": 783,
-    "category": "mindset",
-    "text": "AIがあっても苦労はする。でもその苦労が「正しい苦労」になる。無駄な作業が減るから。 #AI開発"
+    "category": "industry",
+    "text": "フリーランスの老後資金はiDeCoと小規模企業共済でカバーしてる。早めの対策が大事。"
   },
   {
     "id": 784,
-    "category": "mindset",
-    "text": "年齢は関係ない。何歳からでもプログラミングは始められる。AIが学習の壁を下げてくれた。 #プログラミング #AI時代"
+    "category": "industry",
+    "text": "AIスタートアップのバブル感は否めないけど、技術自体は本物。使う側はチャンスしかない。"
   },
   {
     "id": 785,
-    "category": "mindset",
-    "text": "情報を消費するだけでなく生産する側に回ろう。エンジニアなら技術記事や個人開発で。 #アウトプット"
+    "category": "industry",
+    "text": "日本のモバイルアプリ市場は世界3位の規模。まだまだチャンスがある。"
   },
   {
     "id": 786,
-    "category": "mindset",
-    "text": "成功してる人は例外なく「とりあえずやってみる」を実践してる。AIがその実践を後押しする。 #AI時代"
+    "category": "industry",
+    "text": "フリーランスの契約更新時期は自分の市場価値を再確認するいいタイミング。"
   },
   {
     "id": 787,
-    "category": "mindset",
-    "text": "コードはコミュニケーションツール。読みやすいコードは未来の自分への手紙。 #エンジニア #コード"
+    "category": "industry",
+    "text": "Cloudflare Workersの進化がすごい。エッジでの処理が当たり前になりつつある。"
   },
   {
     "id": 788,
-    "category": "mindset",
-    "text": "AIに仕事を奪われる前に、AIを使いこなして自分の仕事の質を上げよう。 #AI時代 #エンジニア"
+    "category": "industry",
+    "text": "ITコンサルの需要はAI導入支援にシフト中。従来のシステム開発だけでは差別化できない。"
   },
   {
     "id": 789,
-    "category": "mindset",
-    "text": "楽観的に構想し、悲観的に計画し、楽観的に実行する。AIは計画と実行を支援してくれる。 #AI開発"
+    "category": "industry",
+    "text": "技術コミュニティの横のつながりは仕事にも直結する。勉強会やMeetupに参加しよう。"
   },
   {
     "id": 790,
-    "category": "mindset",
-    "text": "プログラミングができるフリーランスは、AIを活用するとコンサルの付加価値も上がる。 #フリーランス #AI"
+    "category": "industry",
+    "text": "Stripe ConnectやRevenueCatなど、決済インフラが充実してマネタイズが楽になった。"
   },
   {
     "id": 791,
-    "category": "mindset",
-    "text": "一番のリスクは「何もしないこと」。AIがある今、小さくても始めることが大事。 #AI時代 #行動"
+    "category": "article",
+    "text": "Claude Codeの使い方を初心者向けにまとめました。基本操作から実践的なTipsまで網羅。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 792,
-    "category": "mindset",
-    "text": "技術ブログを書く人は、書かない人より圧倒的に成長が早い。言語化の力は偉大。 #アウトプット #Zenn"
+    "category": "article",
+    "text": "Claude Code入門記事、想像以上に読まれてます。AI開発に興味ある方はぜひ。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 793,
-    "category": "mindset",
-    "text": "AI時代の成功法則：学習→実践→発信→フィードバック→改善のサイクルを高速で回す。 #AI時代 #エンジニア"
+    "category": "article",
+    "text": "Claude Codeの基本的な使い方を知りたい方へ。インストールから実践までカバーしてます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 794,
-    "category": "mindset",
-    "text": "2つのアプリを同時に開発する中で「やめない力」が最強だと実感してる。 #個人開発 #継続"
+    "category": "article",
+    "text": "AI開発ツールの入門記事を書いてます。まずはClaude Codeの基本から読んでみてください。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 795,
-    "category": "mindset",
-    "text": "コードを書くことは創造行為。AIはキャンバスを広げてくれる存在。 #エンジニア #AI開発"
+    "category": "article",
+    "text": "Claude Codeの記事を書き続けてるのは、日本語の情報がまだ少ないから。誰かの役に立てば嬉しい。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 796,
-    "category": "mindset",
-    "text": "正解がない問いに向き合うのが人間の仕事。AIは正解がある問いを高速で解いてくれる。 #AI時代"
+    "category": "article",
+    "text": "Claude Codeの記事シリーズ、初心者がつまずくポイントを重点的に解説してます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 797,
-    "category": "mindset",
-    "text": "開発の世界に入って良かった。AIのおかげでその世界がさらに面白くなってる。 #エンジニア #AI開発"
+    "category": "article",
+    "text": "Claude Codeの基本操作記事、ブックマーク数が増えてきた。需要あるんだなと実感。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage"
   },
   {
     "id": 798,
-    "category": "mindset",
-    "text": "知識を隠す時代は終わった。オープンに共有する人が結果的に一番得をする。 #アウトプット #エンジニア"
+    "category": "article",
+    "text": "CLIって何？から始められる初心者向け解説記事を書きました。GUI世代にも分かりやすく。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 799,
-    "category": "mindset",
-    "text": "自分の市場価値を上げる最短ルートは「AI × 専門知識」の掛け合わせ。 #キャリア #AI時代"
+    "category": "article",
+    "text": "「CLIとは？」の記事を書いたのは、Claude Codeの前提知識として必要だったから。順番に読むと理解が深まる。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 800,
-    "category": "mindset",
-    "text": "完璧主義はプロダクトの敵。「とりあえず動く」を最速で作ってから磨く。AIがその磨きを加速。 #個人開発 #AI開発"
+    "category": "article",
+    "text": "CUIとCLIの違い、説明できますか？意外と知らない基礎知識をまとめました。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 801,
-    "category": "mindset",
-    "text": "つまらない反復作業はAIに任せて、人間はワクワクする部分に集中する。 #AI開発 #エンジニア"
+    "category": "article",
+    "text": "CLI解説記事、プログラミング初心者から好評。GUIしか触ったことない人にこそ読んでほしい。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 802,
-    "category": "mindset",
-    "text": "プロジェクトを始めるのは簡単。完成させるのが難しい。AIは完成までの伴走者。 #個人開発 #AI開発"
+    "category": "article",
+    "text": "CLI入門記事は意外とエンジニア歴長い人にも読まれてる。基礎を改めて確認するのは大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 803,
-    "category": "mindset",
-    "text": "スキルに天井はない。AIがあっても学び続ける人が最前線にいられる。 #エンジニア #学習"
+    "category": "article",
+    "text": "CLI解説記事にターミナルの使い方も追記予定。基礎からしっかりカバー。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 804,
-    "category": "mindset",
-    "text": "毎日コードを書く習慣が一番大事。量が質を生む。AIが量を出す手助けをしてくれる。 #エンジニア #継続"
+    "category": "article",
+    "text": "CLI解説記事が意外と長く読まれてる。基礎的な内容こそ息が長い。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it"
   },
   {
     "id": 805,
-    "category": "mindset",
-    "text": "フリーランスの孤独感はSNSでのアウトプットで解消できる。仲間が見つかる。 #フリーランス #発信"
+    "category": "article",
+    "text": "Claude Code × Gitの連携方法をまとめた記事が好評です。バージョン管理が劇的に楽になる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 806,
-    "category": "mindset",
-    "text": "過去の失敗は全て学習データ。AIと同じで、エンジニアも経験から賢くなる。 #エンジニア #マインド"
+    "category": "article",
+    "text": "Claude CodeとGitの組み合わせは最強。その理由を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 807,
-    "category": "mindset",
-    "text": "技術的に無理だと思ったことが、AIに聞いたらできた。限界は思い込みの中にある。 #AI開発"
+    "category": "article",
+    "text": "Claude CodeでGitを操作する方法を解説。コミットからブランチ管理まで自動化できます。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 808,
-    "category": "mindset",
-    "text": "育児アプリと観光アプリ、まったく異なるドメインだけど技術基盤は共通。抽象化の力。 #個人開発"
+    "category": "article",
+    "text": "Git操作をAIに任せるのは怖い？安全な使い方を記事にまとめました。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 809,
-    "category": "mindset",
-    "text": "AIと共創する時代。競争じゃなくて協力。そう考えると未来は明るい。 #AI時代 #エンジニア"
+    "category": "article",
+    "text": "Claude Code × Gitの記事、実際のコマンド例を多めに入れてます。コピペですぐ使える。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 810,
-    "category": "mindset",
-    "text": "コードが書けると世界が変わる。AIがあるとその世界の変え方がさらに大きくなる。 #プログラミング #AI時代"
+    "category": "article",
+    "text": "Git入門記事を読んだ方から「初めてブランチ切れました」の報告。これが記事を書く醍醐味。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 811,
     "category": "article",
-    "text": "初心者向け技術記事を書き続ける理由：かつての自分が欲しかった記事を作りたいから。 #Zenn #技術記事"
+    "text": "Claude Code × Git記事を読んだ方へ：次はMCP連携の記事も準備中です。お楽しみに。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git"
   },
   {
     "id": 812,
     "category": "article",
-    "text": "Claude Codeの記事がZennの週間トレンドに入った。AI開発の注目度の高さを感じる。 #ClaudeCode #Zenn"
+    "text": "MCPサーバーとClaude Codeの連携方法を解説する記事を準備中。外部ツール連携の可能性が広がる。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp"
   },
   {
     "id": 813,
     "category": "article",
-    "text": "記事を書くとき意識してること：専門用語には必ず説明を添える。初心者に優しく。 #Zenn #テクニカルライティング"
+    "text": "MCP連携の記事、書いてて自分も学びが多い。Claude Codeの可能性を広げるキー技術。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp"
   },
   {
     "id": 814,
     "category": "article",
-    "text": "Claude Code × Git記事を読んだ方へ：次はMCP連携の記事も準備中です。お楽しみに。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #ClaudeCode"
+    "text": "MCPの概念が分かりにくい人へ。記事では図解付きで説明する予定です。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp"
+  },
+  {
+    "id": 815,
+    "category": "article",
+    "text": "MCP記事では具体的な接続設定からユースケースまでカバーする予定。実用重視。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp"
+  },
+  {
+    "id": 816,
+    "category": "article",
+    "text": "MCP記事は実際に自分が連携してるサーバーの設定例を公開予定。リアルな内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp"
+  },
+  {
+    "id": 817,
+    "category": "article",
+    "text": "CLIがUIより優れている理由を記事にまとめています。効率を求めるエンジニア必読。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons"
+  },
+  {
+    "id": 818,
+    "category": "article",
+    "text": "CLIの方がGUIより効率的な場面がある。その具体例を記事で紹介予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons"
+  },
+  {
+    "id": 819,
+    "category": "article",
+    "text": "「CLIは古い」は誤解。CLIの方が効率的な場面を具体例付きで記事にします。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons"
+  },
+  {
+    "id": 820,
+    "category": "article",
+    "text": "CLIがUIより優れている理由、エンジニアなら共感してもらえるはず。記事公開が楽しみ。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons"
   },
   {
     "id": 821,
     "category": "article",
-    "text": "記事を書いてると読者からの質問で新しい視点が得られる。双方向のコミュニケーション。 #Zenn"
+    "text": "CLIの優位性記事、エンジニアの生産性データも含めて説得力ある内容にする予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons"
+  },
+  {
+    "id": 822,
+    "category": "article",
+    "text": "Expoでスマホアプリを作る方法を初心者向けに解説する記事を準備中。React Native入門に。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
+  },
+  {
+    "id": 823,
+    "category": "article",
+    "text": "Expoでスマホアプリ開発の敷居はかなり低い。Webの知識があれば始められる理由を記事で解説。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
+  },
+  {
+    "id": 824,
+    "category": "article",
+    "text": "スマホアプリ開発を始めたい人へ。ExpoならWebの知識で始められます。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
   },
   {
     "id": 825,
     "category": "article",
-    "text": "Expo入門記事では「なぜReact Nativeなのか」から説明する。選択理由を知ることが大事。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Expo記事では実機テストの方法も解説。シミュレータだけじゃわからないことがある。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
+  },
+  {
+    "id": 826,
+    "category": "article",
+    "text": "Expo入門記事では「なぜReact Nativeなのか」から説明する。選択理由を知ることが大事。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
   },
   {
     "id": 827,
     "category": "article",
-    "text": "技術記事の更新通知をTwitterで流してるので、フォローしてもらえると嬉しいです。 #Zenn #技術記事"
+    "text": "Expo記事ではEAS Buildの使い方も触れる予定。クラウドビルドの便利さを伝えたい。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app"
   },
   {
     "id": 828,
     "category": "article",
-    "text": "Claude Code入門から応用まで、シリーズで記事を書いていく計画。体系的に学べるように。 #ClaudeCode #Zenn"
+    "text": "Zennに技術記事を書く理由：自分の学びを整理するため。読者のためでもあり、自分のためでもある。"
   },
   {
     "id": 829,
     "category": "article",
-    "text": "MCP記事では具体的な接続設定からユースケースまでカバーする予定。実用重視。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
+    "text": "記事を書くたびに新しい発見がある。「解説するために深掘りする」のが最高の学習法。"
+  },
+  {
+    "id": 830,
+    "category": "article",
+    "text": "記事シリーズの読む順番：CLI解説→Node.js→Claude Codeセットアップ→基本操作。この順がスムーズ。"
+  },
+  {
+    "id": 831,
+    "category": "article",
+    "text": "Zennの記事を毎週更新するのが目標。継続は力なり。"
   },
   {
     "id": 832,
     "category": "article",
-    "text": "CLIの優位性記事、エンジニアの生産性データも含めて説得力ある内容にする予定。\nhttps://zenn.dev/rcn_article/articles/rc-cli-better-than-ui-reasons #CLI"
+    "text": "技術記事を書くときは「3ヶ月前の自分に向けて書く」を意識してる。初心者視点を忘れない。"
   },
   {
     "id": 833,
     "category": "article",
-    "text": "記事を書く前に構成案をClaude Codeに相談してる。AIとの壁打ちで記事の質が上がる。 #ClaudeCode #Zenn"
+    "text": "Claude Code記事の反響が嬉しい。「これで始められました」のコメントが一番のモチベーション。"
   },
   {
     "id": 834,
     "category": "article",
-    "text": "Zennの記事は無料で読めるのが良い。技術情報はオープンであるべきだと思ってる。 #Zenn"
+    "text": "記事を書くことで自分の開発フローが整理される副次効果がある。アウトプットは最高の振り返り。"
   },
   {
     "id": 835,
     "category": "article",
-    "text": "Claude Codeの基本記事、定期的に最新情報にアップデートしてます。\nhttps://zenn.dev/rcn_article/articles/claude-code-basic-usage #ClaudeCode"
+    "text": "Claude Codeの記事を書いてると、自分でも新しい使い方を発見する。教えることは学ぶこと。"
   },
   {
     "id": 836,
     "category": "article",
-    "text": "CLI解説記事にターミナルの使い方も追記予定。基礎からしっかりカバー。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
+    "text": "記事執筆もClaude Codeに手伝ってもらってる。構成案を相談して、技術検証は自分でやる。"
   },
   {
     "id": 837,
     "category": "article",
-    "text": "記事を書くのに使ってるツール：VS Code + Markdown Preview + Claude Code。最強の組み合わせ。 #Zenn #執筆"
+    "text": "Zennで記事を公開するたびにフォロワーが増える。継続的なアウトプットの力を実感。"
   },
   {
     "id": 838,
     "category": "article",
-    "text": "Git記事を読んでくれた方の「分かりやすい」の声が嬉しい。もっと分かりやすく書きたい。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git"
+    "text": "記事の反応を見てると「Claude Code知らなかった」という人がまだまだ多い。布教を続けよう。"
   },
   {
     "id": 839,
     "category": "article",
-    "text": "技術記事のストックが増えてきた。初心者が迷わず読める順番を整理したい。 #Zenn #ClaudeCode"
+    "text": "技術記事は鮮度が大事。定期的にアップデートして最新情報を反映してます。"
+  },
+  {
+    "id": 840,
+    "category": "article",
+    "text": "記事を書く→フィードバック→改善→記事更新のサイクルが回り始めた。Zennのエコシステムが好き。"
+  },
+  {
+    "id": 841,
+    "category": "article",
+    "text": "初心者向け技術記事を書き続ける理由：かつての自分が欲しかった記事を作りたいから。"
   },
   {
     "id": 842,
     "category": "article",
-    "text": "記事の文字数は3000〜5000字を目安にしてる。長すぎず短すぎず、読みやすい長さ。 #Zenn #技術記事"
+    "text": "Claude Codeの記事がZennの週間トレンドに入った。AI開発の注目度の高さを感じる。"
   },
   {
     "id": 843,
     "category": "article",
-    "text": "Claude Code記事シリーズ、全部読むと一通りの操作ができるようになる構成にしてます。 #ClaudeCode #Zenn"
+    "text": "記事を書くとき意識してること：専門用語には必ず説明を添える。初心者に優しく。"
+  },
+  {
+    "id": 844,
+    "category": "article",
+    "text": "記事を書いてると読者からの質問で新しい視点が得られる。双方向のコミュニケーション。"
   },
   {
     "id": 845,
     "category": "article",
-    "text": "記事に対するフィードバックは全て読んでます。改善につなげるので遠慮なくコメントを。 #Zenn"
+    "text": "技術記事の更新通知をTwitterで流してるので、フォローしてもらえると嬉しいです。"
+  },
+  {
+    "id": 846,
+    "category": "article",
+    "text": "Claude Code入門から応用まで、シリーズで記事を書いていく計画。体系的に学べるように。"
   },
   {
     "id": 847,
     "category": "article",
-    "text": "記事を通じてClaude Codeユーザーが増えると嬉しい。一緒にAI開発を楽しもう。 #ClaudeCode #Zenn"
+    "text": "記事を書く前に構成案をClaude Codeに相談してる。AIとの壁打ちで記事の質が上がる。"
   },
   {
     "id": 848,
     "category": "article",
-    "text": "Expo記事ではEAS Buildの使い方も触れる予定。クラウドビルドの便利さを伝えたい。\nhttps://zenn.dev/rcn_article/articles/rc-expo-mobile-app #Expo"
+    "text": "Zennの記事は無料で読めるのが良い。技術情報はオープンであるべきだと思ってる。"
   },
   {
     "id": 849,
     "category": "article",
-    "text": "記事一覧がZennのプロフィールに並ぶのが嬉しい。ポートフォリオの一部にもなってる。 #Zenn"
+    "text": "記事を書くのに使ってるツール：VS Code + Markdown Preview + Claude Code。最強の組み合わせ。"
   },
   {
-    "id": 852,
+    "id": 850,
     "category": "article",
-    "text": "MCP記事は実際に自分が連携してるサーバーの設定例を公開予定。リアルな内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-mcp #MCP"
-  },
-  {
-    "id": 856,
-    "category": "article",
-    "text": "Zennの記事がGoogle検索に表示されるようになってきた。SEO的にもZennは強い。 #Zenn"
-  },
-  {
-    "id": 859,
-    "category": "article",
-    "text": "今週末は記事執筆に集中する予定。2本同時に書き進める。 #Zenn #執筆"
-  },
-  {
-    "id": 860,
-    "category": "article",
-    "text": "記事を書くことで「説明できる=理解できてる」を実感。曖昧な理解が明確になる瞬間。 #Zenn #学習"
-  },
-  {
-    "id": 861,
-    "category": "article",
-    "text": "読者から「この記事のおかげで挫折しなかった」と言われた。技術記事を書く最大のモチベーション。 #Zenn"
-  },
-  {
-    "id": 862,
-    "category": "article",
-    "text": "Claude Code記事の続編として応用編も計画中。基礎→実践→応用の3段階構成。 #ClaudeCode #Zenn"
-  },
-  {
-    "id": 863,
-    "category": "article",
-    "text": "記事は短くても価値があれば読まれる。500字の記事でもいい。まず公開することが大事。 #Zenn #アウトプット"
-  },
-  {
-    "id": 864,
-    "category": "article",
-    "text": "毎月1記事以上のペースで公開が目標。質と量の両立を目指す。 #Zenn #継続"
-  },
-  {
-    "id": 865,
-    "category": "article",
-    "text": "記事を書いてたら「他にもこんな記事書いてほしい」とリクエストが来た。需要があるのは嬉しい。 #Zenn"
-  },
-  {
-    "id": 866,
-    "category": "article",
-    "text": "CLI解説記事が意外と長く読まれてる。基礎的な内容こそ息が長い。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI"
-  },
-  {
-    "id": 867,
-    "category": "article",
-    "text": "Expo + Supabase の組み合わせ記事も書きたい。Local Friendの開発経験をベースに。 #Expo #Supabase #Zenn"
-  },
-  {
-    "id": 868,
-    "category": "devlog",
-    "text": "そだてるのUI、ユーザーテストしたら「文字が小さい」との指摘。育児中は片手操作が多いから大きめに。 #そだてる #UX"
-  },
-  {
-    "id": 869,
-    "category": "devlog",
-    "text": "Local Friendの予約キャンセルフロー実装中。キャンセルポリシーの設計が難しい。 #個人開発"
-  },
-  {
-    "id": 870,
-    "category": "devlog",
-    "text": "今日はCI/CD設定デー。GitHub Actionsでlintとtypecheckを自動実行するように設定。 #CI #個人開発"
-  },
-  {
-    "id": 871,
-    "category": "devlog",
-    "text": "そだてるのワクチンデータを最新の厚労省情報に更新。正確さが命のアプリだから慎重に。 #そだてる"
-  },
-  {
-    "id": 872,
-    "category": "devlog",
-    "text": "Local Friendの検索結果にマップビューを追加した。ピンをタップするとホスト詳細が見れる。 #個人開発 #ReactNative"
-  },
-  {
-    "id": 873,
-    "category": "devlog",
-    "text": "深夜1時にバグの原因が判明した瞬間の快感。useEffectの依存配列が原因だった。 #個人開発 #デバッグ"
-  },
-  {
-    "id": 874,
-    "category": "devlog",
-    "text": "そだてるのオンボーディングフロー実装。子どもの情報登録→ホーム画面への導線。 #そだてる #UX"
-  },
-  {
-    "id": 875,
-    "category": "devlog",
-    "text": "Local Friendのテストデータ作成中。架空のホストプロフィール20件。リアルさを追求。 #個人開発"
-  },
-  {
-    "id": 876,
-    "category": "devlog",
-    "text": "2つのアプリのESLintエラーを全部解消した。スッキリ。lint cleanは気持ちいい。 #ESLint #個人開発"
-  },
-  {
-    "id": 877,
-    "category": "devlog",
-    "text": "そだてるの通知機能設計。ワクチン接種日のリマインダーは必須機能。 #そだてる #個人開発"
-  },
-  {
-    "id": 878,
-    "category": "devlog",
-    "text": "Local Friendのレビュー集計ロジックを実装。平均評価の計算とソートの最適化。 #Supabase #個人開発"
-  },
-  {
-    "id": 879,
-    "category": "devlog",
-    "text": "今日はリファクタリングデー。重複コードを共通関数に切り出し。コード量20%削減。 #個人開発 #リファクタリング"
-  },
-  {
-    "id": 880,
-    "category": "devlog",
-    "text": "そだてるの発達マイルストーンデータ、専門書を参考にしてJSONに落とし込み中。 #そだてる"
-  },
-  {
-    "id": 881,
-    "category": "devlog",
-    "text": "Local Friendのブッキング確認画面が完成。予約詳細、ホスト情報、地図表示を1画面に。 #個人開発"
-  },
-  {
-    "id": 882,
-    "category": "devlog",
-    "text": "Claude Codeに相談しながら設計すると壁打ちになる。今日はDB設計の相談で2時間。 #ClaudeCode #個人開発"
-  },
-  {
-    "id": 883,
-    "category": "devlog",
-    "text": "そだてるのプッシュ通知テスト、Expo Goだと制限があるのでdev clientにした。 #そだてる #Expo"
-  },
-  {
-    "id": 884,
-    "category": "devlog",
-    "text": "Local Friendの多言語化、i18n-jsで実装開始。まずは英語と日本語の切り替え。 #個人開発 #i18n"
-  },
-  {
-    "id": 885,
-    "category": "devlog",
-    "text": "今日の成果：そだてるに画像アップロード機能追加。Firebase Storageと連携。 #そだてる #Firebase"
-  },
-  {
-    "id": 886,
-    "category": "devlog",
-    "text": "Local Friendのホストダッシュボード画面。予約一覧、収益サマリー、レビュー確認。 #個人開発"
-  },
-  {
-    "id": 887,
-    "category": "devlog",
-    "text": "typecheckでエラー0を維持するのが目標。新しいコードを追加するたびに確認。 #TypeScript #個人開発"
-  },
-  {
-    "id": 888,
-    "category": "devlog",
-    "text": "そだてるのコミュニティ機能で画像投稿対応を検討中。容量制限とリサイズの設計が必要。 #そだてる"
-  },
-  {
-    "id": 889,
-    "category": "devlog",
-    "text": "Local Friendのゲスト向け画面10画面中8画面完成。残り2画面は来週中に。 #個人開発"
-  },
-  {
-    "id": 890,
-    "category": "devlog",
-    "text": "週次で進捗を振り返ってる。先週は予定の70%消化。開発ペースを上げたい。 #個人開発"
-  },
-  {
-    "id": 891,
-    "category": "devlog",
-    "text": "そだてるのホーム画面にウィジェット的なカードUI実装。次のワクチン、最近の記録、Tips表示。 #そだてる #UI"
-  },
-  {
-    "id": 892,
-    "category": "devlog",
-    "text": "Local Friendのエラーハンドリングを統一化。全APIコールにtry-catchとユーザーフレンドリーなメッセージ。 #個人開発"
-  },
-  {
-    "id": 893,
-    "category": "devlog",
-    "text": "2つのアプリ合わせてコミット数が500超えた。地道に積み上げてきた証拠。 #個人開発 #Git"
-  },
-  {
-    "id": 894,
-    "category": "devlog",
-    "text": "そだてるの月齢表示を「1歳2ヶ月」形式に変更。ユーザーに馴染みのある表記に。 #そだてる #UX"
-  },
-  {
-    "id": 895,
-    "category": "devlog",
-    "text": "Local Friendのフィルター機能強化。価格帯、体験カテゴリー、対応言語で絞り込み。 #個人開発"
-  },
-  {
-    "id": 896,
-    "category": "devlog",
-    "text": "今日はアクセシビリティ改善デー。2アプリの主要画面にaccessibilityLabelを追加。 #a11y #個人開発"
-  },
-  {
-    "id": 897,
-    "category": "devlog",
-    "text": "そだてるのデモモードが完成。Firebase未接続でもアプリの機能を体験できる。 #そだてる"
-  },
-  {
-    "id": 898,
-    "category": "devlog",
-    "text": "Local Friendの初回ロード時間を計測。3秒かかってるから改善が必要。 #パフォーマンス #個人開発"
-  },
-  {
-    "id": 899,
-    "category": "devlog",
-    "text": "Claude Codeでバグ修正してたら「この部分も潜在的バグがあります」と指摘された。すごい。 #ClaudeCode #個人開発"
-  },
-  {
-    "id": 900,
-    "category": "devlog",
-    "text": "そだてるの成長記録グラフ機能を検討中。身長体重の推移を可視化したい。 #そだてる"
-  },
-  {
-    "id": 901,
-    "category": "devlog",
-    "text": "Local Friendのチャット画面、既読表示とタイピングインジケーター実装。 #個人開発 #Supabase"
-  },
-  {
-    "id": 902,
-    "category": "devlog",
-    "text": "app.jsonのバージョンを更新。そだてるv0.5.0、Local Friend v0.4.0。 #個人開発 #バージョン管理"
-  },
-  {
-    "id": 903,
-    "category": "devlog",
-    "text": "今日は両アプリのREADME更新。セットアップ手順を最新化。 #個人開発 #ドキュメント"
-  },
-  {
-    "id": 904,
-    "category": "devlog",
-    "text": "そだてるのFirebase料金を確認。無料枠内に収まってるけど、ユーザーが増えたら要検討。 #Firebase #そだてる"
-  },
-  {
-    "id": 905,
-    "category": "devlog",
-    "text": "Local FriendのSupabase料金プラン確認。Freeプランの制約を把握して設計を調整。 #Supabase #個人開発"
-  },
-  {
-    "id": 906,
-    "category": "devlog",
-    "text": "2アプリの開発を並行してると、フレームワークの理解が深まる。同じ技術を違う文脈で使う。 #個人開発"
-  },
-  {
-    "id": 907,
-    "category": "devlog",
-    "text": "そだてるのスプラッシュスクリーンを設定。ブランドカラーとロゴを表示。 #そだてる #Expo"
-  },
-  {
-    "id": 908,
-    "category": "devlog",
-    "text": "Local Friendのプラン詳細画面に写真ギャラリーを追加。横スクロールで複数枚表示。 #個人開発 #UI"
-  },
-  {
-    "id": 909,
-    "category": "devlog",
-    "text": "今日の学び：Supabaseのリアルタイムは同時接続数に制限がある。設計に影響する知識。 #Supabase #個人開発"
-  },
-  {
-    "id": 910,
-    "category": "devlog",
-    "text": "そだてるの全画面でダークモード確認完了。NativeWindのdark:クラスが便利すぎる。 #NativeWind #そだてる"
-  },
-  {
-    "id": 911,
-    "category": "devlog",
-    "text": "Local Friendのホスト登録フローを簡略化。ステップ数を5から3に減らした。 #UX #個人開発"
-  },
-  {
-    "id": 912,
-    "category": "devlog",
-    "text": "休日も少しでもコードを書く。この習慣が個人開発を前に進める原動力。 #個人開発 #継続"
-  },
-  {
-    "id": 913,
-    "category": "devlog",
-    "text": "そだてるのテスト用モックデータを充実させた。Firebase呼び出しを完全にモック化。 #そだてる #テスト"
-  },
-  {
-    "id": 914,
-    "category": "devlog",
-    "text": "Local Friendの通知テンプレート設計。予約確定、リマインド、レビュー依頼の3種類。 #個人開発"
-  },
-  {
-    "id": 915,
-    "category": "devlog",
-    "text": "2つのアプリの技術的負債を定期的に返済中。Claude Codeがリファクタリングを高速化してくれる。 #ClaudeCode #個人開発"
-  },
-  {
-    "id": 916,
-    "category": "industry",
-    "text": "テックカンファレンスのオンライン開催が定着して地方からでも参加しやすくなった。 #テック #カンファレンス"
-  },
-  {
-    "id": 917,
-    "category": "industry",
-    "text": "フリーランスの老後資金はiDeCoと小規模企業共済でカバーしてる。早めの対策が大事。 #フリーランス #資産形成"
-  },
-  {
-    "id": 918,
-    "category": "industry",
-    "text": "AIスタートアップのバブル感は否めないけど、技術自体は本物。使う側はチャンスしかない。 #AI #スタートアップ"
-  },
-  {
-    "id": 919,
-    "category": "industry",
-    "text": "日本のモバイルアプリ市場は世界3位の規模。まだまだチャンスがある。 #モバイル開発 #マーケット"
-  },
-  {
-    "id": 920,
-    "category": "industry",
-    "text": "フリーランスの契約更新時期は自分の市場価値を再確認するいいタイミング。 #フリーランス"
-  },
-  {
-    "id": 921,
-    "category": "industry",
-    "text": "Cloudflare Workersの進化がすごい。エッジでの処理が当たり前になりつつある。 #テック #Cloudflare"
-  },
-  {
-    "id": 922,
-    "category": "industry",
-    "text": "ITコンサルの需要はAI導入支援にシフト中。従来のシステム開発だけでは差別化できない。 #ITコンサル #AI"
-  },
-  {
-    "id": 923,
-    "category": "industry",
-    "text": "技術コミュニティの横のつながりは仕事にも直結する。勉強会やMeetupに参加しよう。 #コミュニティ #エンジニア"
-  },
-  {
-    "id": 924,
-    "category": "industry",
-    "text": "Stripe ConnectやRevenueCatなど、決済インフラが充実してマネタイズが楽になった。 #フィンテック #個人開発"
-  },
-  {
-    "category": "article",
-    "text": "CLIの記事を書いたことでClaude Code記事への導線ができた。記事同士の連携が大事。\nhttps://zenn.dev/rcn_article/articles/cli-what-is-it #CLI #Zenn",
-    "id": 985
-  },
-  {
-    "category": "article",
-    "text": "Git入門記事はプルリクエストの作り方まで解説してます。実務で即使える内容。\nhttps://zenn.dev/rcn_article/articles/rc-claude-code-git #Git",
-    "id": 986
-  },
-  {
-    "category": "article",
-    "text": "記事を公開してからが本番。読者の反応を見て改善していくプロセスが大事。 #Zenn #アウトプット",
-    "id": 990
-  },
-  {
-    "category": "article",
-    "text": "Zennの記事一覧：Claude Code入門→CLI基礎→Git連携。この順番で読むのがおすすめです。 #Zenn #ClaudeCode",
-    "id": 991
-  },
-  {
-    "category": "mindset",
-    "text": "技術的な課題をAIと一緒に乗り越える体験は、一人で解決するより楽しい。 #AI開発 #エンジニア",
-    "id": 992
-  },
-  {
-    "category": "mindset",
-    "text": "個人開発のゴールは売上じゃなくて学び。結果的に売上がついてくるのが理想。 #個人開発",
-    "id": 993
-  },
-  {
-    "category": "mindset",
-    "text": "AIに頼るのは弱さじゃない。最適なツールを選ぶ判断力は強さ。 #AI時代 #エンジニア",
-    "id": 994
-  },
-  {
-    "category": "mindset",
-    "text": "毎日の積み重ねが1年後に大きな差になる。AI時代でもこの原則は変わらない。 #継続 #エンジニア",
-    "id": 995
-  },
-  {
-    "category": "mindset",
-    "text": "自分が解決したい課題を技術で解決する。これがエンジニアリングの本質。 #エンジニア",
-    "id": 996
-  },
-  {
-    "category": "mindset",
-    "text": "AIの時代だからこそ、人間味のあるプロダクトが差別化になる。温かみのあるUI設計を。 #プロダクト #AI時代",
-    "id": 997
-  },
-  {
-    "category": "mindset",
-    "text": "技術書を読んで理解した気になるのと、実際に手を動かして理解するのは全く違う。 #学習 #エンジニア",
-    "id": 998
-  },
-  {
-    "category": "mindset",
-    "text": "フリーランスでAIを活用すると一人でも大きな仕事ができる。それは自信になる。 #フリーランス #AI",
-    "id": 999
-  },
-  {
-    "category": "mindset",
-    "text": "プログラミングは世界共通語。AIが翻訳の壁も下げてくれた。グローバルに戦えるスキル。 #プログラミング #AI時代",
-    "id": 1000
+    "text": "技術記事のストックが増えてきた。初心者が迷わず読める順番を整理したい。"
   }
 ]

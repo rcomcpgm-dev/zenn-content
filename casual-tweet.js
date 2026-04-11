@@ -89,10 +89,9 @@ async function generateAndPost() {
   const log = getLog();
   const topic = TOPICS[Math.floor(Math.random() * TOPICS.length)];
 
-  // 直近の投稿を取得して被りを避ける
-  const recentTexts = log.tweets
-    .slice(-20)
-    .map((t) => t.text)
+  // 全スクリプト共通の履歴から直近30件を取得して被りを避ける
+  const recentTexts = getHistory()
+    .slice(-30)
     .join("\n---\n");
 
   // インフルエンサー分析結果を読み込み

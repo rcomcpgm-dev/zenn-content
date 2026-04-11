@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       category:
-        description: 'Tweet category (tips/mindset/learning/article/devlog/industry)'
+        description: 'Tweet category (tips/mindset/learning/article/devlog/industry/engagement/daily)'
         required: false
         default: ''
 
@@ -40,14 +40,14 @@ jobs:
           if [ "$INPUT_CATEGORY" != "" ]; then
             echo "cat=$INPUT_CATEGORY" >> $GITHUB_OUTPUT
           elif [ "$HOUR" -lt 15 ]; then
-            # 昼: Tips, Learning, Article (実用・読み応え系)
-            echo "cat=$(shuf -e tips learning article -n 1)" >> $GITHUB_OUTPUT
+            # 昼: Tips, Learning, Daily (実用・日常系)
+            echo "cat=$(shuf -e tips learning daily -n 1)" >> $GITHUB_OUTPUT
           elif [ "$HOUR" -lt 20 ]; then
-            # 夕方: Industry, Devlog (業界・開発日記系)
-            echo "cat=$(shuf -e industry devlog -n 1)" >> $GITHUB_OUTPUT
+            # 夕方: Industry, Devlog, Daily (業界・開発日記系)
+            echo "cat=$(shuf -e industry devlog daily -n 1)" >> $GITHUB_OUTPUT
           else
             # 夜: Mindset, Engagement (共感・交流系)
-            echo "cat=$(shuf -e mindset devlog -n 1)" >> $GITHUB_OUTPUT
+            echo "cat=$(shuf -e mindset engagement -n 1)" >> $GITHUB_OUTPUT
           fi
 
       - name: Post tweet
