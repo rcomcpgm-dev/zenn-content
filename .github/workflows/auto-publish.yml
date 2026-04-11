@@ -37,6 +37,32 @@ jobs:
           if [ -z "$FILE" ]; then
             echo "No unpublished articles found."
             echo "published=false" >> $GITHUB_OUTPUT
+
+            # Zennのレートリミット（24時間5記事）で未デプロイの記事がある場合、
+            # 空コミットをpushしてZennのデプロイを再トリガーする
+            ZENN_COUNT=$(curl -s "https://zenn.dev/api/articles?username=rcn_article&count=1" | node -e "
+              const d=require('fs').readFileSync('/dev/stdin','utf8');
+              try{console.log(JSON.parse(d).articles?.[0]? 'ok':'empty')}catch{console.log('error')}
+            ")
+            REPO_COUNT=$(grep -rl 'published: true' articles/*.md | wc -l)
+            echo "Zenn articles: checking, Repo published: $REPO_COUNT"
+
+            # Zenn APIで全記事数を取得
+            ZENN_TOTAL=$(curl -s "https://zenn.dev/api/users/rcn_article" | node -e "
+              const d=require('fs').readFileSync('/dev/stdin','utf8');
+              try{console.log(JSON.parse(d).user.articles_count)}catch{console.log(0)}
+            ")
+            echo "Zenn total: $ZENN_TOTAL, Repo total: $REPO_COUNT"
+
+            if [ "$ZENN_TOTAL" -lt "$REPO_COUNT" ]; then
+              echo "Zenn has fewer articles than repo. Pushing empty commit to trigger deploy."
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git commit --allow-empty -m "Trigger Zenn deploy (${ZENN_TOTAL}/${REPO_COUNT} articles synced)"
+              git pull --rebase
+              git push
+            fi
+
             exit 0
           fi
 
