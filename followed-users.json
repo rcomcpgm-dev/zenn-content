@@ -2655,6 +2655,70 @@
       "followers": 408,
       "followedAt": "2026-04-11T06:44:46.730Z",
       "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "1250615150781976576",
+      "username": "creatorAco",
+      "name": "アートあこ＠ものづくりエイター／元フロントエンドエンジニア",
+      "followers": 102,
+      "followedAt": "2026-04-11T14:08:50.166Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1580576183116177408",
+      "username": "re2osushi8888",
+      "name": "れつ",
+      "followers": 522,
+      "followedAt": "2026-04-11T14:09:13.229Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1643678100",
+      "username": "yuta_k0911",
+      "name": "Yuta Kawasaki（ゆーた）",
+      "followers": 2087,
+      "followedAt": "2026-04-11T14:09:25.689Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1837378493778481155",
+      "username": "freelance_shota",
+      "name": "しょうた | フリーランスSE",
+      "followers": 145,
+      "followedAt": "2026-04-11T14:09:38.335Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "2210174712",
+      "username": "tsuyupippi",
+      "name": "tsuyupippi",
+      "followers": 270,
+      "followedAt": "2026-04-11T14:09:50.968Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "99250765",
+      "username": "fuyukuniaki",
+      "name": "冬國秋☕️Thé Web Creator",
+      "followers": 214,
+      "followedAt": "2026-04-11T14:10:03.595Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1504057485162090497",
+      "username": "maaai12121",
+      "name": "はまだ | Offers DevRel",
+      "followers": 341,
+      "followedAt": "2026-04-11T14:10:16.192Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "364311504",
+      "username": "shin_1682",
+      "name": "シン＠るき",
+      "followers": 356,
+      "followedAt": "2026-04-11T14:10:39.234Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
