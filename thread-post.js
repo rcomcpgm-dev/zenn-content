@@ -69,7 +69,7 @@ ${article.content.substring(0, 3000)}
 - ハッシュタグ禁止
 - 絵文字は0〜1個/ツイート
 - 「〜しましょう」「〜がおすすめです」「〜してみてください」禁止
-- 記事URL: https://zenn.dev/and_and_and/articles/${article.file.replace(".md", "")}
+- 記事URL: https://zenn.dev/rcn_article/articles/${article.file.replace(".md", "")}
 - 本文だけ出力`;
 
   const response = await anthropic.messages.create({

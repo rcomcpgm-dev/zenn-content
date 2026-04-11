@@ -23,7 +23,7 @@ const body = content.slice(bodyStart).trim();
 const leadMatch = body.match(/^([^#\n].+)/);
 const lead = leadMatch ? leadMatch[1].trim() : "";
 
-const url = `https://zenn.dev/and_and_and/articles/${slug}`;
+const url = `https://zenn.dev/rcn_article/articles/${slug}`;
 
 // ポストを組み立て
 let tweet = `${title}\n\n`;

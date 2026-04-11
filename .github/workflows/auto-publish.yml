@@ -53,8 +53,30 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Post to X
+      - name: Verify article is live on Zenn
         if: steps.publish.outputs.published == 'true'
+        id: verify
+        run: |
+          SLUG=$(basename "${{ steps.publish.outputs.file }}" .md)
+          URL="https://zenn.dev/rcn_article/articles/${SLUG}"
+          echo "Checking: $URL"
+
+          # Zennのデプロイを待つ（最大3分、30秒間隔で6回）
+          for i in 1 2 3 4 5 6; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+            echo "Attempt $i: HTTP $STATUS"
+            if [ "$STATUS" = "200" ]; then
+              echo "verified=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            sleep 30
+          done
+
+          echo "Article not live on Zenn after 3 minutes. Skipping tweet."
+          echo "verified=false" >> $GITHUB_OUTPUT
+
+      - name: Post to X
+        if: steps.verify.outputs.verified == 'true'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}

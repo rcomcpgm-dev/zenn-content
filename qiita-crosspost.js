@@ -88,7 +88,7 @@ async function rewriteForQiita(title, body) {
 - 記事の最後に以下を追加:
   ---
   この記事が参考になったらLGTMお願いします！
-  Zennでも技術記事を発信中です → https://zenn.dev/and_and_and
+  Zennでも技術記事を発信中です → https://zenn.dev/rcn_article
 - Markdown形式で出力
 - タイトルと本文を「===TITLE===」「===BODY===」で区切って出力
 
