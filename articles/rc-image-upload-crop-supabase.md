@@ -4,7 +4,7 @@ emoji: "🖼️"
 type: "tech"
 topics: ["claudecode", "supabase", "nextjs", "react"]
 publish_order: 19
-published: false
+published: true
 ---
 
 ## この記事でわかること

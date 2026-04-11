@@ -4,7 +4,7 @@ emoji: "🔄"
 type: "tech"
 topics: ["claudecode", "twitter", "ai", "automation"]
 publish_order: 22
-published: false
+published: true
 ---
 
 ## この記事でわかること

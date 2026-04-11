@@ -4,7 +4,7 @@ emoji: "🤖"
 type: "tech"
 topics: ["claudecode", "twitter", "automation", "ai"]
 publish_order: 21
-published: false
+published: true
 ---
 
 ## この記事でわかること
@@ -258,7 +258,7 @@ git add → git commit → git push
 1つのZenn記事から、3つのコンテンツを自動生成している。
 
 ```
-Zenn記事（published: false で書き溜め）
+Zenn記事（published: true で書き溜め）
   ├── auto-publish.yml → published: true に変更 + X告知ツイート
   ├── qiita-crosspost.js → Claude APIでQiita向けにリライト + 投稿
   └── thread-post.js → 記事を3〜6ツイートのスレッドに変換
@@ -266,17 +266,17 @@ Zenn記事（published: false で書き溜め）
 
 ### Zenn記事の自動公開
 
-GitHub Actionsが毎日10:00に実行され、`published: false` の記事を1つ見つけて `published: true` に書き換えてpushする。Zennは GitHub連携で自動反映されるので、これだけで公開完了。
+GitHub Actionsが毎日10:00に実行され、`published: true` の記事を1つ見つけて `published: true` に書き換えてpushする。Zennは GitHub連携で自動反映されるので、これだけで公開完了。
 
 ```yaml
 - name: Find and publish one unpublished article
   run: |
-    FILE=$(grep -rl 'published: false' articles/ | head -1)
+    FILE=$(grep -rl 'published: true' articles/ | head -1)
     if [ -z "$FILE" ]; then
       echo "No unpublished articles found."
       exit 0
     fi
-    sed -i 's/published: false/published: true/' "$FILE"
+    sed -i 's/published: true/published: true/' "$FILE"
     git add "$FILE"
     git commit -m "Auto-publish: $(basename $FILE .md)"
     git push
