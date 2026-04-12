@@ -4,7 +4,11 @@
   "description": "Zenn記事管理リポジトリ。GitHub連携でpushすると自動的にZennに反映される。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tweet": "node manual-tweet.js post",
+    "tweet:schedule": "node manual-tweet.js schedule",
+    "tweet:queue": "node manual-tweet.js queue",
+    "tweet:remove": "node manual-tweet.js remove"
   },
   "repository": {
     "type": "git",
