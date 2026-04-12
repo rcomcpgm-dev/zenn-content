@@ -4,7 +4,7 @@ emoji: "⚡"
 type: "tech"
 topics: ["claudecode", "supabase", "nextjs", "fullstack"]
 publish_order: 11
-published: true
+published: false
 ---
 
 Claude CodeとSupabaseを組み合わせれば、認証・データベース・リアルタイム通信を備えた本格的なWebアプリを構築できます。チャットアプリを例に手順を解説します。

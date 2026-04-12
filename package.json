@@ -8,7 +8,9 @@
     "tweet": "node manual-tweet.js post",
     "tweet:schedule": "node manual-tweet.js schedule",
     "tweet:queue": "node manual-tweet.js queue",
-    "tweet:remove": "node manual-tweet.js remove"
+    "tweet:remove": "node manual-tweet.js remove",
+    "tweet:reply": "node manual-tweet.js reply",
+    "tweet:thread": "node manual-tweet.js thread"
   },
   "repository": {
     "type": "git",

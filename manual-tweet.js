@@ -29,21 +29,27 @@ function appendHistory(text) {
   fs.appendFileSync(HISTORY_FILE, text + "\n", "utf-8");
 }
 
-async function postTweet(text) {
-  const { data } = await client.v2.tweet(text);
+async function postTweet(text, replyToId) {
+  const params = replyToId
+    ? { text, reply: { in_reply_to_tweet_id: replyToId } }
+    : text;
+  const { data } = await client.v2.tweet(params);
   const url = `https://x.com/adlei_builds/status/${data.id}`;
   console.log(`投稿完了: ${url}`);
   appendHistory(text);
   return data;
 }
 
-async function scheduleToQueue(text, scheduledAt) {
+async function scheduleToQueue(text, scheduledAt, replyToId) {
   const queue = loadQueue();
   const id = Date.now().toString(36);
-  queue.push({ id, text, scheduledAt, createdAt: new Date().toISOString() });
+  const item = { id, text, scheduledAt, createdAt: new Date().toISOString() };
+  if (replyToId) item.replyToId = replyToId;
+  queue.push(item);
   saveQueue(queue);
   console.log(`予約追加: ID=${id}`);
   console.log(`投稿予定: ${scheduledAt}`);
+  if (replyToId) console.log(`リプライ先: ${replyToId}`);
   console.log(`内容: ${text}`);
 }
 
@@ -93,6 +99,47 @@ const command = args[0];
         await postTweet(text);
         break;
       }
+      case "reply": {
+        const tweetId = args[1];
+        const text = args[2];
+        if (!tweetId || !text) {
+          console.error(
+            '使い方: node manual-tweet.js reply <tweet_id> "リプライ内容"'
+          );
+          process.exit(1);
+        }
+        if (text.length > 280) {
+          console.error(`文字数オーバー: ${text.length}/280`);
+          process.exit(1);
+        }
+        await postTweet(text, tweetId);
+        break;
+      }
+      case "thread": {
+        // thread <tweet_id> "テキスト1" "テキスト2" ...
+        let parentId = args[1];
+        const texts = args.slice(2);
+        if (!parentId || texts.length === 0) {
+          console.error(
+            '使い方: node manual-tweet.js thread <tweet_id> "1つ目" "2つ目" ...'
+          );
+          process.exit(1);
+        }
+        for (const t of texts) {
+          if (t.length > 280) {
+            console.error(`文字数オーバー: ${t.length}/280 「${t.slice(0, 30)}...」`);
+            process.exit(1);
+          }
+        }
+        for (const t of texts) {
+          const data = await postTweet(t, parentId);
+          parentId = data.id;
+          if (texts.indexOf(t) < texts.length - 1) {
+            await new Promise((r) => setTimeout(r, 1000));
+          }
+        }
+        break;
+      }
       case "schedule": {
         const text = args[1];
         const datetime = args[2];
@@ -135,10 +182,12 @@ const command = args[0];
         console.log(`manual-tweet.js — X投稿 & 予約管理
 
 コマンド:
-  post "テキスト"                    即時投稿
-  schedule "テキスト" "YYYY-MM-DDTHH:MM"  予約追加（JST）
-  queue                              予約一覧
-  remove <id>                        予約削除
+  post "テキスト"                              即時投稿
+  reply <tweet_id> "テキスト"                  ツリー返信
+  thread <tweet_id> "1つ目" "2つ目" ...        連続ツリー
+  schedule "テキスト" "YYYY-MM-DDTHH:MM"       予約追加（JST）
+  queue                                        予約一覧
+  remove <id>                                  予約削除
 `);
     }
   } catch (err) {

@@ -22,92 +22,82 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Find and publish one unpublished article
+      - name: Find and publish up to 5 unpublished articles
         id: publish
         run: |
-          # 未公開記事をpublish_order順で1つ見つけてpublishedをtrueに変更
-          # publish_orderがある記事を番号順に、ない記事はその後にファイル名順で処理
-          FILE=$(for f in articles/*.md; do
+          # 未公開記事をpublish_order順で最大5つ見つけてpublishedをtrueに変更
+          FILES=$(for f in articles/*.md; do
             if grep -q 'published: false' "$f"; then
               order=$(grep 'publish_order:' "$f" | sed 's/[^0-9]//g')
               echo "${order:-9999} $f"
             fi
-          done | sort -n | head -1 | cut -d' ' -f2)
+          done | sort -n | head -5 | cut -d' ' -f2)
 
-          if [ -z "$FILE" ]; then
+          if [ -z "$FILES" ]; then
             echo "No unpublished articles found."
-            echo "published=false" >> $GITHUB_OUTPUT
-
-            # Zennのレートリミット（24時間5記事）で未デプロイの記事がある場合、
-            # 空コミットをpushしてZennのデプロイを再トリガーする
-            ZENN_COUNT=$(curl -s "https://zenn.dev/api/articles?username=rcn_article&count=1" | node -e "
-              const d=require('fs').readFileSync('/dev/stdin','utf8');
-              try{console.log(JSON.parse(d).articles?.[0]? 'ok':'empty')}catch{console.log('error')}
-            ")
-            REPO_COUNT=$(grep -rl 'published: true' articles/*.md | wc -l)
-            echo "Zenn articles: checking, Repo published: $REPO_COUNT"
-
-            # Zenn APIで全記事数を取得
-            ZENN_TOTAL=$(curl -s "https://zenn.dev/api/users/rcn_article" | node -e "
-              const d=require('fs').readFileSync('/dev/stdin','utf8');
-              try{console.log(JSON.parse(d).user.articles_count)}catch{console.log(0)}
-            ")
-            echo "Zenn total: $ZENN_TOTAL, Repo total: $REPO_COUNT"
-
-            if [ "$ZENN_TOTAL" -lt "$REPO_COUNT" ]; then
-              echo "Zenn has fewer articles than repo. Pushing empty commit to trigger deploy."
-              git config user.name "github-actions[bot]"
-              git config user.email "github-actions[bot]@users.noreply.github.com"
-              git commit --allow-empty -m "Trigger Zenn deploy (${ZENN_TOTAL}/${REPO_COUNT} articles synced)"
-              git pull --rebase
-              git push
-            fi
-
+            echo "count=0" >> $GITHUB_OUTPUT
             exit 0
           fi
 
-          echo "Publishing: $FILE"
-          sed -i 's/published: false/published: true/' "$FILE"
+          COUNT=0
+          PUBLISHED_FILES=""
+          for FILE in $FILES; do
+            echo "Publishing: $FILE"
+            sed -i 's/published: false/published: true/' "$FILE"
+            PUBLISHED_FILES="$PUBLISHED_FILES $FILE"
+            COUNT=$((COUNT + 1))
+          done
 
-          echo "published=true" >> $GITHUB_OUTPUT
-          echo "file=$FILE" >> $GITHUB_OUTPUT
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "files=$PUBLISHED_FILES" >> $GITHUB_OUTPUT
+
+          # 最後に公開した記事のファイル名（ツイート用）
+          LAST_FILE=$(echo "$FILES" | tail -1)
+          echo "last_file=$LAST_FILE" >> $GITHUB_OUTPUT
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "$FILE"
-          git commit -m "Auto-publish: $(basename $FILE .md)"
+          git add articles/*.md
+          git commit -m "Auto-publish: ${COUNT}記事を公開"
           git pull --rebase
           git push
 
-      - name: Verify article is live on Zenn
-        if: steps.publish.outputs.published == 'true'
+      - name: Wait for Zenn deploy
+        if: steps.publish.outputs.count != '0'
+        run: |
+          echo "Waiting 90 seconds for Zenn to deploy..."
+          sleep 90
+
+      - name: Verify articles are live on Zenn
+        if: steps.publish.outputs.count != '0'
         id: verify
         run: |
-          SLUG=$(basename "${{ steps.publish.outputs.file }}" .md)
-          URL="https://zenn.dev/rcn_article/articles/${SLUG}"
-          echo "Checking: $URL"
+          VERIFIED=0
+          for FILE in ${{ steps.publish.outputs.files }}; do
+            SLUG=$(basename "$FILE" .md)
+            URL="https://zenn.dev/rcn_article/articles/${SLUG}"
 
-          # Zennのデプロイを待つ（最大3分、30秒間隔で6回）
-          for i in 1 2 3 4 5 6; do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
-            echo "Attempt $i: HTTP $STATUS"
-            if [ "$STATUS" = "200" ]; then
-              echo "verified=true" >> $GITHUB_OUTPUT
-              exit 0
-            fi
-            sleep 30
+            for i in 1 2 3 4; do
+              STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+              echo "$SLUG: attempt $i → HTTP $STATUS"
+              if [ "$STATUS" = "200" ]; then
+                VERIFIED=$((VERIFIED + 1))
+                break
+              fi
+              sleep 30
+            done
           done
 
-          echo "Article not live on Zenn after 3 minutes. Skipping tweet."
-          echo "verified=false" >> $GITHUB_OUTPUT
+          echo "verified=$VERIFIED" >> $GITHUB_OUTPUT
+          echo "$VERIFIED / ${{ steps.publish.outputs.count }} articles verified on Zenn"
 
-      - name: Post to X
-        if: steps.verify.outputs.verified == 'true'
+      - name: Post to X (last published article)
+        if: steps.verify.outputs.verified != '0'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: |
-          TWEET=$(node generate-tweet.js "${{ steps.publish.outputs.file }}")
+          TWEET=$(node generate-tweet.js "${{ steps.publish.outputs.last_file }}")
           node post-to-x.js "$TWEET"

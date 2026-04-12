@@ -4,7 +4,7 @@ emoji: "🧠"
 type: "tech"
 topics: ["claudecode", "ai", "productivity", "devtools"]
 publish_order: 2
-published: true
+published: false
 ---
 
 CLAUDE.mdは、プロジェクトの情報をAIに記憶させるための設定ファイルです。一度書けば毎回の説明が不要になり、開発の生産性が激変します。書き方のコツと実例を紹介します。

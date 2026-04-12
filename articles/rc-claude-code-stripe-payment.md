@@ -4,7 +4,7 @@ emoji: "💳"
 type: "tech"
 topics: ["claudecode", "stripe", "nextjs", "saas"]
 publish_order: 18
-published: true
+published: false
 ---
 
 ## この記事でわかること

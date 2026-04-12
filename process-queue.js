@@ -51,7 +51,10 @@ async function processQueue() {
 
   for (const item of due) {
     try {
-      const { data } = await client.v2.tweet(item.text);
+      const params = item.replyToId
+        ? { text: item.text, reply: { in_reply_to_tweet_id: item.replyToId } }
+        : item.text;
+      const { data } = await client.v2.tweet(params);
       const url = `https://x.com/adlei_builds/status/${data.id}`;
       console.log(`投稿完了 [${item.id}]: ${url}`);
       appendHistory(item.text);
