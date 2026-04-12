@@ -168,6 +168,64 @@
         "followersPercent": "371.4",
         "impressionChange": 605
       }
+    },
+    {
+      "date": "2026-04-12T06:51:13.916Z",
+      "profile": {
+        "followers": 57,
+        "following": 416,
+        "totalTweets": 257
+      },
+      "last50Tweets": {
+        "totalLikes": 52,
+        "totalRetweets": 140,
+        "totalImpressions": 717,
+        "avgLikes": "1.0",
+        "avgImpressions": "14.3",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "Claude Codeを毎日使ってたら、指示一つで生産性が爆上がりすることに気づいたんよ。正直最初は適当に使ってて、AIが微妙な出力してくるから「やっぱAIダメ",
+          "likes": 3,
+          "retweets": 0,
+          "impressions": 31,
+          "date": "2026-04-11T12:00:35.000Z"
+        },
+        {
+          "text": "記事書く→フィードバック→改善→更新みたいなサイクル回り始めたんだが、Zennのエコシステムいいなー",
+          "likes": 2,
+          "retweets": 0,
+          "impressions": 17,
+          "date": "2026-04-11T15:00:50.000Z"
+        },
+        {
+          "text": "尿酸値やばいから禁酒してるんだけど、3日目で既に家飲みの誘惑がやばいんだよな。酒なしで夜過ごすの、こんなに退屈だったんだわ",
+          "likes": 2,
+          "retweets": 0,
+          "impressions": 17,
+          "date": "2026-04-11T14:56:48.000Z"
+        },
+        {
+          "text": "複数ファイルの一括修正とかも、Claude Codeなら数秒で終わる。手作業だと1時間かかるような修正も。あと既存コードを参考にさせるのも強い。「UserLis",
+          "likes": 2,
+          "retweets": 0,
+          "impressions": 20,
+          "date": "2026-04-11T12:00:40.000Z"
+        },
+        {
+          "text": "たとえば「いいフォーム作って」じゃなくて「メール・パスワードのログイン画面、バリデーション付き、Tailwindで整えて」みたいに細かく言うだけで、出力精度が段",
+          "likes": 2,
+          "retweets": 0,
+          "impressions": 18,
+          "date": "2026-04-11T12:00:36.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 24,
+        "followersPercent": "72.7",
+        "impressionChange": -4
+      }
     }
   ]
 }
