@@ -2911,6 +2911,62 @@
       "followers": 602,
       "followedAt": "2026-04-13T09:24:26.486Z",
       "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "152844916",
+      "username": "tktokyoBTC",
+      "name": "TKtokyo",
+      "followers": 2708,
+      "followedAt": "2026-04-13T16:44:36.468Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "354794255",
+      "username": "fumimi_jp",
+      "name": "佐藤 貴史@ミラスタ",
+      "followers": 276,
+      "followedAt": "2026-04-13T16:44:49.160Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2005618582450036736",
+      "username": "yukiwa_AI",
+      "name": "雪羽",
+      "followers": 225,
+      "followedAt": "2026-04-13T16:45:12.383Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2911860096",
+      "username": "yumion3_enmo",
+      "name": "ゆみおん＠フリーランス→会社員エンジニアのリアル",
+      "followers": 1639,
+      "followedAt": "2026-04-13T16:45:25.128Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1546440496528359425",
+      "username": "saitorepayman",
+      "name": "さいとう｜30歳会社員 個人開発",
+      "followers": 852,
+      "followedAt": "2026-04-13T16:45:59.151Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1370770159594393600",
+      "username": "TechSenichiya",
+      "name": "Tech千一夜｜ソフトウェアの作り方チャンネル",
+      "followers": 200,
+      "followedAt": "2026-04-13T16:46:11.799Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1721420019316449280",
+      "username": "gpt_workhack",
+      "name": "KOZUKI｜AI実装で1人法人を回す",
+      "followers": 241,
+      "followedAt": "2026-04-13T16:46:24.423Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
