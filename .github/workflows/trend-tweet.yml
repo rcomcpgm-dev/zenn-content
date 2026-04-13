@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trend-tweet-log.json
+          git add trend-tweet-log.json tweet-history.txt
           if ! git diff --staged --quiet; then
             git commit -m "Update trend tweet log"
             git pull --rebase
