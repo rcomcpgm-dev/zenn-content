@@ -4,7 +4,7 @@ emoji: "🕷"
 type: "tech"
 topics: ["claudecode", "nodejs", "scraping", "automation"]
 publish_order: 9
-published: false
+published: true
 ---
 
 Claude Codeを使えば、Webスクレイピングツールを日本語の指示だけで作れます。cheerio・axios・Puppeteerを使ったNode.jsの実用例を紹介します。

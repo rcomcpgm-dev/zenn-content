@@ -4,7 +4,7 @@ emoji: "📊"
 type: "tech"
 topics: ["claudecode", "python", "dataanalysis", "visualization"]
 publish_order: 10
-published: false
+published: true
 ---
 
 Claude Codeを使えば、CSVデータの分析やグラフ作成を日本語の一言で自動化できます。Python/Node.jsを使った実践的なデータ可視化の方法を解説します。
