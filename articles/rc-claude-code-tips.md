@@ -4,7 +4,7 @@ emoji: "💡"
 type: "tech"
 topics: ["claudecode", "ai", "productivity", "tips"]
 publish_order: 4
-published: false
+published: true
 ---
 
 Claude Codeを毎日使う中で見つけた、生産性を劇的に上げるテクニックを10個厳選しました。初心者から中級者まで即実践できます。
