@@ -4,7 +4,7 @@ emoji: "📝"
 type: "tech"
 topics: ["claudecode", "ai", "productivity", "devtools"]
 publish_order: 13
-published: false
+published: true
 ---
 
 ## この記事でわかること
