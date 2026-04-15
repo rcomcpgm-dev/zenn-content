@@ -191,6 +191,14 @@
       "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/bc1d0b16a164d1ea0e93",
       "qiitaId": "bc1d0b16a164d1ea0e93",
       "postedAt": "2026-04-12T08:10:16.854Z"
+    },
+    {
+      "file": "rc-supabase-fullstack.md",
+      "zennTitle": "Claude Code × Supabaseでフルスタックアプリを作る方法｜認証・DB・リアルタイム",
+      "qiitaTitle": "Claude CodeとSupabaseで構築するフルスタックWebアプリ｜認証・DB・リアルタイム機能",
+      "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/81f2e885da9750a5bb38",
+      "qiitaId": "81f2e885da9750a5bb38",
+      "postedAt": "2026-04-15T10:01:40.703Z"
     }
   ]
 }
