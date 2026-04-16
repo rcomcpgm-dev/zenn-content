@@ -22,16 +22,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Find and publish up to 5 unpublished articles
+      - name: Find and publish 1 unpublished article
         id: publish
         run: |
-          # 未公開記事をpublish_order順で最大5つ見つけてpublishedをtrueに変更
+          # 未公開記事をpublish_order順で1つ見つけてpublishedをtrueに変更
+          # ※Zennはデプロイあたりの新規公開数に上限があるため1本ずつ
           FILES=$(for f in articles/*.md; do
             if grep -q 'published: false' "$f"; then
               order=$(grep 'publish_order:' "$f" | sed 's/[^0-9]//g')
               echo "${order:-9999} $f"
             fi
-          done | sort -n | head -5 | cut -d' ' -f2)
+          done | sort -n | head -1 | cut -d' ' -f2)
 
           if [ -z "$FILES" ]; then
             echo "No unpublished articles found."
@@ -73,23 +74,42 @@ jobs:
         id: verify
         run: |
           VERIFIED=0
+          FAILED_FILES=""
           for FILE in ${{ steps.publish.outputs.files }}; do
             SLUG=$(basename "$FILE" .md)
             URL="https://zenn.dev/rcn_article/articles/${SLUG}"
+            LIVE=false
 
             for i in 1 2 3 4; do
               STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
               echo "$SLUG: attempt $i → HTTP $STATUS"
               if [ "$STATUS" = "200" ]; then
                 VERIFIED=$((VERIFIED + 1))
+                LIVE=true
                 break
               fi
               sleep 30
             done
+
+            if [ "$LIVE" = "false" ]; then
+              echo "⚠️ $SLUG failed verification, reverting to published: false"
+              sed -i 's/published: true/published: false/' "$FILE"
+              FAILED_FILES="$FAILED_FILES $FILE"
+            fi
           done
 
           echo "verified=$VERIFIED" >> $GITHUB_OUTPUT
           echo "$VERIFIED / ${{ steps.publish.outputs.count }} articles verified on Zenn"
+
+          # 検証失敗した記事をpublished: falseに戻してpush
+          if [ -n "$FAILED_FILES" ]; then
+            FAILED_COUNT=$(echo "$FAILED_FILES" | wc -w)
+            echo "Reverting $FAILED_COUNT articles that failed Zenn deploy..."
+            git add articles/*.md
+            git commit -m "Auto-revert: Zenn公開失敗の${FAILED_COUNT}記事をfalseに戻す"
+            git pull --rebase
+            git push
+          fi
 
       - name: Post to X (last published article)
         if: steps.verify.outputs.verified != '0'
