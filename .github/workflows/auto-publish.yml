@@ -109,6 +109,8 @@ jobs:
             git commit -m "Auto-revert: Zenn公開失敗の${FAILED_COUNT}記事をfalseに戻す"
             git pull --rebase
             git push
+            echo "::error::Zenn公開に失敗しました（${FAILED_COUNT}件）: ${FAILED_FILES}。次回実行で同じ記事を再試行します。"
+            exit 1
           fi
 
       - name: Post to X (last published article)
