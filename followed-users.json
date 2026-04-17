@@ -3439,6 +3439,46 @@
       "followers": 131,
       "followedAt": "2026-04-17T09:06:01.002Z",
       "query": "Zenn 記事書いた lang:ja -is:retweet"
+    },
+    {
+      "id": "913770787814875137",
+      "username": "endoh_taichi",
+      "name": "taichi endoh",
+      "followers": 2560,
+      "followedAt": "2026-04-17T15:44:21.814Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "391069153",
+      "username": "moritalous",
+      "name": "moritalous | Kazuaki Morita",
+      "followers": 1713,
+      "followedAt": "2026-04-17T15:44:45.033Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1074662676448473089",
+      "username": "amixedcolor",
+      "name": "amixedcolor/エイミ",
+      "followers": 1862,
+      "followedAt": "2026-04-17T15:44:57.885Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1132813006805512193",
+      "username": "tsublab5810",
+      "name": "tamasub",
+      "followers": 125,
+      "followedAt": "2026-04-17T15:45:21.276Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "2030558842564792320",
+      "username": "toolfarm_x",
+      "name": "TOOL FARM 公式",
+      "followers": 209,
+      "followedAt": "2026-04-17T15:45:33.925Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
