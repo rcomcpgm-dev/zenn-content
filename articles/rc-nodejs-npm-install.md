@@ -4,7 +4,7 @@ emoji: "📦"
 type: "tech"
 topics: ["nodejs", "npm", "beginners", "setup"]
 publish_order: 1
-published: true
+published: false
 ---
 
 Node.jsとnpmはClaude Codeを使うために必要な基盤ツールです。Windows・Mac両対応で、ダウンロードからインストール完了まで5分で終わる手順を解説します。
