@@ -3551,6 +3551,46 @@
       "followers": 983,
       "followedAt": "2026-04-18T07:45:12.212Z",
       "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "3801391",
+      "username": "onozaty",
+      "name": "onozaty",
+      "followers": 501,
+      "followedAt": "2026-04-18T14:31:12.264Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1471396759977209859",
+      "username": "yuyanz_",
+      "name": "Yuya",
+      "followers": 620,
+      "followedAt": "2026-04-18T14:31:24.959Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1990006749643063296",
+      "username": "magukkap",
+      "name": "まぐかっぷ",
+      "followers": 108,
+      "followedAt": "2026-04-18T14:31:48.347Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "92866381",
+      "username": "tech_wiki",
+      "name": "技術情報Wiki",
+      "followers": 752,
+      "followedAt": "2026-04-18T14:32:00.974Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "103228656",
+      "username": "BrazillianSky",
+      "name": "BetterDaysJustAhead",
+      "followers": 140,
+      "followedAt": "2026-04-18T14:32:24.147Z",
+      "query": "React Next.js lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
