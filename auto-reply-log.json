@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2035350967982477379",
-      "author": "shin_ai_lab",
-      "likedAt": "2026-03-21T13:55:53.904Z"
-    },
-    {
-      "tweetId": "2035350464238137528",
-      "author": "topickapp_com",
-      "likedAt": "2026-03-21T13:56:04.599Z"
-    },
-    {
-      "tweetId": "2035706946633003158",
-      "author": "yasui_Miuit",
-      "likedAt": "2026-03-22T13:55:24.729Z"
-    },
-    {
-      "tweetId": "2035691926406787363",
-      "author": "ebi",
-      "likedAt": "2026-03-22T13:55:35.409Z"
-    },
-    {
-      "tweetId": "2035666039317676318",
-      "author": "Clawdia_x",
-      "likedAt": "2026-03-22T13:55:45.981Z"
-    },
-    {
-      "tweetId": "2035649382968955368",
-      "author": "nobel_824",
-      "likedAt": "2026-03-22T13:55:56.444Z"
-    },
-    {
-      "tweetId": "2035609898382418116",
-      "author": "keitowebai",
-      "likedAt": "2026-03-22T13:56:07.167Z"
-    },
-    {
-      "tweetId": "2035578610304872626",
-      "author": "necoak444",
-      "likedAt": "2026-03-22T13:56:17.863Z"
-    },
-    {
-      "tweetId": "2035563033972588951",
-      "author": "starriver0513",
-      "likedAt": "2026-03-22T13:56:28.589Z"
-    },
-    {
-      "tweetId": "2035556747289735535",
-      "author": "samo_dayon",
-      "likedAt": "2026-03-22T13:56:39.224Z"
-    },
-    {
       "tweetId": "2035538356038443088",
       "author": "yuchi_fx666",
       "likedAt": "2026-03-22T13:56:49.938Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2045484591058944337",
       "author": "makodama",
       "likedAt": "2026-04-19T07:58:55.682Z"
+    },
+    {
+      "tweetId": "2045681634490679357",
+      "author": "karou2rikon",
+      "likedAt": "2026-04-19T13:35:41.175Z"
+    },
+    {
+      "tweetId": "2045706451935694973",
+      "author": "TrymJp",
+      "likedAt": "2026-04-19T13:35:51.813Z"
+    },
+    {
+      "tweetId": "2045801423271862770",
+      "author": "Sei_engineer",
+      "likedAt": "2026-04-19T13:36:04.392Z"
+    },
+    {
+      "tweetId": "2045844353847861263",
+      "author": "DevMasatoman",
+      "likedAt": "2026-04-19T13:36:17.036Z"
+    },
+    {
+      "tweetId": "2045772246837604645",
+      "author": "un_none_know",
+      "likedAt": "2026-04-19T13:36:29.786Z"
+    },
+    {
+      "tweetId": "2045716565908422808",
+      "author": "otani_ai_memo",
+      "likedAt": "2026-04-19T13:36:42.403Z"
+    },
+    {
+      "tweetId": "2045796380674085094",
+      "author": "axiomforge2525",
+      "likedAt": "2026-04-19T13:36:55.094Z"
+    },
+    {
+      "tweetId": "2045728690152288441",
+      "author": "myui",
+      "likedAt": "2026-04-19T13:37:07.742Z"
+    },
+    {
+      "tweetId": "2045802498208981171",
+      "author": "AppCreaterwxc0",
+      "likedAt": "2026-04-19T13:37:20.442Z"
+    },
+    {
+      "tweetId": "2045771453686305100",
+      "author": "miburo_data",
+      "likedAt": "2026-04-19T13:37:33.101Z"
     }
   ],
-  "queryIndex": 18
+  "queryIndex": 1
 }
