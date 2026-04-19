@@ -226,6 +226,64 @@
         "followersPercent": "72.7",
         "impressionChange": -4
       }
+    },
+    {
+      "date": "2026-04-19T06:57:06.845Z",
+      "profile": {
+        "followers": 129,
+        "following": 552,
+        "totalTweets": 359
+      },
+      "last50Tweets": {
+        "totalLikes": 87,
+        "totalRetweets": 10969,
+        "totalImpressions": 1974,
+        "avgLikes": "1.7",
+        "avgImpressions": "39.5",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "Chrome拡張機能作りたいけど、JavaScriptよくわかんねーし難しいだろって思ってた。でもClaudeに日本語で指示出したら、manifest.json",
+          "likes": 11,
+          "retweets": 1,
+          "impressions": 228,
+          "date": "2026-04-18T14:07:13.000Z"
+        },
+        {
+          "text": "Claude 4.7でAIがフレンドリーになったのか。正直個人開発回してる時、Claude Codeの指摘が厳しくてストレスだったから、むしろそっちの方が使いや",
+          "likes": 7,
+          "retweets": 1,
+          "impressions": 98,
+          "date": "2026-04-18T14:08:41.000Z"
+        },
+        {
+          "text": "今月の個人開発、思ったより進捗出てなくてやばいなー",
+          "likes": 6,
+          "retweets": 0,
+          "impressions": 21,
+          "date": "2026-04-18T11:52:43.000Z"
+        },
+        {
+          "text": "MacBook届いて環境構築で丸1日消えたかもです",
+          "likes": 6,
+          "retweets": 0,
+          "impressions": 104,
+          "date": "2026-04-18T07:42:59.000Z"
+        },
+        {
+          "text": "在宅だと月曜日が水曜日に見えるやつ、マジでなんなんだろう",
+          "likes": 5,
+          "retweets": 0,
+          "impressions": 33,
+          "date": "2026-04-18T15:09:50.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 72,
+        "followersPercent": "126.3",
+        "impressionChange": 1257
+      }
     }
   ]
 }
