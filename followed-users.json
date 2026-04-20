@@ -3775,6 +3775,70 @@
       "followers": 246,
       "followedAt": "2026-04-20T06:02:03.211Z",
       "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "18968725",
+      "username": "konpan",
+      "name": "近藤雄貴 (KONDO Yuki)",
+      "followers": 1003,
+      "followedAt": "2026-04-20T14:14:41.911Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1492793331474071552",
+      "username": "Mutsumix_dev",
+      "name": "ムツミックス@技術書典",
+      "followers": 488,
+      "followedAt": "2026-04-20T14:14:54.619Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1888071913668517888",
+      "username": "ramen_neko_suki",
+      "name": "杉野亜衣 Ai SUGINO",
+      "followers": 163,
+      "followedAt": "2026-04-20T14:15:07.523Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1469975738942173184",
+      "username": "conpass0912",
+      "name": "テックナビ@おすすめ技術書紹介📚",
+      "followers": 1582,
+      "followedAt": "2026-04-20T14:15:20.153Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "68974497",
+      "username": "bufferings",
+      "name": "mitz",
+      "followers": 7837,
+      "followedAt": "2026-04-20T14:15:32.766Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1583786873821966336",
+      "username": "komosyu4649",
+      "name": "komosyu",
+      "followers": 962,
+      "followedAt": "2026-04-20T14:15:45.520Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "151563121",
+      "username": "sunoko1jp",
+      "name": "すのこ",
+      "followers": 2568,
+      "followedAt": "2026-04-20T14:15:58.173Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1870373869011517440",
+      "username": "shirasu59s",
+      "name": "しらす@外資コンサル× ClaudeCode",
+      "followers": 261,
+      "followedAt": "2026-04-20T14:16:21.279Z",
+      "query": "フロントエンド エンジニア lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
