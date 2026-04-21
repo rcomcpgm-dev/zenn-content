@@ -3839,6 +3839,86 @@
       "followers": 261,
       "followedAt": "2026-04-20T14:16:21.279Z",
       "query": "フロントエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1991037505026867200",
+      "username": "sattva_improve",
+      "name": "sattva@在宅SEの自己改善記録",
+      "followers": 140,
+      "followedAt": "2026-04-21T05:39:03.380Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "12615572",
+      "username": "yamjun_",
+      "name": "junya yamamoto",
+      "followers": 436,
+      "followedAt": "2026-04-21T05:39:15.987Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1365499388135542785",
+      "username": "monroo12",
+      "name": "森 隆司 ｜食の流通DXのPM",
+      "followers": 553,
+      "followedAt": "2026-04-21T05:39:28.561Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "191715319",
+      "username": "fuken_v",
+      "name": "ふっけん｜AI仕事整理術 (5/23公開)",
+      "followers": 265,
+      "followedAt": "2026-04-21T05:39:41.294Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "169326674",
+      "username": "Toma1110",
+      "name": "とーま@AWSインフラエンジニア",
+      "followers": 220,
+      "followedAt": "2026-04-21T05:39:53.940Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1962332157080453120",
+      "username": "hori_tomohiko",
+      "name": "堀 友彦｜エーアイスクエア代表取締役｜コンタクトセンターAI",
+      "followers": 622,
+      "followedAt": "2026-04-21T05:40:06.550Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1797525285958791168",
+      "username": "gighubtf",
+      "name": "GigHub~フリーランス募集〜",
+      "followers": 154,
+      "followedAt": "2026-04-21T05:40:19.235Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1845657036446674944",
+      "username": "engineer_output",
+      "name": "E I S K",
+      "followers": 118,
+      "followedAt": "2026-04-21T05:40:31.697Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1470605114750955523",
+      "username": "jb_develop_team",
+      "name": "株式会社ジャンボ 広報",
+      "followers": 235,
+      "followedAt": "2026-04-21T05:40:44.316Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
+    },
+    {
+      "id": "1542493632",
+      "username": "_yasuko__Bass__",
+      "name": "Taiki Yasukouchi（AI Ops / Cucul）",
+      "followers": 914,
+      "followedAt": "2026-04-21T05:40:56.976Z",
+      "query": "バックエンド エンジニア lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
