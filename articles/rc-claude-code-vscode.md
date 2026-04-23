@@ -4,7 +4,7 @@ emoji: "🛠"
 type: "tech"
 topics: ["claudecode", "vscode", "ide", "devtools"]
 publish_order: 3
-published: false
+published: true
 ---
 
 VS CodeのターミナルからClaude Codeを起動すれば、コード編集とAI指示を同じ画面で行える最強の開発環境が手に入ります。セットアップから実践的なワークフローまで解説します。
