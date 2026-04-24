@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2037285212313567338",
-      "author": "sibehasu_",
-      "likedAt": "2026-03-29T14:03:24.741Z"
-    },
-    {
-      "tweetId": "2037716731414905051",
-      "author": "SundererD27468",
-      "likedAt": "2026-03-29T14:03:37.462Z"
-    },
-    {
-      "tweetId": "2038124030675583370",
-      "author": "tokyo_zihen3",
-      "likedAt": "2026-03-29T14:03:50.032Z"
-    },
-    {
-      "tweetId": "2038125125930000619",
-      "author": "kazuma_Eduscope",
-      "likedAt": "2026-03-29T14:04:02.662Z"
-    },
-    {
-      "tweetId": "2036633408718385322",
-      "author": "him0net",
-      "likedAt": "2026-03-29T14:04:15.370Z"
-    },
-    {
-      "tweetId": "2036515357352140955",
-      "author": "mae616_",
-      "likedAt": "2026-03-29T14:04:28.032Z"
-    },
-    {
-      "tweetId": "2037083325345784090",
-      "author": "urahiroshi",
-      "likedAt": "2026-03-29T14:04:40.939Z"
-    },
-    {
-      "tweetId": "2036824344920551883",
-      "author": "owxy",
-      "likedAt": "2026-03-29T14:04:53.646Z"
-    },
-    {
-      "tweetId": "2037234016966066686",
-      "author": "shun_kashiwa",
-      "likedAt": "2026-03-29T14:05:06.347Z"
-    },
-    {
-      "tweetId": "2036822349971071164",
-      "author": "jitepengin",
-      "likedAt": "2026-03-29T14:05:19.111Z"
-    },
-    {
       "tweetId": "2038278887990542448",
       "author": "Ktombow1110",
       "likedAt": "2026-03-30T08:57:30.143Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2047313168846970907",
       "author": "hide_star_works",
       "likedAt": "2026-04-23T14:15:42.098Z"
+    },
+    {
+      "tweetId": "2047548695110197467",
+      "author": "ymorishita",
+      "likedAt": "2026-04-24T05:54:06.403Z"
+    },
+    {
+      "tweetId": "2047541133543395616",
+      "author": "revvi_ai",
+      "likedAt": "2026-04-24T05:54:18.956Z"
+    },
+    {
+      "tweetId": "2047521837526004133",
+      "author": "y_renren115",
+      "likedAt": "2026-04-24T05:54:29.470Z"
+    },
+    {
+      "tweetId": "2047481819873067136",
+      "author": "KLMX8GXBaTW094o",
+      "likedAt": "2026-04-24T05:54:40.050Z"
+    },
+    {
+      "tweetId": "2047523084715036948",
+      "author": "kohki0608",
+      "likedAt": "2026-04-24T05:54:52.793Z"
+    },
+    {
+      "tweetId": "2047512917382471794",
+      "author": "worfsann",
+      "likedAt": "2026-04-24T05:55:05.455Z"
+    },
+    {
+      "tweetId": "2047547995089203562",
+      "author": "MachinaRecord",
+      "likedAt": "2026-04-24T05:55:18.118Z"
+    },
+    {
+      "tweetId": "2047547137173684596",
+      "author": "SE_bizzine",
+      "likedAt": "2026-04-24T05:55:30.832Z"
+    },
+    {
+      "tweetId": "2047508296735904115",
+      "author": "HK48077554",
+      "likedAt": "2026-04-24T05:55:43.443Z"
+    },
+    {
+      "tweetId": "2047539156310687881",
+      "author": "favottman",
+      "likedAt": "2026-04-24T05:55:56.180Z"
     }
   ],
-  "queryIndex": 9
+  "queryIndex": 10
 }
