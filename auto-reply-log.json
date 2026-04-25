@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2038392410041090549",
-      "author": "haratcha_KS",
-      "likedAt": "2026-03-30T15:56:06.434Z"
-    },
-    {
-      "tweetId": "2038565693910892759",
-      "author": "pokota_eng",
-      "likedAt": "2026-03-30T15:56:19.052Z"
-    },
-    {
-      "tweetId": "2038638890626814332",
-      "author": "toka_blogsespe",
-      "likedAt": "2026-03-30T15:56:31.588Z"
-    },
-    {
-      "tweetId": "2038608940095914300",
-      "author": "Leo1113245",
-      "likedAt": "2026-03-30T15:56:44.331Z"
-    },
-    {
-      "tweetId": "2038583476086251592",
-      "author": "eleshaproduct",
-      "likedAt": "2026-03-30T15:56:57.097Z"
-    },
-    {
-      "tweetId": "2038453136315273357",
-      "author": "app_develo1024",
-      "likedAt": "2026-03-30T15:57:09.838Z"
-    },
-    {
-      "tweetId": "2038402464496627716",
-      "author": "kouAI_work",
-      "likedAt": "2026-03-30T15:57:22.522Z"
-    },
-    {
-      "tweetId": "2038577844691804452",
-      "author": "meta_asahi",
-      "likedAt": "2026-03-30T15:57:35.171Z"
-    },
-    {
-      "tweetId": "2038576055624360397",
-      "author": "bensuke_2",
-      "likedAt": "2026-03-30T15:57:47.856Z"
-    },
-    {
-      "tweetId": "2038392508728914352",
-      "author": "karou2rikon",
-      "likedAt": "2026-03-30T15:58:00.321Z"
-    },
-    {
       "tweetId": "2037307955624964210",
       "author": "iwariku_dev",
       "likedAt": "2026-03-31T07:54:31.413Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2047616070048158011",
       "author": "It4Cj",
       "likedAt": "2026-04-24T14:11:26.814Z"
+    },
+    {
+      "tweetId": "2046703916143009981",
+      "author": "ITgame_engineer",
+      "likedAt": "2026-04-25T05:26:31.923Z"
+    },
+    {
+      "tweetId": "2047270019969454322",
+      "author": "weeybrid",
+      "likedAt": "2026-04-25T05:26:44.480Z"
+    },
+    {
+      "tweetId": "2046796611188392236",
+      "author": "asamaru_11",
+      "likedAt": "2026-04-25T05:26:55.026Z"
+    },
+    {
+      "tweetId": "2047720144584192281",
+      "author": "kassyi6",
+      "likedAt": "2026-04-25T05:27:07.709Z"
+    },
+    {
+      "tweetId": "2047447561741455829",
+      "author": "nishinoengineer",
+      "likedAt": "2026-04-25T05:27:20.312Z"
+    },
+    {
+      "tweetId": "2046953549586972732",
+      "author": "iforcelabo",
+      "likedAt": "2026-04-25T05:27:30.865Z"
+    },
+    {
+      "tweetId": "2047247109506871442",
+      "author": "yuji_careerhub",
+      "likedAt": "2026-04-25T05:27:41.492Z"
+    },
+    {
+      "tweetId": "2046802927319400740",
+      "author": "aimi_mst_14",
+      "likedAt": "2026-04-25T05:27:52.068Z"
+    },
+    {
+      "tweetId": "2046153986588209263",
+      "author": "tenshoku356",
+      "likedAt": "2026-04-25T05:28:04.751Z"
+    },
+    {
+      "tweetId": "2046955024098664464",
+      "author": "x73wpeia",
+      "likedAt": "2026-04-25T05:28:15.418Z"
     }
   ],
-  "queryIndex": 11
+  "queryIndex": 12
 }
