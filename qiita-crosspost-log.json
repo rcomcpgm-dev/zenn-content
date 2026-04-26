@@ -199,6 +199,14 @@
       "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/81f2e885da9750a5bb38",
       "qiitaId": "81f2e885da9750a5bb38",
       "postedAt": "2026-04-15T10:01:40.703Z"
+    },
+    {
+      "file": "rc-taikyocheck-release.md",
+      "zennTitle": "Claude Codeで退去費用チェッカーを作った話｜国交省ガイドライン×Stripe決済の実装記録",
+      "qiitaTitle": "Claude Codeで実装する賃貸退去費用診断サービス｜Next.js×Supabase×Stripe実装ガイド",
+      "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/5191f09d6466643fa9f5",
+      "qiitaId": "5191f09d6466643fa9f5",
+      "postedAt": "2026-04-26T07:03:28.536Z"
     }
   ]
 }
