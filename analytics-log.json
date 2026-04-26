@@ -284,6 +284,64 @@
         "followersPercent": "126.3",
         "impressionChange": 1257
       }
+    },
+    {
+      "date": "2026-04-26T04:36:06.311Z",
+      "profile": {
+        "followers": 216,
+        "following": 700,
+        "totalTweets": 427
+      },
+      "last50Tweets": {
+        "totalLikes": 145,
+        "totalRetweets": 4,
+        "totalImpressions": 2618,
+        "avgLikes": "2.9",
+        "avgImpressions": "52.4",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "Claude Codeやたら話題だけど、正直「環境設定から躓いてる」って層が多いんだよな。半日で教える企画出してるやつ見て思ったけど、それ需要あるんですよ。俺も",
+          "likes": 11,
+          "retweets": 1,
+          "impressions": 112,
+          "date": "2026-04-22T12:43:29.000Z"
+        },
+        {
+          "text": "クライアント「この機能、AIで自動化できませんか?」って聞かれて、Claude Code で1時間で作ってみたんだが、その瞬間「あ、これ自分の案件単価下がるやつ",
+          "likes": 10,
+          "retweets": 1,
+          "impressions": 182,
+          "date": "2026-04-22T14:21:32.000Z"
+        },
+        {
+          "text": "コードリーディング、意識して鍛えないと一生読めないままなんだが。OSSとか読んでたら勝手に上手くなってった感じだなー",
+          "likes": 9,
+          "retweets": 1,
+          "impressions": 76,
+          "date": "2026-04-22T05:36:41.000Z"
+        },
+        {
+          "text": "マジで昨年までバグ修正で一番時間食ってたんよ。エラーメッセージをGoogle検索して、Stack Overflowで同じ問題探してって感じで、1つのバグに30分",
+          "likes": 8,
+          "retweets": 1,
+          "impressions": 93,
+          "date": "2026-04-25T11:53:52.000Z"
+        },
+        {
+          "text": "CLIでいろいろできるようになったら、GUIだけの時代には戻れなくなった",
+          "likes": 7,
+          "retweets": 0,
+          "impressions": 46,
+          "date": "2026-04-25T05:23:59.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 87,
+        "followersPercent": "67.4",
+        "impressionChange": 644
+      }
     }
   ]
 }
