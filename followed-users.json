@@ -4567,6 +4567,54 @@
       "followers": 1396,
       "followedAt": "2026-04-26T05:57:19.223Z",
       "query": "Zenn 記事書いた lang:ja -is:retweet"
+    },
+    {
+      "id": "15375733",
+      "username": "nabe2030",
+      "name": "なべ",
+      "followers": 7077,
+      "followedAt": "2026-04-26T13:42:10.188Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1804828930316361728",
+      "username": "morisapporo2017",
+      "name": "もり",
+      "followers": 230,
+      "followedAt": "2026-04-26T13:42:23.006Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "100174499",
+      "username": "natadea",
+      "name": "なたで",
+      "followers": 367,
+      "followedAt": "2026-04-26T13:42:46.251Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1800493835061207041",
+      "username": "wa_2sk",
+      "name": "わーちゃん",
+      "followers": 392,
+      "followedAt": "2026-04-26T13:43:09.565Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "93002395",
+      "username": "aokikenichi",
+      "name": "Ken",
+      "followers": 2008,
+      "followedAt": "2026-04-26T13:43:43.512Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "848914357614297088",
+      "username": "TubeSoling",
+      "name": "ソリング",
+      "followers": 4547,
+      "followedAt": "2026-04-26T13:43:56.237Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
