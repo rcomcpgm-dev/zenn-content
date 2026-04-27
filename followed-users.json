@@ -4671,6 +4671,46 @@
       "followers": 222,
       "followedAt": "2026-04-27T06:16:17.078Z",
       "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1516771523217948674",
+      "username": "it__garlic",
+      "name": "いた｜HR Tech CTO",
+      "followers": 1084,
+      "followedAt": "2026-04-27T14:28:14.518Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "125579725",
+      "username": "miyagawa130",
+      "name": "宮さん｜Al x Web開発の会社経営",
+      "followers": 3103,
+      "followedAt": "2026-04-27T14:28:27.188Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "58169189",
+      "username": "kacchi0516",
+      "name": "かっち",
+      "followers": 1641,
+      "followedAt": "2026-04-27T14:28:39.695Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1811393707968712704",
+      "username": "hensyunoouma",
+      "name": "馬渡慎之助",
+      "followers": 412,
+      "followedAt": "2026-04-27T14:29:03.017Z",
+      "query": "React Next.js lang:ja -is:retweet"
+    },
+    {
+      "id": "1431485918590881798",
+      "username": "ys888184",
+      "name": "Duke",
+      "followers": 272,
+      "followedAt": "2026-04-27T14:29:57.880Z",
+      "query": "React Next.js lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
