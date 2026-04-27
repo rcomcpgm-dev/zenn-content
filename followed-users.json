@@ -4615,6 +4615,62 @@
       "followers": 4547,
       "followedAt": "2026-04-26T13:43:56.237Z",
       "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1261636994553098245",
+      "username": "Harukawa_Ayato",
+      "name": "春川あやと@Ayato Game Studio",
+      "followers": 6645,
+      "followedAt": "2026-04-27T06:14:29.478Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1521293392109395968",
+      "username": "sumahodeveloper",
+      "name": "ミライ",
+      "followers": 1130,
+      "followedAt": "2026-04-27T06:15:13.793Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "1333054887911800834",
+      "username": "tennisProgramer",
+      "name": "しう",
+      "followers": 1065,
+      "followedAt": "2026-04-27T06:15:26.472Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2042734737484115968",
+      "username": "masaosada_dev",
+      "name": "masa osada | アプリ開発🌱",
+      "followers": 105,
+      "followedAt": "2026-04-27T06:15:39.083Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "551063322",
+      "username": "takayakashiwagi",
+      "name": "Takaya Kashiwagi",
+      "followers": 197,
+      "followedAt": "2026-04-27T06:15:51.718Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2793070382",
+      "username": "takayaso",
+      "name": "おおにしたかやそ",
+      "followers": 2643,
+      "followedAt": "2026-04-27T06:16:04.421Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
+    },
+    {
+      "id": "2040437733710012416",
+      "username": "sorviv_210",
+      "name": "ソビ🐾個人開発",
+      "followers": 222,
+      "followedAt": "2026-04-27T06:16:17.078Z",
+      "query": "個人開発 リリース lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
