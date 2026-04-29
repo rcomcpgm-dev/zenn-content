@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2040314252888822190",
-      "author": "jinbei_parallel",
-      "likedAt": "2026-04-04T06:41:34.026Z"
-    },
-    {
-      "tweetId": "2040315399456334111",
-      "author": "yamato",
-      "likedAt": "2026-04-04T06:41:46.724Z"
-    },
-    {
-      "tweetId": "2040315864965382448",
-      "author": "CTRbI0LGXO5571",
-      "likedAt": "2026-04-04T06:41:59.382Z"
-    },
-    {
-      "tweetId": "2040314303774064967",
-      "author": "yamamuteking",
-      "likedAt": "2026-04-04T06:42:09.912Z"
-    },
-    {
-      "tweetId": "2040315931029852580",
-      "author": "yamato_order",
-      "likedAt": "2026-04-04T06:42:22.429Z"
-    },
-    {
-      "tweetId": "2040314987311501426",
-      "author": "sRagia",
-      "likedAt": "2026-04-04T06:42:35.045Z"
-    },
-    {
-      "tweetId": "2040318434442158179",
-      "author": "sesuna",
-      "likedAt": "2026-04-04T06:42:47.601Z"
-    },
-    {
-      "tweetId": "2040316855739637806",
-      "author": "NWaka_1415",
-      "likedAt": "2026-04-04T06:43:00.249Z"
-    },
-    {
-      "tweetId": "2040318757256700283",
-      "author": "yourous1997",
-      "likedAt": "2026-04-04T06:43:12.909Z"
-    },
-    {
-      "tweetId": "2040315336298557503",
-      "author": "Urusizawa_Touya",
-      "likedAt": "2026-04-04T06:43:25.537Z"
-    },
-    {
       "tweetId": "2040073465626296499",
       "author": "ryu_f_web",
       "likedAt": "2026-04-04T14:07:14.212Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2049240488713302134",
       "author": "programing9875",
       "likedAt": "2026-04-29T06:13:09.153Z"
+    },
+    {
+      "tweetId": "2049356805621604393",
+      "author": "Matsutake_prgrm",
+      "likedAt": "2026-04-29T14:32:11.943Z"
+    },
+    {
+      "tweetId": "2049081960488652836",
+      "author": "weeybrid",
+      "likedAt": "2026-04-29T14:32:24.536Z"
+    },
+    {
+      "tweetId": "2049335148504928727",
+      "author": "na0AaooQ",
+      "likedAt": "2026-04-29T14:32:35.094Z"
+    },
+    {
+      "tweetId": "2049444332621746604",
+      "author": "Tarooengineer",
+      "likedAt": "2026-04-29T14:32:45.675Z"
+    },
+    {
+      "tweetId": "2049299461822910758",
+      "author": "marutani_iine",
+      "likedAt": "2026-04-29T14:32:58.283Z"
+    },
+    {
+      "tweetId": "2049379890420490510",
+      "author": "free_eng_live",
+      "likedAt": "2026-04-29T14:33:11.016Z"
+    },
+    {
+      "tweetId": "2049421096059822114",
+      "author": "ses_eigyou2929",
+      "likedAt": "2026-04-29T14:33:21.742Z"
+    },
+    {
+      "tweetId": "2049068553169690935",
+      "author": "yunagi_tech",
+      "likedAt": "2026-04-29T14:33:32.405Z"
+    },
+    {
+      "tweetId": "2049263641678041172",
+      "author": "tsk_fire",
+      "likedAt": "2026-04-29T14:33:45.121Z"
+    },
+    {
+      "tweetId": "2049485895976321130",
+      "author": "teraseek_ltd",
+      "likedAt": "2026-04-29T14:33:57.743Z"
     }
   ],
-  "queryIndex": 1
+  "queryIndex": 2
 }

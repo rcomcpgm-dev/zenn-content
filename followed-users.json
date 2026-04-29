@@ -4799,6 +4799,46 @@
       "followers": 351,
       "followedAt": "2026-04-29T06:13:11.250Z",
       "query": "エンジニア 個人開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1528696482777296896",
+      "username": "Matsutake_prgrm",
+      "name": "まつたけ｜Web実装設計・コーディング",
+      "followers": 399,
+      "followedAt": "2026-04-29T14:32:14.042Z",
+      "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "2032774203372691456",
+      "username": "Tarooengineer",
+      "name": "Taroo@エンジニア生存戦略",
+      "followers": 412,
+      "followedAt": "2026-04-29T14:32:47.771Z",
+      "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "2021527921530372096",
+      "username": "marutani_iine",
+      "name": "珠玉のマルタニ",
+      "followers": 1250,
+      "followedAt": "2026-04-29T14:33:00.396Z",
+      "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "1808118812367376386",
+      "username": "yunagi_tech",
+      "name": "つっち",
+      "followers": 1066,
+      "followedAt": "2026-04-29T14:33:34.504Z",
+      "query": "エンジニア フリーランス lang:ja -is:retweet"
+    },
+    {
+      "id": "1418719670673182720",
+      "username": "tsk_fire",
+      "name": "tsk@ライフ・アーキテクト",
+      "followers": 156,
+      "followedAt": "2026-04-29T14:33:47.218Z",
+      "query": "エンジニア フリーランス lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
