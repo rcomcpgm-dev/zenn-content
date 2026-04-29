@@ -83,6 +83,13 @@
       "tweetCount": 5,
       "firstTweetId": "2048007582149640317",
       "postedAt": "2026-04-25T11:54:00.672Z"
+    },
+    {
+      "file": "rc-claude-code-gacha-app.md",
+      "title": "Claude Codeでガチャアプリを作った話｜レアリティ演出からStripe課金まで",
+      "tweetCount": 5,
+      "firstTweetId": "2049472240920788998",
+      "postedAt": "2026-04-29T12:54:02.597Z"
     }
   ]
 }
