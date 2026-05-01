@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2040739983867465730",
-      "author": "tenchodono",
-      "likedAt": "2026-04-05T14:08:11.136Z"
-    },
-    {
-      "tweetId": "2040782912023576728",
-      "author": "NakagawaFutoshi",
-      "likedAt": "2026-04-05T14:08:23.736Z"
-    },
-    {
-      "tweetId": "2040760846578766318",
-      "author": "FIKA_JPN",
-      "likedAt": "2026-04-05T14:08:36.571Z"
-    },
-    {
-      "tweetId": "2040750341713703124",
-      "author": "kazzpapa3",
-      "likedAt": "2026-04-05T14:08:49.120Z"
-    },
-    {
-      "tweetId": "2040719554285048239",
-      "author": "hirohiro_kabu",
-      "likedAt": "2026-04-05T14:09:01.701Z"
-    },
-    {
-      "tweetId": "2040786305597207026",
-      "author": "gamann77",
-      "likedAt": "2026-04-05T14:09:14.262Z"
-    },
-    {
-      "tweetId": "2040764465642352799",
-      "author": "loner0351",
-      "likedAt": "2026-04-05T14:09:26.820Z"
-    },
-    {
-      "tweetId": "2040749307377430828",
-      "author": "triangle_chain",
-      "likedAt": "2026-04-05T14:09:39.601Z"
-    },
-    {
-      "tweetId": "2040787350054465906",
-      "author": "aioji_ai1919",
-      "likedAt": "2026-04-05T14:09:52.292Z"
-    },
-    {
-      "tweetId": "2040790359945666852",
-      "author": "hjungle",
-      "likedAt": "2026-04-05T14:10:04.839Z"
-    },
-    {
       "tweetId": "2040989994194759772",
       "author": "kotawatanabe17",
       "likedAt": "2026-04-06T08:50:46.400Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2049431341499072601",
       "author": "engineer_commu",
       "likedAt": "2026-04-30T14:27:04.852Z"
+    },
+    {
+      "tweetId": "2049640380522442928",
+      "author": "04icci",
+      "likedAt": "2026-05-01T06:25:41.295Z"
+    },
+    {
+      "tweetId": "2050003949735043541",
+      "author": "kae01_engineer1",
+      "likedAt": "2026-05-01T06:25:51.826Z"
+    },
+    {
+      "tweetId": "2049323936064606311",
+      "author": "c30064",
+      "likedAt": "2026-05-01T06:26:04.497Z"
+    },
+    {
+      "tweetId": "2049808168683974787",
+      "author": "fujitech_ai",
+      "likedAt": "2026-05-01T06:26:15.027Z"
+    },
+    {
+      "tweetId": "2049753374204309819",
+      "author": "linkofasia",
+      "likedAt": "2026-05-01T06:26:27.782Z"
+    },
+    {
+      "tweetId": "2049059628898455972",
+      "author": "bdallhalrm21267",
+      "likedAt": "2026-05-01T06:26:40.454Z"
+    },
+    {
+      "tweetId": "2049337431913095500",
+      "author": "gUm77GuM",
+      "likedAt": "2026-05-01T06:26:52.902Z"
+    },
+    {
+      "tweetId": "2049817454231142615",
+      "author": "dokunoutore",
+      "likedAt": "2026-05-01T06:27:03.459Z"
+    },
+    {
+      "tweetId": "2048739678510039546",
+      "author": "kiichiegg",
+      "likedAt": "2026-05-01T06:27:13.885Z"
+    },
+    {
+      "tweetId": "2049466256172965894",
+      "author": "fksh0091",
+      "likedAt": "2026-05-01T06:27:24.476Z"
     }
   ],
-  "queryIndex": 4
+  "queryIndex": 5
 }
