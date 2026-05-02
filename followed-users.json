@@ -5055,6 +5055,54 @@
       "followers": 845,
       "followedAt": "2026-05-01T13:57:58.475Z",
       "query": "Claude Code lang:ja -is:retweet"
+    },
+    {
+      "id": "1534235494405783552",
+      "username": "suzu_shika_web",
+      "name": "すずしか（鈴木 孝浩）｜設計で差がつくWeb制作",
+      "followers": 3227,
+      "followedAt": "2026-05-02T05:53:25.450Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1921465297325969408",
+      "username": "colet_lab",
+      "name": "株式会社コレットラボ｜WEB集客×イベント×AX支援",
+      "followers": 975,
+      "followedAt": "2026-05-02T05:53:59.394Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2025234684087783424",
+      "username": "LILI_DENKA",
+      "name": "電霞リリ｜Future Craft Lab",
+      "followers": 886,
+      "followedAt": "2026-05-02T05:54:12.116Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1625229878042984449",
+      "username": "ShadowPawsDev",
+      "name": "ShadowPaws",
+      "followers": 170,
+      "followedAt": "2026-05-02T05:54:25.029Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1435121615344340994",
+      "username": "gt_play_03",
+      "name": "T.Lefty @ギター依頼承ってます！",
+      "followers": 2084,
+      "followedAt": "2026-05-02T05:54:59.110Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "113645172",
+      "username": "hiroyukioda",
+      "name": "小田宏行",
+      "followers": 5378,
+      "followedAt": "2026-05-02T05:55:11.898Z",
+      "query": "Cursor AI 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
