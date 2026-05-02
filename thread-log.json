@@ -90,6 +90,13 @@
       "tweetCount": 5,
       "firstTweetId": "2049472240920788998",
       "postedAt": "2026-04-29T12:54:02.597Z"
+    },
+    {
+      "file": "rc-taikyocheck-release.md",
+      "title": "Claude Codeで退去費用チェッカーを作った話｜国交省ガイドライン×Stripe決済の実装記録",
+      "tweetCount": 6,
+      "firstTweetId": "2050545775172603966",
+      "postedAt": "2026-05-02T11:59:54.836Z"
     }
   ]
 }
