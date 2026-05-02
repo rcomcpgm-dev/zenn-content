@@ -4,7 +4,7 @@ emoji: "🌱"
 type: "idea"
 topics: ["claudecode", "webdev", "beginners", "supabase"]
 publish_order: 12
-published: false
+published: true
 ---
 
 プログラミング未経験からClaude Codeだけを使い、約16時間で実際に動くWebサービスを作った体験談です。成功と失敗のリアルな記録を共有します。
