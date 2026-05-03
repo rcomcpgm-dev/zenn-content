@@ -5247,6 +5247,86 @@
       "followers": 633,
       "followedAt": "2026-05-03T06:17:00.656Z",
       "query": "AIでアプリ開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1348911092571885568",
+      "username": "brainapp12",
+      "name": "brainapp｜より良く生きるを実装する。",
+      "followers": 7846,
+      "followedAt": "2026-05-03T13:50:41.457Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1955630746372280320",
+      "username": "nneprogramming",
+      "name": "skyrinrin （個人開発）",
+      "followers": 214,
+      "followedAt": "2026-05-03T13:50:54.195Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1907357743595638784",
+      "username": "ezark_ct",
+      "name": "イザークコンサルティング株式会社",
+      "followers": 808,
+      "followedAt": "2026-05-03T13:51:06.756Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "215204354",
+      "username": "hz2on",
+      "name": "トオル｜バイブコーディング安全ガイド",
+      "followers": 895,
+      "followedAt": "2026-05-03T13:51:19.444Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2022927852325482496",
+      "username": "Ren_Lifestyle_",
+      "name": "Ren｜LifestyleLog",
+      "followers": 103,
+      "followedAt": "2026-05-03T13:51:32.103Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1653604429516673029",
+      "username": "Nyantaro_Kagura",
+      "name": "OraToy｜200+種類の資格試験×対戦×SNSアプリ",
+      "followers": 1597,
+      "followedAt": "2026-05-03T13:51:44.876Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "77693535",
+      "username": "KaramawariTosan",
+      "name": "空回りお父さん",
+      "followers": 224,
+      "followedAt": "2026-05-03T13:51:57.652Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "2039272235723001856",
+      "username": "yupsuzuki_mkt",
+      "name": "ゆっぴ｜マーケ×IT×AI情報発信",
+      "followers": 408,
+      "followedAt": "2026-05-03T13:52:10.418Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1348604153832951809",
+      "username": "rutinelabo",
+      "name": "せなお| AIとITを使った仕事術",
+      "followers": 714,
+      "followedAt": "2026-05-03T13:52:23.088Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
+    },
+    {
+      "id": "1694095021862199297",
+      "username": "wayokan_beta",
+      "name": "やあさ@例大祭コス参",
+      "followers": 1838,
+      "followedAt": "2026-05-03T13:52:35.746Z",
+      "query": "AI エージェント 開発 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
