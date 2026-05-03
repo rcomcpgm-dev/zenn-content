@@ -342,6 +342,64 @@
         "followersPercent": "67.4",
         "impressionChange": 644
       }
+    },
+    {
+      "date": "2026-05-03T04:51:40.934Z",
+      "profile": {
+        "followers": 259,
+        "following": 800,
+        "totalTweets": 502
+      },
+      "last50Tweets": {
+        "totalLikes": 88,
+        "totalRetweets": 3,
+        "totalImpressions": 2468,
+        "avgLikes": "1.8",
+        "avgImpressions": "49.4",
+        "tweetCount": 50
+      },
+      "topTweets": [
+        {
+          "text": "フリーランスになって一番不安なのは、やっぱり案件が途切れることかもです。12年やってても毎月その恐怖はある",
+          "likes": 6,
+          "retweets": 0,
+          "impressions": 78,
+          "date": "2026-05-01T14:19:51.000Z"
+        },
+        {
+          "text": "React 19、Vue 3、Svelte Kitとか半年で結構変わっちゃうんだよなー。正直「今のベストプラクティス」なんて言葉、数ヶ月後には古いんだわ",
+          "likes": 5,
+          "retweets": 1,
+          "impressions": 97,
+          "date": "2026-05-01T11:41:53.000Z"
+        },
+        {
+          "text": "テスト書かずに本番出した案件、クライアント側から「バグあります」って連絡きたの3日後だったんだよなー。その時点で修正工数が見積もり時の2倍になってて、結局自分の",
+          "likes": 4,
+          "retweets": 0,
+          "impressions": 67,
+          "date": "2026-04-30T14:52:39.000Z"
+        },
+        {
+          "text": "そう考えると、エンジニアって今めちゃくちゃ面白いポジションにいるなって思う。\n\nAIが書けない40%を埋められるのは、これまで現場で泥臭くコード書いてきた人間だ",
+          "likes": 4,
+          "retweets": 0,
+          "impressions": 54,
+          "date": "2026-04-29T09:38:48.000Z"
+        },
+        {
+          "text": "Sveltekit触ってみたんだが、ファイルベースルーティングで迷路みたいになった。結局Next.jsの方がシンプルかもです",
+          "likes": 4,
+          "retweets": 0,
+          "impressions": 69,
+          "date": "2026-04-29T06:06:46.000Z"
+        }
+      ],
+      "growth": {
+        "followers": 43,
+        "followersPercent": "19.9",
+        "impressionChange": -150
+      }
     }
   ]
 }
