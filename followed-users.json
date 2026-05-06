@@ -5567,6 +5567,70 @@
       "followers": 227,
       "followedAt": "2026-05-06T06:18:57.758Z",
       "query": "Zenn 記事書いた lang:ja -is:retweet"
+    },
+    {
+      "id": "1233771524387065856",
+      "username": "m_st_p_",
+      "name": "misato",
+      "followers": 1041,
+      "followedAt": "2026-05-06T14:49:18.802Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1240904965331116032",
+      "username": "2OqF0rVs85Nb9sX",
+      "name": "鈴木健吾",
+      "followers": 211,
+      "followedAt": "2026-05-06T14:49:31.514Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1488055862564298752",
+      "username": "babo_dark",
+      "name": "t.t.@個人開発",
+      "followers": 176,
+      "followedAt": "2026-05-06T14:49:54.872Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1566332331220078592",
+      "username": "GL_Tsukasa",
+      "name": "Tsukasa@GitLab APAC - Elevate Your Business",
+      "followers": 236,
+      "followedAt": "2026-05-06T14:50:07.643Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1308054550708809728",
+      "username": "28_tec",
+      "name": "阪口翼 ｜ドローン",
+      "followers": 144,
+      "followedAt": "2026-05-06T14:50:20.346Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1713374583863300096",
+      "username": "nulluo_pg",
+      "name": "奇々浦ヌル夫@技術垢作りました！",
+      "followers": 147,
+      "followedAt": "2026-05-06T14:50:32.965Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "278003309",
+      "username": "mihoicchi",
+      "name": "Miho Ezawa",
+      "followers": 263,
+      "followedAt": "2026-05-06T14:50:45.691Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
+    },
+    {
+      "id": "1504381001879126016",
+      "username": "yuzukaki1000",
+      "name": "ゆずかき@マイクラ",
+      "followers": 3316,
+      "followedAt": "2026-05-06T14:50:58.420Z",
+      "query": "Qiita 投稿 lang:ja -is:retweet"
     }
   ],
   "lastQueryIndex": 2
