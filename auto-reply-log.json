@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2042502376972829153",
-      "author": "ryosan_senryu",
-      "likedAt": "2026-04-11T06:43:09.313Z"
-    },
-    {
-      "tweetId": "2042759242948526564",
-      "author": "CMatrix0606",
-      "likedAt": "2026-04-11T06:43:20.003Z"
-    },
-    {
-      "tweetId": "2042769344015343888",
-      "author": "nishinoengineer",
-      "likedAt": "2026-04-11T06:43:30.560Z"
-    },
-    {
-      "tweetId": "2042822654449848398",
-      "author": "gunta85",
-      "likedAt": "2026-04-11T06:43:43.334Z"
-    },
-    {
-      "tweetId": "2042777150273515719",
-      "author": "mijica_akagi",
-      "likedAt": "2026-04-11T06:43:55.961Z"
-    },
-    {
-      "tweetId": "2042530655003644347",
-      "author": "yuko__26",
-      "likedAt": "2026-04-11T06:44:06.521Z"
-    },
-    {
-      "tweetId": "2042550768759173154",
-      "author": "ritsuan_noda",
-      "likedAt": "2026-04-11T06:44:19.262Z"
-    },
-    {
-      "tweetId": "2042535678676725978",
-      "author": "ses_eigyou2929",
-      "likedAt": "2026-04-11T06:44:31.968Z"
-    },
-    {
-      "tweetId": "2042560729979720070",
-      "author": "shiho3683",
-      "likedAt": "2026-04-11T06:44:44.643Z"
-    },
-    {
-      "tweetId": "2042502430345117854",
-      "author": "tenshoku356",
-      "likedAt": "2026-04-11T06:44:57.340Z"
-    },
-    {
       "tweetId": "2042085678037790937",
       "author": "creatorAco",
       "likedAt": "2026-04-11T14:08:48.040Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2051894441515106766",
       "author": "yuzukaki1000",
       "likedAt": "2026-05-06T14:50:56.311Z"
+    },
+    {
+      "tweetId": "2052225431429067131",
+      "author": "Harukawa_Ayato",
+      "likedAt": "2026-05-07T06:22:27.646Z"
+    },
+    {
+      "tweetId": "2052242552175350196",
+      "author": "ganma_cat",
+      "likedAt": "2026-05-07T06:22:38.284Z"
+    },
+    {
+      "tweetId": "2052182388311224664",
+      "author": "javeo2022",
+      "likedAt": "2026-05-07T06:22:50.910Z"
+    },
+    {
+      "tweetId": "2052259174256611459",
+      "author": "bocchi_shacho3",
+      "likedAt": "2026-05-07T06:23:03.582Z"
+    },
+    {
+      "tweetId": "2052053340427853942",
+      "author": "solooo_dev",
+      "likedAt": "2026-05-07T06:23:16.232Z"
+    },
+    {
+      "tweetId": "2052067358743908744",
+      "author": "inonononooone",
+      "likedAt": "2026-05-07T06:23:28.947Z"
+    },
+    {
+      "tweetId": "2052160285738500164",
+      "author": "KoeLoopDev",
+      "likedAt": "2026-05-07T06:23:41.703Z"
+    },
+    {
+      "tweetId": "2052153492459200764",
+      "author": "iamtapless",
+      "likedAt": "2026-05-07T06:23:52.252Z"
+    },
+    {
+      "tweetId": "2052252949041328299",
+      "author": "dramasophia8",
+      "likedAt": "2026-05-07T06:24:04.959Z"
+    },
+    {
+      "tweetId": "2052061727005802631",
+      "author": "Wc2026A88121",
+      "likedAt": "2026-05-07T06:24:17.711Z"
     }
   ],
-  "queryIndex": 15
+  "queryIndex": 16
 }
