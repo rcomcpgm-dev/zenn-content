@@ -1,56 +1,6 @@
 {
   "likes": [
     {
-      "tweetId": "2042085678037790937",
-      "author": "creatorAco",
-      "likedAt": "2026-04-11T14:08:48.040Z"
-    },
-    {
-      "tweetId": "2042483605537181980",
-      "author": "gunta85",
-      "likedAt": "2026-04-11T14:09:00.591Z"
-    },
-    {
-      "tweetId": "2042186175381955067",
-      "author": "re2osushi8888",
-      "likedAt": "2026-04-11T14:09:11.127Z"
-    },
-    {
-      "tweetId": "2042439835739361389",
-      "author": "yuta_k0911",
-      "likedAt": "2026-04-11T14:09:23.586Z"
-    },
-    {
-      "tweetId": "2042061050628206774",
-      "author": "freelance_shota",
-      "likedAt": "2026-04-11T14:09:36.227Z"
-    },
-    {
-      "tweetId": "2042267539825471867",
-      "author": "tsuyupippi",
-      "likedAt": "2026-04-11T14:09:48.876Z"
-    },
-    {
-      "tweetId": "2042442310366146800",
-      "author": "fuyukuniaki",
-      "likedAt": "2026-04-11T14:10:01.489Z"
-    },
-    {
-      "tweetId": "2042182189488681233",
-      "author": "maaai12121",
-      "likedAt": "2026-04-11T14:10:14.032Z"
-    },
-    {
-      "tweetId": "2042188270159663234",
-      "author": "SKET_inc",
-      "likedAt": "2026-04-11T14:10:26.515Z"
-    },
-    {
-      "tweetId": "2042585401937006896",
-      "author": "shin_1682",
-      "likedAt": "2026-04-11T14:10:37.133Z"
-    },
-    {
       "tweetId": "2042859652338303263",
       "author": "wiseowl10",
       "likedAt": "2026-04-12T07:51:51.185Z"
@@ -2499,7 +2449,57 @@
       "tweetId": "2052061727005802631",
       "author": "Wc2026A88121",
       "likedAt": "2026-05-07T06:24:17.711Z"
+    },
+    {
+      "tweetId": "2052111949542969390",
+      "author": "masatoloading",
+      "likedAt": "2026-05-07T15:05:32.643Z"
+    },
+    {
+      "tweetId": "2050236600295338044",
+      "author": "SoftMotionAI",
+      "likedAt": "2026-05-07T15:05:45.288Z"
+    },
+    {
+      "tweetId": "2051471253912052131",
+      "author": "iam_oidon",
+      "likedAt": "2026-05-07T15:05:58.036Z"
+    },
+    {
+      "tweetId": "2050918176851144753",
+      "author": "___Tina___tina",
+      "likedAt": "2026-05-07T15:06:10.693Z"
+    },
+    {
+      "tweetId": "2052199707930489098",
+      "author": "og_og",
+      "likedAt": "2026-05-07T15:06:23.515Z"
+    },
+    {
+      "tweetId": "2051248009762275348",
+      "author": "fujimori53",
+      "likedAt": "2026-05-07T15:06:36.147Z"
+    },
+    {
+      "tweetId": "2051498898263564670",
+      "author": "new_tm",
+      "likedAt": "2026-05-07T15:06:48.971Z"
+    },
+    {
+      "tweetId": "2050803806364123194",
+      "author": "aspire_HRteam",
+      "likedAt": "2026-05-07T15:07:01.696Z"
+    },
+    {
+      "tweetId": "2051179623703359513",
+      "author": "mcs_ses_info",
+      "likedAt": "2026-05-07T15:07:14.376Z"
+    },
+    {
+      "tweetId": "2052375549377761366",
+      "author": "computer_rev5",
+      "likedAt": "2026-05-07T15:07:27.115Z"
     }
   ],
-  "queryIndex": 16
+  "queryIndex": 17
 }
