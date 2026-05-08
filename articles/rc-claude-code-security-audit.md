@@ -4,7 +4,7 @@ emoji: "🛡️"
 type: "tech"
 topics: ["claudecode", "security", "webdev", "nextjs"]
 publish_order: 17
-published: true
+published: false
 ---
 
 Claude Codeのエージェント機能を使ってセキュリティ監査を実行し、実際に発見・修正した脆弱性5つを紹介します。手動レビューでは見落としがちな問題も、AIに任せれば網羅的に検出できます。
