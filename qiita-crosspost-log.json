@@ -215,6 +215,14 @@
       "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/c554c72632a50d8b5a4a",
       "qiitaId": "c554c72632a50d8b5a4a",
       "postedAt": "2026-05-03T07:24:38.105Z"
+    },
+    {
+      "file": "rc-claude-code-security-audit.md",
+      "zennTitle": "Claude Codeにセキュリティ監査をさせる方法｜実際に見つかった脆弱性5つ",
+      "qiitaTitle": "Claude Codeでセキュリティ監査を実施｜検出された実例5選と修正方法",
+      "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/6d4bc535b3f6e436b136",
+      "qiitaId": "6d4bc535b3f6e436b136",
+      "postedAt": "2026-05-09T07:19:25.178Z"
     }
   ]
 }
