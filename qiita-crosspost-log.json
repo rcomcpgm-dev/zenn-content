@@ -223,6 +223,14 @@
       "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/6d4bc535b3f6e436b136",
       "qiitaId": "6d4bc535b3f6e436b136",
       "postedAt": "2026-05-09T07:19:25.178Z"
+    },
+    {
+      "file": "rc-claude-code-stripe-payment.md",
+      "zennTitle": "Claude CodeでStripe決済を実装する｜SaaS月額課金の実践ガイド",
+      "qiitaTitle": "Claude Codeを使ったStripe月額課金の実装｜Next.js SaaS構築ガイド",
+      "qiitaUrl": "https://qiita.com/rcomcpgm-cyber/items/e28664dccf4d6fb885f8",
+      "qiitaId": "e28664dccf4d6fb885f8",
+      "postedAt": "2026-05-10T07:32:02.427Z"
     }
   ]
 }
