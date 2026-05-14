@@ -1,13 +1,14 @@
 name: Scheduled Tweets
 
 on:
-  schedule:
-    # 昼 12:23 JST (UTC 03:23) — 昼休み
-    - cron: '23 3 * * *'
-    # 夜 19:13 JST (UTC 10:13) — 帰宅〜夕食
-    - cron: '13 10 * * *'
-    # 夜 22:07 JST (UTC 13:07) — 寝る前
-    - cron: '7 13 * * *'
+  # X凍結により停止中（2026-05-11）
+  # schedule:
+  #   # 昼 12:23 JST (UTC 03:23) — 昼休み
+  #   - cron: '23 3 * * *'
+  #   # 夜 19:13 JST (UTC 10:13) — 帰宅〜夕食
+  #   - cron: '13 10 * * *'
+  #   # 夜 22:07 JST (UTC 13:07) — 寝る前
+  #   - cron: '7 13 * * *'
   workflow_dispatch:
     inputs:
       category:
@@ -28,46 +29,49 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Disabled (X凍結により停止中)
+        run: echo "X凍結により停止中（2026-05-11）"
 
-      - name: Determine category by time slot
-        id: category
-        env:
-          INPUT_CATEGORY: ${{ github.event.inputs.category }}
-        run: |
-          HOUR=$(TZ=Asia/Tokyo date +%H)
-          if [ "$INPUT_CATEGORY" != "" ]; then
-            echo "cat=$INPUT_CATEGORY" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" -lt 15 ]; then
-            # 昼: Tips, Learning, Daily (実用・日常系)
-            echo "cat=$(shuf -e tips learning daily -n 1)" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" -lt 20 ]; then
-            # 夕方: Industry, Devlog, Daily (業界・開発日記系)
-            echo "cat=$(shuf -e industry devlog daily -n 1)" >> $GITHUB_OUTPUT
-          else
-            # 夜: Mindset, Engagement (共感・交流系)
-            echo "cat=$(shuf -e mindset engagement -n 1)" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Post tweet
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TWEET_CATEGORY: ${{ steps.category.outputs.cat }}
-        run: |
-          node scheduled-post.js "$TWEET_CATEGORY"
-
-      - name: Save posted IDs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add posted-ids.json tweet-history.txt
-          if ! git diff --staged --quiet; then
-            git commit -m "Update posted tweet IDs"
-            git pull --rebase
-            git push
-          fi
+      # - name: Install dependencies
+      #   run: npm ci
+      #
+      # - name: Determine category by time slot
+      #   id: category
+      #   env:
+      #     INPUT_CATEGORY: ${{ github.event.inputs.category }}
+      #   run: |
+      #     HOUR=$(TZ=Asia/Tokyo date +%H)
+      #     if [ "$INPUT_CATEGORY" != "" ]; then
+      #       echo "cat=$INPUT_CATEGORY" >> $GITHUB_OUTPUT
+      #     elif [ "$HOUR" -lt 15 ]; then
+      #       # 昼: Tips, Learning, Daily (実用・日常系)
+      #       echo "cat=$(shuf -e tips learning daily -n 1)" >> $GITHUB_OUTPUT
+      #     elif [ "$HOUR" -lt 20 ]; then
+      #       # 夕方: Industry, Devlog, Daily (業界・開発日記系)
+      #       echo "cat=$(shuf -e industry devlog daily -n 1)" >> $GITHUB_OUTPUT
+      #     else
+      #       # 夜: Mindset, Engagement (共感・交流系)
+      #       echo "cat=$(shuf -e mindset engagement -n 1)" >> $GITHUB_OUTPUT
+      #     fi
+      #
+      # - name: Post tweet
+      #   env:
+      #     X_API_KEY: ${{ secrets.X_API_KEY }}
+      #     X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      #     X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      #     X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      #     TWEET_CATEGORY: ${{ steps.category.outputs.cat }}
+      #   run: |
+      #     node scheduled-post.js "$TWEET_CATEGORY"
+      #
+      # - name: Save posted IDs
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add posted-ids.json tweet-history.txt
+      #     if ! git diff --staged --quiet; then
+      #       git commit -m "Update posted tweet IDs"
+      #       git pull --rebase
+      #       git push
+      #     fi

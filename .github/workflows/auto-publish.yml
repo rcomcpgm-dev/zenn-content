@@ -1,10 +1,11 @@
 name: Auto Publish Articles
 
 on:
-  schedule:
-    # 毎日日本時間10:03（UTC 01:03）に実行
-    - cron: '3 1 * * *'
-  workflow_dispatch: # 手動実行も可能
+  # X凍結により全停止中（2026-05-11）
+  # schedule:
+  #   # 毎日日本時間10:03（UTC 01:03）に実行
+  #   - cron: '3 1 * * *'
+  workflow_dispatch: # 手動実行のみ可能
 
 permissions:
   contents: write
@@ -19,10 +20,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Disabled (X凍結により全停止中)
+        run: echo "X凍結により全停止中（2026-05-11）"
+
+      # - name: Install dependencies
+      #   run: npm ci
 
       - name: Find and publish 1 unpublished article
+        if: false
         id: publish
         run: |
           # 未公開記事をpublish_order順で1つ見つけてpublishedをtrueに変更
@@ -113,13 +118,14 @@ jobs:
             exit 1
           fi
 
-      - name: Post to X (last published article)
-        if: steps.verify.outputs.verified != '0'
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: |
-          TWEET=$(node generate-tweet.js "${{ steps.publish.outputs.last_file }}")
-          node post-to-x.js "$TWEET"
+      # X凍結により停止中（2026-05-11）— Zenn公開のみ実施
+      # - name: Post to X (last published article)
+      #   if: steps.verify.outputs.verified != '0'
+      #   env:
+      #     X_API_KEY: ${{ secrets.X_API_KEY }}
+      #     X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      #     X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      #     X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      #   run: |
+      #     TWEET=$(node generate-tweet.js "${{ steps.publish.outputs.last_file }}")
+      #     node post-to-x.js "$TWEET"

@@ -1,11 +1,12 @@
 name: Auto Like
 
 on:
-  schedule:
-    # 昼 12:33 JST (UTC 03:33) — 昼休み中盤
-    - cron: '33 3 * * *'
-    # 夜 21:17 JST (UTC 12:17)
-    - cron: '17 12 * * *'
+  # X凍結により停止中（2026-05-11）
+  # schedule:
+  #   # 昼 12:33 JST (UTC 03:33) — 昼休み中盤
+  #   - cron: '33 3 * * *'
+  #   # 夜 21:17 JST (UTC 12:17)
+  #   - cron: '17 12 * * *'
   workflow_dispatch:
 
 permissions:
@@ -21,24 +22,27 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Disabled (X凍結により停止中)
+        run: echo "X凍結により停止中（2026-05-11）"
 
-      - name: Search and like
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: node auto-reply.js
-
-      - name: Save like log
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add auto-reply-log.json followed-users.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update auto reply log"
-            git pull --rebase
-            git push
-          fi
+      # - name: Install dependencies
+      #   run: npm ci
+      #
+      # - name: Search and like
+      #   env:
+      #     X_API_KEY: ${{ secrets.X_API_KEY }}
+      #     X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      #     X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      #     X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      #   run: node auto-reply.js
+      #
+      # - name: Save like log
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add auto-reply-log.json followed-users.json
+      #     if ! git diff --staged --quiet; then
+      #       git commit -m "Update auto reply log"
+      #       git pull --rebase
+      #       git push
+      #     fi

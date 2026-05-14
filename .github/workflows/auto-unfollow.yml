@@ -1,9 +1,10 @@
 name: Auto Unfollow
 
 on:
-  schedule:
-    # 毎日 15:11 JST (UTC 06:11)
-    - cron: '11 6 * * *'
+  # X凍結により停止中（2026-05-11）
+  # schedule:
+  #   # 毎日 15:11 JST (UTC 06:11)
+  #   - cron: '11 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -19,24 +20,27 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Disabled (X凍結により停止中)
+        run: echo "X凍結により停止中（2026-05-11）"
 
-      - name: Check and unfollow
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: node auto-unfollow.js
-
-      - name: Save followed users
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add followed-users.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update followed users (auto-unfollow)"
-            git pull --rebase
-            git push
-          fi
+      # - name: Install dependencies
+      #   run: npm ci
+      #
+      # - name: Check and unfollow
+      #   env:
+      #     X_API_KEY: ${{ secrets.X_API_KEY }}
+      #     X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      #     X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      #     X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      #   run: node auto-unfollow.js
+      #
+      # - name: Save followed users
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add followed-users.json
+      #     if ! git diff --staged --quiet; then
+      #       git commit -m "Update followed users (auto-unfollow)"
+      #       git pull --rebase
+      #       git push
+      #     fi

@@ -1,9 +1,10 @@
 name: Thread Post
 
 on:
-  schedule:
-    # 水曜・土曜 20:13 JST (UTC 11:13)
-    - cron: '13 11 * * 3,6'
+  # X凍結により停止中（2026-05-11）
+  # schedule:
+  #   # 水曜・土曜 20:13 JST (UTC 11:13)
+  #   - cron: '13 11 * * 3,6'
   workflow_dispatch:
 
 permissions:
@@ -19,25 +20,28 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Disabled (X凍結により停止中)
+        run: echo "X凍結により停止中（2026-05-11）"
 
-      - name: Generate and post thread
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: node thread-post.js
-
-      - name: Save thread log
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add thread-log.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update thread log"
-            git pull --rebase
-            git push
-          fi
+      # - name: Install dependencies
+      #   run: npm ci
+      #
+      # - name: Generate and post thread
+      #   env:
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      #     X_API_KEY: ${{ secrets.X_API_KEY }}
+      #     X_API_SECRET: ${{ secrets.X_API_SECRET }}
+      #     X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      #     X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+      #   run: node thread-post.js
+      #
+      # - name: Save thread log
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #     git add thread-log.json
+      #     if ! git diff --staged --quiet; then
+      #       git commit -m "Update thread log"
+      #       git pull --rebase
+      #       git push
+      #     fi
