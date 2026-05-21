@@ -1,11 +1,11 @@
 name: Auto Publish Articles
 
 on:
-  # X凍結により全停止中（2026-05-11）
-  # schedule:
-  #   # 毎日日本時間10:03（UTC 01:03）に実行
-  #   - cron: '3 1 * * *'
-  workflow_dispatch: # 手動実行のみ可能
+  # X凍結中はZenn公開のみ実施（X投稿は無効化、2026-05-22復活）
+  schedule:
+    # 毎日日本時間10:03（UTC 01:03）に実行
+    - cron: '3 1 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,14 +20,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Disabled (X凍結により全停止中)
-        run: echo "X凍結により全停止中（2026-05-11）"
-
-      # - name: Install dependencies
-      #   run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
       - name: Find and publish 1 unpublished article
-        if: false
         id: publish
         run: |
           # 未公開記事をpublish_order順で1つ見つけてpublishedをtrueに変更
