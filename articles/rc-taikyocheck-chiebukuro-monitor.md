@@ -4,7 +4,7 @@ emoji: "🔔"
 type: "tech"
 topics: ["nodejs", "discord", "automation", "scraping"]
 publish_order: 24
-published: false
+published: true
 ---
 
 ## この記事でわかること
