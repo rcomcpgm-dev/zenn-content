@@ -4,7 +4,7 @@ emoji: "💳"
 type: "tech"
 topics: ["stripe", "vercel", "nextjs", "serverless"]
 publish_order: 26
-published: false
+published: true
 ---
 
 ## この記事でわかること
