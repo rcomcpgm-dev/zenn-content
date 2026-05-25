@@ -4,7 +4,7 @@ emoji: "🛡️"
 type: "tech"
 topics: ["nextjs", "security", "typescript", "api"]
 publish_order: 27
-published: false
+published: true
 ---
 
 ## この記事でわかること
