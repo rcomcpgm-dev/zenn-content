@@ -3,7 +3,7 @@ title: "Claude Codeでスマホアプリを作る方法｜Expo（React Native）
 emoji: "📱"
 type: "tech"
 topics: ["claudecode", "expo", "reactnative", "typescript"]
-published: false
+published: true
 ---
 
 Claude CodeとExpo（React Native）を使えば、iOS/Android両対応のスマホアプリを日本語の指示だけで開発できます。環境構築からアプリ完成までをステップバイステップで解説します。
